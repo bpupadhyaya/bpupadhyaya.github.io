@@ -1,0 +1,32 @@
+name: Generate Release Notes
+
+on:
+  push:
+    branches: [main]
+    paths: [releases.json]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate release-notes.html from releases.json
+        run: node generate-release-notes.js
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet release-notes.html && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add release-notes.html
+          git commit -m "Auto-generate release-notes.html from releases.json"
+          git push

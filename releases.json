@@ -1,0 +1,28 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "March 2026",
+    "tag": "beta",
+    "current": true,
+    "summary": "Initial beta release of NutriSize — a health intelligence app for nutrition and exercise.",
+    "included": [
+      "Multi-platform support: iOS (iPhone & iPad), Android, and Web",
+      "Basic Health Parameters tracking (age, weight, height, and derived metrics)",
+      "Five main sections: MyHealth, Nutrition, Exercise, System, and Nutrisize",
+      "System Diagnostics with device hardware info, memory/CPU/storage monitoring, and automated issue reporting",
+      "Your Data & Privacy screen — complete guide to how NutriSize handles local data",
+      "About, Release Notes, and Support Nutrisize screens",
+      "Adjustable display zoom (slider + pinch-to-zoom) for accessibility",
+      "First-launch beta notice with feedback guidance",
+      "Privacy-first architecture — all data stored locally on your device"
+    ],
+    "coming": [
+      "Individualized nutrition plans referencing WHO, USDA, and NASEM guidelines",
+      "Exercise recommendations based on ACSM standards",
+      "Health history tracking with time-series data from wearable devices",
+      "MDConnect — connect with healthcare providers",
+      "Knowledge Base with science-backed insights"
+    ],
+    "platforms": ["iOS", "Android", "Web"]
+  }
+]

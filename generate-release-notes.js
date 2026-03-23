@@ -1,4 +1,81 @@
-<!DOCTYPE html>
+#!/usr/bin/env node
+const fs = require('fs');
+
+const releases = JSON.parse(fs.readFileSync('releases.json', 'utf8'));
+
+function esc(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function renderRelease(r, index) {
+  const dotClass = r.current ? '' : ' past';
+  const tags = [];
+  tags.push(`<span class="release-tag ${esc(r.tag)}">${esc(r.tag.charAt(0).toUpperCase() + r.tag.slice(1))}</span>`);
+  if (r.current) tags.push('<span class="release-tag current">Current</span>');
+
+  let body = `<p>${esc(r.summary)}</p>`;
+
+  if (r.included && r.included.length > 0) {
+    body += '\n\n                    <h4>What\'s included</h4>\n                    <ul>\n';
+    for (const item of r.included) {
+      body += `                        <li>${esc(item)}</li>\n`;
+    }
+    body += '                    </ul>';
+  }
+
+  if (r.coming && r.coming.length > 0) {
+    body += '\n\n                    <h4>What\'s coming next</h4>\n                    <ul>\n';
+    for (const item of r.coming) {
+      body += `                        <li>${esc(item)}</li>\n`;
+    }
+    body += '                    </ul>';
+  }
+
+  if (r.fixes && r.fixes.length > 0) {
+    body += '\n\n                    <h4>Bug fixes</h4>\n                    <ul>\n';
+    for (const item of r.fixes) {
+      body += `                        <li>${esc(item)}</li>\n`;
+    }
+    body += '                    </ul>';
+  }
+
+  if (r.changes && r.changes.length > 0) {
+    body += '\n\n                    <h4>Changes</h4>\n                    <ul>\n';
+    for (const item of r.changes) {
+      body += `                        <li>${esc(item)}</li>\n`;
+    }
+    body += '                    </ul>';
+  }
+
+  let platforms = '';
+  if (r.platforms && r.platforms.length > 0) {
+    platforms = '\n\n                    <div class="platforms-row">\n';
+    for (const p of r.platforms) {
+      platforms += `                        <span class="platform-badge">${esc(p)}</span>\n`;
+    }
+    platforms += '                    </div>';
+  }
+
+  return `
+        <!-- v${esc(r.version)} -->
+        <div class="release-entry">
+            <div class="release-dot${dotClass}"></div>
+            <div class="release-card">
+                <div class="release-header">
+                    <span class="release-version">v${esc(r.version)}</span>
+                    ${tags.join('\n                    ')}
+                    <span class="release-date">${esc(r.date)}</span>
+                </div>
+                <div class="release-body">
+                    ${body}${platforms}
+                </div>
+            </div>
+        </div>`;
+}
+
+const entriesHtml = releases.map((r, i) => renderRelease(r, i)).join('\n');
+
+const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -154,50 +231,7 @@
     </div>
 
     <div class="release-timeline">
-
-        <!-- v0.1.0 -->
-        <div class="release-entry">
-            <div class="release-dot"></div>
-            <div class="release-card">
-                <div class="release-header">
-                    <span class="release-version">v0.1.0</span>
-                    <span class="release-tag beta">Beta</span>
-                    <span class="release-tag current">Current</span>
-                    <span class="release-date">March 2026</span>
-                </div>
-                <div class="release-body">
-                    <p>Initial beta release of NutriSize — a health intelligence app for nutrition and exercise.</p>
-
-                    <h4>What's included</h4>
-                    <ul>
-                        <li>Multi-platform support: iOS (iPhone &amp; iPad), Android, and Web</li>
-                        <li>Basic Health Parameters tracking (age, weight, height, and derived metrics)</li>
-                        <li>Five main sections: MyHealth, Nutrition, Exercise, System, and Nutrisize</li>
-                        <li>System Diagnostics with device hardware info, memory/CPU/storage monitoring, and automated issue reporting</li>
-                        <li>Your Data &amp; Privacy screen — complete guide to how NutriSize handles local data</li>
-                        <li>About, Release Notes, and Support Nutrisize screens</li>
-                        <li>Adjustable display zoom (slider + pinch-to-zoom) for accessibility</li>
-                        <li>First-launch beta notice with feedback guidance</li>
-                        <li>Privacy-first architecture — all data stored locally on your device</li>
-                    </ul>
-
-                    <h4>What's coming next</h4>
-                    <ul>
-                        <li>Individualized nutrition plans referencing WHO, USDA, and NASEM guidelines</li>
-                        <li>Exercise recommendations based on ACSM standards</li>
-                        <li>Health history tracking with time-series data from wearable devices</li>
-                        <li>MDConnect — connect with healthcare providers</li>
-                        <li>Knowledge Base with science-backed insights</li>
-                    </ul>
-
-                    <div class="platforms-row">
-                        <span class="platform-badge">iOS</span>
-                        <span class="platform-badge">Android</span>
-                        <span class="platform-badge">Web</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+${entriesHtml}
     </div>
 
     <p style="color: var(--text-muted); font-size: 13px; margin-top: 40px; text-align: center;">
@@ -244,3 +278,7 @@ document.querySelectorAll('.nav-dropdown').forEach(function(dd) {
 
 </body>
 </html>
+`;
+
+fs.writeFileSync('release-notes.html', html);
+console.log('Generated release-notes.html from releases.json');
