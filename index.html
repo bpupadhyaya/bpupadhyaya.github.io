@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EqualInformation — Intelligent Applications for a Better Life</title>
+    <meta name="description" content="EqualInformation builds professional-grade software that improves human life — health, finance, and beyond. Founded by Bhim Upadhyaya.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #111118;
+            --bg-card: #16161f;
+            --bg-card-hover: #1c1c28;
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a0b0;
+            --text-muted: #606070;
+            --accent: #22c55e;
+            --accent-secondary: #f97316;
+            --accent-blue: #3b82f6;
+            --border: rgba(255,255,255,0.06);
+            --border-hover: rgba(255,255,255,0.12);
+            --gradient-green-orange: linear-gradient(135deg, #22c55e, #f97316);
+            --gradient-subtle: linear-gradient(135deg, rgba(34,197,94,0.1), rgba(249,115,22,0.1));
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* ─── Navigation ─── */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10,10,15,0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: 800;
+            font-size: 18px;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-logo-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--gradient-green-orange);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 14px;
+            color: white;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+            position: relative;
+        }
+
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.2s;
+        }
+
+        .nav-links a:hover::after { width: 100%; }
+
+        .nav-cta {
+            background: var(--accent) !important;
+            color: #000 !important;
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-weight: 600 !important;
+            transition: opacity 0.2s !important;
+        }
+
+        .nav-cta:hover { opacity: 0.9; }
+        .nav-cta::after { display: none !important; }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* ─── Hero ─── */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 120px 24px 80px;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+        }
+
+        .hero-bg::before {
+            content: '';
+            position: absolute;
+            top: -200px;
+            left: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(34,197,94,0.08) 0%, transparent 70%);
+            animation: float 15s infinite ease-in-out;
+        }
+
+        .hero-bg::after {
+            content: '';
+            position: absolute;
+            bottom: -200px;
+            right: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(249,115,22,0.06) 0%, transparent 70%);
+            animation: float 18s infinite ease-in-out reverse;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            33% { transform: translate(30px, -30px); }
+            66% { transform: translate(-20px, 20px); }
+        }
+
+        .hero-content {
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(34,197,94,0.1);
+            border: 1px solid rgba(34,197,94,0.2);
+            border-radius: 100px;
+            padding: 6px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 32px;
+        }
+
+        .hero-badge-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 6vw, 72px);
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 .gradient {
+            background: var(--gradient-green-orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(16px, 2vw, 20px);
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #000;
+        }
+
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-hover);
+            transform: translateY(-1px);
+        }
+
+        /* ─── Sections ─── */
+        section {
+            padding: 100px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 16px;
+        }
+
+        .section-label::before {
+            content: '';
+            width: 24px;
+            height: 2px;
+            background: var(--accent);
+        }
+
+        .section-title {
+            font-size: clamp(28px, 4vw, 44px);
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .section-desc {
+            font-size: 17px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-bottom: 48px;
+        }
+
+        /* ─── Apps Grid ─── */
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 24px;
+        }
+
+        .app-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 32px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .app-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .app-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .app-card.nutrisize::before { background: var(--gradient-green-orange); }
+        .app-card.coming::before { background: linear-gradient(90deg, var(--accent-blue), #8b5cf6); }
+
+        .app-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .app-icon.green { background: rgba(34,197,94,0.15); color: var(--accent); }
+        .app-icon.blue { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+
+        .app-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .app-card .tag {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            margin-bottom: 16px;
+        }
+
+        .tag.beta { background: rgba(34,197,94,0.15); color: var(--accent); }
+        .tag.soon { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+
+        .app-card p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .app-platforms {
+            display: flex;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        .platform-badge {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-muted);
+            background: rgba(255,255,255,0.04);
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+        }
+
+        /* ─── Expertise ─── */
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .expertise-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            transition: all 0.2s;
+        }
+
+        .expertise-item:hover {
+            border-color: var(--border-hover);
+        }
+
+        .expertise-item h4 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .expertise-item p {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* ─── About / Creator ─── */
+        .about-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 48px;
+            display: flex;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .about-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 20px;
+            background: var(--gradient-green-orange);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: 900;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .about-info h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .about-credentials {
+            font-size: 14px;
+            color: var(--accent);
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .about-info p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        /* ─── Contact ─── */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            display: block;
+        }
+
+        .contact-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+
+        .contact-card h4 {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .contact-card p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        /* ─── Footer ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+            text-align: center;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            list-style: none;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-primary); }
+
+        .footer-copy {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer-copy .highlight {
+            color: var(--accent);
+        }
+
+        /* ─── Divider ─── */
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: var(--gradient-green-orange);
+            border-radius: 2px;
+            margin: 0 auto 48px;
+        }
+
+        /* ─── Responsive ─── */
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .mobile-menu-btn { display: block; }
+
+            .about-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 32px;
+                gap: 24px;
+            }
+
+            .apps-grid { grid-template-columns: 1fr; }
+
+            section { padding: 60px 20px; }
+
+            .hero { padding: 100px 20px 60px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">
+            <div class="nav-logo-icon">EI</div>
+            EqualInformation
+        </a>
+        <ul class="nav-links">
+            <li><a href="#apps">Apps</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://equalinformation.weebly.com/privacy-policy-669301.html">Privacy</a></li>
+            <li><a href="#support" class="nav-cta">Support</a></li>
+        </ul>
+        <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('show')">&#9776;</button>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Building for humanity
+        </div>
+        <h1>
+            Intelligent applications<br>
+            for a <span class="gradient">better life</span>
+        </h1>
+        <p class="hero-subtitle">
+            We design and build professional-grade software that improves human health, well-being, and daily life — powered by AI and modern engineering, available to everyone at near-zero cost.
+        </p>
+        <div class="hero-actions">
+            <a href="#apps" class="btn btn-primary">Explore Our Apps</a>
+            <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+    </div>
+</div>
+
+<!-- Apps -->
+<section id="apps">
+    <div class="section-label">Our Apps</div>
+    <h2 class="section-title">Software that makes a difference</h2>
+    <p class="section-desc">
+        Each application is built with care, backed by science, and designed to be genuinely useful in your daily life.
+    </p>
+
+    <div class="apps-grid">
+        <a href="https://equalinformation.weebly.com/support-nutrisize.html" class="app-card nutrisize">
+            <div class="app-icon green">&#127793;</div>
+            <h3>NutriSize</h3>
+            <span class="tag beta">Beta</span>
+            <p>
+                Health intelligence for nutrition and exercise. Science-backed guidance referencing WHO, ACSM, and NASEM standards. Privacy-first — your data stays on your device.
+            </p>
+            <div class="app-platforms">
+                <span class="platform-badge">iOS</span>
+                <span class="platform-badge">Android</span>
+                <span class="platform-badge">Web</span>
+            </div>
+        </a>
+
+        <div class="app-card coming">
+            <div class="app-icon blue">&#128640;</div>
+            <h3>More Coming Soon</h3>
+            <span class="tag soon">In Development</span>
+            <p>
+                We're building more free, intelligent applications across health, finance, and productivity — all designed to improve your daily life without breaking the bank.
+            </p>
+            <div class="app-platforms">
+                <span class="platform-badge">Stay tuned</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Expertise -->
+<section id="expertise">
+    <div class="section-label">Expertise</div>
+    <h2 class="section-title">Built with deep engineering</h2>
+    <p class="section-desc">
+        Our applications are engineered by experienced professionals with expertise spanning multiple domains.
+    </p>
+
+    <div class="expertise-grid">
+        <div class="expertise-item">
+            <h4>Mobile Engineering</h4>
+            <p>Native iOS (SwiftUI) and Android (Kotlin/Jetpack Compose) development</p>
+        </div>
+        <div class="expertise-item">
+            <h4>Web Development</h4>
+            <p>Modern React, TypeScript, and responsive design</p>
+        </div>
+        <div class="expertise-item">
+            <h4>Artificial Intelligence</h4>
+            <p>AI-powered features and intelligent recommendation systems</p>
+        </div>
+        <div class="expertise-item">
+            <h4>Systems Architecture</h4>
+            <p>Scalable, secure, and privacy-first application design</p>
+        </div>
+        <div class="expertise-item">
+            <h4>Health Sciences</h4>
+            <p>Evidence-based guidance referenced against WHO, ACSM, AHA, and NASEM</p>
+        </div>
+        <div class="expertise-item">
+            <h4>Data Engineering</h4>
+            <p>Efficient on-device data processing and local-first architecture</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about">
+    <div class="section-label">Creator</div>
+    <h2 class="section-title">One engineer, one mission</h2>
+    <p class="section-desc">
+        Every application is built and maintained by a single software engineer who donates his time for the betterment of humanity.
+    </p>
+
+    <div class="about-card">
+        <div class="about-avatar">BU</div>
+        <div class="about-info">
+            <h3>Bhim Upadhyaya</h3>
+            <div class="about-credentials">B. E.(E&amp;E), MS(CS), MS(SM)</div>
+            <p>
+                Creator and developer of EqualInformation's suite of applications. With deep expertise in electrical engineering, computer science, and systems management, Bhim builds software that bridges the gap between cutting-edge technology and real human needs — making powerful tools accessible to everyone, regardless of income or background.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Support -->
+<section id="support">
+    <div style="text-align: center;">
+        <div class="section-label" style="justify-content: center;">Support</div>
+        <h2 class="section-title">Help us keep it free</h2>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto; margin-bottom: 32px;">
+            All essential features are free and will always remain free. Your donation supports continued development and helps us build more applications for everyone.
+        </p>
+        <div class="hero-actions">
+            <a href="https://www.paypal.com/paypalme/BhimUpadhyaya" target="_blank" class="btn btn-primary">Donate via PayPal</a>
+            <a href="https://equalinformation.weebly.com/support-nutrisize.html" class="btn btn-secondary">Learn More</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 12px; margin-top: 24px; max-width: 500px; margin-left: auto; margin-right: auto;">
+            No features or services are unlocked by a donation. Some optional advanced features may be offered through in-app purchases. Your contribution is entirely voluntary.
+        </p>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Get in touch</h2>
+    <p class="section-desc">
+        Questions, feedback, or collaboration inquiries — we'd love to hear from you.
+    </p>
+
+    <div class="contact-grid">
+        <a href="mailto:nutrisize.universal@gmail.com" class="contact-card">
+            <h4>Email</h4>
+            <p>nutrisize.universal@gmail.com</p>
+        </a>
+        <a href="https://github.com/bpupadhyaya" target="_blank" class="contact-card">
+            <h4>GitHub</h4>
+            <p>github.com/bpupadhyaya</p>
+        </a>
+        <a href="https://www.linkedin.com/in/bhim-upadhyaya-0648a223/" target="_blank" class="contact-card">
+            <h4>LinkedIn</h4>
+            <p>linkedin.com/in/bhim-upadhyaya</p>
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-inner">
+        <ul class="footer-links">
+            <li><a href="#apps">Apps</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://equalinformation.weebly.com/privacy-policy-669301.html">Privacy Policy</a></li>
+            <li><a href="https://equalinformation.weebly.com/support-nutrisize.html">Support</a></li>
+        </ul>
+        <p class="footer-copy">
+            &copy; 2026 EqualInformation, LLC. All rights reserved.<br>
+            <span class="highlight">Maintaining and improving human life at near-zero cost.</span>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
