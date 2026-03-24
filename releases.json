@@ -1,9 +1,46 @@
 [
   {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "date": "March 2026",
     "tag": "beta",
     "current": true,
+    "summary": "Major Physiology enhancement — 12 new data dimensions across all 201 health parameters, serving both common people and medical professionals.",
+    "included": [
+      "Pronunciation guides for all 201 parameters (phonetic, e.g. 'kree-AT-ih-neen')",
+      "Real-world analogies making complex health concepts relatable for everyone",
+      "When to Worry / Don't Worry guidance — reducing health anxiety from lab results",
+      "Visual emoji icons for at-a-glance parameter identification",
+      "Seasonal and circadian timing notes (e.g., cortisol peaks at 6-8 AM)",
+      "Decade-by-decade age-specific notes (20s through 70+)",
+      "Real-world clinical scenarios with teaching points",
+      "Trend interpretation — what rising or falling values mean over time",
+      "Differential diagnosis patterns for medical professionals (premium)",
+      "Drug interaction details with mechanisms (premium)",
+      "Lab methodology notes: sample type, fasting, stability, interferences (premium)",
+      "LOINC and ICD-10 medical codes for interoperability (premium)",
+      "Compact expanded view in All Parameters with summary chips",
+      "Privacy and support links updated to permanent GitHub Pages URLs"
+    ],
+    "changes": [
+      "Physiology data version upgraded to 4.0.0",
+      "Parameter detail view now has 23 information sections",
+      "All Parameters expanded cards show concise preview with 'Open Full Detail' link",
+      "iOS code signing added for physical device deployment"
+    ],
+    "coming": [
+      "System Feedback screen (beta critical)",
+      "Individualized nutrition plans with WHO/USDA/NASEM guidelines",
+      "Exercise recommendations based on ACSM standards",
+      "Health history tracking with time-series wearable data",
+      "Nutrition and Exercise Knowledge Bases with citations"
+    ],
+    "platforms": ["iOS", "Android", "Web"]
+  },
+  {
+    "version": "0.1.0",
+    "date": "March 2026",
+    "tag": "beta",
+    "current": false,
     "summary": "Initial beta release of NutriSize — a health intelligence app for nutrition and exercise.",
     "included": [
       "Multi-platform support: iOS (iPhone & iPad), Android, and Web",
