@@ -4,11 +4,12 @@
     "date": "March 2026",
     "tag": "stable",
     "current": true,
-    "summary": "GitHub Sponsors added as primary donation option alongside PayPal across all platforms.",
+    "summary": "New donation options — GitHub Sponsors as primary, Stripe and PayPal via website, improved link stability.",
     "included": [
-      "GitHub Sponsors as primary donation link (100% goes to developer, no fees)",
-      "PayPal retained as secondary donation option",
-      "Updated About text and Support screens across Android, iOS, and Web"
+      "GitHub Sponsors added as primary donation option",
+      "Stripe donation option added via support page",
+      "PayPal available via support page (indirect link for improved stability)",
+      "Donation links open in external browser to prevent app issues on Android"
     ],
     "platforms": ["iOS", "Android", "Web"]
   },
