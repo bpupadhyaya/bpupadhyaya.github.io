@@ -1,9 +1,32 @@
 [
   {
+    "version": "1.0.0",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Nutrisize is live on Google Play! First stable production release, available in 177 countries worldwide.",
+    "included": [
+      "Published on Google Play Store (com.nutrisize.android)",
+      "Available in 177 countries and regions",
+      "Rated Everyone — suitable for all ages",
+      "Nutrition DV breakdown with feedback improvements",
+      "Web version with meal plan enhancements and reference viewer",
+      "All features from beta releases refined for production readiness"
+    ],
+    "coming": [
+      "iOS App Store submission",
+      "Individualized nutrition plans with WHO/USDA/NASEM guidelines",
+      "Exercise recommendations based on ACSM standards",
+      "Health history tracking with time-series wearable data",
+      "Nutrition and Exercise Knowledge Bases with citations"
+    ],
+    "platforms": ["Android", "Web"]
+  },
+  {
     "version": "0.1.1",
     "date": "March 2026",
     "tag": "beta",
-    "current": true,
+    "current": false,
     "summary": "Major Physiology enhancement — 12 new data dimensions across all 201 health parameters, serving both common people and medical professionals.",
     "included": [
       "Pronunciation guides for all 201 parameters (phonetic, e.g. 'kree-AT-ih-neen')",
