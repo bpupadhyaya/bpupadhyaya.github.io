@@ -1,9 +1,22 @@
 [
   {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "date": "March 2026",
     "tag": "stable",
     "current": true,
+    "summary": "GitHub Sponsors added as primary donation option alongside PayPal across all platforms.",
+    "included": [
+      "GitHub Sponsors as primary donation link (100% goes to developer, no fees)",
+      "PayPal retained as secondary donation option",
+      "Updated About text and Support screens across Android, iOS, and Web"
+    ],
+    "platforms": ["iOS", "Android", "Web"]
+  },
+  {
+    "version": "1.0.1",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Multilingual Physiology — 8 languages serving 75% of the world's population, plus zoom scrolling and bug fixes.",
     "included": [
       "8-language support: English, Spanish, Hindi, Mandarin Chinese, Arabic, French, Portuguese, Bengali, Japanese",
