@@ -1,9 +1,27 @@
 [
   {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "date": "March 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Multilingual Physiology — 8 languages serving 75% of the world's population, plus zoom scrolling and bug fixes.",
+    "included": [
+      "8-language support: English, Spanish, Hindi, Mandarin Chinese, Arabic, French, Portuguese, Bengali, Japanese",
+      "Auto-detects device language on first launch",
+      "Language picker (globe icon) in Physiology parameter detail views",
+      "11,032 translated fields across 197 parameters",
+      "Translated fields: simplyPut, analogy, whenToWorry, interpretation",
+      "Zoom scrolling: drag to pan in all directions when zoomed in (iOS, Android, Web)",
+      "Fixed iOS Physiology crash from data type mismatch",
+      "Compact expanded view in All Parameters with summary chips and Full Detail link"
+    ],
+    "platforms": ["iOS", "Android", "Web"]
+  },
+  {
+    "version": "1.0.0",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Nutrisize is live on Google Play! First stable production release, available in 177 countries worldwide.",
     "included": [
       "Published on Google Play Store (com.nutrisize.android)",
