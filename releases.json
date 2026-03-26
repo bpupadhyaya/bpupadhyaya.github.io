@@ -1,9 +1,24 @@
 [
   {
-    "version": "1.0.2",
+    "version": "1.2.0",
     "date": "March 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Live on Google Play as v1.2.0 (version code 5). GitHub Sponsors as primary donation, Stripe and PayPal via website, improved link stability.",
+    "included": [
+      "Released on Google Play as version 1.2.0 (version code 5) on Mar 26, 2026",
+      "GitHub Sponsors added as primary donation option (direct link)",
+      "Stripe donation option added via support page",
+      "PayPal available via support page (indirect link for improved stability)",
+      "Donation links open in external browser (ACTION_VIEW) to prevent app freeze on Android"
+    ],
+    "platforms": ["iOS", "Android", "Web"]
+  },
+  {
+    "version": "1.0.2",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "New donation options — GitHub Sponsors as primary, Stripe and PayPal via website, improved link stability.",
     "included": [
       "GitHub Sponsors added as primary donation option",
