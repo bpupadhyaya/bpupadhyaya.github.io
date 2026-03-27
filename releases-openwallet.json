@@ -1,0 +1,47 @@
+[
+  {
+    "version": "0.1.0-alpha",
+    "date": "March 2026",
+    "tag": "alpha",
+    "current": true,
+    "summary": "First alpha release of Open Wallet, Open Chain, and Open Token (OTK) — the ecosystem for recognizing and rewarding human value.",
+    "included": [
+      "Multi-chain wallet: Bitcoin, Ethereum, Solana, Cosmos, and Open Chain (OTK)",
+      "Real transaction signing with testnet/mainnet toggle (BTC testnet, Sepolia, Solana devnet, Open Chain testnet)",
+      "Open Token (OTK) as native token — first in token list with 5% staking APY",
+      "Open Chain: Cosmos SDK + CometBFT blockchain producing blocks",
+      "Custom OTK module: multi-channel value tokens (nurture, education, health, community, economic, governance)",
+      "Custom UID module: Universal ID registration with privacy-preserving biometric proof",
+      "Living Ledger: lifelong on-chain record of value received and given, contribution score",
+      "Gratitude transactions: thank parents, teachers, mentors with on-chain messages",
+      "Staking UI: delegate OTK to validators, view positions, claim rewards",
+      "Theme system: dark, light, and system modes across all 25+ screens",
+      "5 languages: English, Hindi, Spanish, Chinese Simplified, Vietnamese",
+      "Buy/Sell: fiat on/off ramp via MoonPay, Transak, Ramp (sandbox in testnet)",
+      "Hardware wallet: Ledger and Trezor support via Bluetooth scan flow",
+      "WalletConnect: connect to dApps (Uniswap, OpenSea, Aave, etc.)",
+      "Push notifications: transaction confirmations, price alerts, staking rewards",
+      "QR scanner for addresses, price alerts with auto-trigger, address book",
+      "Multi-account support, PIN + biometric auth, PQC-ready vault (AES-256-GCM + PBKDF2)",
+      "Human Constitution published — founding charter for Open Chain",
+      "OTK Tokenomics documented — 100% earned, zero pre-mine, flat rewards",
+      "100% open source: github.com/bpupadhyaya/crypto"
+    ],
+    "coming": [
+      "App Store submission (iOS + Android)",
+      "End-to-end OTK send test with funded wallet",
+      "Real balance display on Home screen (wired to on-chain data)",
+      "Protobuf definitions for OTK/UID messages (gRPC queries)",
+      "Multi-validator cloud testnet deployment",
+      "Milestone oracle network for verifying human development milestones",
+      "One-human-one-vote governance module via Universal ID",
+      "Multi-channel minting (nOTK, eOTK, hOTK, cOTK as separate denoms)",
+      "gomobile bindings — CometBFT compiled to native iOS/Android for phone validators",
+      "IBC cross-chain OTK transfers",
+      "Post-quantum cryptography migration (ML-DSA + Ed25519)",
+      "Regional payment rails (UPI, M-Pesa, FedNow, SEPA, PIX)",
+      "libp2p phone mesh networking for full peer-to-peer mobile validation"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
