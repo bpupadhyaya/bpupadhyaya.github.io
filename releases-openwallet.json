@@ -1,9 +1,45 @@
 [
   {
-    "version": "0.2.0-alpha",
+    "version": "0.3.0-alpha",
     "date": "March 2026",
     "tag": "alpha",
     "current": true,
+    "summary": "Bridge screen with IBC transfers, protobuf definitions for all chain modules, multi-channel OTK minting (6 denoms), one-human-one-vote governance, demo balance mode, and App Store submission prep.",
+    "included": [
+      "Bridge screen: IBC cross-chain OTK transfers between Open Chain and Cosmos Hub",
+      "CosmosSigner.sendIbcTransfer() — real IBC message signing and broadcast",
+      "Demo balance mode: simulated 1000 SOL, 0.5 BTC, 5 ETH, 100 ATOM, 10000 OTK for UI testing",
+      "Demo mode toggle in Settings with purple banner on Home screen",
+      "Demo sends simulate success without touching any chain",
+      "Protobuf definitions: 12 .proto files for OTK, UID, DEX, and GovUID modules",
+      "Multi-channel minting: 6 channel denoms (uxotk, unotk, ueotk, uhotk, ucotk, ugotk) + aggregate uotk",
+      "Governance module (x/govuid): one-human-one-vote via Universal ID verification",
+      "Governance: proposal creation, yes/no/abstain voting, EndBlocker tally, >50% yes + >33% quorum",
+      "Version synced to 0.2.0 across app.json, package.json, Info.plist, build.gradle",
+      "Privacy policy document covering non-custodial architecture, zero data collection",
+      "App Store metadata: description, keywords, category (Finance), age rating (17+)",
+      "Bridge paper trading support with traffic light system",
+      "IBC channel configuration (Open Chain <-> Cosmos Hub via channel-0)"
+    ],
+    "coming": [
+      "App Store submission (iOS + Android)",
+      "1inch, Jupiter, Li.Fi, Osmosis swap execution (quotes already live)",
+      "Open Wallet DEX on-chain execution (AMM module in Open Chain tx router)",
+      "Atomic swap counterparty matching via Open Chain order book",
+      "Multi-validator cloud testnet deployment",
+      "Milestone oracle network for verifying human development milestones",
+      "gomobile bindings — CometBFT compiled to native iOS/Android for phone validators",
+      "Post-quantum cryptography migration (ML-DSA + Ed25519)",
+      "Regional payment rails (UPI, M-Pesa, FedNow, SEPA, PIX)",
+      "libp2p phone mesh networking for full peer-to-peer mobile validation"
+    ],
+    "platforms": ["iOS", "Android"]
+  },
+  {
+    "version": "0.2.0-alpha",
+    "date": "March 2026",
+    "tag": "alpha",
+    "current": false,
     "summary": "End-to-end BTC↔USDT/USDC swaps, 8-option swap engine with security ratings, mandatory paper trading, wallet recovery verification, and comprehensive privacy policy with global crypto regulatory clauses.",
     "included": [
       "End-to-end BTC→USDT/USDC swap via THORChain (real, in-app, no redirect)",
@@ -24,23 +60,6 @@
       "Privacy policy with crypto regulatory clauses (USA/EU/UK/India/Japan/Singapore/Australia)",
       "Support Open Wallet page with donation options (GitHub Sponsors, Stripe, PayPal)",
       "Separate release notes pages (NutriSize and Open Wallet dropdown)"
-    ],
-    "coming": [
-      "App Store submission (iOS + Android)",
-      "Real balance display on Home screen (wired to on-chain data)",
-      "1inch, Jupiter, Li.Fi, Osmosis swap execution (quotes already live)",
-      "Open Wallet DEX on-chain execution (AMM module in Open Chain tx router)",
-      "Atomic swap counterparty matching via Open Chain order book",
-      "Protobuf definitions for OTK/UID messages (gRPC queries)",
-      "Multi-validator cloud testnet deployment",
-      "Milestone oracle network for verifying human development milestones",
-      "One-human-one-vote governance module via Universal ID",
-      "Multi-channel minting (nOTK, eOTK, hOTK, cOTK as separate denoms)",
-      "gomobile bindings — CometBFT compiled to native iOS/Android for phone validators",
-      "IBC cross-chain OTK transfers",
-      "Post-quantum cryptography migration (ML-DSA + Ed25519)",
-      "Regional payment rails (UPI, M-Pesa, FedNow, SEPA, PIX)",
-      "libp2p phone mesh networking for full peer-to-peer mobile validation"
     ],
     "platforms": ["iOS", "Android"]
   },
