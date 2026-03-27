@@ -137,6 +137,67 @@
                     Read the Human Constitution &rarr;
                 </a>
             </div>
+            <!-- Functional Status Table -->
+            <div style="margin-top: 20px; overflow-x: auto;">
+                <strong style="color: var(--text-secondary); font-size: 13px;">Current Status (v0.2.0-alpha)</strong>
+                <table style="width: 100%; margin-top: 10px; border-collapse: collapse; font-size: 12px; color: var(--text-secondary);">
+                    <thead>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <th style="text-align: left; padding: 8px 6px; color: var(--text-muted); font-weight: 600;">Flow</th>
+                            <th style="text-align: center; padding: 8px 6px; color: var(--text-muted); font-weight: 600;">Status</th>
+                            <th style="text-align: left; padding: 8px 6px; color: var(--text-muted); font-weight: 600;">How</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">BTC &rarr; USDT</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
+                            <td style="padding: 6px;">BitcoinSigner &rarr; THORChain vault + OP_RETURN memo &rarr; USDT to ETH address</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">BTC &rarr; USDC</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
+                            <td style="padding: 6px;">Same as above, different THORChain asset ID</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">USDT &rarr; BTC</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
+                            <td style="padding: 6px;">ERC-20 approve &rarr; THORChain router depositWithExpiry() &rarr; BTC to BTC address</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">USDC &rarr; BTC</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
+                            <td style="padding: 6px;">Same as above</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">ETH &rarr; USDT/USDC</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
+                            <td style="padding: 6px;">EthereumSigner &rarr; THORChain vault</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">Wallet Create</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
+                            <td style="padding: 6px;">Generate seed &rarr; save &rarr; mandatory re-enter verification &rarr; password &rarr; derive addresses</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">Wallet Recovery</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
+                            <td style="padding: 6px;">Enter seed &rarr; password &rarr; same addresses derived (BTC, ETH, SOL, OTK)</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 6px;">Paper Trading</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
+                            <td style="padding: 6px;">&#128308; min 1 required &rarr; &#128992; warning &lt;3 &rarr; &#128994; clear &ge;3</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 6px;">Seed Verification</td>
+                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
+                            <td style="padding: 6px;">After saving, must re-enter seed to prove it's saved correctly</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
             <div class="app-platforms" style="margin-top: 16px;">
                 <span class="platform-badge">iOS</span>
                 <span class="platform-badge">Android</span>
