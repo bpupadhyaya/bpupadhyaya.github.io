@@ -1,9 +1,54 @@
 [
   {
-    "version": "0.1.0-alpha",
+    "version": "0.2.0-alpha",
     "date": "March 2026",
     "tag": "alpha",
     "current": true,
+    "summary": "End-to-end BTC↔USDT/USDC swaps, 8-option swap engine with security ratings, mandatory paper trading, wallet recovery verification, and comprehensive privacy policy with global crypto regulatory clauses.",
+    "included": [
+      "End-to-end BTC→USDT/USDC swap via THORChain (real, in-app, no redirect)",
+      "End-to-end USDT/USDC→BTC reverse swap via THORChain Ethereum Router",
+      "8 swap options with security ratings: Open Wallet Atomic Swap (5/5), Open Wallet DEX (4/5), Open Wallet Order Book (4.5/5), THORChain (3.5/5), 1inch (3.5/5), Jupiter (3.5/5), Li.Fi (3/5), Osmosis (4/5)",
+      "Built-in standalone swap (Atomic Swap HTLC) — works even if all external protocols die",
+      "Open Wallet DEX: AMM liquidity pools on Open Chain (constant product formula)",
+      "Open Wallet Order Book: P2P limit orders on Open Chain",
+      "Parallel quote fetching from all 8 providers with comparison view",
+      "Security analysis per option: hack history, attack vectors, custodial risk",
+      "Mandatory paper trading: min 1 practice trade before real money (traffic light system)",
+      "Traffic light: Red (blocked, 0 trades), Orange (warning, 1-2), Green (clear, 3+)",
+      "Mandatory wallet recovery verification: re-enter seed phrase after saving",
+      "OpenChain/Cosmos address derivation added to wallet creation and recovery",
+      "Bitcoin OP_RETURN memo support for THORChain vault transactions",
+      "ERC-20 approval + THORChain router depositWithExpiry() for USDT/USDC swaps",
+      "EthereumSigner: sendERC20Approval() and sendContractCall() methods",
+      "Privacy policy with crypto regulatory clauses (USA/EU/UK/India/Japan/Singapore/Australia)",
+      "Support Open Wallet page with donation options (GitHub Sponsors, Stripe, PayPal)",
+      "Separate release notes pages (NutriSize and Open Wallet dropdown)"
+    ],
+    "coming": [
+      "App Store submission (iOS + Android)",
+      "Real balance display on Home screen (wired to on-chain data)",
+      "1inch, Jupiter, Li.Fi, Osmosis swap execution (quotes already live)",
+      "Open Wallet DEX on-chain execution (AMM module in Open Chain tx router)",
+      "Atomic swap counterparty matching via Open Chain order book",
+      "Protobuf definitions for OTK/UID messages (gRPC queries)",
+      "Multi-validator cloud testnet deployment",
+      "Milestone oracle network for verifying human development milestones",
+      "One-human-one-vote governance module via Universal ID",
+      "Multi-channel minting (nOTK, eOTK, hOTK, cOTK as separate denoms)",
+      "gomobile bindings — CometBFT compiled to native iOS/Android for phone validators",
+      "IBC cross-chain OTK transfers",
+      "Post-quantum cryptography migration (ML-DSA + Ed25519)",
+      "Regional payment rails (UPI, M-Pesa, FedNow, SEPA, PIX)",
+      "libp2p phone mesh networking for full peer-to-peer mobile validation"
+    ],
+    "platforms": ["iOS", "Android"]
+  },
+  {
+    "version": "0.1.0-alpha",
+    "date": "March 2026",
+    "tag": "alpha",
+    "current": false,
     "summary": "First alpha release of Open Wallet, Open Chain, and Open Token (OTK) — the ecosystem for recognizing and rewarding human value.",
     "included": [
       "Multi-chain wallet: Bitcoin, Ethereum, Solana, Cosmos, and Open Chain (OTK)",
@@ -26,21 +71,6 @@
       "Human Constitution published — founding charter for Open Chain",
       "OTK Tokenomics documented — 100% earned, zero pre-mine, flat rewards",
       "100% open source: github.com/bpupadhyaya/crypto"
-    ],
-    "coming": [
-      "App Store submission (iOS + Android)",
-      "End-to-end OTK send test with funded wallet",
-      "Real balance display on Home screen (wired to on-chain data)",
-      "Protobuf definitions for OTK/UID messages (gRPC queries)",
-      "Multi-validator cloud testnet deployment",
-      "Milestone oracle network for verifying human development milestones",
-      "One-human-one-vote governance module via Universal ID",
-      "Multi-channel minting (nOTK, eOTK, hOTK, cOTK as separate denoms)",
-      "gomobile bindings — CometBFT compiled to native iOS/Android for phone validators",
-      "IBC cross-chain OTK transfers",
-      "Post-quantum cryptography migration (ML-DSA + Ed25519)",
-      "Regional payment rails (UPI, M-Pesa, FedNow, SEPA, PIX)",
-      "libp2p phone mesh networking for full peer-to-peer mobile validation"
     ],
     "platforms": ["iOS", "Android"]
   }
