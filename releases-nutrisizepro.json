@@ -4,7 +4,7 @@
     "date": "March 2026",
     "tag": "stable",
     "current": true,
-    "summary": "First stable release of Nutrisize Pro — the comprehensive health intelligence platform with 5,000+ foods, 5,400+ exercises, 201 physiological parameters, and personalized wellness plans.",
+    "summary": "First stable release of Nutrisize Pro \u2014 the comprehensive health intelligence platform with 5,000+ foods, 5,400+ exercises, 201 physiological parameters, and personalized wellness plans.",
     "included": [
       "5,006 world foods in SQLite database with nutrition data from USDA, WHO, and regional authorities",
       "5,404 exercises across 6 categories: Strength, Cardio, Flexibility, Rehabilitation, Military (Navy SEAL/Army/Marines/AF), Balance",
@@ -22,9 +22,13 @@
       "Occupation-specific exercise: firefighter, police, farming, office, healthcare",
       "Climate-adapted training: hot, cold, altitude, mountain, tropical",
       "Diagnostics page with database size tracking and app resource monitoring",
-      "Privacy-first, local-first architecture — all data stored on device",
+      "Privacy-first, local-first architecture \u2014 all data stored on device",
       "Dark theme UI across all platforms"
     ],
-    "platforms": ["iOS", "Android", "Web"]
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ]
   }
 ]
