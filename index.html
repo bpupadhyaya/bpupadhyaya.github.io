@@ -31,7 +31,6 @@
                     <li><a href="release-notes-nutrisizepro.html">Nutrisize Pro</a></li><li><a href="release-notes-openwallet.html">Open Wallet</a></li>
                 </ul>
             </li>
-            <li><a href="openwallet-features.html">Open Wallet</a></li>
             <li><a href="https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md" target="_blank">Human Constitution</a></li>
             <li class="nav-dropdown">
                 <a href="privacy.html">Privacy Policy <span class="dropdown-arrow">&#9662;</span></a>
@@ -117,99 +116,22 @@
         <div class="app-card coming">
             <div class="app-icon blue">&#128179;</div>
             <h3>Open Wallet &middot; Open Chain &middot; Open Token (OTK)</h3>
-            <span class="tag soon">In Development</span>
+            <span class="tag soon" style="background: rgba(34,197,94,0.15); color: #22c55e;">v0.3.0-alpha</span>
             <p>
-                <strong>Open Wallet</strong> &mdash; The universal crypto wallet. One app for every token, every chain, every exchange. Swap BTC, ETH, SOL, and any token without leaving the wallet. Built-in DEX, cross-chain bridges, fiat on/off ramps, hardware wallet support (Ledger/Trezor), WalletConnect for dApps, and post-quantum encryption. Designed for a farmer in rural India and a Wall Street analyst alike. 100% open source.
+                Non-custodial crypto wallet, mobile-first blockchain, and human value token &mdash; built to implement <a href="https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md" target="_blank" style="color: #22c55e;">The Human Constitution</a>. Swap 14 tokens across 7 chains. Buy with local currency. 100% peer-to-peer. 100% open source.
             </p>
-            <p style="margin-top: 12px;">
-                <strong>Open Chain</strong> &mdash; A mobile-first blockchain where every phone is a validator. Consensus: <em>Proof of Humanity + Proof of Contribution</em> &mdash; one human, one vote. No mining rigs, no server farms. The first blockchain where the consensus mechanism is being human and doing good.
-            </p>
-            <p style="margin-top: 12px;">
-                <strong>Open Token (OTK)</strong> &mdash; A multi-dimensional token that represents human value &mdash; not just money, but nurture, education, health, and community contributions. No pre-mine. No VC allocation. No founder tokens. 100% earned through contribution. A farmer raising her children earns OTK the same way a developer does.
-            </p>
-            <div style="margin-top: 16px; padding: 16px; background: rgba(34, 197, 94, 0.08); border-radius: 12px; border-left: 3px solid #22c55e;">
-                <strong style="color: #22c55e; font-size: 14px;">The Human Constitution</strong>
-                <p style="margin-top: 8px; font-size: 13px; line-height: 1.7; color: var(--text-secondary);">
-                    We've published our founding charter &mdash; a vision for representing all human value on-chain. Parents' sacrifices. Teachers' impact. Community service. Every positive contribution, visible and valued.
-                    <br><br>
-                    <strong>Our ultimate goal: world peace through better-raised, better-educated, better-supported human beings.</strong>
-                </p>
-                <a href="https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md" target="_blank" style="display: inline-block; margin-top: 12px; color: #22c55e; font-weight: 600; font-size: 13px; text-decoration: none;">
-                    Read the Human Constitution &rarr;
-                </a>
-            </div>
-            <!-- Functional Status Table -->
-            <div style="margin-top: 20px; overflow-x: auto;">
-                <strong style="color: var(--text-secondary); font-size: 13px;">Current Status (v0.2.0-alpha)</strong>
-                <table style="width: 100%; margin-top: 10px; border-collapse: collapse; font-size: 12px; color: var(--text-secondary);">
-                    <thead>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-                            <th style="text-align: left; padding: 8px 6px; color: var(--text-muted); font-weight: 600;">Flow</th>
-                            <th style="text-align: center; padding: 8px 6px; color: var(--text-muted); font-weight: 600;">Status</th>
-                            <th style="text-align: left; padding: 8px 6px; color: var(--text-muted); font-weight: 600;">How</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">BTC &rarr; USDT</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
-                            <td style="padding: 6px;">BitcoinSigner &rarr; THORChain vault + OP_RETURN memo &rarr; USDT to ETH address</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">BTC &rarr; USDC</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
-                            <td style="padding: 6px;">Same as above, different THORChain asset ID</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">USDT &rarr; BTC</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
-                            <td style="padding: 6px;">ERC-20 approve &rarr; THORChain router depositWithExpiry() &rarr; BTC to BTC address</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">USDC &rarr; BTC</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
-                            <td style="padding: 6px;">Same as above</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">ETH &rarr; USDT/USDC</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003; Real</td>
-                            <td style="padding: 6px;">EthereumSigner &rarr; THORChain vault</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">Wallet Create</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
-                            <td style="padding: 6px;">Generate seed &rarr; save &rarr; mandatory re-enter verification &rarr; password &rarr; derive addresses</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">Wallet Recovery</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
-                            <td style="padding: 6px;">Enter seed &rarr; password &rarr; same addresses derived (BTC, ETH, SOL, OTK)</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <td style="padding: 6px;">Paper Trading</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
-                            <td style="padding: 6px;">&#128308; min 1 required &rarr; &#128992; warning &lt;3 &rarr; &#128994; clear &ge;3</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 6px;">Seed Verification</td>
-                            <td style="text-align: center; padding: 6px; color: #22c55e;">&#10003;</td>
-                            <td style="padding: 6px;">After saving, must re-enter seed to prove it's saved correctly</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="app-platforms" style="margin-top: 16px;">
+            <div class="app-platforms">
                 <span class="platform-badge">iOS</span>
                 <span class="platform-badge">Android</span>
-                <span class="platform-badge">Desktop</span>
             </div>
-            <div style="margin-top: 16px; font-size: 12px; color: var(--text-muted); line-height: 1.8;">
-                <strong style="color: var(--text-secondary);">Roadmap</strong><br>
-                2027 &mdash; Open Wallet with multi-chain swaps, fiat ramps, hardware wallets &amp; WalletConnect<br>
-                2028 &mdash; Open Chain testnet, Universal ID (ZK identity), OTK multi-channel minting<br>
-                2030 &mdash; Open Chain mainnet, Living Ledger, Contribution Rings, mobile phone validators<br>
-                2035 &mdash; 100% peer-to-peer mobile validation, planet-scale human value infrastructure
+            <div style="margin-top: 12px; font-size: 12px;">
+                <a href="https://equalinformation.com/openwallet-features.html" style="color: #22c55e; font-weight: 700; text-decoration: none;">All Features &amp; Constitution Alignment &rarr;</a>
+                &nbsp;&middot;&nbsp;
+                <a href="release-notes-openwallet.html" style="color: var(--accent-blue); text-decoration: none;">Release Notes</a>
+                &nbsp;&middot;&nbsp;
+                <a href="privacy-openwallet.html" style="color: var(--accent-blue); text-decoration: none;">Privacy</a>
+                &nbsp;&middot;&nbsp;
+                <a href="https://github.com/bpupadhyaya/crypto" target="_blank" style="color: var(--accent-blue); text-decoration: none;">Source</a>
             </div>
         </div>
 
