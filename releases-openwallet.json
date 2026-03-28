@@ -6,51 +6,55 @@
     "current": true,
     "summary": "Bridge screen with IBC transfers, protobuf definitions for all chain modules, multi-channel OTK minting (6 denoms), one-human-one-vote governance, demo balance mode, and App Store submission prep.",
     "included": [
-      "Bridge screen: IBC cross-chain OTK transfers between Open Chain and Cosmos Hub",
-      "CosmosSigner.sendIbcTransfer() — real IBC message signing and broadcast",
-      "Demo balance mode: simulated 1000 SOL, 0.5 BTC, 5 ETH, 100 ATOM, 10000 OTK for UI testing",
-      "Demo mode toggle in Settings with purple banner on Home screen",
-      "Protobuf definitions: 12 .proto files for OTK, UID, DEX, and GovUID modules",
-      "Multi-channel minting: 6 channel denoms (uxotk, unotk, ueotk, uhotk, ucotk, ugotk) + aggregate uotk",
-      "GovernanceScreen: create proposals, vote yes/no/abstain, one-human-one-vote via Universal ID",
-      "OracleScreen: milestone verification network — approve/reject milestones, register as verifier",
-      "ContributionScoreScreen: personal score + global leaderboard with gold/silver/bronze badges",
-      "1inch swap execution: ERC-20 approval + swap API calldata signing",
-      "Jupiter swap execution: Solana swap via quote API + serialized tx signing",
-      "Osmosis swap execution: IBC transfer to Osmosis DEX with auto-return",
-      "Dynamic pie chart computed from actual portfolio allocations (no more mock data)",
-      "LivingLedgerScreen wired to Open Chain REST API queries",
-      "UniversalIDScreen: real MsgRegisterUID broadcast to Open Chain",
-      "StakingScreen: real validator queries + MsgDelegate staking",
-      "GratitudeScreen: real CosmosSigner transactions with celebration events on-chain",
-      "Milestone oracle network on-chain: verifier registration, multi-source attestation",
-      "Contribution score indexer: sorted KV store, GetTopContributors, GetRank",
-      "Gratitude celebration events: heartfelt/great/epic/legendary tiers",
-      "Privacy policy + App Store metadata documents",
-      "26 screens total across the app, all wired to real chain data",
-      "Version synced to 0.2.0 across all configs"
+      "Full P2P networking: TCP+JSON wire protocol, mDNS discovery, peer exchange",
+      "gomobile bindings: StartNode, BroadcastTx, GetBalance on mobile",
+      "10-node testnet generator with validator keys and genesis",
+      "Post-Quantum Cryptography: ML-DSA + Ed25519 hybrid signatures",
+      "Achievement NFTs: soulbound milestone badges (Bronze\u2192Diamond)",
+      "Regional payment rails: UPI, M-Pesa, FedNow, SEPA, PIX, PayNow, PromptPay",
+      "REST API handlers for all custom chain modules",
+      "P2PScreen: node status, peers, start/stop, mDNS, backend switching",
+      "PaymentRailsScreen: buy crypto with local currency",
+      "AchievementsScreen: milestone badge gallery",
+      "GovernanceScreen: proposals + one-human-one-vote",
+      "OracleScreen: milestone verification network",
+      "ContributionScoreScreen: leaderboard",
+      "DeFiScreen: all-in-one positions dashboard",
+      "PrivacyPolicyScreen: full in-app privacy text",
+      "WhatsNewScreen: in-app release notes",
+      "Quick lock button on dashboard header",
+      "Native Modal lock screen (instant, no tab teardown)",
+      "24h price change indicators on all tokens",
+      "Background price service (pre-fetched during lock screen)",
+      "Global prewarmer: crypto modules loaded during lock screen",
+      "Balance + tx history pre-fetch during lock screen",
+      "Dynamic pie chart from real portfolio allocations",
+      "Demo mode with hardcoded prices (instant, no network)",
+      "All screens wired to real chain data with demo fallback",
+      "32 screens, 100% open source"
     ],
     "coming": [
       "App Store submission (iOS + Android)",
-      "Multi-validator cloud testnet deployment",
-      "gomobile bindings — CometBFT compiled to native iOS/Android for phone validators",
-      "Post-quantum cryptography migration (ML-DSA + Ed25519)",
-      "Regional payment rails (UPI, M-Pesa, FedNow, SEPA, PIX)",
-      "libp2p phone mesh networking for full peer-to-peer mobile validation"
+      "Live 10-phone P2P testnet",
+      "Full gomobile compilation to native iOS/Android",
+      "ML-DSA integration when Go stdlib supports it"
     ],
-    "platforms": ["iOS", "Android"]
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
   },
   {
     "version": "0.2.0-alpha",
     "date": "March 2026",
     "tag": "alpha",
     "current": false,
-    "summary": "End-to-end BTC↔USDT/USDC swaps, 8-option swap engine with security ratings, mandatory paper trading, wallet recovery verification, and comprehensive privacy policy with global crypto regulatory clauses.",
+    "summary": "End-to-end BTC\u2194USDT/USDC swaps, 8-option swap engine with security ratings, mandatory paper trading, wallet recovery verification, and comprehensive privacy policy with global crypto regulatory clauses.",
     "included": [
-      "End-to-end BTC→USDT/USDC swap via THORChain (real, in-app, no redirect)",
-      "End-to-end USDT/USDC→BTC reverse swap via THORChain Ethereum Router",
+      "End-to-end BTC\u2192USDT/USDC swap via THORChain (real, in-app, no redirect)",
+      "End-to-end USDT/USDC\u2192BTC reverse swap via THORChain Ethereum Router",
       "8 swap options with security ratings: Open Wallet Atomic Swap (5/5), Open Wallet DEX (4/5), Open Wallet Order Book (4.5/5), THORChain (3.5/5), 1inch (3.5/5), Jupiter (3.5/5), Li.Fi (3/5), Osmosis (4/5)",
-      "Built-in standalone swap (Atomic Swap HTLC) — works even if all external protocols die",
+      "Built-in standalone swap (Atomic Swap HTLC) \u2014 works even if all external protocols die",
       "Open Wallet DEX: AMM liquidity pools on Open Chain (constant product formula)",
       "Open Wallet Order Book: P2P limit orders on Open Chain",
       "Parallel quote fetching from all 8 providers with comparison view",
@@ -66,18 +70,21 @@
       "Support Open Wallet page with donation options (GitHub Sponsors, Stripe, PayPal)",
       "Separate release notes pages (NutriSize and Open Wallet dropdown)"
     ],
-    "platforms": ["iOS", "Android"]
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
   },
   {
     "version": "0.1.0-alpha",
     "date": "March 2026",
     "tag": "alpha",
     "current": false,
-    "summary": "First alpha release of Open Wallet, Open Chain, and Open Token (OTK) — the ecosystem for recognizing and rewarding human value.",
+    "summary": "First alpha release of Open Wallet, Open Chain, and Open Token (OTK) \u2014 the ecosystem for recognizing and rewarding human value.",
     "included": [
       "Multi-chain wallet: Bitcoin, Ethereum, Solana, Cosmos, and Open Chain (OTK)",
       "Real transaction signing with testnet/mainnet toggle (BTC testnet, Sepolia, Solana devnet, Open Chain testnet)",
-      "Open Token (OTK) as native token — first in token list with 5% staking APY",
+      "Open Token (OTK) as native token \u2014 first in token list with 5% staking APY",
       "Open Chain: Cosmos SDK + CometBFT blockchain producing blocks",
       "Custom OTK module: multi-channel value tokens (nurture, education, health, community, economic, governance)",
       "Custom UID module: Universal ID registration with privacy-preserving biometric proof",
@@ -92,10 +99,13 @@
       "Push notifications: transaction confirmations, price alerts, staking rewards",
       "QR scanner for addresses, price alerts with auto-trigger, address book",
       "Multi-account support, PIN + biometric auth, PQC-ready vault (AES-256-GCM + PBKDF2)",
-      "Human Constitution published — founding charter for Open Chain",
-      "OTK Tokenomics documented — 100% earned, zero pre-mine, flat rewards",
+      "Human Constitution published \u2014 founding charter for Open Chain",
+      "OTK Tokenomics documented \u2014 100% earned, zero pre-mine, flat rewards",
       "100% open source: github.com/bpupadhyaya/crypto"
     ],
-    "platforms": ["iOS", "Android"]
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
   }
 ]
