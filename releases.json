@@ -1,9 +1,31 @@
 [
   {
-    "version": "1.2.0",
+    "version": "2.0.0",
     "date": "March 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Major UI redesign with visual health intelligence. Collapsible content, color-coded range bars for 30+ clinical parameters, Simply Put (plain language) + Clinical (evidence-based) context, tappable citations from WHO/CDC/AHA/NEJM, per-food nutrient contribution, breadcrumb navigation, in-app Privacy Policy.",
+    "included": [
+      "Complete UI redesign: home grid, section menus with submenus, gradient banners",
+      "Visual range bars for Blood Pressure, Heart Rate, Temperature, Glucose, O2 Sat, BMI, and 25+ more parameters",
+      "Simply Put explanations for farmers and families worldwide",
+      "Clinical context for doctors and health professionals",
+      "Tappable inline citations [WHO] [CDC] [AHA] [ADA] [NEJM] opening in-app with Reload/Close/Open in Browser",
+      "Nutrition Individualize: collapsible days/meals, macro progress bars, per-food nutrient contribution with %DV",
+      "Exercise weekly plans: collapsible days with authority guidelines",
+      "All submenus: Nutrition Types (Macro/Micro/Daily/Regional), Individualize (Vegan/Vegetarian/Non-Veg), Exercise Types (5 levels), By Age (4 groups)",
+      "Smart single-step back navigation with breadcrumbs throughout",
+      "In-app Privacy Policy under System",
+      "Content accuracy: Vitamin D 51+, sodium range, BMI Class II, activity factors corrected per WHO/IOM/KDIGO",
+      "One-time Purchase button for premium features (price from store)"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "1.2.0",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Live on Google Play as v1.2.0 (version code 5). GitHub Sponsors as primary donation, Stripe and PayPal via website, improved link stability.",
     "included": [
       "Released on Google Play as version 1.2.0 (version code 5) on Mar 26, 2026",
