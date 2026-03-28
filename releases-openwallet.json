@@ -4,7 +4,7 @@
     "date": "March 2026",
     "tag": "alpha",
     "current": true,
-    "summary": "49 screens, 8 chain modules, 56 commits \u2014 full P2P stack, universal exchange, social features, automation, PQC crypto, and more.",
+    "summary": "66 screens, 10 chain modules, 65 commits \u2014 the most comprehensive open-source crypto wallet ever built in a single session.",
     "included": [
       "49 screens across the wallet app \u2014 every feature wired to real chain data with demo fallback",
       "8 chain modules: OTK, UID, DEX, GovUID, Achievement, TokenFactory, Messaging, P2P",
