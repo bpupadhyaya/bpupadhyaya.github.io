@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Wallet — Features & Human Constitution Alignment</title>
+    <meta name="description" content="Open Wallet: 78 screens, 462 exchange paths, 13 chain modules. Every feature mapped to The Human Constitution.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .feature-page { max-width: 900px; margin: 0 auto; padding: 40px 20px 80px; }
+        .feature-page h1 { font-size: 2.5rem; font-weight: 900; margin-bottom: 8px; }
+        .feature-page .subtitle { color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 40px; }
+        .stats-bar { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+        .stat-chip { background: var(--bg-card); border-radius: 12px; padding: 12px 20px; text-align: center; }
+        .stat-chip .num { font-size: 1.5rem; font-weight: 800; color: var(--accent); }
+        .stat-chip .label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+        .collapsible { margin-bottom: 12px; }
+        .collapsible-header {
+            background: var(--bg-card); border-radius: 12px; padding: 16px 20px;
+            cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+            transition: background 0.2s;
+        }
+        .collapsible-header:hover { background: var(--bg-card-hover); }
+        .collapsible-header h3 { font-size: 1rem; font-weight: 700; margin: 0; }
+        .collapsible-header .badge { font-size: 0.7rem; padding: 3px 10px; border-radius: 20px; font-weight: 700; }
+        .badge-direct { background: rgba(34,197,94,0.2); color: #22c55e; }
+        .badge-indirect { background: rgba(59,130,246,0.2); color: #3b82f6; }
+        .badge-neutral { background: rgba(96,96,112,0.2); color: #a0a0b0; }
+        .collapsible-header .arrow { font-size: 1.2rem; color: var(--text-muted); transition: transform 0.2s; }
+        .collapsible.open .arrow { transform: rotate(180deg); }
+        .collapsible-body {
+            max-height: 0; overflow: hidden; transition: max-height 0.3s ease;
+            background: var(--bg-secondary); border-radius: 0 0 12px 12px; margin-top: -8px;
+        }
+        .collapsible.open .collapsible-body { max-height: 5000px; }
+        .collapsible-body-inner { padding: 20px; }
+        .collapsible-body p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.8; margin-bottom: 12px; }
+        .collapsible-body ul { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; margin-bottom: 12px; }
+        .collapsible-body .article-ref { color: var(--accent); font-weight: 600; font-size: 0.8rem; }
+        .permutation-grid { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); line-height: 1.6; white-space: pre-wrap; background: var(--bg-primary); padding: 16px; border-radius: 8px; margin-top: 8px; max-height: 400px; overflow-y: auto; }
+        .section-title { font-size: 1.3rem; font-weight: 800; margin: 32px 0 16px; color: var(--text-primary); }
+        .section-desc { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 16px; }
+        .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; font-size: 0.8rem; }
+        .legend span { display: flex; align-items: center; gap: 6px; }
+        .legend .dot { width: 10px; height: 10px; border-radius: 5px; }
+        .back-link { color: var(--accent-blue); text-decoration: none; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo"><div class="nav-logo-icon">EI</div> EqualInformation</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="release-notes-openwallet.html">Release Notes</a></li>
+            <li><a href="privacy-openwallet.html">Privacy</a></li>
+            <li><a href="https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md" target="_blank">Human Constitution</a></li>
+            <li><a href="support-openwallet.html" class="nav-cta">Support</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="feature-page">
+
+<a href="index.html" class="back-link">&larr; Back to Home</a>
+
+<h1>Open Wallet Features</h1>
+<p class="subtitle">Every feature mapped to The Human Constitution. 100% open source.</p>
+
+<div class="stats-bar">
+    <div class="stat-chip"><div class="num">78</div><div class="label">Screens</div></div>
+    <div class="stat-chip"><div class="num">462</div><div class="label">Exchange Paths</div></div>
+    <div class="stat-chip"><div class="num">13</div><div class="label">Chain Modules</div></div>
+    <div class="stat-chip"><div class="num">10</div><div class="label">Languages</div></div>
+    <div class="stat-chip"><div class="num">35</div><div class="label">API Endpoints</div></div>
+    <div class="stat-chip"><div class="num">10</div><div class="label">Articles Fulfilled</div></div>
+</div>
+
+<div class="legend">
+    <span><span class="dot" style="background:#22c55e"></span> Directly supports Human Constitution</span>
+    <span><span class="dot" style="background:#3b82f6"></span> Indirectly supports Human Constitution</span>
+    <span><span class="dot" style="background:#606070"></span> Neutral (standard wallet feature)</span>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Human Value Recognition (Articles I, III, IV)</div>
+<p class="section-desc">Features that directly implement the core mission: recognizing and rewarding human contribution.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Multi-Channel OTK Tokens</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I, III</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>OTK flows through 6 distinct value channels, each representing a dimension of human contribution:</p>
+        <ul>
+            <li><strong>nOTK (Nurture)</strong> — Parenting, caregiving, emotional support</li>
+            <li><strong>eOTK (Education)</strong> — Teaching, mentoring, knowledge transfer</li>
+            <li><strong>hOTK (Health)</strong> — Healthcare, wellness, nutrition</li>
+            <li><strong>cOTK (Community)</strong> — Neighborhood service, volunteer work</li>
+            <li><strong>xOTK (Economic)</strong> — Financial transactions, trade</li>
+            <li><strong>gOTK (Governance)</strong> — Civic participation, voting, leadership</li>
+        </ul>
+        <p class="article-ref">Implements: Article I (Foundational Principles), Article III Section 1 (The Nature of OTK)</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Living Ledger</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art IV</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>A lifelong on-chain record of every value transfer — received, given, minted, burned — broken down by channel. Your Living Ledger tells the story of your contributions to humanity.</p>
+        <ul>
+            <li>Channel breakdown (nOTK, eOTK, hOTK, cOTK, xOTK, gOTK)</li>
+            <li>Contribution score calculation</li>
+            <li>Ring attribution tracking (Self → Family → Mentors → Community → City → Country → Humanity)</li>
+            <li>Gratitude transaction history</li>
+        </ul>
+        <p class="article-ref">Implements: Article IV (The Living Ledger) — "Every positive human contribution is recorded permanently."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Gratitude Transactions</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art III</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Thank parents, teachers, and mentors with on-chain gratitude messages. Gratitude transactions are celebrated on Open Chain — a permanent record of appreciation. Four celebration tiers: Heartfelt, Great, Epic, Legendary.</p>
+        <p class="article-ref">Implements: Article III Section 4 — "A grown child sending nOTK to their parent's Universal ID is a Gratitude Transaction."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Milestone Oracle Network</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art III</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Verifiers attest to human development milestones. When enough independent verifiers approve (minimum 2), OTK is minted for the achiever. Verifier accuracy is tracked; bad verifiers are suspended.</p>
+        <ul>
+            <li>Register as a milestone verifier</li>
+            <li>Approve/reject pending milestones</li>
+            <li>Accuracy tracking with auto-suspension below 60%</li>
+            <li>Regional milestone definitions (35+ milestones across 5 regions)</li>
+        </ul>
+        <p class="article-ref">Implements: Article III Section 2 (Milestone-Based Minting) — "OTK is minted when verified human development milestones are achieved."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Soulbound Achievement NFTs</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I, IV</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Non-transferable milestone badges auto-minted alongside OTK. Five levels: Bronze, Silver, Gold, Platinum, Diamond. These cannot be bought, sold, or traded — they represent personal human development.</p>
+        <p class="article-ref">Implements: Article I Section 2 (The Right to Recognition) — "Every act of kindness, mentorship, and care deserves recognition."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Correction Mechanism (Negative OTK)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art V</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Negative value is visible, not ignored. -OTK requires community consensus (3+ independent verifiers). The accused can contest with counter-evidence. Wrong determinations can be reversed via governance.</p>
+        <ul>
+            <li>Submit correction reports with evidence</li>
+            <li>3+ verifiers required (higher threshold than positive milestones)</li>
+            <li>Right to contest and provide counter-evidence</li>
+            <li>Governance can reverse wrong determinations</li>
+        </ul>
+        <p class="article-ref">Implements: Article V (Correction Mechanism) — "Making harm visible creates pressure for correction."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Community Health Dashboard</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art V, X</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Regional aggregate tracking: net OTK trends by region, channel health, alert zones for communities trending negative. This is the self-correcting feedback loop — resources and attention flow to where they're needed.</p>
+        <p>12 regions tracked: Global, South Asia, East Asia, Southeast Asia, East Africa, West Africa, Northern Europe, Southern Europe, North America, South America, Middle East, Oceania.</p>
+        <p class="article-ref">Implements: Article V Section 3 (Autonomous Correction) + Article X (The Vision) — "Nations measured not by GDP, but by aggregate human value."</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Identity & Privacy (Article II, VIII)</div>
+<p class="section-desc">Privacy is not a feature — it is a fundamental human right embedded in the protocol.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Universal Identity (UID)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art II</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Privacy-preserving biometric proof: "this is a unique human being" without storing or transmitting biometric data. All processing on-device. No central identity registry exists or can exist.</p>
+        <ul>
+            <li>Biometric proof generation (Face ID / fingerprint)</li>
+            <li>SHA-256 hash of proof stored on-chain (not biometric data)</li>
+            <li>Guardian support for minors</li>
+            <li>Self-sovereign upon reaching age of agency</li>
+        </ul>
+        <p class="article-ref">Implements: Article II (Universal Identity) — "Every human being shall be entitled to a unique Universal Identity."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Selective Disclosure (Zero-Knowledge)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art II</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Prove claims without revealing identity: "I am a parent," "I am a certified teacher," "I reside in Region Y." The verifier learns only that the claim is true — nothing else.</p>
+        <p class="article-ref">Implements: Article II Section 2 (Selective Disclosure) — "Always voluntary. No institution may compel disclosure."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Cross-Chain Identity Linking</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art II</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Link BTC, ETH, SOL, Cosmos addresses to your Universal ID with cryptographic proof. One identity across all blockchains. Reputation score (0-1000) based on activity: newcomer → active → trusted → elder → guardian.</p>
+        <p class="article-ref">Implements: Article II Section 1 — Universal identity that works across all chains.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Post-Quantum Cryptography</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VIII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>ML-DSA + Ed25519 hybrid signatures. If either quantum or classical computers are compromised, the other still protects. Migration path for existing keys. 13 tests passing.</p>
+        <p class="article-ref">Implements: Article VIII Section 3 (Security) — "Post-quantum cryptography ensures Open Chain remains secure against future threats."</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Governance (Article VI)</div>
+<p class="section-desc">Democracy — not plutocracy, not technocracy, not oligarchy.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>One-Human-One-Vote Governance</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VI</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Every Universal ID holder has exactly one vote. A person with 1 OTK and a person with 1,000,000 OTK each have one vote. Proposals, voting (yes/no/abstain), quorum tracking (>33% of registered UIDs), pass threshold (>50%).</p>
+        <p class="article-ref">Implements: Article VI Section 1 — "Every Universal ID holder has exactly one vote in Open Chain governance."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Constitutional Amendments</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VI</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>The Human Constitution is a living document. Amendments require 90-day public deliberation + two-thirds supermajority. Article I (Foundational Principles) is immutable and cannot be amended.</p>
+        <p class="article-ref">Implements: Article VI Section 3 — "Amendments require a two-thirds supermajority of participating Universal ID voters."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>DAOs (Decentralized Autonomous Organizations)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art VI</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Create on-chain organizations with treasury, membership, and governance. Support both one-member-one-vote and token-weighted voting. DAOs enable community self-organization.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Community Treasury</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VI</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>2% of all OTK minting goes to the community treasury. Distributed via governance proposals. Per-channel balance tracking. Funds development, grants, infrastructure, and community events.</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Technical Architecture (Article VII)</div>
+<p class="section-desc">Mobile-first. Peer-to-peer. Every phone is the network.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>100% Peer-to-Peer Network</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>No central servers. TCP+JSON P2P networking with mDNS discovery (local WiFi), peer exchange (internet), block sync, mempool, and gomobile bindings. 10-node testnet generator included.</p>
+        <ul>
+            <li>P2P node runner with CometBFT WebSocket client</li>
+            <li>QR-based peer sharing for easy phone-to-phone connection</li>
+            <li>Auto-switch between Server/P2P/Hybrid modes</li>
+            <li>Step-by-step 10-phone setup guide</li>
+        </ul>
+        <p class="article-ref">Implements: Article VII Section 1 — "Phase 3: Full peer-to-peer — every phone is the network."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>IBC (Inter-Blockchain Communication)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Cross-chain OTK transfers via IBC protocol. Bridge screen with real CosmosSigner.sendIbcTransfer(). Connects Open Chain to 50+ Cosmos ecosystem chains.</p>
+        <p class="article-ref">Implements: Article VII Section 1 — "IBC enables interoperability with 50+ existing chains."</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Inclusivity & Access (Article IX)</div>
+<p class="section-desc">Designed for 8 billion humans — not just the technically literate.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Simple Mode</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Icon-driven interface accessible to anyone — no text needed to understand. Large buttons, very large balance font (56pt), color-coded actions. Designed for elderly users, low-literacy users, and anyone who finds crypto intimidating.</p>
+        <p class="article-ref">Implements: Article IX — "Open Wallet supports Simple Mode: Accessible to anyone — icon-driven, multilingual."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>10 Languages</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>English, Hindi, Spanish, Chinese, Vietnamese, Arabic, Portuguese, French, Japanese, Korean — covering approximately 75% of the world's population.</p>
+        <p class="article-ref">Implements: Article IX Section 1 — "Multiple languages, starting with those covering 75% of the world's population."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Low Bandwidth Mode</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Auto-detects 2G/3G/4G/WiFi. On slow connections: reduces refresh intervals, skips non-essential data, caches aggressively, limits concurrent requests. Works on basic smartphones.</p>
+        <p class="article-ref">Implements: Article IX Section 1 — "Works on basic smartphones and low-bandwidth connections."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Accessibility Settings</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Font size (S/M/L/XL), high contrast mode, reduce motion, screen reader hints, haptic feedback. No human shall be excluded due to disability.</p>
+        <p class="article-ref">Implements: Article IX Section 1 — "No human shall be excluded from participation due to... disability."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Regional Milestone Definitions</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>35+ milestones across 5 regions: Global (14), South Asia (Annaprashan, Mundan, Upanayana...), East Africa (Naming Ceremony, Harambee...), Europe (Parental Leave, Gymnasium...), East Asia (Doljanchi, Shichi-Go-San...), Latin America (Quinceañera, Minga...).</p>
+        <p class="article-ref">Implements: Article IX Section 2 — "Human development milestones may vary across cultures. The system respects this diversity."</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Universal Exchange (462 Paths)</div>
+<p class="section-desc">Any token to any token, any fiat to any crypto. All in-app.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>182 Token-to-Token Swap Pairs</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art VII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>14 tokens × 13 destinations = 182 directed swap pairs. 5 routing strategies: direct same-chain, cross-chain via THORChain, stablecoin bridge, IBC for Cosmos, Atomic Swap fallback.</p>
+        <div class="permutation-grid">BTC → ETH   BTC → SOL   BTC → USDT  BTC → USDC  BTC → OTK   BTC → ATOM  BTC → WBTC  BTC → DAI   BTC → LINK  BTC → OSMO  BTC → AVAX  BTC → DOT   BTC → ADA
+ETH → BTC   ETH → SOL   ETH → USDT  ETH → USDC  ETH → OTK   ETH → ATOM  ETH → WBTC  ETH → DAI   ETH → LINK  ETH → OSMO  ETH → AVAX  ETH → DOT   ETH → ADA
+SOL → BTC   SOL → ETH   SOL → USDT  SOL → USDC  SOL → OTK   SOL → ATOM  SOL → WBTC  SOL → DAI   SOL → LINK  SOL → OSMO  SOL → AVAX  SOL → DOT   SOL → ADA
+USDT → BTC  USDT → ETH  USDT → SOL  USDT → USDC USDT → OTK  USDT → ATOM USDT → WBTC USDT → DAI  USDT → LINK USDT → OSMO USDT → AVAX USDT → DOT  USDT → ADA
+USDC → BTC  USDC → ETH  USDC → SOL  USDC → USDT USDC → OTK  USDC → ATOM USDC → WBTC USDC → DAI  USDC → LINK USDC → OSMO USDC → AVAX USDC → DOT  USDC → ADA
+OTK → BTC   OTK → ETH   OTK → SOL   OTK → USDT  OTK → USDC  OTK → ATOM  OTK → WBTC  OTK → DAI   OTK → LINK  OTK → OSMO  OTK → AVAX  OTK → DOT   OTK → ADA
+ATOM → BTC  ATOM → ETH  ATOM → SOL  ATOM → USDT ATOM → USDC ATOM → OTK  ATOM → WBTC ATOM → DAI  ATOM → LINK ATOM → OSMO ATOM → AVAX ATOM → DOT  ATOM → ADA
+WBTC → BTC  WBTC → ETH  WBTC → SOL  WBTC → USDT WBTC → USDC WBTC → OTK  WBTC → ATOM WBTC → DAI  WBTC → LINK WBTC → OSMO WBTC → AVAX WBTC → DOT  WBTC → ADA
+DAI → BTC   DAI → ETH   DAI → SOL   DAI → USDT  DAI → USDC  DAI → OTK   DAI → ATOM  DAI → WBTC  DAI → LINK  DAI → OSMO  DAI → AVAX  DAI → DOT   DAI → ADA
+LINK → BTC  LINK → ETH  LINK → SOL  LINK → USDT LINK → USDC LINK → OTK  LINK → ATOM LINK → WBTC LINK → DAI  LINK → OSMO LINK → AVAX LINK → DOT  LINK → ADA
+OSMO → BTC  OSMO → ETH  OSMO → SOL  OSMO → USDT OSMO → USDC OSMO → OTK  OSMO → ATOM OSMO → WBTC OSMO → DAI  OSMO → LINK OSMO → AVAX OSMO → DOT  OSMO → ADA
+AVAX → BTC  AVAX → ETH  AVAX → SOL  AVAX → USDT AVAX → USDC AVAX → OTK  AVAX → ATOM AVAX → WBTC AVAX → DAI  AVAX → LINK AVAX → OSMO AVAX → DOT  AVAX → ADA
+DOT → BTC   DOT → ETH   DOT → SOL   DOT → USDT  DOT → USDC  DOT → OTK   DOT → ATOM  DOT → WBTC  DOT → DAI   DOT → LINK  DOT → OSMO  DOT → AVAX  DOT → ADA
+ADA → BTC   ADA → ETH   ADA → SOL   ADA → USDT  ADA → USDC  ADA → OTK   ADA → ATOM  ADA → WBTC  ADA → DAI   ADA → LINK  ADA → OSMO  ADA → AVAX  ADA → DOT</div>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>280 Fiat Buy/Sell Combinations</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>10 providers × 14 tokens × 2 (buy + sell) = 280 fiat exchange paths.</p>
+        <p><strong>Global providers:</strong> MoonPay (3.5%), Transak (2.5%), Ramp (2.0%)</p>
+        <p><strong>Regional rails:</strong></p>
+        <ul>
+            <li>🇮🇳 UPI (India) — INR, instant, 0% fee</li>
+            <li>🇰🇪 M-Pesa (East Africa) — KES, instant, 1% fee</li>
+            <li>🇺🇸 FedNow (USA) — USD, instant, 0.1% fee</li>
+            <li>🇪🇺 SEPA Instant (Europe) — EUR, 10 seconds, 0.2% fee</li>
+            <li>🇧🇷 PIX (Brazil) — BRL, instant, 0% fee</li>
+            <li>🇸🇬 PayNow (Singapore) — SGD, instant, 0% fee</li>
+            <li>🇹🇭 PromptPay (Thailand) — THB, instant, 0% fee</li>
+        </ul>
+        <p class="article-ref">Supports Article IX — "No human shall be excluded due to... economic status."</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">DeFi Features</div>
+<p class="section-desc">Decentralized finance built into Open Chain.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Staking & Rewards</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art VII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>5% base APY + channel bonus (0.1% per verified milestone) + 1% gratitude bonus. Rewards distributed in channel-specific denoms. Delegation, redelegation, unbonding with 21-day period.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>DEX (AMM + Order Book)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-neutral">Neutral</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>On-chain AMM with constant product formula. Limit orders with atomic settlement. Liquidity pools, yield farming with LP token staking.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Lending & Borrowing</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-neutral">Neutral</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Supply assets to earn interest, borrow against collateral. Health factor monitoring, liquidation protection, insurance fund (10% of interest). 5 markets: OTK, BTC, ETH, SOL, USDT.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Escrow & Dispute Resolution</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art V</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>On-chain escrow for P2P trades. Arbiter-mediated dispute resolution. Create, fund, release, or dispute — all trustless.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Token Factory</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-neutral">Neutral</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Create custom tokens on Open Chain. Set name, symbol, decimals, initial supply. Mint additional supply, burn tokens. Denom format: factory/{creator}/{symbol}.</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Social Features</div>
+<p class="section-desc">Building community on-chain.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Encrypted P2P Messaging</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art VIII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>End-to-end encrypted messaging between Universal IDs. Messages stored as encrypted blobs on-chain — only the recipient can decrypt. Conversation threads, message history.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Community Feed & Profile</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art I, X</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Community activity feed showing gratitude transactions, milestone achievements, governance results, new verifiers, token launches. Public profile with UID, scores, badges, staking.</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Security & Safety</div>
+<p class="section-desc">Security is not optional — it's the foundation.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Paper Trading (Practice Mode)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art IX</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Mandatory practice before real money on mainnet. Traffic light system: Red (0 trades, blocked), Orange (1-2, warning), Green (3+, cleared). Protects new users from costly mistakes.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Security Audit, Multi-Sig, Spending Limits</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-neutral">Neutral</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>8-point security health check (0-100 score). M-of-N multi-signature wallets. Daily/weekly spending limits per token. Emergency wipe with triple confirmation. Cloud backup (encrypted settings, NOT keys).</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Analytics & Tools</div>
+<p class="section-desc">Standard wallet features that complement the ecosystem.</p>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Portfolio Analytics, Market, Tax Calculator, Watchlist</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-neutral">Neutral</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Diversification score, risk assessment, best/worst performers. Top 50 tokens market overview. Tax calculator (FIFO/LIFO, 7 countries). Token watchlist with custom alerts. Wallet analytics dashboard. Transaction export (CSV/JSON).</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>DApp Browser, NFT Gallery, Automation</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-neutral">Neutral</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>In-app WebView DApp browser with bookmarks. NFT gallery across Ethereum + Solana. Recurring payments (daily/weekly/monthly). Price-based automation rules.</p>
+    </div></div>
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<div class="section-title">Constitution Alignment Summary</div>
+
+<table style="width:100%; border-collapse:collapse; margin-top:16px; font-size:0.85rem;">
+<thead>
+<tr style="border-bottom:1px solid var(--border);">
+    <th style="text-align:left;padding:12px;color:var(--text-secondary)">Article</th>
+    <th style="text-align:left;padding:12px;color:var(--text-secondary)">Topic</th>
+    <th style="text-align:center;padding:12px;color:var(--text-secondary)">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article I</td><td>Foundational Principles</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article II</td><td>Universal Identity</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article III</td><td>Open Token (OTK)</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article IV</td><td>The Living Ledger</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article V</td><td>Correction Mechanism</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article VI</td><td>Governance</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article VII</td><td>Technical Architecture</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article VIII</td><td>Privacy and Security</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:10px">Article IX</td><td>Inclusivity and Access</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+<tr><td style="padding:10px">Article X</td><td>The Vision</td><td style="text-align:center;color:#22c55e">✅ Implemented</td></tr>
+</tbody>
+</table>
+
+<p style="color:var(--text-muted);font-size:0.8rem;margin-top:24px;text-align:center;">
+    Open Wallet v0.3.0-alpha — 78 screens, 13 chain modules, 73 commits<br>
+    100% open source: <a href="https://github.com/bpupadhyaya/crypto" style="color:var(--accent-blue)">github.com/bpupadhyaya/crypto</a><br>
+    <a href="release-notes-openwallet.html" style="color:var(--accent-blue)">Release Notes</a> · <a href="privacy-openwallet.html" style="color:var(--accent-blue)">Privacy Policy</a> · <a href="support-openwallet.html" style="color:var(--accent-blue)">Support</a>
+</p>
+
+</div>
+
+</body>
+</html>
