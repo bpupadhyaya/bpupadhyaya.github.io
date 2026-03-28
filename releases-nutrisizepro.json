@@ -1,0 +1,30 @@
+[
+  {
+    "version": "v1.0.0",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "First stable release of Nutrisize Pro — the comprehensive health intelligence platform with 5,000+ foods, 5,400+ exercises, 201 physiological parameters, and personalized wellness plans.",
+    "included": [
+      "5,006 world foods in SQLite database with nutrition data from USDA, WHO, and regional authorities",
+      "5,404 exercises across 6 categories: Strength, Cardio, Flexibility, Rehabilitation, Military (Navy SEAL/Army/Marines/AF), Balance",
+      "201 physiological parameters across 16 body systems with physician-grade content",
+      "75 nutrients (33 macro + 42 micro) with daily values for 16 demographics",
+      "Personalized weekly meal plans (Individualized Nutrition)",
+      "4-product in-app purchase system: Physiology, Nutrition, Exercise, and Premium Bundle",
+      "Exercise Browser with search, category filters, and calorie burn scoring",
+      "Food Browser with 23 food categories and nutrient density scores",
+      "10-language Physiology translations (English, Spanish, Hindi, Chinese, Arabic, French, Portuguese, Bengali, Japanese, Nepali)",
+      "Translate-any-text feature using on-device ML (iOS: Apple Translation, Android: ML Kit)",
+      "Cross-linking between Nutrition, Exercise, and Physiology for holistic health understanding",
+      "Military fitness: All US branch PT standards, Navy SEAL BUD/S training, Ranger, Green Beret, MARSOC",
+      "Age-specific programs from toddler (2-5) to elderly (80+)",
+      "Occupation-specific exercise: firefighter, police, farming, office, healthcare",
+      "Climate-adapted training: hot, cold, altitude, mountain, tropical",
+      "Diagnostics page with database size tracking and app resource monitoring",
+      "Privacy-first, local-first architecture — all data stored on device",
+      "Dark theme UI across all platforms"
+    ],
+    "platforms": ["iOS", "Android", "Web"]
+  }
+]
