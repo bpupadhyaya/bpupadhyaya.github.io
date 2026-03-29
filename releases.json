@@ -1,9 +1,25 @@
 [
   {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "date": "March 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Dynamic pricing from Google Play, seasonal discount offers, and improved purchase experience. Real-time pricing with approximate fallback, enticing discount discovery prompt, and clear Restore flow messaging.",
+    "included": [
+      "Dynamic pricing: real-time price fetched from Google Play with approximate fallback when unavailable",
+      "Seasonal discount offers: year-round, summer, fall, and Christmas specials configured in Google Play",
+      "Discount discovery prompt encouraging users to explore available offers before checkout",
+      "Strikethrough original price display when discount is active",
+      "Improved Restore flow: clear messaging when no previous purchase is found",
+      "Base price updated to $2.99 with seasonal discounts applied at Google Play checkout"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "2.0.0",
+    "date": "March 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Major UI redesign with visual health intelligence. Collapsible content, color-coded range bars for 30+ clinical parameters, Simply Put (plain language) + Clinical (evidence-based) context, tappable citations from WHO/CDC/AHA/NEJM, per-food nutrient contribution, breadcrumb navigation, in-app Privacy Policy.",
     "included": [
       "Complete UI redesign: home grid, section menus with submenus, gradient banners",
