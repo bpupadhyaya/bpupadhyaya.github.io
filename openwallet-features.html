@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Wallet — Features & Human Constitution Alignment</title>
-    <meta name="description" content="Open Wallet: 78 screens, 462 exchange paths, 13 chain modules. Every feature mapped to The Human Constitution.">
+    <meta name="description" content="Open Wallet: 255 screens, 462 exchange paths, 29 OTK keepers, 60 API endpoints. Every feature mapped to The Human Constitution.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -73,11 +73,11 @@
 <p class="subtitle">Every feature mapped to The Human Constitution. 100% open source.</p>
 
 <div class="stats-bar">
-    <div class="stat-chip"><div class="num">78</div><div class="label">Screens</div></div>
+    <div class="stat-chip"><div class="num">255</div><div class="label">Screens</div></div>
     <div class="stat-chip"><div class="num">462</div><div class="label">Exchange Paths</div></div>
     <div class="stat-chip"><div class="num">13</div><div class="label">Chain Modules</div></div>
     <div class="stat-chip"><div class="num">10</div><div class="label">Languages</div></div>
-    <div class="stat-chip"><div class="num">35</div><div class="label">API Endpoints</div></div>
+    <div class="stat-chip"><div class="num">60</div><div class="label">API Endpoints</div></div>
     <div class="stat-chip"><div class="num">10</div><div class="label">Articles Fulfilled</div></div>
 </div>
 
@@ -185,6 +185,51 @@
 
 <div class="collapsible">
     <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Appeal & Contest</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art V</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Every person has the right to contest a correction report. Submit appeals with counter-evidence, witnesses, and detailed timelines. Appeals progress through stages: submitted → reviewed → hearing → resolved.</p>
+        <ul>
+            <li>Evidence attachment (document hashes, chain records, video references)</li>
+            <li>Witness list with UID confirmation</li>
+            <li>Arbiter-mediated hearings</li>
+            <li>Resolution outcomes: upheld, reversed, modified</li>
+        </ul>
+        <p class="article-ref">Implements: Article V Section 2 — "The right to contest is absolute."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Mediation & Conflict Resolution</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art V</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Neutral third-party mediation for disputes between community members. Mediators are matched by expertise and community trust score. Resolution agreements are signed on-chain by both parties.</p>
+        <ul>
+            <li>Dispute types: financial, community, identity, governance, family</li>
+            <li>Mediator matching with trust scores and expertise areas</li>
+            <li>Session notes and agreement drafting</li>
+            <li>On-chain resolution with dual-party signatures</li>
+        </ul>
+        <p class="article-ref">Implements: Article V — Restorative justice through community-mediated resolution.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Correction Enforcement</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art V</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>When corrections are confirmed by community consensus, -OTK is automatically burned from the target's account. Governance can reverse wrong determinations, restoring the burned OTK. All enforcement is recorded in the Living Ledger.</p>
+        <p class="article-ref">Implements: Article V Section 1 — "Negative value is visible, not ignored."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
         <div><h3>Community Health Dashboard</h3></div>
         <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art V, X</span><span class="arrow">▼</span></div>
     </div>
@@ -192,6 +237,107 @@
         <p>Regional aggregate tracking: net OTK trends by region, channel health, alert zones for communities trending negative. This is the self-correcting feedback loop — resources and attention flow to where they're needed.</p>
         <p>12 regions tracked: Global, South Asia, East Asia, Southeast Asia, East Africa, West Africa, Northern Europe, Southern Europe, North America, South America, Middle East, Oceania.</p>
         <p class="article-ref">Implements: Article V Section 3 (Autonomous Correction) + Article X (The Vision) — "Nations measured not by GDP, but by aggregate human value."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Inter-Regional Cooperation</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art X</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Track and promote partnerships between regions. Education exchanges, healthcare capacity building, cultural programs, and resource sharing. Each partnership has milestones, OTK exchanged, and beneficiary counts.</p>
+        <ul>
+            <li>Partnership types: education, health, economic, cultural</li>
+            <li>Cultural exchanges: language learning, artisan skills, music, cuisine</li>
+            <li>Resource sharing: surplus food, medical supplies, educational materials</li>
+            <li>Propose new inter-regional cooperation initiatives</li>
+        </ul>
+        <p class="article-ref">Implements: Article X — "World peace through cooperation, not competition."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Education Curriculum & Pathways</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I (eOTK)</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Visual skill tree with learning pathways across 6 categories: Technology, Science, Arts, Languages, Life Skills, Trade Skills. Each pathway contains milestones that earn eOTK when verified.</p>
+        <ul>
+            <li>Pathway progress tracking (modules completed, eOTK earned)</li>
+            <li>Peer study groups (join or create)</li>
+            <li>Mentor assignment per pathway</li>
+            <li>Soulbound certificate on pathway completion</li>
+        </ul>
+        <p class="article-ref">Implements: Article I Section 1 — Education as a dimension of human value.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Health Emergency Network (SOS)</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I (hOTK)</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Emergency SOS button broadcasts your location and ZK-encrypted medical profile to nearby UIDs. Emergency contacts, nearby health workers, first aid guides (offline-accessible), and emergency hOTK fund.</p>
+        <ul>
+            <li>Medical profile (blood type, allergies, conditions) — ZK-encrypted, disclosed only in emergencies</li>
+            <li>Nearby community health responders with response times</li>
+            <li>Emergency history with outcomes</li>
+            <li>Regional emergency stats</li>
+        </ul>
+        <p class="article-ref">Implements: Article I — Health as a fundamental value channel.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Community Projects</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I (cOTK)</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Community project management with milestones, funding, and team coordination. Categories: infrastructure, education, environment, health, culture, technology. Each project milestone earns cOTK for contributors.</p>
+        <ul>
+            <li>Project lifecycle: planning → fundraising → in progress → completed</li>
+            <li>Team roles: lead, contributor, volunteer</li>
+            <li>Funding progress tracking</li>
+            <li>Impact metrics: beneficiaries, hours contributed, cOTK distributed</li>
+        </ul>
+        <p class="article-ref">Implements: Article I — Community service as a valued contribution.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Time Bank</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Time-based value exchange: 1 hour of teaching = 1 hour of gardening = 1 hour of cooking. All human time is valued equally. Offer and request services, track hours given vs. received.</p>
+        <ul>
+            <li>Skill categories: tutoring, cooking, repair, gardening, tech help, and more</li>
+            <li>Community stats: total hours exchanged, most popular skills</li>
+            <li>Ratings and feedback per exchange</li>
+        </ul>
+        <p class="article-ref">Implements: Article I Section 1 — "All dimensions of human contribution are recognized."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Mentor Matching</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art I (eOTK)</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Smart matching algorithm connects mentors and mentees based on expertise overlap, availability, and language. Both parties earn eOTK for sessions. On-chain mentoring agreements with goals and milestones.</p>
+        <ul>
+            <li>Match score (0-100%) with expertise and language overlap</li>
+            <li>Session logging with notes and feedback</li>
+            <li>Mutual ratings after each session</li>
+            <li>Become a mentor: register expertise, availability, languages</li>
+        </ul>
+        <p class="article-ref">Implements: Article I — Mentoring recognized as a valued human contribution.</p>
     </div></div>
 </div>
 
@@ -249,6 +395,74 @@
     </div></div>
 </div>
 
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Guardian Accounts</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art II</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Parents and elders manage dependent accounts with spending limits, transaction approval, and emergency controls. Multi-guardian support (both parents). Graduation workflow transfers full ownership when a child comes of age.</p>
+        <ul>
+            <li>Add dependents (children, elderly family members, wards)</li>
+            <li>Approve/reject transactions above threshold</li>
+            <li>Emergency account freeze</li>
+            <li>Graduation: transfer full control at age of agency</li>
+        </ul>
+        <p class="article-ref">Implements: Article II Section 1 — "Minors receive Guardian UIDs managed by parents until age of agency."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Zero-Knowledge Proof Verification</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VIII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Generate and verify ZK proofs for selective disclosure. Prove claims without revealing underlying data: age (>18 without birthdate), citizenship (country without passport), income bracket, education level, health status.</p>
+        <ul>
+            <li>Proof gallery with active/expired status tracking</li>
+            <li>Generate new proofs via step-by-step wizard</li>
+            <li>Verify others' proofs by scanning or pasting</li>
+            <li>Privacy meter showing data protection level</li>
+        </ul>
+        <p class="article-ref">Implements: Article VIII Section 2 — "Privacy by design. All identity claims use zero-knowledge proofs."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Data Sovereignty</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VIII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Granular privacy controls for every data category: identity, financial, health, education, location, social, governance. Each toggleable between public/selective/private. Full access log showing who accessed your data and when.</p>
+        <ul>
+            <li>7 data categories with per-category privacy levels</li>
+            <li>Access log with entity names, actions, timestamps</li>
+            <li>Revoke access per entity</li>
+            <li>Export all on-chain data as JSON</li>
+            <li>Privacy score (0-100) based on protection level</li>
+        </ul>
+        <p class="article-ref">Implements: Article VIII Section 1 — "Individuals own their data. No entity may access personal data without explicit, revocable consent."</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>PQC Key Management</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VII, VIII</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Post-quantum key management with migration wizard. View current key type (Ed25519, hybrid, or ML-DSA-65), PQC readiness score, and quantum threat level. Three-step migration from classical to quantum-safe hybrid signatures.</p>
+        <ul>
+            <li>Key comparison: sizes, speeds, NIST levels across all algorithms</li>
+            <li>Migration wizard: generate → configure hybrid → verify → activate</li>
+            <li>Readiness score tracking (% of transactions using hybrid)</li>
+        </ul>
+        <p class="article-ref">Implements: Article VII, VIII — Quantum-safe infrastructure and forward-looking security.</p>
+    </div></div>
+</div>
+
 <!-- ══════════════════════════════════════════ -->
 <div class="section-title">Governance (Article VI)</div>
 <p class="section-desc">Democracy — not plutocracy, not technocracy, not oligarchy.</p>
@@ -292,6 +506,33 @@
     </div>
     <div class="collapsible-body"><div class="collapsible-body-inner">
         <p>2% of all OTK minting goes to the community treasury. Distributed via governance proposals. Per-channel balance tracking. Funds development, grants, infrastructure, and community events.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Micro-Grants</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VI</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>Apply for small grants funded by the community treasury and DAOs. Grant categories: education, health, infrastructure, environment, arts, technology, small business. Track impact after receiving funding.</p>
+        <ul>
+            <li>Browse available grants with amounts, deadlines, applicant counts</li>
+            <li>Apply with milestones and fund usage plan</li>
+            <li>Post-funding milestone tracking and impact reporting</li>
+        </ul>
+        <p class="article-ref">Implements: Article VI — Community-governed resource allocation.</p>
+    </div></div>
+</div>
+
+<div class="collapsible">
+    <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Governance Proposal Execution</h3></div>
+        <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-direct">Direct — Art VI</span><span class="arrow">▼</span></div>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-body-inner">
+        <p>When proposals pass, they execute automatically on-chain. Proposal types: parameter change, treasury spend, correction reversal, software upgrade, emergency override. DAO proposals auto-execute treasury spends.</p>
+        <p class="article-ref">Implements: Article VI Section 2 — "Governance decisions are binding and automatically enforced."</p>
     </div></div>
 </div>
 
@@ -500,7 +741,7 @@ ADA → BTC   ADA → ETH   ADA → SOL   ADA → USDT  ADA → USDC  ADA → OT
         <div style="display:flex;gap:8px;align-items:center"><span class="badge badge-indirect">Indirect — Art VIII</span><span class="arrow">▼</span></div>
     </div>
     <div class="collapsible-body"><div class="collapsible-body-inner">
-        <p>End-to-end encrypted messaging between Universal IDs. Messages stored as encrypted blobs on-chain — only the recipient can decrypt. Conversation threads, message history.</p>
+        <p>End-to-end encrypted messaging between Universal IDs using X25519 + AES-256-GCM. Each UID registers an encryption public key. Sender generates ephemeral keypair, derives shared secret via ECDH. Messages stored as encrypted ciphertexts on-chain — only the recipient can decrypt. Future: ML-KEM-768 post-quantum encryption.</p>
     </div></div>
 </div>
 
@@ -588,7 +829,7 @@ ADA → BTC   ADA → ETH   ADA → SOL   ADA → USDT  ADA → USDC  ADA → OT
 </table>
 
 <p style="color:var(--text-muted);font-size:0.8rem;margin-top:24px;text-align:center;">
-    Open Wallet v0.3.0-alpha — 78 screens, 13 chain modules, 73 commits<br>
+    Open Wallet v0.5.0-alpha — 255 screens, 29 OTK keepers, 60 API endpoints, 110+ commits<br>
     100% open source: <a href="https://github.com/bpupadhyaya/crypto" style="color:var(--accent-blue)">github.com/bpupadhyaya/crypto</a><br>
     <a href="release-notes-openwallet.html" style="color:var(--accent-blue)">Release Notes</a> · <a href="privacy-openwallet.html" style="color:var(--accent-blue)">Privacy Policy</a> · <a href="support-openwallet.html" style="color:var(--accent-blue)">Support</a>
 </p>
