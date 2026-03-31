@@ -1,9 +1,29 @@
 [
   {
+    "version": "1.0.0-ios",
+    "date": "March 2026",
+    "tag": "submitted",
+    "current": true,
+    "summary": "NutriSize iOS v1.0 submitted to App Store Review. First iOS release — replicates Android v2.0.1 functionality in SwiftUI with StoreKit 2 for in-app purchase.",
+    "included": [
+      "Full SwiftUI implementation of NutriSize for iPhone and iPad",
+      "Nutrition: Types (Macro/Micro/Daily/Regional), Individualize (Vegan/Vegetarian/Non-Veg) with collapsible days/meals, macro progress bars, per-food nutrient contribution with %DV",
+      "Exercise: Types (5 intensity levels), By Age (4 groups), Individualize with weekly plans and authority guidelines",
+      "Human Physiology: 201+ health parameters with visual range bars, Simply Put + Clinical context, tappable citations from WHO/CDC/AHA/NEJM (premium, one-time $2.99 unlock)",
+      "StoreKit 2 in-app purchase with dynamic pricing, restore flow, and dev token for testing",
+      "Native UIScrollView pinch-to-zoom on data-dense screens",
+      "Device-adaptive layouts for iPhone and iPad",
+      "Privacy-first: all data local, anonymous diagnostics on feedback only",
+      "Breadcrumb navigation throughout, palette-tap expandable cards",
+      "Evidence-based content referencing WHO, ACSM, AHA, NASEM, CDC, IOM, NEJM standards"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "2.0.1",
     "date": "March 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Dynamic pricing from Google Play, seasonal discount offers, and improved purchase experience. Real-time pricing with approximate fallback, enticing discount discovery prompt, and clear Restore flow messaging.",
     "included": [
       "Dynamic pricing: real-time price fetched from Google Play with approximate fallback when unavailable",
