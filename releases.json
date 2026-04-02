@@ -21,9 +21,9 @@
   {
     "version": "1.0.0-ios",
     "date": "April 2026",
-    "tag": "in-review",
-    "current": false,
-    "summary": "NutriSize iOS v1.0 resubmitted to App Store Review (build 2). Improved onboarding, scroll fixes, and privacy manifest added.",
+    "tag": "stable",
+    "current": true,
+    "summary": "NutriSize iOS v1.0 — approved and ready for distribution on the App Store. First iOS release replicating Android v2.0.1 in SwiftUI with StoreKit 2.",
     "included": [
       "Full SwiftUI implementation of NutriSize for iPhone and iPad",
       "Nutrition: Types (Macro/Micro/Daily/Regional), Individualize (Vegan/Vegetarian/Non-Veg) with collapsible days/meals, macro progress bars, per-food nutrient contribution with %DV",
@@ -35,8 +35,6 @@
       "Native pinch-to-zoom on all screens with zoom reset pill",
       "Device-adaptive layouts for iPhone and iPad",
       "Privacy-first: all data local, anonymous diagnostics on feedback only",
-      "Onboarding guidance added to Basic Health Parameters screen",
-      "PrivacyInfo.xcprivacy manifest included per Apple requirements",
       "Evidence-based content referencing WHO, ACSM, AHA, NASEM, CDC, IOM, NEJM standards"
     ],
     "platforms": ["iOS"]
