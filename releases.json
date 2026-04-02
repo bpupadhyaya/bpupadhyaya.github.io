@@ -1,9 +1,28 @@
 [
   {
+    "version": "2.0.2",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Improved nutrition UI with thicker bars, bolder labels, and tappable nutrient drill-down. Every nutrient row now expands inline to show full details — amount, daily value, and coverage — so no information is ever hidden.",
+    "included": [
+      "Nutrition bar height increased 2× then +30% across all views for better visual clarity",
+      "All bar labels use SemiBold/Bold font weight for improved readability",
+      "Compact bar layout — reduced spacing so more nutrients fit without scrolling",
+      "Weight-based proportional layout eliminates text truncation in nutrient rows",
+      "Percentage shown first in value column — always visible even in tight layouts",
+      "Every nutrient row is tappable — expands inline to show name, amount, daily value, and % coverage",
+      "FlowRow for compact nutrient summary prevents label wrapping (e.g. Phosphorus 25%)",
+      "Larger font sizes for per-portion and Meal Total nutrient details",
+      "Updated Play Store screenshots for phone, 7-inch tablet, 10-inch tablet, and Chromebook"
+    ],
+    "platforms": ["Android"]
+  },
+  {
     "version": "1.0.0-ios",
     "date": "March 2026",
     "tag": "submitted",
-    "current": true,
+    "current": false,
     "summary": "NutriSize iOS v1.0 submitted to App Store Review. First iOS release — replicates Android v2.0.1 functionality in SwiftUI with StoreKit 2 for in-app purchase.",
     "included": [
       "Full SwiftUI implementation of NutriSize for iPhone and iPad",
