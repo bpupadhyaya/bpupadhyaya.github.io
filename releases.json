@@ -19,10 +19,26 @@
     "platforms": ["Android"]
   },
   {
-    "version": "1.0.0-ios",
+    "version": "1.0.1-ios",
     "date": "April 2026",
     "tag": "stable",
     "current": true,
+    "summary": "NutriSize iOS v1.0.1 — fixes text truncation across Physiology visual range bars and Nutrition Individualize views so all data is fully readable on every device size.",
+    "included": [
+      "Visual range bars in Human Physiology now use vertical legend layout — full zone names and numeric ranges always visible",
+      "Nutrition Individualize: macro progress bar values (grams, percentages) no longer truncate on any screen size",
+      "Micro nutrient rows use adaptive bar width — bar flexes while text always renders fully",
+      "Food item nutrient highlights use 2×2 grid layout instead of cramped single row",
+      "Collapsed day summary values use fixedSize for full visibility",
+      "All fixes apply to Vegan, Vegetarian, and Non-Vegetarian plans via shared components"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.0.0-ios",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "NutriSize iOS v1.0 — approved and ready for distribution on the App Store. First iOS release replicating Android v2.0.1 in SwiftUI with StoreKit 2.",
     "included": [
       "Full SwiftUI implementation of NutriSize for iPhone and iPad",
