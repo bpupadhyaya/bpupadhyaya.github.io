@@ -1,9 +1,27 @@
 [
   {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "date": "April 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Physiology visual range bars now show boundary numerals and unit labels for every parameter. Nutrition Individualize nutrient bars are fully adaptive — bar length adjusts per row, values right-aligned with no wasted space. UI polish throughout: fold/unfold indicators always visible, buttons never wrap text, and macro percentages always stay on the same line.",
+    "included": [
+      "Physiology visual range: boundary numerals float just above each zone transition on the color bar",
+      "Unit label (mmHg, bpm, mg/dL, etc.) shown in VISUAL RANGE header for all Tracking and All parameters",
+      "Vertical zone legend below bar: colored swatch + zone name + range, all readable at a glance",
+      "Fixed fold/unfold indicator missing on long-title Physiology cards (e.g. Temperature and Heat Balance)",
+      "Buttons throughout the app no longer wrap text — FlowRow moves buttons to next row when space is tight",
+      "Nutrition Individualize: nutrient bar adapts length per row, value text right-aligned at row edge",
+      "Nutrient display order: amount+unit shown first, then percentage (e.g. 3.0g · 5%)",
+      "Daily macro bars: percentage value (e.g. 160%, 190%) always stays on the same line as the bar"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "2.0.2",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Improved nutrition UI with thicker bars, bolder labels, and tappable nutrient drill-down. Every nutrient row now expands inline to show full details — amount, daily value, and coverage — so no information is ever hidden.",
     "included": [
       "Nutrition bar height increased 2× then +30% across all views for better visual clarity",
