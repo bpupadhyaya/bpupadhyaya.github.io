@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Wallet — Safety Guide</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+    .container { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
+    h1 { color: #22c55e; font-size: 2em; margin-bottom: 8px; }
+    .subtitle { color: #888; font-size: 1.1em; margin-bottom: 32px; }
+    h2 { color: #fff; font-size: 1.3em; margin: 32px 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px; }
+    .card { background: #141420; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+    .safe-card { border: 1px solid rgba(34, 197, 94, 0.3); }
+    .danger-card { border: 1px solid rgba(239, 68, 68, 0.3); }
+    .safe-label { color: #22c55e; font-weight: bold; margin-bottom: 12px; }
+    .danger-label { color: #ef4444; font-weight: bold; margin-bottom: 12px; }
+    .item { display: flex; gap: 8px; margin-bottom: 8px; align-items: flex-start; }
+    .item-text { flex: 1; }
+    .danger-text { color: #ef4444; }
+    .faq-q { color: #fff; font-weight: 600; cursor: pointer; padding: 16px; background: #141420; border-radius: 12px; margin-bottom: 8px; }
+    .faq-q:hover { background: #1a1a2a; }
+    .faq-a { color: #aaa; padding: 0 16px 16px; white-space: pre-line; font-size: 0.95em; }
+    a { color: #22c55e; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { display: inline-block; margin-top: 32px; color: #22c55e; font-size: 1.1em; }
+    .icon { font-size: 1em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Wallet Safety Guide</h1>
+    <p class="subtitle">Everything you need to know about keeping your Open Wallet safe.</p>
+
+    <h2>Updating Open Wallet</h2>
+
+    <div class="card safe-card">
+      <div class="safe-label">✅ SAFE — your wallet data is preserved</div>
+      <div class="item"><span class="icon">✅</span> <span class="item-text">Update from App Store / Play Store — wallet data preserved</span></div>
+      <div class="item"><span class="icon">✅</span> <span class="item-text">Update your phone's operating system — wallet data preserved</span></div>
+      <div class="item"><span class="icon">✅</span> <span class="item-text">Change your PIN in Settings — old PIN replaced, wallet preserved</span></div>
+      <div class="item"><span class="icon">✅</span> <span class="item-text">Enable/disable biometrics — wallet preserved</span></div>
+    </div>
+
+    <div class="card danger-card">
+      <div class="danger-label">❌ DANGEROUS — your wallet data is DELETED</div>
+      <div class="item"><span class="icon">❌</span> <span class="item-text danger-text">Uninstall the app — ALL wallet data deleted permanently</span></div>
+      <div class="item"><span class="icon">❌</span> <span class="item-text danger-text">Clear app data in phone Settings — ALL wallet data deleted</span></div>
+      <div class="item"><span class="icon">❌</span> <span class="item-text danger-text">Factory reset your phone — ALL wallet data deleted</span></div>
+      <div class="item"><span class="icon">❌</span> <span class="item-text danger-text">Lose your recovery phrase — funds UNRECOVERABLE</span></div>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary class="faq-q">What happens when I update Open Wallet from the App Store / Play Store?</summary>
+      <div class="faq-a">Your wallet, seed phrase, PIN, and all settings are PRESERVED. App updates only replace the app code — your encrypted vault data stays intact. You do NOT need to re-enter your seed phrase or set up your wallet again. Just update and unlock with your PIN or biometrics as usual.</div>
+    </details>
+
+    <details>
+      <summary class="faq-q">What happens if I uninstall and reinstall Open Wallet?</summary>
+      <div class="faq-a">⚠️ WARNING: Uninstalling the app DELETES all wallet data permanently. Your seed phrase, PIN, settings, and transaction history will be lost. You MUST have your 24-word recovery phrase written down to restore your wallet.
+
+To reinstall safely:
+1. Make sure you have your recovery phrase written on paper
+2. Uninstall the app
+3. Install from App Store / Play Store
+4. Tap "Restore Existing Wallet"
+5. Enter your 24-word recovery phrase
+6. Set a new password and PIN</div>
+    </details>
+
+    <details>
+      <summary class="faq-q">Is my wallet safe during phone updates (iOS/Android)?</summary>
+      <div class="faq-a">Yes. Operating system updates do NOT affect your wallet data. Your encrypted vault is stored in the device's secure keychain, which persists across OS updates.</div>
+    </details>
+
+    <details>
+      <summary class="faq-q">What if my phone is lost or stolen?</summary>
+      <div class="faq-a">Your wallet is protected by:
+• PIN (6 digits, locked after 5 failed attempts)
+• Biometrics (Face ID / Fingerprint)
+• AES-256-GCM encryption with Argon2id key derivation
+• Auto-lock after 5 minutes of inactivity
+
+To recover on a new phone:
+1. Install Open Wallet on the new phone
+2. Tap "Restore Existing Wallet"
+3. Enter your 24-word recovery phrase</div>
+    </details>
+
+    <details>
+      <summary class="faq-q">What should I NEVER do?</summary>
+      <div class="faq-a">• NEVER share your 24-word recovery phrase with anyone
+• NEVER screenshot your recovery phrase
+• NEVER store your recovery phrase digitally (no photos, no cloud, no notes app)
+• NEVER uninstall the app without your recovery phrase written down
+• NEVER clear app data / cache manually in phone settings</div>
+    </details>
+
+    <details>
+      <summary class="faq-q">How do I back up my wallet?</summary>
+      <div class="faq-a">Your 24-word recovery phrase IS your backup. As long as you have it written on paper and stored safely, you can restore your wallet on any device.
+
+Go to Settings > Account & Security > Backup Verification to verify your recovery phrase is correct.</div>
+    </details>
+
+    <a href="index.html" class="back">← Back to Home</a>
+  </div>
+</body>
+</html>
