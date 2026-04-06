@@ -1,9 +1,40 @@
 [
   {
+    "version": "v1.1.0",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "NutriGuide on-device AI chat, health history snapshots, smart provider recommendations, and production polish across all platforms.",
+    "included": [
+      "NutriGuide: On-device conversational AI for nutrition, exercise, and health questions with voice input (iOS Speech, Android SpeechRecognizer, Web Speech API)",
+      "NutriGuide: Smart keyword extraction, intent detection, and contextual responses from 10,000+ database entries",
+      "NutriGuide: In-app browser for external AI references (Claude, Gemini, Grok, Perplexity) with Close/Reload/Open in Browser",
+      "NutriGuide: Chat persistence across navigation, with clear history option in Data Management",
+      "Health History: Auto-snapshot from Basic Health Parameters with timestamps for timeseries analysis",
+      "Health History: Dynamic weight range based on user height (BMI 18.5-24.9)",
+      "Health History: Auto-populated parameters (weight, BMI, heart rate) hidden from manual entry",
+      "Health History: Input validation with medical ranges across all parameters",
+      "MDConnect: Smart provider recommendations based on health data (BMI, heart rate, BP, glucose, weight)",
+      "MDConnect: Export Health Summary, Share Health Data, Quick Share implemented on iOS (parity with Android)",
+      "MDConnect: Fixed storage key mismatches and timestamp formatting across platforms",
+      "Paywall: Billing fallback with approximate pricing, discount hints, and contextual status messages",
+      "Paywall: StoreKit configuration with all 4 products for iOS sandbox testing",
+      "Renamed NutriSize to Nutrisize across all user-visible strings",
+      "Keyboard dismiss on tap outside in Basic Health Parameters and NutriGuide chat",
+      "iOS: Diagnostics and Database Explorer routes wired up (was Coming Soon)",
+      "23/23 feature parity between iOS and Android"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ]
+  },
+  {
     "version": "v1.0.0",
     "date": "March 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "First stable release of Nutrisize Pro \u2014 the comprehensive health intelligence platform with 5,000+ foods, 5,400+ exercises, 201 physiological parameters, and personalized wellness plans.",
     "included": [
       "5,006 world foods in SQLite database with nutrition data from USDA, WHO, and regional authorities",
