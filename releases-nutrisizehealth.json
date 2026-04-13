@@ -1,0 +1,38 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "First production release of Nutrisize Health \u2014 comprehensive health intelligence with personalized nutrition, exercise, and physiology tracking.",
+    "included": [
+      "4,995 world foods in SQLite database with nutrition data from USDA, WHO, and regional authorities",
+      "5,404 exercises across 6 categories: Strength, Cardio, Flexibility, Rehabilitation, Military, Balance",
+      "200+ physiological parameters across 16 body systems with physician-grade content",
+      "75 nutrients (33 macro + 42 micro) with daily values for 16 demographics",
+      "Individualized Nutrition with personalized weekly meal plans based on health profile and sleep distance",
+      "Individualized Exercise with personalized workout plans",
+      "10 KPI dashboard metrics: Nutrition Quality, Adequacy, Hydration, Activity Volume, Strength, Recovery, Vitals, Biofeedback, Body Composition, Adherence",
+      "Quick Meal Log and Quick Exercise Log for fast daily tracking",
+      "Food Browser with 23 food categories and nutrient density scores",
+      "Exercise Browser with search, category filters, and calorie burn scoring",
+      "Meal Planner and Exercise Planner for weekly scheduling",
+      "Basic Health Parameters with manual entry and history tracking",
+      "MDConnect for sharing health records with healthcare providers",
+      "Physiology Tracking with 50+ vital signs across all body systems",
+      "4-product in-app purchase system: Physiology, Nutrition, Exercise, and Premium Bundle",
+      "Camera-based food recognition for grocery scanning",
+      "Equipment scanning and recognition",
+      "8-language support (Hindi, Nepali, Chinese, Spanish, Japanese, French, Arabic, Portuguese)",
+      "Nutrition and Exercise Knowledge Base",
+      "Daily nutritional requirements by demographic",
+      "Data Management with JSON export and backup",
+      "Privacy-first, local-first architecture \u2014 all data stored on device",
+      "Dark theme UI across all platforms"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
+  }
+]
