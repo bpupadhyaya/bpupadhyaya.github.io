@@ -92,9 +92,9 @@
     </p>
 
     <div class="apps-grid">
-        <a href="support-nutrisize.html" class="app-card nutrisize">
+        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisize.html'" style="cursor:pointer;">
             <div class="app-icon green">&#137093;</div>
-            <h3>NutriSize</h3>
+            <h3>Nutrisize</h3>
             <span class="tag beta">v2.0.3 Android — Live on Google Play &nbsp;|&nbsp; v1.0.1 iOS — Live on App Store</span>
             <p>
                 Health intelligence for nutrition and exercise. Major v2.0 redesign: visual range bars for 30+ clinical parameters, Simply Put + Clinical context, tappable citations from WHO/CDC/AHA/NEJM, individualized nutrition plans, exercise weekly plans, and in-app purchase for premium Human Physiology. Science-backed guidance referencing WHO, ACSM, and NASEM standards. Available in 8 languages serving 75% of the world's population. Privacy-first — your data stays on your device.
@@ -104,7 +104,14 @@
                 <span class="platform-badge">Android</span>
                 <span class="platform-badge">Web</span>
             </div>
-        </a>
+            <div style="margin-top: 12px; font-size: 12px;">
+                <a href="release-notes.html" style="color: var(--accent-blue); text-decoration: none;">Release Notes</a>
+                &nbsp;&middot;&nbsp;
+                <a href="privacy-android.html" style="color: var(--accent-blue); text-decoration: none;">Privacy</a>
+                &nbsp;&middot;&nbsp;
+                <a href="support-nutrisize.html" style="color: var(--accent-blue); text-decoration: none;">Support</a>
+            </div>
+        </div>
 
         <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisizepro.html'" style="cursor:pointer;">
             <div class="app-icon green">&#11088;</div>
