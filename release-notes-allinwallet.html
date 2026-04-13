@@ -171,7 +171,82 @@
     </p>
 
     <div class="release-timeline">
-${entriesHtml}
+
+        <!-- v1.0.0 -->
+        <div class="release-entry">
+            <div class="release-dot"></div>
+            <div class="release-card">
+                <div class="release-header">
+                    <span class="release-version">v1.0.0</span>
+                    <span class="release-tag stable">Stable</span>
+                    <span class="release-tag current">Current</span>
+                    <span class="release-date">April 2026</span>
+                </div>
+                <div class="release-body">
+                    <p>First production release of AllIn Wallet — a non-custodial multi-chain crypto wallet with Solana Seed Vault hardware key support, 15 tokens across 8 chains, and production-grade security hardening.</p>
+
+                    <h4>What's included</h4>
+                    <ul>
+                        <li>MULTI-CHAIN SUPPORT (8 chains, 15 tokens):</li>
+                        <li>Bitcoin (BTC) — Native SegWit P2WPKH, UTXO management, dynamic fee estimation</li>
+                        <li>Ethereum (ETH, USDC, USDT, LINK) — ERC-20 tokens, EIP-1559 gas estimation</li>
+                        <li>Solana (SOL, USDC, USDT, JUP) — SPL tokens, versioned transactions</li>
+                        <li>Cardano (ADA) — Shelley enterprise addresses, SLIP-10 ed25519</li>
+                        <li>Dogecoin (DOGE) — P2PKH signing via THORChain</li>
+                        <li>XRP — Payment transactions with memo support</li>
+                        <li>Polkadot (DOT) — SS58 encoding, SLIP-10 ed25519</li>
+                        <li>Polygon (POL) — EVM-compatible, Li.Fi swaps</li>
+                        <li></li>
+                        <li>SWAP ENGINE:</li>
+                        <li>Li.Fi aggregator for EVM and Solana cross-chain swaps</li>
+                        <li>THORChain for native BTC/DOGE/XRP swaps</li>
+                        <li>ERC-20 approval flow with spender validation</li>
+                        <li>Dynamic Li.Fi spender list refresh (24h interval)</li>
+                        <li>Slippage control (0.5%, 1.0%, 2.0%)</li>
+                        <li></li>
+                        <li>SOLANA SEED VAULT (Seeker/Saga):</li>
+                        <li>Direct hardware key integration via @solana-mobile/seed-vault-lib</li>
+                        <li>Runtime permission request + getAccounts() for pre-derived keys</li>
+                        <li>Transaction signing inside the secure element — private key never leaves hardware</li>
+                        <li></li>
+                        <li>SECURITY:</li>
+                        <li>Private keys derived in memory only, zero-filled after use</li>
+                        <li>expo-secure-store with WHEN_UNLOCKED_THIS_DEVICE_ONLY</li>
+                        <li>bcrypt hashing for passwords (12 rounds) and PINs (10 rounds)</li>
+                        <li>Exponential lockout backoff (60s → 30min cap) after failed auth</li>
+                        <li>Biometric authentication (Face ID / fingerprint) with PIN/password fallback</li>
+                        <li>15-minute session timeout with auto-lock</li>
+                        <li>Dev credentials moved to .env.development (gitignored)</li>
+                        <li>Console logs gated behind __DEV__ for production builds</li>
+                        <li>Pending transaction re-check on app resume</li>
+                        <li></li>
+                        <li>WALLET FEATURES:</li>
+                        <li>Coin detail screen — tap any asset for receive/send/swap actions</li>
+                        <li>Push notifications for transaction confirmations and wallet lock</li>
+                        <li>WalletConnect v2 — dApp connectivity with EIP-155 signing</li>
+                        <li>Transaction history with explorer links</li>
+                        <li>Portfolio allocation chart</li>
+                        <li>Real-time gas fee bar</li>
+                        <li>User-configurable display scaling</li>
+                        <li>QR code receive addresses per chain</li>
+                    </ul>
+
+                    <h4>What's coming next</h4>
+                    <ul>
+                        <li>App Store and Google Play submission</li>
+                        <li>Fiat on/off ramps</li>
+                        <li>Price charts and historical data</li>
+                        <li>Multi-account support</li>
+                        <li>NFT display</li>
+                    </ul>
+
+                    <div class="platforms-row">
+                        <span class="platform-badge">Android</span>
+                        <span class="platform-badge">iOS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <p style="color: var(--text-muted); font-size: 13px; margin-top: 40px; text-align: center;">

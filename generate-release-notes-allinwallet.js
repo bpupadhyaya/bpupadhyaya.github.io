@@ -248,7 +248,7 @@ const html = `<!DOCTYPE html>
     </p>
 
     <div class="release-timeline">
-\${entriesHtml}
+${entriesHtml}
     </div>
 
     <p style="color: var(--text-muted); font-size: 13px; margin-top: 40px; text-align: center;">
