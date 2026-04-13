@@ -106,7 +106,7 @@
             </div>
         </a>
 
-        <div class="app-card nutrisize" onclick="window.location='support-nutrisizepro.html'" style="cursor:pointer;">
+        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisizepro.html'" style="cursor:pointer;">
             <div class="app-icon green">&#11088;</div>
             <h3>Nutrisize Pro</h3>
             <span class="tag beta">v1.1.0 — iOS, Android, Web</span>
@@ -167,7 +167,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="window.location='support-allinwallet.html'" style="cursor:pointer;">
+        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-allinwallet.html'" style="cursor:pointer;">
             <div class="app-icon green">&#9851;</div>
             <h3>AllIn Wallet</h3>
             <span class="tag beta" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Production Ready</span>
