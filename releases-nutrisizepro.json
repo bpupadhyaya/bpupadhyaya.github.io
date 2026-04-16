@@ -4,8 +4,9 @@
     "date": "April 2026",
     "tag": "stable",
     "current": true,
-    "summary": "NutriGuide on-device AI chat, health history snapshots, smart provider recommendations, and production polish across all platforms.",
+    "summary": "Now live on Google Play (com.nutrisize.pro) as of Apr 13, 2026. NutriGuide on-device AI chat, health history snapshots, smart provider recommendations, and production polish across all platforms. iOS v1.0.0 build 4 submitted to App Store.",
     "included": [
+      "Published on Google Play Store (com.nutrisize.pro) — live in Production since Apr 13, 2026",
       "NutriGuide: On-device conversational AI for nutrition, exercise, and health questions with voice input (iOS Speech, Android SpeechRecognizer, Web Speech API)",
       "NutriGuide: Smart keyword extraction, intent detection, and contextual responses from 10,000+ database entries",
       "NutriGuide: In-app browser for external AI references (Claude, Gemini, Grok, Perplexity) with Close/Reload/Open in Browser",
