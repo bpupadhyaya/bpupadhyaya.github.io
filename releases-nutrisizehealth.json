@@ -1,9 +1,23 @@
 [
   {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "date": "April 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Updated app icon with unique custom design across iOS and Android for ecosystem consistency.",
+    "included": [
+      "New custom app icon featuring health shield with KPI elements",
+      "Icon synced across iOS and Android platforms"
+    ],
+    "platforms": [
+      "Android"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "First production release of Nutrisize Health \u2014 comprehensive health intelligence with personalized nutrition, exercise, and physiology tracking.",
     "included": [
       "4,995 world foods in SQLite database with nutrition data from USDA, WHO, and regional authorities",
