@@ -10,6 +10,7 @@
       "Icon synced across iOS and Android platforms"
     ],
     "platforms": [
+      "iOS",
       "Android"
     ]
   },
