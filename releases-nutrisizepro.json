@@ -1,9 +1,23 @@
 [
   {
-    "version": "v1.1.0",
+    "version": "v1.1.1",
     "date": "April 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Custom branded app icon synced across all platforms. Android build now supports 16KB memory page sizes required by Android 15+ devices. AGP and Gradle upgraded for latest Play Store compatibility.",
+    "included": [
+      "Custom app icon with plate, vegetables, measuring tape, and Nutrisize Pro branding — replaces stock photo",
+      "16KB memory page size support for Android 15+ (Google Play requirement)",
+      "Android Gradle Plugin upgraded to 8.7.3, Gradle to 8.9",
+      "Native library packaging optimized (extractNativeLibs=false)"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "v1.1.0",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Now live on Google Play (com.nutrisize.pro) since Apr 13, 2026 and Apple App Store since Apr 20, 2026. NutriGuide on-device AI chat, health history snapshots, smart provider recommendations, and production polish across all platforms.",
     "included": [
       "Published on Google Play Store (com.nutrisize.pro) — live since Apr 13, 2026",
