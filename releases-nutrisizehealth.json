@@ -1,9 +1,33 @@
 [
   {
-    "version": "1.0.1",
+    "version": "1.1.0-ios",
     "date": "April 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Personalized Hydration Intelligence — individualized daily water targets, adaptive reminders, quick-log tracking with beverage offsets, wearable dehydration detection, and real-time KPI scoring.",
+    "included": [
+      "Personalized daily hydration target based on body weight, age, sex, and activity level (30-35 mL/kg formula)",
+      "Quick-log hydration tracker with 250 mL, 500 mL, and custom amount buttons",
+      "Beverage type tracking: water, coffee (50% diuretic offset), tea (25%), alcohol (net negative)",
+      "Circular progress ring showing effective hydration vs daily target with percentage",
+      "Adaptive notification reminders — front-loaded mornings, behind-pace alerts, post-exercise hydration",
+      "Context-aware notification messages with specific mL amounts based on current intake vs target",
+      "Weather-aware target adjustments via Apple WeatherKit (>30°C adds 500 mL, >35°C adds 750 mL)",
+      "Post-workout hydration notifications with estimated sweat loss calculation",
+      "Wearable dehydration signal detection — elevated resting HR and decreased HRV trigger advisory alerts",
+      "Real hydration KPI scoring: avg intake vs target (40%), consistency (30%), timing distribution (15%), exercise correlation (15%)",
+      "7-day hydration sparkline trend with improving/declining/stable indicators",
+      "Sleep schedule configuration (wake/bedtime) for notification timing control",
+      "Hydration rules in AdaptivePlanEngine — low consistency and low intake generate plan adjustments",
+      "Today's log timeline with entry deletion and beverage color coding"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.0.1",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Updated app icon with unique custom design across iOS and Android for ecosystem consistency.",
     "included": [
       "New custom app icon featuring health shield with KPI elements",
