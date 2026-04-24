@@ -33,6 +33,8 @@
                     <li><a href="release-notes-openwallet.html">Open Wallet</a></li>
                     <li><a href="release-notes-allinwallet.html">AllIn Wallet</a></li>
                     <li><a href="release-notes-plaindental.html">PlainDental</a></li>
+                    <li><a href="release-notes-carecircle.html">CareCircle</a></li>
+                    <li><a href="release-notes-plainhealth.html">PlainHealth</a></li>
                 </ul>
             </li>
             <li><a href="https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md" target="_blank">Human Constitution</a></li>
@@ -43,7 +45,7 @@
                     <li><a href="privacy-nutrisizehealth.html">Nutrisize Health</a></li>
                     <li><a href="privacy-android.html">Nutrisize Android</a></li>
                     <li><a href="privacy-ios.html">Nutrisize iOS</a></li>
-                    <li><a href="privacy-nutrisizepro.html">Nutrisize Pro</a></li><li><a href="privacy-openwallet.html">Open Wallet</a></li><li><a href="privacy-allinwallet.html">AllIn Wallet</a></li><li><a href="privacy-plaindental.html">PlainDental</a></li>
+                    <li><a href="privacy-nutrisizepro.html">Nutrisize Pro</a></li><li><a href="privacy-openwallet.html">Open Wallet</a></li><li><a href="privacy-allinwallet.html">AllIn Wallet</a></li><li><a href="privacy-plaindental.html">PlainDental</a></li><li><a href="privacy-carecircle.html">CareCircle</a></li><li><a href="privacy-plainhealth.html">PlainHealth</a></li>
                 </ul>
             </li>
             <li class="nav-dropdown">
@@ -55,6 +57,9 @@
                     <li><a href="support-nutrisizehealth.html">Support Nutrisize Health</a></li>
                     <li><a href="support-openwallet.html">Support Open Wallet</a></li>
                     <li><a href="support-allinwallet.html">Support AllIn Wallet</a></li>
+                    <li><a href="support-plaindental.html">Support PlainDental</a></li>
+                    <li><a href="support-carecircle.html">Support CareCircle</a></li>
+                    <li><a href="support-plainhealth.html">Support PlainHealth</a></li>
                 </ul>
             </li>
         </ul>
@@ -199,7 +204,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" style="cursor:pointer;">
+        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plaindental.html'" style="cursor:pointer;">
             <div class="app-icon green">&#129463;</div>
             <h3>PlainDental</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Production Ready</span>
@@ -214,6 +219,48 @@
                 <a href="release-notes-plaindental.html" style="color: var(--accent-blue); text-decoration: none;">Release Notes</a>
                 &nbsp;&middot;&nbsp;
                 <a href="privacy-plaindental.html" style="color: var(--accent-blue); text-decoration: none;">Privacy</a>
+                &nbsp;&middot;&nbsp;
+                <a href="support-plaindental.html" style="color: var(--accent-blue); text-decoration: none;">Support</a>
+            </div>
+        </div>
+
+        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-carecircle.html'" style="cursor:pointer;">
+            <div class="app-icon blue">&#128153;</div>
+            <h3>CareCircle</h3>
+            <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Production Ready</span>
+            <p>
+                Caregiver coordination for families. Manage tasks, medications, vitals, schedules, emergency contacts, and more for elderly parents or loved ones. 35 screens with Companion Mode for care receivers. 10 reference guides. Premium features with one-time purchase. Privacy-first &mdash; 100% offline, no data collection, no tracking.
+            </p>
+            <div class="app-platforms">
+                <span class="platform-badge">iOS</span>
+                <span class="platform-badge">Android</span>
+            </div>
+            <div style="margin-top: 12px; font-size: 12px;">
+                <a href="release-notes-carecircle.html" style="color: var(--accent-blue); text-decoration: none;">Release Notes</a>
+                &nbsp;&middot;&nbsp;
+                <a href="privacy-carecircle.html" style="color: var(--accent-blue); text-decoration: none;">Privacy</a>
+                &nbsp;&middot;&nbsp;
+                <a href="support-carecircle.html" style="color: var(--accent-blue); text-decoration: none;">Support</a>
+            </div>
+        </div>
+
+        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainhealth.html'" style="cursor:pointer;">
+            <div class="app-icon green">&#129657;</div>
+            <h3>PlainHealth</h3>
+            <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Production Ready</span>
+            <p>
+                Health education in plain language. 24 lab tests, 24 medications, 22 conditions with plain-English explanations. Ask Q&A chat, health calculators, health tracker, medication interaction checker, symptom guide, emergency &amp; first aid guides, pre-visit prep for 8 doctor types. 50+ glossary terms. Premium content with one-time purchase. Privacy-first &mdash; 100% offline, no data collection, no tracking.
+            </p>
+            <div class="app-platforms">
+                <span class="platform-badge">iOS</span>
+                <span class="platform-badge">Android</span>
+            </div>
+            <div style="margin-top: 12px; font-size: 12px;">
+                <a href="release-notes-plainhealth.html" style="color: var(--accent-blue); text-decoration: none;">Release Notes</a>
+                &nbsp;&middot;&nbsp;
+                <a href="privacy-plainhealth.html" style="color: var(--accent-blue); text-decoration: none;">Privacy</a>
+                &nbsp;&middot;&nbsp;
+                <a href="support-plainhealth.html" style="color: var(--accent-blue); text-decoration: none;">Support</a>
             </div>
         </div>
 
@@ -354,6 +401,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
             <li><a href="support.html">Support</a></li>
             <li class="nav-dropdown">
                 <a href="release-notes.html">Release Notes <span class="dropdown-arrow">&#9662;</span></a>
@@ -364,6 +412,8 @@
                     <li><a href="release-notes-openwallet.html">Open Wallet</a></li>
                     <li><a href="release-notes-allinwallet.html">AllIn Wallet</a></li>
                     <li><a href="release-notes-plaindental.html">PlainDental</a></li>
+                    <li><a href="release-notes-carecircle.html">CareCircle</a></li>
+                    <li><a href="release-notes-plainhealth.html">PlainHealth</a></li>
                 </ul>
             </li>
             <li><a href="https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md" target="_blank">Human Constitution</a></li>
