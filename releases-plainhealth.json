@@ -1,0 +1,36 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Initial release of PlainHealth — health education in plain language with lab results, medications, conditions, Q&A, health tools, and premium content.",
+    "included": [
+      "24 lab tests with plain-language explanations across 10 categories (Blood Count, Metabolic, Lipids, Thyroid, Liver, Kidney, Diabetes, Vitamins, Inflammation, Heart)",
+      "24 medications with uses, side effects, food interactions, and warnings across 12 categories",
+      "22 health conditions with symptoms, causes, prevention, and doctor questions across 14 categories",
+      "Ask (Q&A chat) with keyword-matching engine and 20+ health topic responses",
+      "50+ medical glossary terms with plain-language definitions",
+      "Health Numbers quick reference with color-coded ranges (BP, cholesterol, blood sugar, BMI, thyroid, kidney, heart rate, temperature)",
+      "Emergency guide with heart attack, stroke FAST protocol, anaphylaxis, and crisis resources",
+      "First aid guide with 10 comprehensive topics and step-by-step instructions",
+      "Pre-visit prep for 8 doctor visit types with tailored questions",
+      "Health calculators: BMI, heart rate zones, water intake, calorie calculator",
+      "Health tracker for 8 metrics with local history",
+      "My Medications personal list tracker",
+      "Medication interaction checker with 15+ offline drug interactions",
+      "Symptom guide with body system categories and relevance scoring",
+      "Family health history tracker",
+      "Wellness guides: nutrition, sleep, exercise, mental health, aging, vaccination, hydration",
+      "Vital signs reference with normal ranges",
+      "Premium content with one-time in-app purchase ($4.99)",
+      "StoreKit 2 (iOS) and Google Play Billing (Android) integration",
+      "Settings/More tab with premium, privacy policy, about, and developer tools",
+      "100% offline — no data collection, no tracking, no accounts required",
+      "5-page onboarding with swipeable carousel",
+      "Bookmarks/favorites system across all content",
+      "Medical disclaimers on every screen"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
