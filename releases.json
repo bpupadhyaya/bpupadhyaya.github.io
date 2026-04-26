@@ -1,5 +1,35 @@
 [
   {
+    "version": "1.1.0-ios",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Nutrisize Health iOS v1.1 build 5 — Personalized Hydration Intelligence, Sources & References, centered app icon, and App Store review fixes.",
+    "included": [
+      "Personalized Hydration Intelligence: individualized daily targets, adaptive reminders, beverage tracking, wearable dehydration signals, KPI scoring",
+      "Sources & References screen with citations from WHO, ACSM, NIH, FDA, AHA, USDA, and peer-reviewed journals",
+      "Replaced donation links with non-monetary support options (Rate, Share) per App Store guidelines",
+      "HealthKit permission button text changed from 'Connect Apple Health' to 'Continue' per Apple guidelines",
+      "Centered app icon inner square for consistent branding across Nutrisize ecosystem",
+      "Fixed display name to show 'Nutrisize Health' with proper spacing",
+      "Apple Weather attribution for WeatherKit compliance"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.1.0-android",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Nutrisize Health Android v1.1.0 — Sources & References screen, centered app icon, and home heading fix.",
+    "included": [
+      "Sources & References screen with citations from WHO, ACSM, NIH, FDA, AHA, USDA, and peer-reviewed journals",
+      "Centered app icon inner square for consistent branding across Nutrisize ecosystem",
+      "Home heading 'NUTRISIZE HEALTH' font reduced to 24sp to fit on one line"
+    ],
+    "platforms": ["Android"]
+  },
+  {
     "version": "2.0.3",
     "date": "April 2026",
     "tag": "stable",
@@ -40,7 +70,7 @@
     "version": "1.0.1-ios",
     "date": "April 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "NutriSize iOS v1.0.1 — fixes text truncation across Physiology visual range bars and Nutrition Individualize views so all data is fully readable on every device size.",
     "included": [
       "Visual range bars in Human Physiology now use vertical legend layout — full zone names and numeric ranges always visible",
