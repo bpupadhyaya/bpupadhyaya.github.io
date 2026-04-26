@@ -21,7 +21,7 @@
     "date": "April 2026",
     "tag": "stable",
     "current": true,
-    "summary": "Nutrisize Health Android v1.1.0 — Sources & References screen, centered app icon, and home heading fix.",
+    "summary": "Nutrisize Health Android v1.1.0 (versionCode 4) — Sources & References screen, centered app icon, and home heading fix.",
     "included": [
       "Sources & References screen with citations from WHO, ACSM, NIH, FDA, AHA, USDA, and peer-reviewed journals",
       "Centered app icon inner square for consistent branding across Nutrisize ecosystem",
