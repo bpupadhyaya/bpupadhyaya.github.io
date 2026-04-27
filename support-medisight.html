@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediSight — Support</title>
+    <meta name="description" content="Support page for the MediSight Global Drug Reference & Pill Identifier app by EqualInformation, LLC.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">EI</div>
+            EqualInformation
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#apps">Apps</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="privacy-medisight.html">Privacy</a></li>
+            <li><a href="support-medisight.html" class="nav-cta active">Support</a></li>
+        </ul>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">&#9776;</button>
+    </div>
+</nav>
+
+<div class="hero hero-sub">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <h1>Support — <span class="gradient">MediSight</span></h1>
+        <p class="hero-subtitle">Global Drug Reference &amp; Pill Identifier</p>
+    </div>
+</div>
+
+<ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li class="sep">/</li>
+    <li><a href="support.html">Support</a></li>
+    <li class="sep">/</li>
+    <li class="current">MediSight</li>
+</ul>
+
+<div class="content-section">
+
+    <div class="policy-section">
+        <h3>About MediSight</h3>
+        <p>MediSight is a global drug reference and pill identifier designed for two audiences: patients who need to identify pills and look up drug information, and clinicians who need clinical decision support tools. The app features camera-based pill identification, a database of 130+ medications with pharmacokinetic data, drug interaction checking, clinical dosing calculators, IV compatibility, pharmacogenomic alerts, and more.</p>
+    </div>
+
+    <div class="policy-section">
+        <h3>Subscription Tiers</h3>
+        <ul style="color: var(--text-secondary); line-height: 1.8; padding-left: 20px;">
+            <li><strong>Free:</strong> Pill scan, drug search, emergency guide, pregnancy safety, glossary, medication disposal, 5 interaction checks/day</li>
+            <li><strong>Patient Plus ($3.99/mo):</strong> Unlimited interactions, medication log, family management, side effect tracker, travel mode, elderly safety, dosage guide, food interactions</li>
+            <li><strong>Clinician Pro ($19.99/mo):</strong> Clinical dosing calculators, IV compatibility, pharmacogenomics, global formulary, deprescribing, antimicrobial guide, drug alerts, data sources, drug class guide, comparison tools</li>
+            <li><strong>Institution ($99+/seat/mo):</strong> Custom formulary, EMR/FHIR integration, admin portal, SSO, analytics, bulk deployment</li>
+        </ul>
+    </div>
+
+    <div class="policy-section">
+        <h3>Frequently Asked Questions</h3>
+
+        <p><strong>Does MediSight work offline?</strong><br>
+        Yes. MediSight is designed offline-first. The bundled database of 130+ drugs works without any internet connection. Optional sync features can download updates when WiFi is available.</p>
+
+        <p><strong>Is my data private?</strong><br>
+        Yes. All personal data (saved medications, logs, family profiles) stays on your device. MediSight does not collect, transmit, or store any personal data on servers. See our <a href="privacy-medisight.html" style="color: var(--accent);">Privacy Policy</a>.</p>
+
+        <p><strong>How accurate is the drug information?</strong><br>
+        MediSight's drug database is compiled from public sources including FDA, WHO, NIH/NLM DailyMed, and RxNorm. However, it is for informational purposes only. Always verify with official sources and consult your healthcare provider.</p>
+
+        <p><strong>Can I restore my subscription on a new device?</strong><br>
+        Yes. Use the "Restore Purchases" button in the Premium Upgrade screen. Your subscription is tied to your Apple ID or Google account.</p>
+
+        <p><strong>How do I cancel my subscription?</strong><br>
+        Subscriptions are managed through your Apple ID (Settings &gt; Apple ID &gt; Subscriptions) or Google Play (Play Store &gt; Payments &amp; subscriptions). MediSight does not process payments directly.</p>
+    </div>
+
+    <div class="policy-section">
+        <h3>Contact Support</h3>
+        <p>For bug reports, feature requests, or any questions:<br>
+        Email: <a href="mailto:nutrisize.universal@gmail.com" style="color: var(--accent);">nutrisize.universal@gmail.com</a><br>
+        General: <a href="mailto:bpupadhyaya@equalinformation.com" style="color: var(--accent);">bpupadhyaya@equalinformation.com</a></p>
+    </div>
+
+    <div class="policy-section">
+        <h3>Medical Disclaimer</h3>
+        <p>MediSight is for informational and educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical condition or medication. Never disregard professional medical advice or delay seeking it because of information provided by MediSight. In case of a medical emergency, call your local emergency services immediately.</p>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <ul class="footer-links">
+            <li><a href="index.html#apps">Apps</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <p class="footer-copy">
+            &copy; 2026 EqualInformation, LLC. All rights reserved.<br>
+            <span class="highlight">Maintaining and improving human life at near-zero cost.</span>
+        </p>
+    </div>
+</footer>
+
+<script>
+function toggleMobileMenu() {
+    document.querySelector('.nav-links').classList.toggle('show');
+}
+</script>
+
+</body>
+</html>
