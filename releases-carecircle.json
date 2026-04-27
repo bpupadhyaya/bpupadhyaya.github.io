@@ -1,9 +1,28 @@
 [
   {
-    "version": "1.0.0",
+    "version": "1.0.0-ios",
     "date": "April 2026",
     "tag": "stable",
     "current": true,
+    "summary": "CareCircle Caregiving v1.0.0 approved and live on the App Store. First iOS release — caregiver coordination app for families caring for elderly parents, disabled loved ones, or patients. 35 screens with full feature parity.",
+    "included": [
+      "7 free core modules: Tasks, Medications, Calendar, Notes, Emergency Contacts, Vitals, Companion Mode",
+      "13 premium modules: Appointments, Care Schedule, Expenses, Meal Planner, Documents, Wellness, Symptoms, Daily Summary, Care Team, Activity Log, Wellbeing, Comm Log, Care Guides",
+      "17 data models with full local persistence (SwiftData)",
+      "Companion Mode — simplified interface for care receivers with large text and one-tap check-ins",
+      "10 reference guides covering safety, legal, medication, emergency, mobility, sundowning, hygiene, nutrition, pain management, and community resources",
+      "Premium content with one-time in-app purchase ($5.99)",
+      "StoreKit 2 in-app purchase integration",
+      "Dark theme home page with gradient module cards",
+      "100% offline — all data stored locally, no accounts, no tracking"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.0.0",
+    "date": "April 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "Initial release of CareCircle — caregiver coordination app for families caring for elderly parents, disabled loved ones, or patients. 35 screens across iOS and Android with full feature parity.",
     "included": [
       "7 free core modules: Tasks, Medications, Calendar, Notes, Emergency Contacts, Vitals, Companion Mode",
