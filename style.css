@@ -156,6 +156,8 @@ nav {
     border-radius: 12px;
     padding: 8px;
     min-width: 200px;
+    max-height: 70vh;
+    overflow-y: auto;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
