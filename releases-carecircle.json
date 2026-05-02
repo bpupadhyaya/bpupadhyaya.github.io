@@ -1,9 +1,26 @@
 [
   {
+    "version": "1.0.0-android",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "CareCircle v1.0.0 approved and live on Google Play. First Android release — full feature parity with iOS.",
+    "included": [
+      "All 20 modules available: 7 free core + 13 premium",
+      "17 data models with full local persistence (Room)",
+      "Companion Mode for care receivers",
+      "10 reference guides",
+      "Google Play Billing v7 in-app purchase integration",
+      "Dark theme home page with gradient module cards",
+      "100% offline — all data stored locally, no accounts, no tracking"
+    ],
+    "platforms": ["Android"]
+  },
+  {
     "version": "1.0.0-ios",
     "date": "April 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "CareCircle Caregiving v1.0.0 approved and live on the App Store. First iOS release — caregiver coordination app for families caring for elderly parents, disabled loved ones, or patients. 35 screens with full feature parity.",
     "included": [
       "7 free core modules: Tasks, Medications, Calendar, Notes, Emergency Contacts, Vitals, Companion Mode",
