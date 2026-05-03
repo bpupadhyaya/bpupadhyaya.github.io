@@ -1,9 +1,31 @@
 [
   {
+    "version": "1.0.0-ios",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "PlainDental iOS v1.0.0 — approved and live on the App Store. Dental health education in plain language with interactive tooth map and premium content.",
+    "included": [
+      "16 dental conditions with detailed causes, symptoms, treatment, and prevention",
+      "12 dental procedures with step-by-step guides, cost ranges, and recovery info",
+      "Interactive tooth map with full 32-tooth diagram and realistic tooth shape visualization",
+      "Dental emergency guide with immediate steps and severity indicators",
+      "100+ dental glossary terms with search",
+      "Kids dental health guides by age range",
+      "Dental cost guide with national averages and insurance coverage info",
+      "Pre-visit preparation guides with questions to ask your dentist",
+      "Side-by-side condition comparison tool",
+      "Premium content with one-time in-app purchase ($4.99)",
+      "StoreKit 2 integration with restore purchases",
+      "Dark theme with NutriSize-inspired design system"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "1.0.0",
     "date": "April 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Initial release of PlainDental — dental health education in plain language with interactive tooth map, premium content, and NutriSize-inspired dark theme.",
     "included": [
       "16 dental conditions with detailed causes, symptoms, treatment, and prevention",
