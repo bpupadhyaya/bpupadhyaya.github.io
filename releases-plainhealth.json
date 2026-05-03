@@ -1,9 +1,28 @@
 [
   {
+    "version": "1.0.0 (build 3)",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Comprehensive medical source citations added throughout the app to meet App Store and Google Play compliance. Every screen with medical information now includes clickable, authoritative citations that open in an in-app browser.",
+    "included": [
+      "MedicalSourcesCitation component with clickable links to MedlinePlus (NIH/NLM), CDC, WHO, FDA, Mayo Clinic, and AHA — opens in in-app browser (SFSafariViewController / Chrome Custom Tabs)",
+      "Per-medication FDA drug label citations via DailyMed (NIH/NLM) on every medication detail page",
+      "DrugSourceCitation component linking each drug to its FDA-approved label",
+      "Inline formula citations on health calculators: CDC/WHO (BMI), AHA (heart rate zones), NASEM (water intake), Mifflin-St Jeor/ADA (calories)",
+      "Source attributions on vaccination guide (CDC/ACIP), first aid (American Red Cross/AHA/CDC), and health numbers (AHA/ADA/CDC/NIH/KDIGO)",
+      "Citations added to Ask PlainHealth welcome screen and appended to every Q&A response",
+      "MedicalSourcesCitation added to Glossary, Settings, Emergency, Health Numbers, and QuickAnswer screens",
+      "All citation links open in in-app browser with proper back navigation to the app",
+      "sourceURL field added to Medication data model (18 medications) on both platforms"
+    ],
+    "platforms": ["iOS", "Android"]
+  },
+  {
     "version": "1.0.0",
     "date": "April 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Initial release of PlainHealth — health education in plain language with lab results, medications, conditions, Q&A, health tools, and premium content.",
     "included": [
       "24 lab tests with plain-language explanations across 10 categories (Blood Count, Metabolic, Lipids, Thyroid, Liver, Kidney, Diabetes, Vitamins, Inflammation, Heart)",
