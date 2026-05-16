@@ -1,5 +1,37 @@
 [
   {
+    "version": "1.0.0-plainauto-android",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "app": "PlainAuto",
+    "summary": "PlainAuto v1.0.0 Android — initial release. Dual-mode automotive reference app for car owners and mechanics. In review on Google Play.",
+    "included": [
+      "Car Owner Mode: warning lights (22), emergency guide, DIY repair guides, maintenance schedule, cost estimator, mechanic visit prep, service history, fluids guide, seasonal prep, buying/selling guide",
+      "Mechanic Mode: OBD-II code library (500+ codes), torque spec database, repair procedures, diagnostic decision trees, wiring color codes, customer explainer cards, labor time estimator, parts cross-reference",
+      "Three IAP tiers: Owner Premium ($4.99), Pro Unlock ($9.99), Complete Bundle ($12.99)",
+      "100% offline, no account required, no data collected",
+      "Package ID: com.equalinformation.plainauto.app"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "1.0.0-plainauto-ios",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "app": "PlainAuto",
+    "summary": "PlainAuto v1.0.0 iOS — initial release. Dual-mode automotive reference app for car owners and mechanics. Uploaded to App Store Connect.",
+    "included": [
+      "Car Owner Mode: warning lights (22), emergency guide, DIY repair guides, maintenance schedule, cost estimator, mechanic visit prep, service history, fluids guide, seasonal prep, buying/selling guide",
+      "Mechanic Mode: OBD-II code library (500+ codes), torque spec database, repair procedures, diagnostic decision trees, wiring color codes, customer explainer cards, labor time estimator, parts cross-reference",
+      "Three IAP tiers: Owner Premium ($4.99), Pro Unlock ($9.99), Complete Bundle ($12.99)",
+      "100% offline, no account required, no data collected",
+      "Bundle ID: com.equalinformation.plainauto.app"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "1.1.0-ios",
     "date": "April 2026",
     "tag": "stable",
