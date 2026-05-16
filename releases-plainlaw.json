@@ -1,0 +1,36 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Initial release of PlainLaw — Legal Reference. Submitted to Google Play (in review) and Apple App Store. Comprehensive offline legal reference covering US law, international law, courts, and legal tools.",
+    "included": [
+      "Know Your Rights guides for everyday legal situations across 10+ categories",
+      "Legal dictionary with 1,000+ plain-language definitions",
+      "Jurisdiction selector — auto-detects your location and shows relevant laws",
+      "Practice area guides: criminal, civil, family, employment, immigration, real estate, corporate",
+      "State-by-state law comparisons across all 50 states (Premium)",
+      "Full US Constitution with annotations — all 27 amendments (Pro)",
+      "Complete Federal Rules of Civil Procedure (FRCP) and Federal Rules of Evidence (FRE) (Pro)",
+      "50 landmark SCOTUS cases with plain-English summaries (Pro)",
+      "Federal court directory — all 94 district courts + 13 circuit courts (Pro)",
+      "State court systems — all 50 states with contact info and procedures (Pro)",
+      "Judicial profiles — current SCOTUS justices with background and notable opinions (Pro)",
+      "International law — UN, ICC, UNCLOS, WTO, regional courts and 15-country legal profiles (Pro)",
+      "Legal calculators: statute of limitations, deadline calculator, damages estimator (Premium)",
+      "Citation reference guide with Bluebook and court-specific formats (Premium)",
+      "Circuit split tracker — active disagreements between federal circuits (Pro)",
+      "Legal writing guide with templates and citation formats (Pro)",
+      "Legal quiz and flashcards for law students",
+      "Evidence organizer and checklist tracker",
+      "Small claims guide for self-represented litigants",
+      "Contract explainer with plain-language breakdowns",
+      "Three-tier access: Free, Premium ($4.99 one-time), Pro (subscription)",
+      "Google Play Billing (Android) and StoreKit 2 (iOS) integration",
+      "100% offline — no data collection, no tracking, no accounts required",
+      "36 Android screens, 38 iOS views"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
