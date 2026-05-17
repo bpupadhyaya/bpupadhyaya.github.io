@@ -21,7 +21,7 @@
     "tag": "stable",
     "current": true,
     "app": "PlainAuto",
-    "summary": "PlainAuto v1.0.0 iOS — initial release. Dual-mode automotive reference app for car owners and mechanics. Uploaded to App Store Connect.",
+    "summary": "PlainAuto v1.0.0 iOS — initial release. Dual-mode automotive reference app for car owners and mechanics. Waiting for Review on App Store.",
     "included": [
       "Car Owner Mode: warning lights (22), emergency guide, DIY repair guides, maintenance schedule, cost estimator, mechanic visit prep, service history, fluids guide, seasonal prep, buying/selling guide",
       "Mechanic Mode: OBD-II code library (500+ codes), torque spec database, repair procedures, diagnostic decision trees, wiring color codes, customer explainer cards, labor time estimator, parts cross-reference",
