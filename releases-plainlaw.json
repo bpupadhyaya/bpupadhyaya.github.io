@@ -4,7 +4,8 @@
     "date": "May 2026",
     "tag": "stable",
     "current": true,
-    "summary": "Expanded legal glossary to 1,012 terms, improved cross-category search, and fixed Terms of Use display. iOS 1.0.1 submitted for review; Android 1.0.1 AAB ready for Google Play resubmission.",
+    "appStoreUrl": "https://apps.apple.com/app/plainlaw-legal-reference/id6768846777",
+    "summary": "Expanded legal glossary to 1,012 terms, improved cross-category search, and fixed Terms of Use display. iOS 1.0.1 approved and live on the App Store; Android 1.0.1 in review on Google Play.",
     "included": [
       "Expanded legal glossary from 52 to 1,012 terms across Criminal, Civil, Contract, Property, Constitutional, Family, Employment, Business, Evidence, Immigration, Bankruptcy, IP, Estate, and Environmental law",
       "Glossary search now finds terms across all categories regardless of active category filter",
