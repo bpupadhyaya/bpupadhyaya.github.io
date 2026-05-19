@@ -1,0 +1,24 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Initial release of PlainAuto — Vehicle Maintenance in Plain Language. Approved and live on the App Store. Dual-mode app for car owners and mechanics — 100% offline, no accounts required.",
+    "included": [
+      "Car Owner Mode: dashboard warning lights (22, color-coded by urgency), emergency guide (8 scenarios)",
+      "Car Owner Free: auto glossary (50 terms), My Vehicle tracker, basic maintenance schedule, 2 DIY guides, pre-road-trip checklist",
+      "Car Owner Premium ($4.99): full maintenance schedule (15 tasks), all DIY guides (10+), service history log, cost estimator, mechanic visit prep, full glossary (200+ terms), fluids guide (6 fluids), buying/selling guide",
+      "Mechanic/Tech Mode: OBD-II code library (500+), torque spec database, repair procedures, diagnostic decision trees",
+      "Mechanic Free: quick torque specs (10), common procedures (10), OBD-II top 50 codes, bolt patterns, fluid capacities, customer explainer cards (5)",
+      "Pro Unlock ($9.99): full torque DB, 50+ repair procedures, diagnostic decision trees (15), wiring color codes, full OBD-II (140+ codes), labor time estimator, parts cross-reference, all customer cards (30)",
+      "Complete Bundle ($12.99): Owner Premium + Pro Unlock — save $1.99",
+      "Three-tier IAP: Owner Premium $4.99, Pro Unlock $9.99, Complete Bundle $12.99",
+      "100% offline — all content bundled with app, no internet required",
+      "Privacy-first — no data collected, no accounts required",
+      "Dual-mode selector persists across launches",
+      "Bundle ID: com.equalinformation.plainauto.app"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
