@@ -1,13 +1,28 @@
 [
   {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "date": "May 2026",
     "tag": "stable",
     "current": true,
-    "summary": "Initial release of PlainLaw — Legal Reference. Submitted to Google Play (in review) and Apple App Store. Comprehensive offline legal reference covering US law, international law, courts, and legal tools.",
+    "summary": "Expanded legal glossary to 1,012 terms, improved cross-category search, and fixed Terms of Use display. iOS 1.0.1 submitted for review; Android 1.0.1 AAB ready for Google Play resubmission.",
+    "included": [
+      "Expanded legal glossary from 52 to 1,012 terms across Criminal, Civil, Contract, Property, Constitutional, Family, Employment, Business, Evidence, Immigration, Bankruptcy, IP, Estate, and Environmental law",
+      "Glossary search now finds terms across all categories regardless of active category filter",
+      "Dynamic term count displayed at top of glossary screen",
+      "Fixed Terms of Use blank screen on iOS — now opens correctly via in-app browser",
+      "Bug fixes and performance improvements"
+    ],
+    "platforms": ["iOS", "Android"]
+  },
+  {
+    "version": "1.0.0",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": false,
+    "summary": "Initial release of PlainLaw — Legal Reference. Live on Apple App Store. Comprehensive offline legal reference covering US law, international law, courts, and legal tools.",
     "included": [
       "Know Your Rights guides for everyday legal situations across 10+ categories",
-      "Legal dictionary with 1,000+ plain-language definitions",
+      "Legal dictionary with plain-language definitions",
       "Jurisdiction selector — auto-detects your location and shows relevant laws",
       "Practice area guides: criminal, civil, family, employment, immigration, real estate, corporate",
       "State-by-state law comparisons across all 50 states (Premium)",
@@ -27,9 +42,7 @@
       "Small claims guide for self-represented litigants",
       "Contract explainer with plain-language breakdowns",
       "Three-tier access: Free, Premium ($4.99 one-time), Pro (subscription)",
-      "Google Play Billing (Android) and StoreKit 2 (iOS) integration",
-      "100% offline — no data collection, no tracking, no accounts required",
-      "36 Android screens, 38 iOS views"
+      "100% offline — no data collection, no tracking, no accounts required"
     ],
     "platforms": ["iOS", "Android"]
   }
