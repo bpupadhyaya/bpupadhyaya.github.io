@@ -1,0 +1,25 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Initial release of ChronoTrack Health — your chronic condition tracker with AI pattern detection. Approved and live on the App Store and Google Play. Designed for patients (free) and healthcare professionals (paid). Full offline-first, privacy-first tracking with pluggable connector framework.",
+    "included": [
+      "11 free core features: onboarding, home dashboard with dark-theme module cards, log entry (pain 1-10, body location, triggers, medications), calendar view, pattern analysis, medications manager, entry history with search, daily check-in, emergency card, quick log, and settings",
+      "7 Plus features ($3.99/mo): trigger insights with frequency bars, flare timeline, health journal, PDF report export (7/14/30/90 day), symptom comparison, medication effectiveness charts, encrypted data backup",
+      "8 Pro features ($29.99/mo): Data Hub, Connector Store, Connector Builder (6-step wizard), patient dashboard, SOAP report generator with FHIR R4 export, API Key Vault, audit log with cost tracking, premium upgrade screen",
+      "PatternEngine — on-device trend analysis with 6 insight types (frequency, trend, worst day, peak time, triggers, med effectiveness)",
+      "WeatherService via Open-Meteo — weather correlation with 3-hour cache and freshness indicators",
+      "DrugInfoService via OpenFDA — drug lookup with offline interaction database (10 known pairs)",
+      "ResearchService via PubMed E-Utils — research search with 7-day cache",
+      "ConnectorRuntime — executes REST, FHIR R4, CSV, and RSS connectors with auth and budget controls",
+      "17 SwiftData/Room entities: 11 core, 3 cache, 3 framework models",
+      "StoreKit 2 (iOS) and Google Play Billing (Android) IAP integration",
+      "All clinical content cites NIH, WHO, CDC, FDA, APA, and AHA",
+      "100% offline — no account, no server, no tracking, no data collection",
+      "Full cross-platform feature parity between iOS and Android"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
