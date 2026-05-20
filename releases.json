@@ -1,5 +1,27 @@
 [
   {
+    "version": "1.0.1-plainlaw-android",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "app": "PlainLaw",
+    "summary": "PlainLaw v1.0.1 Android — approved and live on Google Play. Plain-language legal reference app. 1,012 glossary terms, 15 countries, 50 US states, emergency rights quick-reference, interactive legal tools (deadline calculator, checklist tracker, document generator, evidence organizer, court locator, cost estimator). Free + Premium ($4.99 one-time) + Pro ($9.99/mo). https://play.google.com/store/apps/details?id=com.equalinformation.plainlaw.app",
+    "included": [
+      "1,012 legal terms in plain language (full glossary with cross-category search)",
+      "Know Your Rights: 8 topics (tenant, employee, consumer, traffic, family, criminal, small claims, contracts) — 4 free + 4 premium",
+      "14 situation guides, 52 FAQs, 18 contract clauses explained",
+      "Emergency Legal Quick Reference: Miranda, traffic stop, arrest cards (all free)",
+      "State-specific legal info for all 50 US states (eviction timelines, small claims limits, employment laws)",
+      "Interactive tools: deadline calculator, legal checklist tracker, document generator, evidence organizer, rights cards, court locator, cost estimator",
+      "Three-tier access: Free legal literacy, Premium ($4.99 one-time), Pro (subscription) for attorneys",
+      "100% offline core content, no account required, no data collected",
+      "Package ID: com.equalinformation.plainlaw.app"
+    ],
+    "platforms": [
+      "Android"
+    ]
+  },
+  {
     "version": "1.0.0-plainauto-android",
     "date": "May 2026",
     "tag": "stable",
