@@ -1,5 +1,22 @@
 [
   {
+    "version": "0.9.0-lifeos-both",
+    "date": "May 2026",
+    "tag": "beta",
+    "current": true,
+    "app": "LifeOS",
+    "summary": "LifeOS v0.9.0 — all 44 modules wired and building on iOS (SwiftUI) and Android (Jetpack Compose). 100% offline-first, on-device SQLite, optional external AI via user-configured API keys, voice input (STT offline) and TTS as first-class features on every module. Deployed to internal test devices.",
+    "included": [
+      "44 full-featured modules: Zoe (AI assistant), ZoePro, ZoePlus, ZoeInstitutional, Mental Health, MentalHealthPlus, Fitness, NutritionPlus, HealthPlus, Finance, FinancePlus, Home, HomePlus, Family, Travel, Emergency, Education, Career, Scheduler, Documents, SecureMessaging, Compliance, ClientNotes, Caseload, ProgressNotes, RiskAssessment, MemberOnboarding, BillingCenter, BillingInvoice, SlaDashboard, Reports, AuditLog, GroupAnalytics, RoleManagement, AdminDash, LabTracker, Prescriptions, Legal, DataRetention, Connector, IntegrationsHub, CustomBranding",
+      "100% offline-first, all data on-device SQLite — no cloud required",
+      "Optional external AI via user-provided API keys (OpenAI, Anthropic, etc.)",
+      "Voice input (offline STT) and TTS as first-class features on every module",
+      "iOS (SwiftUI) and Android (Jetpack Compose) build successfully with zero errors",
+      "Deployed to iPhone and Seeker 21 Android device for internal testing"
+    ],
+    "platforms": ["iOS", "Android"]
+  },
+  {
     "version": "1.0.1-plainlaw-android",
     "date": "May 2026",
     "tag": "stable",
