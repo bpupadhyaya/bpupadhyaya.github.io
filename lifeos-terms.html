@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use — LifeOS – Your Operating System for Life</title>
+    <meta name="description" content="Terms of Use for LifeOS. Free tier available to all. Premium requires purchase. Not a substitute for professional medical, legal, or financial advice.">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #0a0a0f;
+            --bg-card: #111118;
+            --bg-panel: #16161f;
+            --text: #f0f0f5;
+            --text-sec: #a0a0b0;
+            --text-muted: #606070;
+            --accent: #22c55e;
+            --accent-blue: #3b82f6;
+            --accent-orange: #f97316;
+            --border: rgba(255,255,255,0.07);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.75;
+            overflow-x: hidden;
+        }
+
+        /* ── Header ── */
+        .site-header {
+            background: rgba(10,10,15,0.92);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 800;
+            font-size: 17px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #22c55e, #f97316);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 13px;
+            color: white;
+        }
+
+        .header-nav a {
+            color: var(--text-sec);
+            text-decoration: none;
+            font-size: 14px;
+            margin-left: 20px;
+            transition: color 0.2s;
+        }
+
+        .header-nav a:hover { color: var(--accent); }
+
+        /* ── Hero ── */
+        .hero {
+            background: linear-gradient(160deg, #0a0a0f 0%, #0d1218 50%, #0a0a0f 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 72px 24px 56px;
+            text-align: center;
+        }
+
+        .hero-eyebrow {
+            display: inline-block;
+            background: rgba(249,115,22,0.12);
+            color: var(--accent-orange);
+            border: 1px solid rgba(249,115,22,0.25);
+            border-radius: 100px;
+            padding: 4px 14px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(28px, 5vw, 42px);
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 1.2;
+            margin-bottom: 14px;
+        }
+
+        .hero h1 .grad {
+            background: linear-gradient(135deg, #22c55e, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-sub {
+            color: var(--text-sec);
+            font-size: 15px;
+            max-width: 560px;
+            margin: 0 auto 10px;
+        }
+
+        .effective {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        /* ── Layout ── */
+        .page-wrap {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 56px 24px 80px;
+        }
+
+        /* ── Summary box ── */
+        .summary-box {
+            background: rgba(249,115,22,0.07);
+            border: 1px solid rgba(249,115,22,0.22);
+            border-radius: 14px;
+            padding: 22px 26px;
+            margin-bottom: 44px;
+            color: var(--text-sec);
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .summary-box strong { color: var(--accent-orange); }
+
+        /* ── Warning box ── */
+        .warning-box {
+            background: rgba(239,68,68,0.07);
+            border: 1px solid rgba(239,68,68,0.22);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            color: #fca5a5;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        /* ── Sections ── */
+        .policy-section {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .policy-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            min-width: 28px;
+            background: linear-gradient(135deg, #f97316, #ef4444);
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .policy-section p {
+            color: var(--text-sec);
+            font-size: 14.5px;
+            margin-bottom: 12px;
+        }
+
+        .policy-section p:last-child { margin-bottom: 0; }
+
+        .policy-section ul {
+            color: var(--text-sec);
+            font-size: 14.5px;
+            padding-left: 20px;
+            margin: 10px 0 12px;
+            line-height: 2.1;
+        }
+
+        .policy-section ul li::marker { color: var(--accent-orange); }
+
+        .policy-section a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .policy-section a:hover { text-decoration: underline; }
+
+        .policy-section strong { color: var(--text); }
+
+        /* ── Tier table ── */
+        .tier-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .tier-card {
+            background: var(--bg-panel);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+        .tier-card .tier-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 6px;
+        }
+
+        .tier-card.free .tier-label { color: var(--accent); }
+        .tier-card.premium .tier-label { color: #f97316; }
+
+        .tier-card .tier-price {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+
+        .tier-card .tier-desc {
+            font-size: 13px;
+            color: var(--text-sec);
+            line-height: 1.6;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px 20px;
+            margin-bottom: 18px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 13px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--accent); }
+
+        .footer-copy {
+            color: var(--text-muted);
+            font-size: 12px;
+            line-height: 1.8;
+        }
+
+        .footer-copy .hi { color: var(--accent); }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            .header-nav { display: none; }
+            .hero { padding: 52px 20px 40px; }
+            .page-wrap { padding: 40px 20px 60px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+    <a href="https://bpupadhyaya.github.io" class="logo">
+        <div class="logo-icon">EI</div>
+        EqualInformation
+    </a>
+    <nav class="header-nav">
+        <a href="https://bpupadhyaya.github.io">Home</a>
+        <a href="lifeos-privacy.html">Privacy Policy</a>
+        <a href="app-support-lifeos.html">App Support</a>
+        <a href="mailto:bpupadhyaya5@gmail.com">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<div class="hero">
+    <div class="hero-eyebrow">Terms of Use</div>
+    <h1>LifeOS &mdash; <span class="grad">Your Operating System for Life</span></h1>
+    <p class="hero-sub">By downloading or using LifeOS, you agree to these terms. Please read them carefully.</p>
+    <p class="effective">Last updated: May 2026 &nbsp;&bull;&nbsp; Effective Date: May 19, 2026</p>
+</div>
+
+<!-- Content -->
+<div class="page-wrap">
+
+    <!-- Summary -->
+    <div class="summary-box">
+        <strong>The short version:</strong> LifeOS is provided as-is by a single independent developer. A full-featured free tier is available to everyone. Premium features require a one-time purchase. The app is a personal tool — not a substitute for professional medical, legal, or financial advice. Use it responsibly and at your own discretion.
+    </div>
+
+    <!-- 1 -->
+    <div class="policy-section">
+        <h2><span class="section-num">1</span> Agreement to Terms</h2>
+        <p>These Terms of Use ("Terms") govern your use of the LifeOS mobile application ("App") on iOS and Android, developed and published by <strong>Bhim Upadhyaya / Equal Information</strong> ("Developer", "we", "us").</p>
+        <p>By downloading, installing, or using LifeOS, you agree to these Terms in full. If you do not agree, please uninstall the App and discontinue use.</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="policy-section">
+        <h2><span class="section-num">2</span> Free Tier — Available to All</h2>
+        <p>LifeOS provides a <strong>full-featured free tier</strong> available to all users at no cost. The free tier is not time-limited and will remain available indefinitely. Core life management features — including health tracking, module access, and data management tools — are available for free.</p>
+        <p>We believe essential personal tools should be accessible to everyone regardless of income. The free tier will never be removed or downgraded without advance notice.</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="policy-section">
+        <h2><span class="section-num">3</span> Premium Features</h2>
+        <p>Certain advanced modules and features are available as optional Premium upgrades. Premium access requires a one-time purchase through the Apple App Store or Google Play Store.</p>
+
+        <div class="tier-grid">
+            <div class="tier-card free">
+                <div class="tier-label">Free Tier</div>
+                <div class="tier-price">$0</div>
+                <div class="tier-desc">Core health tracking, essential modules, local data storage, offline use — no time limit, no credit card required.</div>
+            </div>
+            <div class="tier-card premium">
+                <div class="tier-label">Premium</div>
+                <div class="tier-price">One-time purchase</div>
+                <div class="tier-desc">Full access to all Premium modules, advanced features, and future content. Processed via App Store / Google Play.</div>
+            </div>
+        </div>
+
+        <p style="margin-top: 18px;">All purchases are final and processed by Apple or Google. Please review their refund policies for purchase disputes. The Developer does not process payments directly and does not issue refunds outside of platform policies.</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="policy-section">
+        <h2><span class="section-num">4</span> App Provided "As-Is"</h2>
+        <p>LifeOS is provided <strong>"as-is"</strong> and <strong>"as-available"</strong> without warranties of any kind, express or implied. To the fullest extent permitted by applicable law, the Developer disclaims all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+        <p>The Developer does not warrant that:</p>
+        <ul>
+            <li>The App will be error-free, uninterrupted, or available at all times</li>
+            <li>Any defects in the App will be corrected within a specific time frame</li>
+            <li>The App will be compatible with all device configurations or operating system versions</li>
+            <li>The information, content, and references in the App are complete, accurate, or up to date</li>
+        </ul>
+    </div>
+
+    <!-- 5 -->
+    <div class="policy-section">
+        <h2><span class="section-num">5</span> Not a Substitute for Professional Advice</h2>
+        <div class="warning-box">
+            LifeOS is a personal productivity and reference tool. The content in this app does not constitute professional medical, legal, financial, or other regulated advice. Always consult a qualified professional before making decisions that affect your health, finances, legal standing, or well-being.
+        </div>
+        <p>Specifically:</p>
+        <ul>
+            <li><strong>Health &amp; Medical:</strong> Information and tracking tools in LifeOS are for personal reference only. They are not a diagnostic tool, medical device, or substitute for the advice of a licensed physician or healthcare provider.</li>
+            <li><strong>Financial:</strong> Budgeting and financial tracking tools in LifeOS are for personal organization only. They are not financial advice, investment advice, or a substitute for a licensed financial advisor or accountant.</li>
+            <li><strong>Legal:</strong> Any legal reference content in LifeOS is for general informational purposes only and does not constitute legal advice. Consult a qualified attorney for legal matters.</li>
+        </ul>
+        <p>In case of a medical emergency, call your local emergency services immediately (e.g., 911 in the US).</p>
+    </div>
+
+    <!-- 6 -->
+    <div class="policy-section">
+        <h2><span class="section-num">6</span> User Responsibilities</h2>
+        <p>By using LifeOS, you agree to:</p>
+        <ul>
+            <li>Use the App for lawful personal purposes only</li>
+            <li>Not attempt to reverse-engineer, decompile, or extract source code from the App</li>
+            <li>Not use the App in any way that could damage, disable, or impair its functionality</li>
+            <li>Take responsibility for the accuracy and completeness of data you enter into the App</li>
+            <li>Maintain your own backups of important data (since all data is local-only)</li>
+        </ul>
+    </div>
+
+    <!-- 7 -->
+    <div class="policy-section">
+        <h2><span class="section-num">7</span> Intellectual Property</h2>
+        <p>All content in LifeOS — including app design, code, graphics, icons, text, and module content — is the intellectual property of Bhim Upadhyaya / Equal Information and is protected by applicable copyright and intellectual property laws.</p>
+        <p>You are granted a limited, non-exclusive, non-transferable license to use the App on your personal device for personal, non-commercial purposes. This license does not include the right to reproduce, distribute, modify, create derivative works, or publicly display any part of the App.</p>
+    </div>
+
+    <!-- 8 -->
+    <div class="policy-section">
+        <h2><span class="section-num">8</span> Third-Party Services</h2>
+        <p>LifeOS integrates with the following third-party platforms, each governed by their own terms and privacy policies:</p>
+        <ul>
+            <li><strong>Apple App Store / Apple HealthKit:</strong> Governed by <a href="https://www.apple.com/legal/internet-services/itunes/us/terms.html" target="_blank" rel="noopener">Apple's Terms of Service</a></li>
+            <li><strong>Google Play / Health Connect:</strong> Governed by <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">Google Play Terms of Service</a></li>
+        </ul>
+        <p>The Developer is not responsible for the practices, content, or availability of third-party services.</p>
+    </div>
+
+    <!-- 9 -->
+    <div class="policy-section">
+        <h2><span class="section-num">9</span> Limitation of Liability</h2>
+        <p>To the fullest extent permitted by law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use LifeOS, including but not limited to:</p>
+        <ul>
+            <li>Loss of data due to device failure, accidental deletion, or app uninstallation</li>
+            <li>Decisions made based on information displayed in the App</li>
+            <li>Inaccuracies in health, financial, or other reference content</li>
+            <li>Interruptions in App availability due to platform or device issues</li>
+        </ul>
+        <p>In jurisdictions that do not allow the exclusion of certain warranties or liabilities, our liability is limited to the maximum extent permitted by applicable law.</p>
+    </div>
+
+    <!-- 10 -->
+    <div class="policy-section">
+        <h2><span class="section-num">10</span> Modifications to the App and Terms</h2>
+        <p>The Developer reserves the right to update, modify, or discontinue any feature of LifeOS at any time. Changes to free or premium features will be communicated via the app's release notes where feasible.</p>
+        <p>These Terms may be updated to reflect changes in the App or applicable law. The "Last updated" date at the top of this page will reflect any revisions. Continued use of LifeOS after an update constitutes acceptance of the revised Terms.</p>
+    </div>
+
+    <!-- 11 -->
+    <div class="policy-section">
+        <h2><span class="section-num">11</span> Governing Law</h2>
+        <p>These Terms are governed by the laws of the State of California, United States, without regard to conflict of law principles. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts located in California.</p>
+    </div>
+
+    <!-- 12 -->
+    <div class="policy-section">
+        <h2><span class="section-num">12</span> Contact Us</h2>
+        <p>Questions about these Terms? We're happy to help.</p>
+        <p>
+            <strong>Developer:</strong> Bhim Upadhyaya / Equal Information<br>
+            <strong>Email:</strong> <a href="mailto:bpupadhyaya5@gmail.com">bpupadhyaya5@gmail.com</a><br>
+            <strong>Website:</strong> <a href="https://bpupadhyaya.github.io" target="_blank" rel="noopener">bpupadhyaya.github.io</a>
+        </p>
+        <p>We typically respond within 1&ndash;2 business days.</p>
+        <p style="margin-top: 16px;">
+            <a href="lifeos-privacy.html" style="color: var(--accent); text-decoration: none;">View Privacy Policy &rarr;</a>
+        </p>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <ul class="footer-links">
+        <li><a href="https://bpupadhyaya.github.io">Home</a></li>
+        <li><a href="lifeos-privacy.html">Privacy Policy</a></li>
+        <li><a href="app-support-lifeos.html">App Support</a></li>
+        <li><a href="mailto:bpupadhyaya5@gmail.com">Contact</a></li>
+    </ul>
+    <p class="footer-copy">
+        &copy; 2026 Equal Information / Bhim Upadhyaya. All rights reserved.<br>
+        <span class="hi">LifeOS &mdash; Your Operating System for Life</span>
+    </p>
+</footer>
+
+</body>
+</html>

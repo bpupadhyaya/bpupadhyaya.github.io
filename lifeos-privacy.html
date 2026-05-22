@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — LifeOS – Your Operating System for Life</title>
+    <meta name="description" content="Privacy policy for LifeOS. All data is stored locally on your device. No tracking, no analytics, no ads, no account required.">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #0a0a0f;
+            --bg-card: #111118;
+            --bg-panel: #16161f;
+            --text: #f0f0f5;
+            --text-sec: #a0a0b0;
+            --text-muted: #606070;
+            --accent: #22c55e;
+            --accent-blue: #3b82f6;
+            --border: rgba(255,255,255,0.07);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.75;
+            overflow-x: hidden;
+        }
+
+        /* ── Header ── */
+        .site-header {
+            background: rgba(10,10,15,0.92);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 800;
+            font-size: 17px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #22c55e, #f97316);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 13px;
+            color: white;
+        }
+
+        .header-nav a {
+            color: var(--text-sec);
+            text-decoration: none;
+            font-size: 14px;
+            margin-left: 20px;
+            transition: color 0.2s;
+        }
+
+        .header-nav a:hover { color: var(--accent); }
+
+        /* ── Hero ── */
+        .hero {
+            background: linear-gradient(160deg, #0a0a0f 0%, #0d1a12 50%, #0a0a0f 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 72px 24px 56px;
+            text-align: center;
+        }
+
+        .hero-eyebrow {
+            display: inline-block;
+            background: rgba(34,197,94,0.12);
+            color: var(--accent);
+            border: 1px solid rgba(34,197,94,0.25);
+            border-radius: 100px;
+            padding: 4px 14px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(28px, 5vw, 42px);
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 1.2;
+            margin-bottom: 14px;
+        }
+
+        .hero h1 .grad {
+            background: linear-gradient(135deg, #22c55e, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-sub {
+            color: var(--text-sec);
+            font-size: 15px;
+            max-width: 560px;
+            margin: 0 auto 10px;
+        }
+
+        .effective {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        /* ── Layout ── */
+        .page-wrap {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 56px 24px 80px;
+        }
+
+        /* ── Summary box ── */
+        .summary-box {
+            background: rgba(34,197,94,0.07);
+            border: 1px solid rgba(34,197,94,0.22);
+            border-radius: 14px;
+            padding: 22px 26px;
+            margin-bottom: 44px;
+            color: var(--text-sec);
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .summary-box strong { color: var(--accent); }
+
+        /* ── Sections ── */
+        .policy-section {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .policy-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            min-width: 28px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .policy-section p {
+            color: var(--text-sec);
+            font-size: 14.5px;
+            margin-bottom: 12px;
+        }
+
+        .policy-section p:last-child { margin-bottom: 0; }
+
+        .policy-section ul {
+            color: var(--text-sec);
+            font-size: 14.5px;
+            padding-left: 20px;
+            margin: 10px 0 12px;
+            line-height: 2.1;
+        }
+
+        .policy-section ul li::marker { color: var(--accent); }
+
+        .policy-section a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .policy-section a:hover { text-decoration: underline; }
+
+        .policy-section strong { color: var(--text); }
+
+        code {
+            background: rgba(255,255,255,0.06);
+            border-radius: 4px;
+            padding: 1px 6px;
+            font-size: 13px;
+            font-family: 'SFMono-Regular', 'Consolas', monospace;
+            color: #a78bfa;
+        }
+
+        /* ── Info pills ── */
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .pill {
+            background: rgba(59,130,246,0.1);
+            border: 1px solid rgba(59,130,246,0.2);
+            color: #93c5fd;
+            border-radius: 100px;
+            padding: 4px 14px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .pill.green {
+            background: rgba(34,197,94,0.1);
+            border-color: rgba(34,197,94,0.2);
+            color: #86efac;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px 20px;
+            margin-bottom: 18px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 13px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--accent); }
+
+        .footer-copy {
+            color: var(--text-muted);
+            font-size: 12px;
+            line-height: 1.8;
+        }
+
+        .footer-copy .hi { color: var(--accent); }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            .header-nav { display: none; }
+            .hero { padding: 52px 20px 40px; }
+            .page-wrap { padding: 40px 20px 60px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+    <a href="https://bpupadhyaya.github.io" class="logo">
+        <div class="logo-icon">EI</div>
+        EqualInformation
+    </a>
+    <nav class="header-nav">
+        <a href="https://bpupadhyaya.github.io">Home</a>
+        <a href="lifeos-terms.html">Terms of Use</a>
+        <a href="app-support-lifeos.html">App Support</a>
+        <a href="mailto:bpupadhyaya5@gmail.com">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<div class="hero">
+    <div class="hero-eyebrow">Privacy Policy</div>
+    <h1>LifeOS &mdash; <span class="grad">Your Operating System for Life</span></h1>
+    <p class="hero-sub">Simple, clear, honest. Your personal data never leaves your device.</p>
+    <p class="effective">Last updated: May 2026 &nbsp;&bull;&nbsp; Effective Date: May 19, 2026</p>
+</div>
+
+<!-- Content -->
+<div class="page-wrap">
+
+    <!-- Summary -->
+    <div class="summary-box">
+        <strong>The short version:</strong> LifeOS is a 100% local-first app. All your health, financial, and personal data lives exclusively on your device. We do not operate any servers that receive user data. No tracking, no analytics, no ads, and no account is ever required.
+    </div>
+
+    <!-- 1 -->
+    <div class="policy-section">
+        <h2><span class="section-num">1</span> Who We Are</h2>
+        <p>LifeOS is developed and published by <strong>Bhim Upadhyaya / Equal Information</strong>, an independent software developer building privacy-first personal tools for health, finance, family, and life management.</p>
+        <p>
+            Privacy contact: <a href="mailto:bpupadhyaya5@gmail.com">bpupadhyaya5@gmail.com</a><br>
+            Website: <a href="https://bpupadhyaya.github.io" target="_blank" rel="noopener">bpupadhyaya.github.io</a>
+        </p>
+    </div>
+
+    <!-- 2 -->
+    <div class="policy-section">
+        <h2><span class="section-num">2</span> Scope of This Policy</h2>
+        <p>This Privacy Policy applies to the LifeOS mobile application for iOS and Android, distributed under the package identifiers:</p>
+        <ul>
+            <li>Android: <code>com.equalinformation.lifeos.app</code></li>
+            <li>iOS: <code>com.equalinformation.lifeos.app</code></li>
+        </ul>
+        <p>It applies to all versions of LifeOS available on the Apple App Store and Google Play Store, and to all pages that link to this policy.</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="policy-section">
+        <h2><span class="section-num">3</span> Data Stored on Your Device</h2>
+        <p>LifeOS stores the following data <strong>exclusively on your device</strong> using the operating system's secure local storage. This data never leaves your phone or tablet:</p>
+        <ul>
+            <li>Health data you enter: body weight logs, daily water intake, medication schedules, vaccination history</li>
+            <li>Financial data entered in Finance modules (budgets, expenses, assets)</li>
+            <li>Family, travel, and fitness information entered across any module</li>
+            <li>App preferences and settings (theme, notification preferences, privacy toggles)</li>
+            <li>Premium purchase status (verified locally via App Store / Google Play receipt)</li>
+            <li>Institutional access codes (validated locally using HMAC — no server contact)</li>
+        </ul>
+        <p><strong>None of this information is transmitted to Equal Information servers.</strong> We do not operate backend servers that receive personal user data from LifeOS.</p>
+
+        <div class="pill-row">
+            <span class="pill green">100% Local Storage</span>
+            <span class="pill green">No Cloud Sync</span>
+            <span class="pill green">No Server Upload</span>
+        </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="policy-section">
+        <h2><span class="section-num">4</span> What We Do NOT Collect</h2>
+        <p>Equal Information <strong>does not</strong>:</p>
+        <ul>
+            <li>Collect your name, email address, phone number, or any account credentials</li>
+            <li>Upload health, financial, family, or any personal data to any server</li>
+            <li>Use advertising SDKs, analytics tools (e.g., Firebase Analytics, Mixpanel, Amplitude), or tracking pixels of any kind</li>
+            <li>Display advertisements or sell advertising space in the app</li>
+            <li>Share or sell your data to any third party, broker, or data aggregator</li>
+            <li>Access your device camera, microphone, contacts, or precise location unless you explicitly grant permission for a specific feature that requires it</li>
+        </ul>
+
+        <div class="pill-row">
+            <span class="pill">No Ads</span>
+            <span class="pill">No Analytics</span>
+            <span class="pill">No Tracking</span>
+            <span class="pill">No Account Required</span>
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="policy-section">
+        <h2><span class="section-num">5</span> Health &amp; Sensitive Data</h2>
+        <p>LifeOS treats health and sensitive personal data with the highest level of care. Health information you enter — including body weight, water intake, medications, and vaccination records — is stored solely on your device and is <strong>never shared, transmitted, or accessible</strong> to Equal Information or any third party.</p>
+
+        <p><strong>HealthKit / Health Connect (if granted):</strong> On iOS, LifeOS may request read access to Apple HealthKit for certain features (e.g., importing step counts or body weight). On Android, LifeOS may use Health Connect for similar integrations. Any data read from HealthKit or Health Connect remains on-device and is never transmitted to our servers. You can revoke this access at any time in your device's Health settings.</p>
+
+        <p><strong>Disclaimer:</strong> LifeOS health features are for personal tracking and reference only. They do not constitute medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional for medical decisions.</p>
+    </div>
+
+    <!-- 6 -->
+    <div class="policy-section">
+        <h2><span class="section-num">6</span> Financial &amp; Personal Data</h2>
+        <p>Financial data (budgets, expenses, assets, net worth) entered in LifeOS Finance modules is stored locally on your device and never leaves it. Equal Information does not have access to this data at any time.</p>
+        <p>Similarly, data entered in Family, Travel, Fitness, and any other LifeOS modules is stored locally only. We never upload, back up, or sync this data to any external system.</p>
+    </div>
+
+    <!-- 7 -->
+    <div class="policy-section">
+        <h2><span class="section-num">7</span> Institutional Access Codes</h2>
+        <p>Certain premium LifeOS features may be unlocked by institutional access codes provided by your organization or employer. These codes are <strong>validated entirely on your device</strong> using a local HMAC (Hash-based Message Authentication Code) process. No network request is made to any server during code validation. Equal Information does not receive information about which codes are used or by whom.</p>
+    </div>
+
+    <!-- 8 -->
+    <div class="policy-section">
+        <h2><span class="section-num">8</span> In-App Purchases</h2>
+        <p>LifeOS may offer optional in-app purchases through the Apple App Store or Google Play Store to unlock Premium modules and features. These purchases are processed entirely by Apple or Google under their respective privacy policies and terms of service:</p>
+        <ul>
+            <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+        </ul>
+        <p>Equal Information does not receive or store your payment card information. Purchase receipts are verified locally on your device using the platform's receipt validation APIs.</p>
+    </div>
+
+    <!-- 9 -->
+    <div class="policy-section">
+        <h2><span class="section-num">9</span> Device Permissions</h2>
+        <p>LifeOS may request the following device permissions depending on the features you use:</p>
+        <ul>
+            <li><strong>Notifications:</strong> For medication reminders, water intake prompts, and health goal alerts. All notifications are generated locally on your device and do not involve any external server.</li>
+            <li><strong>Network access:</strong> Used only to load links you explicitly tap (e.g., this Privacy Policy page, Terms of Use, App Support). No personal data is transmitted during these requests.</li>
+            <li><strong>HealthKit / Health Connect (optional):</strong> To read health data you choose to sync. Never transmitted outside the app.</li>
+        </ul>
+        <p>LifeOS does not require camera, microphone, contacts, or location permissions for its core features.</p>
+    </div>
+
+    <!-- 10 -->
+    <div class="policy-section">
+        <h2><span class="section-num">10</span> Optional: External Connections</h2>
+        <p>Institutional or enterprise users may configure LifeOS to connect to external data sources (e.g., internal REST APIs, FHIR endpoints, or CSV feeds) using the Data Connector feature. These connections are configured entirely by the user or their institution and point to endpoints <strong>they control</strong>. Equal Information does not operate, monitor, or receive data from these third-party endpoints. No connection is made without explicit user configuration.</p>
+    </div>
+
+    <!-- 11 -->
+    <div class="policy-section">
+        <h2><span class="section-num">11</span> Crash Reporting</h2>
+        <p>LifeOS does not currently include any crash reporting or diagnostic telemetry SDKs. If crash reporting is added in a future release, it will be strictly opt-in, will collect only anonymous diagnostic information (no personal data), and this policy will be updated accordingly before the feature ships.</p>
+    </div>
+
+    <!-- 12 -->
+    <div class="policy-section">
+        <h2><span class="section-num">12</span> Data Retention &amp; Deletion</h2>
+        <p>All data stored by LifeOS resides entirely on your device. Equal Information holds no copies of your data and therefore cannot delete it on your behalf. To remove all app data:</p>
+        <ul>
+            <li><strong>iOS:</strong> Settings &rarr; General &rarr; iPhone Storage &rarr; LifeOS &rarr; Delete App</li>
+            <li><strong>Android:</strong> Settings &rarr; Apps &rarr; LifeOS &rarr; Storage &rarr; Clear Data — or uninstall the app</li>
+        </ul>
+        <p>Deleting the app permanently removes all locally stored data from your device. This action is irreversible.</p>
+    </div>
+
+    <!-- 13 -->
+    <div class="policy-section">
+        <h2><span class="section-num">13</span> Children</h2>
+        <p>LifeOS is not directed at children under 13 (or under 16 in the European Union). The app does not knowingly collect personal information from children. Because all data is stored locally and no account or email is required, children may use the app under parental supervision. Parents wishing to remove a child's data may do so by clearing the app's storage or uninstalling the app.</p>
+    </div>
+
+    <!-- 14 -->
+    <div class="policy-section">
+        <h2><span class="section-num">14</span> Your Rights</h2>
+        <p>Because Equal Information does not receive, collect, or process your personal data on any server, we are unable to fulfill data subject access requests (DSARs) in the traditional sense — we simply do not have your data. All data resides on your device and is under your sole control.</p>
+        <p>If you have questions about your rights under applicable privacy law (GDPR, CCPA, etc.), contact us at <a href="mailto:bpupadhyaya5@gmail.com">bpupadhyaya5@gmail.com</a> and we will respond within 1&ndash;2 business days.</p>
+    </div>
+
+    <!-- 15 -->
+    <div class="policy-section">
+        <h2><span class="section-num">15</span> Changes to This Policy</h2>
+        <p>We may update this Privacy Policy as the app evolves. Material changes will be noted in the app's release notes and the "Last updated" date at the top of this page will be revised. Continued use of LifeOS after a policy update constitutes your acceptance of the revised terms.</p>
+        <p>For significant changes affecting data practices, we will provide in-app notification where technically feasible.</p>
+    </div>
+
+    <!-- 16 -->
+    <div class="policy-section">
+        <h2><span class="section-num">16</span> Contact Us</h2>
+        <p>Questions or concerns about this Privacy Policy or how your data is handled?</p>
+        <p>
+            <strong>Developer:</strong> Bhim Upadhyaya / Equal Information<br>
+            <strong>Email:</strong> <a href="mailto:bpupadhyaya5@gmail.com">bpupadhyaya5@gmail.com</a><br>
+            <strong>Website:</strong> <a href="https://bpupadhyaya.github.io" target="_blank" rel="noopener">bpupadhyaya.github.io</a>
+        </p>
+        <p>We typically respond within 1&ndash;2 business days.</p>
+        <p style="margin-top: 16px;">
+            <a href="lifeos-terms.html" style="color: var(--accent-blue); text-decoration: none;">View Terms of Use &rarr;</a>
+        </p>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <ul class="footer-links">
+        <li><a href="https://bpupadhyaya.github.io">Home</a></li>
+        <li><a href="privacy-lifeos.html">Privacy (site nav version)</a></li>
+        <li><a href="lifeos-terms.html">Terms of Use</a></li>
+        <li><a href="app-support-lifeos.html">App Support</a></li>
+        <li><a href="mailto:bpupadhyaya5@gmail.com">Contact</a></li>
+    </ul>
+    <p class="footer-copy">
+        &copy; 2026 Equal Information / Bhim Upadhyaya. All rights reserved.<br>
+        <span class="hi">LifeOS &mdash; Your Operating System for Life</span>
+    </p>
+</footer>
+
+</body>
+</html>
