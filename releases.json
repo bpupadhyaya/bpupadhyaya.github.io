@@ -1,9 +1,33 @@
 [
   {
+    "version": "1.0.0-lifeos-ios",
+    "date": "May 2026",
+    "tag": "in-review",
+    "current": true,
+    "app": "LifeOS",
+    "summary": "LifeOS v1.0.0 iOS — submitted to Apple App Store for review. All-in-one life management app powered by Zoe, your AI life guide. Health, finance, mental wellness, fitness, nutrition, family, travel, emergency, and more — all in one unified platform. Three-tier access: Free + Premium ($4.99 one-time) + Professional (subscription).",
+    "included": [
+      "Health — steps, weight, heart rate, water intake, HealthKit sync",
+      "Finance — budget, expenses, goals",
+      "Mental Health — mood, journal, stress tracking",
+      "Fitness — workouts, progress, plans",
+      "Nutrition — food log, barcode scanner, macros (Premium)",
+      "Family — schedule, shared contacts (Premium)",
+      "Travel — trips, itineraries (Premium)",
+      "Emergency — SOS, location sharing, emergency contacts",
+      "Zoe AI — voice-powered AI life guide (configurable API key)",
+      "Three-tier IAP: Free + Premium ($4.99 one-time) + Pro ($9.99/mo or $79.99/yr)",
+      "Institutional licensing via equalinformation.com",
+      "100% offline-first, all data on-device, no account required",
+      "iOS (SwiftUI), Build 4, v1.0.0"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "0.9.0-lifeos-both",
     "date": "May 2026",
     "tag": "beta",
-    "current": true,
+    "current": false,
     "app": "LifeOS",
     "summary": "LifeOS v0.9.0 — all 44 modules wired and building on iOS (SwiftUI) and Android (Jetpack Compose). 100% offline-first, on-device SQLite, optional external AI via user-configured API keys, voice input (STT offline) and TTS as first-class features on every module. Deployed to internal test devices.",
     "included": [
