@@ -1,5 +1,29 @@
 [
   {
+    "version": "1.0.0-lifeos-android",
+    "date": "May 2026",
+    "tag": "in-review",
+    "current": true,
+    "app": "LifeOS",
+    "summary": "LifeOS v1.0.0 Android — submitted to Google Play for review. All-in-one life management app powered by Zoe, your AI life guide. Health, finance, mental wellness, fitness, nutrition, family, travel, emergency, and more — all in one unified platform. Three-tier access: Free + Premium ($4.99 one-time) + Professional (subscription).",
+    "included": [
+      "Health — steps, weight, heart rate, water intake",
+      "Finance — budget, expenses, goals",
+      "Mental Health — mood, journal, stress tracking",
+      "Fitness — workouts, progress, plans",
+      "Nutrition — food log, barcode scanner, macros (Premium)",
+      "Family — schedule, shared contacts (Premium)",
+      "Travel — trips, itineraries (Premium)",
+      "Emergency — SOS, location sharing, emergency contacts",
+      "Zoe AI — voice-powered AI life guide (configurable API key)",
+      "Three-tier IAP: Free + Premium ($4.99 one-time) + Pro ($9.99/mo or $79.99/yr)",
+      "Institutional licensing via equalinformation.com",
+      "100% offline-first, all data on-device, no account required",
+      "Android (Jetpack Compose), versionCode 4, v1.0.0"
+    ],
+    "platforms": ["Android"]
+  },
+  {
     "version": "1.0.0-lifeos-ios",
     "date": "May 2026",
     "tag": "in-review",
