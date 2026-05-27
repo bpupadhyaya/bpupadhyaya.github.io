@@ -1,0 +1,42 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "LifeOS v1.0.0 — Live on Google Play (May 26, 2026). All-in-one life management app powered by Zoe, your AI life guide. Health, Finance, Mental Health, Fitness, Nutrition, Family, Travel, and Emergency — all in one unified platform. Three-tier access: Free + Premium ($4.99 one-time) + Professional (subscription). https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app",
+    "included": [
+      "Health — steps, weight, heart rate, water intake",
+      "Finance — budget, expenses, goals",
+      "Mental Health — mood, journal, stress tracking",
+      "Fitness — workouts, progress, plans",
+      "Nutrition — food log, barcode scanner, macros (Premium)",
+      "Family — schedule, shared contacts (Premium)",
+      "Travel — trips, itineraries (Premium)",
+      "Emergency — SOS, location sharing, emergency contacts",
+      "Zoe AI — voice-powered AI life guide (configurable API key, keyword mode when no AI configured)",
+      "Three-tier IAP: Free + Premium ($4.99 one-time) + Pro ($9.99/mo or $79.99/yr)",
+      "Institutional licensing via equalinformation.com",
+      "100% offline-first, all data on-device, no account required",
+      "Android (Jetpack Compose), versionCode 5, v1.0.0",
+      "Package ID: com.equalinformation.lifeos.app"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "0.9.0",
+    "date": "May 2026",
+    "tag": "beta",
+    "current": false,
+    "summary": "LifeOS v0.9.0 — all 44 modules wired and building on iOS (SwiftUI) and Android (Jetpack Compose). 100% offline-first, on-device SQLite, optional external AI via user-configured API keys.",
+    "included": [
+      "44 full-featured modules across Health, Finance, Fitness, Nutrition, Family, Travel, Emergency, and Professional tiers",
+      "100% offline-first, all data on-device SQLite — no cloud required",
+      "Optional external AI via user-provided API keys (OpenAI, Anthropic, etc.)",
+      "Voice input (offline STT) and TTS as first-class features on every module",
+      "iOS (SwiftUI) and Android (Jetpack Compose) build successfully with zero errors",
+      "Deployed to internal test devices"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
