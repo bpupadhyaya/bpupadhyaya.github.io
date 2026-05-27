@@ -430,7 +430,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-lifeos.html'" style="cursor:pointer;">
+        <div class="app-card nutrisize" onclick="if(!event.target.closest('a'))window.location='app-support-lifeos.html'" style="cursor:pointer;">
             <div class="app-icon green">&#127775;</div>
             <h3>LifeOS</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on Android</span>
@@ -447,8 +447,6 @@
                 <a href="privacy-lifeos.html" style="color: var(--accent-blue); text-decoration: none;">Privacy</a>
                 &nbsp;&middot;&nbsp;
                 <a href="app-support-lifeos.html" style="color: var(--accent-blue); text-decoration: none;">App Support</a>
-                &nbsp;&middot;&nbsp;
-                <a href="https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app" style="color: var(--accent-blue); text-decoration: none;">Google Play</a>
             </div>
         </div>
 
