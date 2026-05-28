@@ -1,0 +1,108 @@
+{
+  "catalogVersion": 1,
+  "updatedAt": "2025-01-27",
+  "models": [
+    {
+      "id": "phi3-mini-4k-int4",
+      "name": "Phi-3 Mini (4K)",
+      "displayName": "Phi-3 Mini 4K",
+      "developer": "Microsoft",
+      "description": "Compact and fast. Great for everyday chat, Q&A, and task help. Responds quickly on any modern iPhone.",
+      "parameterCount": "3.8B",
+      "contextLength": 4096,
+      "sizeMB": 2600,
+      "minRamMB": 3072,
+      "license": "MIT",
+      "capabilities": ["Chat", "Q&A", "Reasoning", "Task Assistance"],
+      "repoUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx",
+      "files": [
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/phi3-mini-4k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx",
+          "filename": "phi3-mini-4k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/phi3-mini-4k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data",
+          "filename": "phi3-mini-4k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data",
+          "sizeMB": 2597
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/genai_config.json",
+          "filename": "genai_config.json",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/tokenizer.json",
+          "filename": "tokenizer.json",
+          "sizeMB": 2
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/tokenizer.model",
+          "filename": "tokenizer.model",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/special_tokens_map.json",
+          "filename": "special_tokens_map.json",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/tokenizer_config.json",
+          "filename": "tokenizer_config.json",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/added_tokens.json",
+          "filename": "added_tokens.json",
+          "sizeMB": 1
+        }
+      ]
+    },
+    {
+      "id": "phi35-mini-int4-cpu",
+      "name": "Phi-3.5 Mini",
+      "displayName": "Phi-3.5 Mini",
+      "developer": "Microsoft",
+      "description": "Microsoft's latest Phi model. Handles very long conversations (128K context). Best for in-depth research, summarization, and complex reasoning.",
+      "parameterCount": "3.8B",
+      "contextLength": 131072,
+      "sizeMB": 2654,
+      "minRamMB": 3072,
+      "license": "MIT",
+      "capabilities": ["Chat", "Long Context", "Research", "Summarization", "Complex Reasoning"],
+      "repoUrl": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx",
+      "files": [
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4/phi-3.5-mini-instruct-cpu-int4-awq-block-128-acc-level-4.onnx",
+          "filename": "phi-3.5-mini-instruct-cpu-int4-awq-block-128-acc-level-4.onnx",
+          "sizeMB": 49
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4/phi-3.5-mini-instruct-cpu-int4-awq-block-128-acc-level-4.onnx.data",
+          "filename": "phi-3.5-mini-instruct-cpu-int4-awq-block-128-acc-level-4.onnx.data",
+          "sizeMB": 2601
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4/genai_config.json",
+          "filename": "genai_config.json",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4/tokenizer.json",
+          "filename": "tokenizer.json",
+          "sizeMB": 2
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4/tokenizer_config.json",
+          "filename": "tokenizer_config.json",
+          "sizeMB": 1
+        },
+        {
+          "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx/resolve/main/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4/special_tokens_map.json",
+          "filename": "special_tokens_map.json",
+          "sizeMB": 1
+        }
+      ]
+    }
+  ]
+}
