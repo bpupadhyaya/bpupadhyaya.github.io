@@ -1,9 +1,28 @@
 [
   {
-    "version": "1.0.0-lifeos-android",
+    "version": "1.1.0-lifeos-android",
     "date": "May 2026",
     "tag": "stable",
     "current": true,
+    "app": "LifeOS",
+    "summary": "LifeOS v1.1.0 Android — enhancement release live on Google Play (May 2026). Zoe AI enhancements: hands-free continuous voice mode, session conversation context, on-device Phi-3.5-Mini AI fully integrated. https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app",
+    "included": [
+      "Zoe: Continuous voice mode — mic stays on between turns for hands-free use (great while driving)",
+      "Zoe: Session context — Zoe remembers earlier turns in the same conversation and gives coherent, connected answers",
+      "Zoe: On-device Phi-3.5-Mini AI fully working (fixed max_length token budget, fixed double-load race)",
+      "Zoe: Speaker FAB at bottom-left, mic FAB at bottom-right — fully user-controlled, persist until switched off",
+      "Zoe: Auto-speak forced in continuous voice mode — fully hands-free conversation",
+      "Zoe: FAB colours show mode — red=recording, orange=continuous paused, green=off",
+      "Zoe: Eliminated misleading speech error toasts (ERROR_CLIENT now silently restarts)",
+      "Android (Jetpack Compose), versionCode 7, v1.1.0"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "1.0.0-lifeos-android",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": false,
     "app": "LifeOS",
     "summary": "LifeOS v1.0.0 Android — live on Google Play (May 26, 2026). All-in-one life management app powered by Zoe, your AI life guide. Health, finance, mental wellness, fitness, nutrition, family, travel, emergency, and more — all in one unified platform. Three-tier access: Free + Premium ($4.99 one-time) + Professional (subscription). https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app",
     "included": [
