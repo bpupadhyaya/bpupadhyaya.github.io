@@ -1,5 +1,76 @@
 [
   {
+    "version": "1.1.0-plaindental-android",
+    "date": "May 2026",
+    "tag": "in-review",
+    "current": true,
+    "app": "PlainDental",
+    "summary": "PlainDental v1.1.0 Android — submitted to Google Play (May 30, 2026). New Daily Routine feature: natural and mixed care checklists with age-group guidance for morning and evening routines. Light theme for Natural Care detail pages, Emergency card added to home screen.",
+    "included": [
+      "Daily Routine tab in Natural Care module — Natural and Mixed routine types",
+      "Morning and evening checklists with 16 evidence-based steps",
+      "Age-group guidance (Child / Teen / Adult / Senior) with per-step duration",
+      "Tappable step detail: overview, Why It Works, age-specific instructions",
+      "Light theme applied to Natural Care detail pages for improved readability",
+      "Emergency module card restored to Learn grid on home screen",
+      "Android (Jetpack Compose), versionCode 3, v1.1.0"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "1.1.0-plaindental-ios",
+    "date": "May 2026",
+    "tag": "in-review",
+    "current": true,
+    "app": "PlainDental",
+    "summary": "PlainDental v1.1.0 iOS — uploaded to App Store Connect (May 30, 2026). New Daily Routine feature, light theme for Natural Care detail, and Emergency card fix. https://apps.apple.com/app/plaindental/id6763691908",
+    "included": [
+      "Daily Routine tab in Natural Care module — Natural and Mixed routine types",
+      "Morning and evening checklists with 16 evidence-based steps",
+      "Age-group guidance (Child / Teen / Adult / Senior) with per-step duration",
+      "Tappable step detail sheet: overview, Why It Works, age-specific instructions",
+      "Light theme applied to all Natural Care detail sections (Overview, Key Facts, How to Use, Cautions, Citations)",
+      "Dark blue citation links (#1558C8) for improved contrast on white background",
+      "iOS (SwiftUI), build 2, v1.1.0"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.0.0-plaindental-android",
+    "date": "Apr 2026",
+    "tag": "stable",
+    "current": false,
+    "app": "PlainDental",
+    "summary": "PlainDental v1.0.0 Android — live on Google Play (Apr 2026). Dental health education in plain language. Conditions, Oral Hygiene, Emergency, Glossary, Tooth Map, Natural Care (free) + Procedures, Cost Guide, Kids' Dental, Pre-Visit Prep, Compare (premium). https://play.google.com/store/apps/details?id=com.equalinformation.plaindental.app",
+    "included": [
+      "Conditions — plain-language explanations of common dental conditions",
+      "Oral Hygiene — proper care techniques",
+      "Emergency — immediate guidance for dental emergencies",
+      "Glossary — dental terms explained",
+      "Tooth Map — interactive tooth guide",
+      "Natural Care — science-backed natural dental care methods (free tier)",
+      "Procedures, Cost Guide, Kids' Dental, Pre-Visit Prep, Compare (premium)",
+      "Free + Premium ($4.99 one-time IAP)",
+      "Package ID: com.equalinformation.plaindental.app"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "1.0.0-plaindental-ios",
+    "date": "May 2026",
+    "tag": "stable",
+    "current": false,
+    "app": "PlainDental",
+    "summary": "PlainDental v1.0.0 iOS — live on App Store (May 3, 2026). Dental health education in plain language. https://apps.apple.com/app/plaindental/id6763691908",
+    "included": [
+      "Conditions, Oral Hygiene, Emergency, Glossary, Tooth Map, Natural Care (free)",
+      "Procedures, Cost Guide, Kids' Dental, Pre-Visit Prep, Compare (premium)",
+      "Free + Premium ($4.99 one-time IAP)",
+      "Bundle ID: com.equalinformation.plaindental.app"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "1.1.0-lifeos-android",
     "date": "May 2026",
     "tag": "stable",
