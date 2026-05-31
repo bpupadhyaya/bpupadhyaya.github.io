@@ -2,10 +2,10 @@
   {
     "version": "1.1.0-plaindental-android",
     "date": "May 2026",
-    "tag": "in-review",
+    "tag": "stable",
     "current": true,
     "app": "PlainDental",
-    "summary": "PlainDental v1.1.0 Android — submitted to Google Play (May 30, 2026). New Daily Routine feature: natural and mixed care checklists with age-group guidance for morning and evening routines. Light theme for Natural Care detail pages, Emergency card added to home screen.",
+    "summary": "PlainDental v1.1.0 Android — live on Google Play (May 31, 2026). New Daily Routine feature: natural and mixed care checklists with age-group guidance for morning and evening routines. Light theme for Natural Care detail pages, Emergency card added to home screen.",
     "included": [
       "Daily Routine tab in Natural Care module — Natural and Mixed routine types",
       "Morning and evening checklists with 16 evidence-based steps",
@@ -20,10 +20,10 @@
   {
     "version": "1.1.0-plaindental-ios",
     "date": "May 2026",
-    "tag": "in-review",
+    "tag": "stable",
     "current": true,
     "app": "PlainDental",
-    "summary": "PlainDental v1.1.0 iOS — uploaded to App Store Connect (May 30, 2026). New Daily Routine feature, light theme for Natural Care detail, and Emergency card fix. https://apps.apple.com/app/plaindental/id6763691908",
+    "summary": "PlainDental v1.1.0 iOS — live on App Store (May 31, 2026). New Daily Routine feature, light theme for Natural Care detail, and Emergency card fix. https://apps.apple.com/app/plaindental/id6763691908",
     "included": [
       "Daily Routine tab in Natural Care module — Natural and Mixed routine types",
       "Morning and evening checklists with 16 evidence-based steps",
