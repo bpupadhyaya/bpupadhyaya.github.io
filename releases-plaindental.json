@@ -1,9 +1,40 @@
 [
   {
+    "version": "1.1.0-ios",
+    "date": "May 2026",
+    "tag": "in-review",
+    "current": true,
+    "summary": "PlainDental iOS v1.1.0 — submitted for App Store review. New Daily Routine tab in Natural Care with natural and mixed morning/evening checklists, age-group guidance, and step detail cards. Light theme for Natural Care detail pages.",
+    "included": [
+      "Daily Routine tab in Natural Care — Natural and Mixed routine types",
+      "Morning and evening checklists with 16 evidence-based steps",
+      "Age-group guidance (Child / Teen / Adult / Senior) with per-step duration",
+      "Tappable step detail sheet: overview, Why It Works, age-specific instructions",
+      "Light theme for all Natural Care detail sections (Overview, Key Facts, How to Use, Cautions, Citations)",
+      "Dark blue citation links for improved contrast on white background"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.1.0-android",
+    "date": "May 2026",
+    "tag": "in-review",
+    "current": true,
+    "summary": "PlainDental Android v1.1.0 — submitted to Google Play review. New Daily Routine tab in Natural Care with natural and mixed morning/evening checklists, age-group guidance, and step detail cards. Light theme for Natural Care detail pages.",
+    "included": [
+      "Daily Routine tab in Natural Care — Natural and Mixed routine types",
+      "Morning and evening checklists with 16 evidence-based steps",
+      "Age-group guidance (Child / Teen / Adult / Senior) with per-step duration",
+      "Tappable step detail: overview, Why It Works, age-specific instructions",
+      "Light theme applied to Natural Care detail pages for improved readability"
+    ],
+    "platforms": ["Android"]
+  },
+  {
     "version": "1.0.0-ios",
     "date": "May 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "PlainDental iOS v1.0.0 — approved and live on the App Store. Dental health education in plain language with interactive tooth map and premium content.",
     "included": [
       "16 dental conditions with detailed causes, symptoms, treatment, and prevention",
