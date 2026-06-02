@@ -92,20 +92,21 @@
   },
   {
     "version": "1.1.0-lifeos-android",
-    "date": "May 2026",
-    "tag": "stable",
+    "date": "June 2026",
+    "tag": "in-review",
     "current": true,
     "app": "LifeOS",
-    "summary": "LifeOS v1.1.0 Android — enhancement release live on Google Play (May 2026). Zoe AI enhancements: hands-free continuous voice mode, session conversation context, on-device Phi-3.5-Mini AI fully integrated. https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app",
+    "summary": "LifeOS v1.1.0 Android (versionCode 10) — submitted to Google Play for review (Jun 1, 2026). Adds Institutional subscription tiers, Zoe continuous voice mode, on-device AI, Knowledge Depth system, and Multi-Stage Zoe AI architecture.",
     "included": [
-      "Zoe: Continuous voice mode — mic stays on between turns for hands-free use (great while driving)",
-      "Zoe: Session context — Zoe remembers earlier turns in the same conversation and gives coherent, connected answers",
-      "Zoe: On-device Phi-3.5-Mini AI fully working (fixed max_length token budget, fixed double-load race)",
-      "Zoe: Speaker FAB at bottom-left, mic FAB at bottom-right — fully user-controlled, persist until switched off",
-      "Zoe: Auto-speak forced in continuous voice mode — fully hands-free conversation",
-      "Zoe: FAB colours show mode — red=recording, orange=continuous paused, green=off",
-      "Zoe: Eliminated misleading speech error toasts (ERROR_CLIENT now silently restarts)",
-      "Android (Jetpack Compose), versionCode 7, v1.1.0"
+      "Institutional IAP — Small ($49.99/mo) and Large ($199.99/mo) subscription tiers",
+      "Zoe: Continuous voice mode — hands-free conversation, mic stays on between turns",
+      "Zoe: On-device Phi-3.5-Mini AI — fully integrated with RAG and knowledge context",
+      "Zoe: Multi-stage architecture — Auto / Search / Knowledge / AI / My API modes",
+      "Knowledge Depth — General / Informed / Expert audience tiers in Learn tab",
+      "25 knowledge domains with full-text search, citations, TTS rendering",
+      "Proactive Zoe — background data-driven nudges",
+      "Module card brightness improvements — all cards now lively and vibrant",
+      "Android (Jetpack Compose), versionCode 10, v1.1.0"
     ],
     "platforms": ["Android"]
   },
