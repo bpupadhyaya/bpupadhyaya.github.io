@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 3,
-  "updatedAt": "2026-05-30",
+  "catalogVersion": 4,
+  "updatedAt": "2026-06-01",
   "models": [
     {
       "id": "phi3-mini-4k-int4",
