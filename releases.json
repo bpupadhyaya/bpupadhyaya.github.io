@@ -93,7 +93,7 @@
   {
     "version": "1.2.0-lifeos-android",
     "date": "June 2026",
-    "tag": "stable",
+    "tag": "in-review",
     "current": true,
     "app": "LifeOS",
     "summary": "LifeOS v1.2.0 Android (versionCode 12) — uploaded to Google Play (Jun 2, 2026). Adds On-Device AI Categorized screen, vision model download fixes, smart intent routing, and default model UX improvements.",
