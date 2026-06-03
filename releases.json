@@ -91,12 +91,32 @@
     "platforms": ["iOS"]
   },
   {
-    "version": "1.1.0-lifeos-android",
+    "version": "1.2.0-lifeos-android",
     "date": "June 2026",
-    "tag": "in-review",
+    "tag": "stable",
     "current": true,
     "app": "LifeOS",
-    "summary": "LifeOS v1.1.0 Android (versionCode 10) — submitted to Google Play for review (Jun 1, 2026). Adds Institutional subscription tiers, Zoe continuous voice mode, on-device AI, Knowledge Depth system, and Multi-Stage Zoe AI architecture.",
+    "summary": "LifeOS v1.2.0 Android (versionCode 12) — uploaded to Google Play (Jun 2, 2026). Adds On-Device AI Categorized screen, vision model download fixes, smart intent routing, and default model UX improvements.",
+    "included": [
+      "On-Device AI — Categorized: browse models by capability (Text, Photo, Video, Blind Guide, All-in-One)",
+      "Default and Recommended model auto-selection per category based on device RAM",
+      "Vision model download now correctly routes to zoe_vision_model/ directory",
+      "Download error messages now surfaced in-row with retry button (was silently swallowed)",
+      "Smart intent routing — Zoe picks mode (Search/Knowledge/AI) from message content",
+      "Default model UX — auto-selects best model on first launch, shows in model picker",
+      "Model picker badge and info chip layout overflow fix",
+      "genai_config.json compatibility patch for ORT GenAI 1.25.0",
+      "Android (Jetpack Compose), versionCode 12, v1.2.0"
+    ],
+    "platforms": ["Android"]
+  },
+  {
+    "version": "1.1.0-lifeos-android",
+    "date": "June 2026",
+    "tag": "stable",
+    "current": false,
+    "app": "LifeOS",
+    "summary": "LifeOS v1.1.0 Android (versionCode 11) — live on Google Play (Jun 2, 2026). Adds Institutional subscription tiers, Zoe continuous voice mode, on-device AI, Knowledge Depth system, and Multi-Stage Zoe AI architecture.",
     "included": [
       "Institutional IAP — Small ($49.99/mo) and Large ($199.99/mo) subscription tiers",
       "Zoe: Continuous voice mode — hands-free conversation, mic stays on between turns",
@@ -106,7 +126,7 @@
       "25 knowledge domains with full-text search, citations, TTS rendering",
       "Proactive Zoe — background data-driven nudges",
       "Module card brightness improvements — all cards now lively and vibrant",
-      "Android (Jetpack Compose), versionCode 10, v1.1.0"
+      "Android (Jetpack Compose), versionCode 11, v1.1.0"
     ],
     "platforms": ["Android"]
   },
