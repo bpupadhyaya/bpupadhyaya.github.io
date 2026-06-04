@@ -1,9 +1,29 @@
 [
   {
+    "version": "1.2.0",
+    "date": "Jun 3, 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "LifeOS v1.2.0 Android — Zoe AI vision release live on Google Play (Jun 3, 2026). On-device AI with vision/Blind Guide mode, Categorized AI settings, smart capability routing, Llama 3.2 1B economic option, and Play Store policy compliance. https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app",
+    "included": [
+      "Zoe: Vision input + Blind Guide mode — point your camera for AI-powered scene description",
+      "Zoe: Categorized AI settings screen — manage text and vision models separately",
+      "Zoe: Smart capability routing — queries routed to the right model automatically",
+      "Zoe: Llama 3.2 1B on-device model — lightweight economic option for everyday queries",
+      "Zoe: Per-model OOM thresholds — prevents out-of-memory crashes on lower-end devices",
+      "Zoe: Real LLM error surfacing — accurate error messages instead of silent fallback",
+      "Zoe: Memory panel added to Android settings (parity with iOS)",
+      "Zoe: Phi-3-Vision chat template + token fetch API fixes",
+      "Play Store compliance: removed READ_MEDIA_VIDEO and READ_EXTERNAL_STORAGE permissions",
+      "Android (Jetpack Compose), versionCode 13, v1.2.0"
+    ],
+    "platforms": ["Android"]
+  },
+  {
     "version": "1.1.0",
     "date": "May 30, 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "LifeOS v1.1.0 Android — Zoe AI enhancement release live on Google Play (May 30, 2026). Hands-free continuous voice mode, session conversation context, and on-device Phi-3.5-Mini AI fully integrated. https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app",
     "included": [
       "Zoe: Continuous voice mode — mic stays on between turns for hands-free use (great while driving)",
