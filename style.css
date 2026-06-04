@@ -34,11 +34,19 @@ nav {
     left: 0;
     right: 0;
     z-index: 100;
-    background: rgba(10,10,15,0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--border);
     transition: all 0.3s;
+}
+
+.nav-primary {
+    background: rgba(10,10,15,0.90);
+    border-bottom: 1px solid var(--border);
+}
+
+.nav-secondary {
+    background: rgba(7,7,11,0.85);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
 }
 
 .nav-inner {
@@ -48,7 +56,90 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 64px;
+    height: 62px;
+}
+
+/* ─── Secondary Nav Row ─── */
+.nav-secondary-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+}
+
+.nav-secondary-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0;
+}
+
+.nav-secondary-links > li + li {
+    margin-left: 2px;
+    padding-left: 2px;
+    border-left: 1px solid rgba(255,255,255,0.07);
+}
+
+.nav-secondary-links > .nav-dropdown > a {
+    font-size: 11.5px !important;
+    font-weight: 500 !important;
+    color: var(--text-muted) !important;
+    padding: 5px 13px !important;
+    border-radius: 6px;
+    transition: all 0.2s;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 3px !important;
+}
+
+.nav-secondary-links > .nav-dropdown > a:hover {
+    color: var(--text-secondary) !important;
+    background: rgba(255,255,255,0.05) !important;
+}
+
+.nav-secondary-links > .nav-dropdown > a::after {
+    display: none !important;
+}
+
+.nav-secondary-links .dropdown-arrow {
+    font-size: 8px;
+}
+
+/* ─── Featured nav pills ─── */
+.nav-pill {
+    border-radius: 20px !important;
+    padding: 5px 14px !important;
+    font-weight: 600 !important;
+    font-size: 12.5px !important;
+    border: 1px solid transparent !important;
+    transition: all 0.2s !important;
+}
+
+.nav-pill::after { display: none !important; }
+
+.nav-pill-green {
+    background: rgba(34,197,94,0.09) !important;
+    border-color: rgba(34,197,94,0.22) !important;
+    color: var(--accent) !important;
+}
+.nav-pill-green:hover {
+    background: rgba(34,197,94,0.16) !important;
+    border-color: rgba(34,197,94,0.40) !important;
+    color: var(--accent) !important;
+}
+
+.nav-pill-blue {
+    background: rgba(59,130,246,0.09) !important;
+    border-color: rgba(59,130,246,0.22) !important;
+    color: var(--accent-blue) !important;
+}
+.nav-pill-blue:hover {
+    background: rgba(59,130,246,0.16) !important;
+    border-color: rgba(59,130,246,0.40) !important;
+    color: var(--accent-blue) !important;
 }
 
 .nav-logo {
@@ -216,7 +307,7 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 120px 24px 80px;
+    padding: 148px 24px 80px;
     overflow: hidden;
 }
 
@@ -651,7 +742,7 @@ footer {
 /* ─── Sub-page Hero ─── */
 .hero-sub {
     min-height: auto;
-    padding: 140px 24px 60px;
+    padding: 168px 24px 60px;
 }
 
 .hero-sub .hero-content {
@@ -856,17 +947,20 @@ footer {
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
     .nav-links { display: none; }
+    .nav-secondary { display: none; }
+
     .nav-links.show {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 64px;
+        top: 62px;
         left: 0;
         right: 0;
         background: var(--bg-card);
         border-bottom: 1px solid var(--border);
         padding: 16px 24px;
         gap: 16px;
+        z-index: 99;
     }
     .mobile-menu-btn { display: block; }
 
