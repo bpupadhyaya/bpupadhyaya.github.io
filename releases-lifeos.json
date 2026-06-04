@@ -1,5 +1,24 @@
 [
   {
+    "version": "1.1.0-ios",
+    "date": "Jun 3, 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "LifeOS v1.1.0 iOS (Build 8) — live on App Store (Jun 3, 2026). Adds Institutional subscription tiers, Zoe continuous voice mode, on-device AI, Knowledge Depth system, and Multi-Stage Zoe AI architecture. https://apps.apple.com/app/lifeos-life-companion/id6772060349",
+    "included": [
+      "Institutional IAP — Small ($49.99/mo, up to 20 users) and Large ($199.99/mo, unlimited users)",
+      "Zoe: Continuous voice mode — hands-free conversation, mic stays on between turns",
+      "Zoe: On-device Phi-3.5-Mini AI — fully integrated with RAG and knowledge context",
+      "Zoe: Multi-stage architecture — Auto / Search / Knowledge / AI / My API modes",
+      "Knowledge Depth — General / Informed / Expert audience tiers in Learn tab",
+      "25 knowledge domains with full-text search, citations, TTS, and LaTeX rendering",
+      "Proactive Zoe — background data-driven nudges",
+      "Single dev toggle for all tiers (debug only)",
+      "iOS (SwiftUI), Build 8, v1.1.0"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "1.2.0",
     "date": "Jun 3, 2026",
     "tag": "stable",
