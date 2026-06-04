@@ -290,6 +290,7 @@ nav {
     border-radius: 8px;
     font-size: 13px !important;
     color: var(--text-secondary) !important;
+    text-decoration: none !important;
     transition: all 0.15s;
     white-space: nowrap;
 }
@@ -299,6 +300,31 @@ nav {
 .dropdown-menu a:hover {
     background: var(--bg-card-hover) !important;
     color: var(--text-primary) !important;
+}
+
+/* ─── Secondary nav dropdown palettes ─── */
+.nav-secondary-links .nav-dropdown .dropdown-menu {
+    background: rgba(6,16,8,0.98);
+    border-color: rgba(34,197,94,0.20);
+}
+.nav-secondary-links .nav-dropdown .dropdown-menu a {
+    color: rgba(134,239,172,0.60) !important;
+}
+.nav-secondary-links .nav-dropdown .dropdown-menu a:hover {
+    background: rgba(34,197,94,0.10) !important;
+    color: #86efac !important;
+}
+
+.nav-secondary-links .dropdown-privacy .dropdown-menu {
+    background: rgba(18,5,5,0.98);
+    border-color: rgba(239,68,68,0.20);
+}
+.nav-secondary-links .dropdown-privacy .dropdown-menu a {
+    color: rgba(252,165,165,0.60) !important;
+}
+.nav-secondary-links .dropdown-privacy .dropdown-menu a:hover {
+    background: rgba(239,68,68,0.10) !important;
+    color: #fca5a5 !important;
 }
 
 /* ─── Hero ─── */
