@@ -87,6 +87,7 @@ nav {
     font-size: 11.5px !important;
     font-weight: 500 !important;
     color: var(--text-muted) !important;
+    text-decoration: none !important;
     padding: 5px 13px !important;
     border-radius: 6px;
     transition: all 0.2s;
