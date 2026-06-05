@@ -74,7 +74,7 @@
     "version": "1.1.0-lifeos-ios",
     "date": "June 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "app": "LifeOS",
     "summary": "LifeOS v1.1.0 iOS (Build 8) — live on App Store (Jun 3, 2026). Adds Institutional subscription tiers, Zoe continuous voice mode, on-device AI, Knowledge Depth system, and Multi-Stage Zoe AI architecture. https://apps.apple.com/app/lifeos-life-companion/id6772060349",
     "included": [
@@ -91,12 +91,31 @@
     "platforms": ["iOS"]
   },
   {
-    "version": "1.2.0-lifeos-android",
+    "version": "1.2.0-lifeos-ios",
     "date": "June 2026",
-    "tag": "in-review",
+    "tag": "stable",
     "current": true,
     "app": "LifeOS",
-    "summary": "LifeOS v1.2.0 Android (versionCode 12) — uploaded to Google Play (Jun 2, 2026). Adds On-Device AI Categorized screen, vision model download fixes, smart intent routing, and default model UX improvements.",
+    "summary": "LifeOS v1.2.0 iOS (Build 9) — live on App Store (Jun 5, 2026). Zoe voice quality improvements, Llama 3.2 1B as default on-device AI model, smart intent routing, and mic button controls. https://apps.apple.com/app/lifeos-life-companion/id6772060349",
+    "included": [
+      "Zoe: Llama 3.2 1B set as default on-device model — green capsule badge, auto-selected in picker",
+      "Zoe: Correct Llama chat template — eliminates garbled output and reserved token leakage",
+      "Zoe: Voice input quality — mic button controls send, no auto-send on pause or recognition error",
+      "Zoe: Smart intent routing — weather/news/world queries skip knowledge DB entirely",
+      "Zoe: EOS stop on any <| prefix — covers Llama and Phi model families",
+      "Zoe: System prompt includes 'no internet' notice to prevent live-data hallucination",
+      "Knowledge card bubble removed from AI mode — knowledge flows silently as LLM context only",
+      "iOS (SwiftUI), Build 9, v1.2.0"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
+    "version": "1.2.0-lifeos-android",
+    "date": "June 2026",
+    "tag": "stable",
+    "current": true,
+    "app": "LifeOS",
+    "summary": "LifeOS v1.2.0 Android (versionCode 13) — live on Google Play (Jun 3, 2026). On-Device AI Categorized screen, vision model download fixes, smart intent routing, and default model UX improvements.",
     "included": [
       "On-Device AI — Categorized: browse models by capability (Text, Photo, Video, Blind Guide, All-in-One)",
       "Default and Recommended model auto-selection per category based on device RAM",
