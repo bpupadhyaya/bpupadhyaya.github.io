@@ -1,0 +1,24 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "June 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Initial release of Zoel AI — your private AI that runs entirely on your device. Approved and live on Google Play; iOS submitted to the App Store and awaiting review. Voice-first, 100% offline, multilingual, with fifteen knowledge domains (Health free forever).",
+    "included": [
+      "100% on-device AI — no accounts, no servers, no tracking; your data never leaves your device",
+      "Voice-first conversation with multilingual support",
+      "Fifteen knowledge domains (Health free forever; 14 additional gated domains): Safety, Finance, Work, Legal, Relationships, Family, Home Life, Travel, Productivity, Civic, Spiritual, Learning, Legacy, Companion",
+      "On-device chat works in every module — only each module's knowledge library is gated",
+      "Optional Bring-Your-Own-Key cloud models, off by default",
+      "Optional internet enrichment with in-app citation browser, off by default",
+      "Zoel Free — the Health module plus Zoel conversation in every module",
+      "Zoel Select ($4.99 one-time) — Health plus any 4 of the 14 paid domains, forever",
+      "Zoel Unlimited ($4.99/mo or $49.99/yr) — all domains, current and future",
+      "Entitlements checked locally (StoreKit 2 on iOS, Play Billing on Android) so gating works fully offline",
+      "StoreKit 2 (iOS) and Google Play Billing (Android) integration",
+      "Full cross-platform feature parity between iOS and Android"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
