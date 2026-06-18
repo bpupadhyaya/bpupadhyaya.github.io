@@ -133,7 +133,7 @@
     <div class="section-label">Privacy</div>
     <h2 class="section-title">Privacy Policy — Zoel AI</h2>
     <p class="section-desc" style="margin-bottom: 8px;">Your private AI &mdash; running entirely on your device.</p>
-    <p style="color: var(--text-secondary); margin-bottom: 32px;"><em>Last updated: June 13, 2026</em></p>
+    <p style="color: var(--text-secondary); margin-bottom: 32px;"><em>Last updated: June 17, 2026</em></p>
 
     <div style="line-height: 1.8; color: var(--text-secondary);">
 
@@ -153,7 +153,7 @@
         <h3 style="color: var(--text-primary); margin-top: 32px;">What stays on your device</h3>
         <ul>
             <li><strong>Conversations &amp; AI processing.</strong> Your chats and on-device AI inference happen locally and never leave your phone.</li>
-            <li><strong>Your data (opt-in).</strong> If you choose to connect health, calendar, or files, that information is read and used <strong>only on your device</strong> to personalize answers. It is never uploaded to us.</li>
+            <li><strong>Apple Health / health data (opt-in).</strong> If you connect Apple Health, Zoel AI <strong>reads</strong> metrics such as steps, heart rate, sleep, blood pressure, weight, and glucose to display them in the in-app <strong>My Health</strong> dashboard and to personalize answers. This data is read-only, used <strong>only on your device</strong>, never written back to Apple Health, and never uploaded to us. The same applies to calendar and files you choose to connect.</li>
             <li><strong>AI models you download.</strong> Models are downloaded at your request and stored locally; no model is bundled with the install.</li>
         </ul>
 
@@ -174,10 +174,21 @@
 
         <h3 style="color: var(--text-primary); margin-top: 32px;">Optional cloud AI (Bring Your Own Key)</h3>
         <p>
-            Zoel AI works fully offline, but you may optionally add your own API key for a third-party provider
-            (e.g. OpenAI or Anthropic). If you do, your prompts are sent <strong>directly from your device to that
-            provider</strong> under their privacy policy and billed to your own account. EqualInformation never
-            sees your key or your prompts.
+            By default, Zoel AI runs <strong>entirely on your device</strong> and sends none of your conversation
+            data anywhere. As an option, you may add your own API key for a third-party AI service. Supported
+            services are <strong>OpenAI</strong>, <strong>Anthropic</strong>, <strong>Google (Gemini)</strong>,
+            <strong>Groq</strong>, and <strong>xAI (Grok)</strong>, plus self-hosted servers (Ollama or a custom
+            endpoint) that you configure.
+        </p>
+        <p>
+            This is strictly opt-in. Zoel AI requires your <strong>explicit, in-app consent</strong> before any
+            provider is enabled, and that consent screen names the recipient and states what is shared. When a
+            provider is enabled, the text of your prompts and your recent conversation context is sent
+            <strong>directly from your device to that provider</strong> over an encrypted connection, solely to
+            generate a response. Once sent, that data is handled under <strong>that provider&rsquo;s own privacy
+            policy and terms</strong>; we encourage you to review them. EqualInformation operates no servers in
+            this path and never receives your API key, your prompts, or the responses. You can disable any provider
+            at any time, which stops all further sharing.
         </p>
 
         <h3 style="color: var(--text-primary); margin-top: 32px;">Optional internet enrichment</h3>
