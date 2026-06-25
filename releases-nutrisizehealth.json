@@ -1,9 +1,22 @@
 [
   {
+    "version": "1.2",
+    "date": "June 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "App Store compliance and polish update — Sources & References is now directly reachable from the System menu with tappable citation links, and the My Health dashboard card title is aligned with the other cards.",
+    "included": [
+      "Sources & References moved into the System menu and made directly accessible",
+      "Tappable citation links (WHO, ACSM, NIH, FDA, AHA, USDA) open in an in-app browser",
+      "My Health dashboard card title aligned with the other dashboard cards"
+    ],
+    "platforms": ["iOS"]
+  },
+  {
     "version": "1.1.0",
     "date": "April 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Personalized Hydration Intelligence — individualized daily water targets, adaptive reminders, quick-log tracking with beverage offsets, wearable dehydration detection, and real-time KPI scoring.",
     "included": [
       "Personalized daily hydration target based on body weight, age, sex, and activity level",
