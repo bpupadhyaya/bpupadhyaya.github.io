@@ -133,7 +133,7 @@
     <div class="hero-bg"></div>
     <div class="hero-content">
         <h1>Privacy Policy — <span class="gradient">Nutrisize Health</span></h1>
-        <p class="hero-subtitle">Effective Date: April 6, 2026</p>
+        <p class="hero-subtitle">Effective Date: June 26, 2026</p>
     </div>
 </div>
 
@@ -173,7 +173,8 @@
             <li>Physiological parameter tracking data</li>
             <li>In-app notification preferences and any optional contact information</li>
             <li>Local app settings, zoom preferences, and feature-access state</li>
-            <li>Feedback mood, message text, and device diagnostic information (submitted only when you choose to send feedback)</li>
+            <li>Feedback mood, message text, and device/diagnostic information (transmitted only when you choose to send feedback)</li>
+            <li>A disclaimer-acceptance record — including the disclaimer version and text, the time of acceptance, an anonymous per-installation identifier, and device/diagnostic information (transmitted once when you accept the in-app disclaimer)</li>
             <li>Limited purchase-status information needed to reflect an eligible App Store or Google Play in-app purchase</li>
         </ul>
     </div>
@@ -197,15 +198,25 @@
     </div>
 
     <div class="policy-section">
-        <h3><span class="policy-number">6</span> Feedback and Diagnostic Data</h3>
-        <p>When you choose to send feedback from within Nutrisize Health, the app may transmit the following to a Google Sheets endpoint operated by EqualInformation, LLC:</p>
+        <h3><span class="policy-number">6</span> Feedback, Diagnostic, and Disclaimer-Acceptance Data</h3>
+        <p>Nutrisize Health transmits limited technical information to a Google Sheets endpoint operated by EqualInformation, LLC in two situations: (a) when you send feedback, and (b) when you accept the in-app legal disclaimer. In neither case does it include your health records, profile data, name, email, or account credentials.</p>
+        <p><strong>When you send feedback</strong> (only after you tap the "Send Feedback" button):</p>
         <ul style="color: var(--text-secondary); line-height: 1.8; padding-left: 20px;">
             <li>Your selected mood and feedback message text</li>
-            <li>App version, platform (iOS/Android/Web), and language settings</li>
-            <li>Device model, operating system version, screen size, and timezone</li>
-            <li>Storage usage and memory statistics</li>
+            <li>App name, version, platform (iOS/Android/Web), and language settings</li>
+            <li>Device model and manufacturer, and operating system version</li>
+            <li>Hardware details such as chip/SoC, CPU core count and architecture, GPU, and total memory (RAM)</li>
+            <li>Screen and window size, storage usage, app memory, locale/region, and timezone</li>
+            <li>Anonymous app-usage counts (for example, the number of saved health records, meal plans, and exercise plans)</li>
         </ul>
-        <p>This data is sent only when you explicitly tap the "Send Feedback" button. No health records, profile data, or personal identifiers are included in feedback submissions. The feedback data is used solely to improve the app and respond to bug reports.</p>
+        <p><strong>When you accept the disclaimer</strong> (transmitted once, automatically, at first launch or after the disclaimer is updated):</p>
+        <ul style="color: var(--text-secondary); line-height: 1.8; padding-left: 20px;">
+            <li>The disclaimer version, the exact disclaimer text shown to you, and a cryptographic hash of that text</li>
+            <li>The date and time you accepted, whether you scrolled through the text, and how long it was on screen</li>
+            <li>An anonymous, randomly generated per-installation identifier. This is not tied to your name, email, or any account, does not identify you personally, is not used for advertising or cross-app tracking, and resets if you reinstall the app</li>
+            <li>The same device and hardware details listed above</li>
+        </ul>
+        <p>This information is used to improve the app, respond to bug reports, and maintain a record that the legal disclaimer was presented and accepted. All transmission occurs over HTTPS. The endpoint is hosted by Google, which may process technical request information (such as IP address) under Google's own policies.</p>
     </div>
 
     <div class="policy-section">
@@ -235,12 +246,12 @@
 
     <div class="policy-section">
         <h3><span class="policy-number">11</span> Sharing and Sale of Data</h3>
-        <p>EqualInformation, LLC does not sell personal or sensitive user data. We do not share users' health data with data brokers or for advertising purposes. Except for user-initiated feedback submissions, interactions with third-party websites or services, and limited purchase-status handling through App Store or Google Play, the company does not intentionally transmit personal or sensitive Nutrisize Health user data to its own servers or unrelated third parties.</p>
+        <p>EqualInformation, LLC does not sell personal or sensitive user data. We do not share users' health data with data brokers or for advertising purposes. Except for user-initiated feedback submissions, the disclaimer-acceptance record described in Section 6, interactions with third-party websites or services, and limited purchase-status handling through App Store or Google Play, the company does not intentionally transmit personal or sensitive Nutrisize Health user data to its own servers or unrelated third parties.</p>
     </div>
 
     <div class="policy-section">
         <h3><span class="policy-number">12</span> Data Retention and Deletion</h3>
-        <p>Data stored by Nutrisize Health generally remains on your device until you delete it inside the app (via Data Management), clear the app's local storage, or uninstall the app. You may export your health data as a JSON file at any time from the Data Management screen. Purchase-related unlock state may also be restorable through App Store or Google Play for eligible purchases. Feedback data submitted to Google Sheets is retained by EqualInformation, LLC for product improvement purposes.</p>
+        <p>Data stored by Nutrisize Health generally remains on your device until you delete it inside the app (via Data Management), clear the app's local storage, or uninstall the app. You may export your health data as a JSON file at any time from the Data Management screen. Purchase-related unlock state may also be restorable through App Store or Google Play for eligible purchases. Feedback data and disclaimer-acceptance records submitted to Google Sheets are retained by EqualInformation, LLC for product-improvement and legal record-keeping purposes.</p>
     </div>
 
     <div class="policy-section">
