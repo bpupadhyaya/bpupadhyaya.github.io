@@ -1,9 +1,26 @@
 [
   {
-    "version": "1.2",
+    "version": "1.2.0",
     "date": "June 2026",
     "tag": "stable",
     "current": true,
+    "summary": "Clearer, smarter health History and a smoother setup. Now live on Google Play (Android 1.2.0); iOS 1.3 submitted to the App Store.",
+    "included": [
+      "History charts now scale honestly, so small day-to-day changes look small and real trends stand out",
+      "Smarter, body-aware weight insights — your weight trend adapts to your BMI: gaining is encouraged when you're below a healthy range and flagged when you're above it, with the exact amount of change shown",
+      "Switch between kg and lbs directly on the History screen",
+      "Fixed: History now updates right after you save your Basic Health Parameters (Android)",
+      "Clearer onboarding — Gender (Male / Female / Other) and metric/imperial unit choices (cm/ft-in, kg/lbs), consistent with Basic Health Parameters",
+      "Renamed 'Individualized' to 'Personalized' across Nutrition and Exercise",
+      "Performance improvements and bug fixes"
+    ],
+    "platforms": ["iOS", "Android"]
+  },
+  {
+    "version": "1.2",
+    "date": "June 2026",
+    "tag": "stable",
+    "current": false,
     "summary": "App Store compliance and polish update — Sources & References is now directly reachable from the System menu with tappable citation links, and the My Health dashboard card title is aligned with the other cards.",
     "included": [
       "Sources & References moved into the System menu and made directly accessible",
