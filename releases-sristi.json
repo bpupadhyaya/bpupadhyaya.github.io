@@ -1,0 +1,25 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "June 2026",
+    "tag": "submitted",
+    "current": true,
+    "summary": "Initial release of Sristi — your personal life optimizer, \"live by design, not by default.\" Submitted to the Apple App Store and awaiting review (June 28, 2026); the Android build is packaged and pending Google Play submission. Sristi is 100% on-device and privacy-first: no account, no servers, no tracking. A free core covers the health essentials, with a one-time \"Sristi Plus\" unlock for the premium life-optimization modules.",
+    "included": [
+      "13 cited life domains: Sleep & Rest, Hydration, Nutrition & Meals, Movement & Exercise, Mental & Emotional, Social & Relationships, Health Monitoring, Environment & Light, Focus & Productivity, Financial Wellness, Spiritual & Purpose, Life Transitions, and Safety & Emergency",
+      "Free core: a personalized daily plan, a guidance Library with tappable sources, Stats across day/week/month, and the always-free Safety & Emergency module",
+      "Sristi Plus (one-time unlock, yours forever — no subscription): Focus & Productivity, Financial Wellness, Spiritual & Purpose, and Life Transitions",
+      "Evidence-based recommendations with tappable citations (WHO, IOM/NASEM, EFSA, ACSM, NSF, AASM, ACC/AHA, APA, CFPB, CDC, NHTSA, and peer-reviewed studies)",
+      "Voice-first input — speak, tap, or type",
+      "On-device personalized targets computed from your profile, activity, and climate (e.g., hydration and movement)",
+      "Optional read-only Health (iOS) / Health Connect (Android) integration for exercise minutes and sleep",
+      "StoreKit 2 (iOS) and Google Play Billing (Android) — entitlements verified on-device, no account required",
+      "100% on-device — no account, no servers, no cloud sync, no analytics, and no tracking; the core works fully offline",
+      "Native cross-platform builds: SwiftUI (iOS 17+) and Jetpack Compose (Android 8.0+)"
+    ],
+    "coming": [
+      "An intelligence layer — adaptive planning, deeper trends, and on-device guidance — planned as a future add-on"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]
