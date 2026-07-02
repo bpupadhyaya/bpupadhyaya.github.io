@@ -133,6 +133,7 @@ const html = `<!DOCTYPE html>
         }
         .release-tag.beta { background: rgba(249, 115, 22, 0.15); color: #f97316; }
         .release-tag.stable { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+        .release-tag.live { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
         .release-tag.submitted { background: rgba(99, 102, 241, 0.15); color: #6366f1; }
         .release-tag.current { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
         .release-body { color: var(--text-secondary); font-size: 15px; line-height: 1.8; }

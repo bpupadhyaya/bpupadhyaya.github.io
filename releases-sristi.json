@@ -1,10 +1,10 @@
 [
   {
     "version": "1.0.0",
-    "date": "June 2026",
-    "tag": "submitted",
+    "date": "July 2026",
+    "tag": "live",
     "current": true,
-    "summary": "Initial release of Sristi — your personal life optimizer, \"live by design, not by default.\" Submitted to the Apple App Store and awaiting review (June 28, 2026); the Android build is packaged and pending Google Play submission. Sristi is 100% on-device and privacy-first: no account, no servers, no tracking. A free core covers the health essentials, with a one-time \"Sristi Plus\" unlock for the premium life-optimization modules.",
+    "summary": "Initial release of Sristi — your personal life optimizer, \"live by design, not by default.\" Now live on Google Play (July 1, 2026); the iOS build is in review on the Apple App Store. Sristi is 100% on-device and privacy-first: no account, no servers, no tracking. A free core covers the health essentials, with a one-time \"Sristi Plus\" unlock for the premium life-optimization modules.",
     "included": [
       "13 cited life domains: Sleep & Rest, Hydration, Nutrition & Meals, Movement & Exercise, Mental & Emotional, Social & Relationships, Health Monitoring, Environment & Light, Focus & Productivity, Financial Wellness, Spiritual & Purpose, Life Transitions, and Safety & Emergency",
       "Free core: a personalized daily plan, a guidance Library with tappable sources, Stats across day/week/month, and the always-free Safety & Emergency module",
