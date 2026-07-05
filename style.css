@@ -143,6 +143,17 @@ nav {
     color: var(--accent-blue) !important;
 }
 
+.nav-pill-purple {
+    background: rgba(99,102,241,0.09) !important;
+    border-color: rgba(99,102,241,0.22) !important;
+    color: #6366f1 !important;
+}
+.nav-pill-purple:hover {
+    background: rgba(99,102,241,0.16) !important;
+    border-color: rgba(99,102,241,0.40) !important;
+    color: #6366f1 !important;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;
