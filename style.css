@@ -154,6 +154,17 @@ nav {
     color: #6366f1 !important;
 }
 
+.nav-pill-teal {
+    background: rgba(16,185,129,0.09) !important;
+    border-color: rgba(16,185,129,0.22) !important;
+    color: #34d399 !important;
+}
+.nav-pill-teal:hover {
+    background: rgba(16,185,129,0.16) !important;
+    border-color: rgba(16,185,129,0.40) !important;
+    color: #34d399 !important;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;
