@@ -157,12 +157,21 @@ nav {
 .nav-pill-teal {
     background: rgba(16,185,129,0.09) !important;
     border-color: rgba(16,185,129,0.22) !important;
-    color: #34d399 !important;
+    color: #f59e0b !important; /* arrow inherits the gradient's warm end */
 }
 .nav-pill-teal:hover {
     background: rgba(16,185,129,0.16) !important;
     border-color: rgba(16,185,129,0.40) !important;
-    color: #34d399 !important;
+    color: #f59e0b !important;
+}
+/* App-header wordmark gradient: green -> yellow-green -> orange */
+.nutrisize-grad {
+    background: linear-gradient(90deg, #22c55e 0%, #4ade80 30%, #a3e635 55%, #eab308 75%, #f97316 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: 700;
 }
 
 .nav-logo {
