@@ -52,7 +52,7 @@ nav {
 .nav-inner {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 16px 24px;
+    padding: 8px 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -214,10 +214,11 @@ nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 16px 20px;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px 20px;
     list-style: none;
-    padding: 4px 0;
+    padding: 0;
 }
 
 .nav-links a {
