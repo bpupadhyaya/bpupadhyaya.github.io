@@ -224,7 +224,7 @@ nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex: 1;
     gap: 10px 20px;
     list-style: none;
