@@ -175,16 +175,6 @@ nav {
     border-color: rgba(22,163,74,0.40) !important;
     color: #16a34a !important;
 }
-.nav-pill-amber {
-    background: rgba(245,158,11,0.09) !important;
-    border-color: rgba(245,158,11,0.22) !important;
-    color: #f59e0b !important;
-}
-.nav-pill-amber:hover {
-    background: rgba(245,158,11,0.16) !important;
-    border-color: rgba(245,158,11,0.40) !important;
-    color: #f59e0b !important;
-}
 
 /* App-header wordmark gradient: green -> yellow-green -> orange */
 .nutrisize-grad {
