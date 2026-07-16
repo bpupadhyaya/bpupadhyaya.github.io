@@ -1,0 +1,30 @@
+[
+  {
+    "version": "1.0.0-beta",
+    "date": "July 2026",
+    "tag": "beta",
+    "current": true,
+    "app": "SoloOS",
+    "summary": "SoloOS v1.0.0 Beta — complete iOS + Android MVP. 100% on-device business OS for solopreneurs: clients, invoices, time tracking, proposals, contracts, financial dashboard, AI Business Advisor, recurring invoices, and data export. Zero backend, zero cloud.",
+    "included": [
+      "Client management — profiles, billing history, communication notes, pipeline view (leads → active → completed)",
+      "Invoice creation — multi-line items, tax, PDF generation and share",
+      "Recurring invoices — weekly/monthly/quarterly/yearly auto-generation",
+      "Invoice from unbilled time entries — one-tap billing for logged hours",
+      "Email invoice + AI-drafted follow-up for overdue invoices (mailto: — user's own email)",
+      "Time tracking — live timer and manual log, billable vs non-billable, tag by client",
+      "Proposals — 4 templates (Web, Mobile, Consulting, Brand) + custom creation",
+      "Financial dashboard — income vs expenses, cash flow 8-week projection, quarterly tax estimate",
+      "Expense tracking — categorized, tax-deductible flagging",
+      "AI Business Advisor — on-device LLM (llama.cpp + Metal) with RAG over your own business data; rule-based fallback when no model loaded",
+      "Streaming AI responses — token-by-token display, thinking indicator",
+      "Contracts — templates and creation with status tracking",
+      "Settings — AI engine status, starting balance for cash flow, GGUF model install instructions",
+      "Data export — full JSON backup of all data via share sheet",
+      "SOTheme — dark navy + gold accent design system (Plus Jakarta Sans, 100% dark mode)",
+      "iOS (SwiftUI, min iOS 17, SwiftData) + Android (Jetpack Compose, minSdk 26, Room DB v4)",
+      "Bundle ID: com.equalinformation.soloOS.app"
+    ],
+    "platforms": ["iOS", "Android"]
+  }
+]

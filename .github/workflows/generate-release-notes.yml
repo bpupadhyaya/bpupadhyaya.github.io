@@ -8,6 +8,7 @@ on:
       - releases-nutrisizehealth.json
       - releases-carecircle.json
       - releases-zoel-ai.json
+      - releases-solo-os.json
 
 permissions:
   contents: write
@@ -24,17 +25,18 @@ jobs:
           node generate-release-notes-nutrisizehealth.js
           node generate-release-notes-carecircle.js
           node generate-release-notes-zoel-ai.js
+          node generate-release-notes-solo-os.js
 
       - name: Check for changes
         id: check
         run: |
-          git diff --quiet release-notes.html release-notes-nutrisizehealth.html release-notes-carecircle.html release-notes-zoel-ai.html && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet release-notes.html release-notes-nutrisizehealth.html release-notes-carecircle.html release-notes-zoel-ai.html release-notes-solo-os.html && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add release-notes.html release-notes-nutrisizehealth.html release-notes-carecircle.html release-notes-zoel-ai.html
+          git add release-notes.html release-notes-nutrisizehealth.html release-notes-carecircle.html release-notes-zoel-ai.html release-notes-solo-os.html
           git commit -m "Auto-generate release notes HTML"
           git push
