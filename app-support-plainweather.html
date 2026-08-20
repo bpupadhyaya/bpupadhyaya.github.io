@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Support — PlainWeather</title>
+    <meta name="description" content="App support for the PlainWeather app by EqualInformation, LLC.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=10">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav-primary">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">EI</div>
+                EqualInformation
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#apps">Apps</a></li>
+                <li><a href="index.html#expertise">Expertise</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="https://equalinformation.com/tools/" target="_blank" class="nav-pill nav-pill-purple">AI Tools &#8599;</a></li>
+                <li><a href="human-constitution.html" class="nav-pill nav-pill-green">Human Constitution</a></li>
+                <li><a href="https://equalinformation.com/human/" target="_blank" class="nav-pill nav-pill-blue">Human Engineering &#8599;</a></li>
+                <li><a href="https://nutrisize.health" target="_blank" rel="noopener" class="nav-pill nav-pill-teal"><span class="nutrisize-grad">Nutrisize Health</span> &#8599;</a></li>
+                <li><a href="https://bpupadhyaya.github.io/insurance-site/" target="_blank" rel="noopener" class="nav-pill nav-pill-forest">Insurance Hub &#8599;</a></li>
+                <li><a href="https://equalinformation.com/global-intelligence-site/" target="_blank" rel="noopener" class="nav-pill nav-pill-forest">Global Intelligence &#8599;</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">&#9776;</button>
+        </div>
+    </div>
+    <div class="nav-secondary">
+        <div class="nav-secondary-inner">
+            <ul class="nav-secondary-links">
+                <li class="nav-dropdown">
+                    <a href="release-notes.html">Release Notes <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="release-notes.html">NutriSize</a></li>
+                        <li><a href="release-notes-nutrisizepro.html">Nutrisize Pro</a></li>
+                        <li><a href="release-notes-nutrisizehealth.html">Nutrisize Health</a></li>
+                        <li><a href="release-notes-openwallet.html">Open Wallet</a></li>
+                        <li><a href="release-notes-allinwallet.html">AllIn Wallet</a></li>
+                        <li><a href="release-notes-plaindental.html">PlainDental</a></li>
+                        <li><a href="release-notes-carecircle.html">CareCircle</a></li>
+                        <li><a href="release-notes-plainhealth.html">PlainHealth</a></li>
+                        <li><a href="release-notes-repairmate.html">RepairMate</a></li>
+                        <li><a href="release-notes-plainlaw.html">PlainLaw</a></li>
+                        <li><a href="release-notes-plainauto.html">PlainAuto</a></li>
+                        <li><a href="release-notes-chronotrack.html">ChronoTrack</a></li>
+                        <li><a href="release-notes-lifeos.html">LifeOS</a></li>
+                        <li><a href="release-notes-sristi.html">Sristi</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown dropdown-privacy">
+                    <a href="privacy.html">Privacy Policy <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="privacy.html">Overview</a></li>
+                        <li><a href="privacy-nutrisizehealth.html">Nutrisize Health</a></li>
+                        <li><a href="privacy-insurancehub.html">Insurance Hub</a></li>
+                        <li><a href="privacy-android.html">Nutrisize Android</a></li>
+                        <li><a href="privacy-ios.html">Nutrisize iOS</a></li>
+                        <li><a href="privacy-nutrisizepro.html">Nutrisize Pro</a></li>
+                        <li><a href="privacy-humansolution.html">Human Solution</a></li>
+                        <li><a href="privacy-openwallet.html">Open Wallet</a></li>
+                        <li><a href="privacy-allinwallet.html">AllIn Wallet</a></li>
+                        <li><a href="privacy-plaindental.html">PlainDental</a></li>
+                        <li><a href="privacy-carecircle.html">CareCircle</a></li>
+                        <li><a href="privacy-plainhealth.html">PlainHealth</a></li>
+                        <li><a href="privacy-sristi.html">Sristi</a></li>
+                        <li><a href="privacy-plainrescue.html">PlainRescue</a></li>
+                        <li><a href="privacy-plainlife.html">PlainLife</a></li>
+                        <li><a href="privacy-plainweather.html">PlainWeather</a></li>
+                        <li><a href="privacy-repairmate.html">RepairMate</a></li>
+                        <li><a href="privacy-plainlaw.html">PlainLaw</a></li>
+                        <li><a href="privacy-kindly.html">Kindly</a></li>
+                        <li><a href="privacy-plainauto.html">PlainAuto</a></li>
+                        <li><a href="privacy-chronotrack.html">ChronoTrack</a></li>
+                        <li><a href="privacy-medisight.html">MediSight</a></li>
+                        <li><a href="privacy-lifeos.html">LifeOS</a></li>
+                        <li><a href="privacy-zoel.html">Zoel AI Companion</a></li>
+                        <li><a href="privacy-zoel-ai.html">Zoel AI</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="terms.html">Terms of Service <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="terms.html">Overview (Apps)</a></li>
+                        <li><a href="https://equalinformation.com/tools/license.html">AI Tools — License &amp; Terms</a></li>
+                        <li><a href="terms-plainlife.html">PlainLife</a></li>
+                        <li><a href="lifeos-terms.html">LifeOS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="#">App Support <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="app-support-kindly.html">Kindly</a></li>
+                        <li><a href="app-support-chronotrack.html">ChronoTrack</a></li>
+                        <li><a href="app-support-medisight.html">MediSight</a></li>
+                        <li><a href="app-support-nutrisize.html">Nutrisize</a></li>
+                        <li><a href="app-support-nutrisizepro.html">Nutrisize Pro</a></li>
+                        <li><a href="app-support-nutrisizehealth.html">Nutrisize Health</a></li>
+                        <li><a href="app-support-insurancehub.html">Insurance Hub</a></li>
+                        <li><a href="app-support-openwallet.html">Open Wallet</a></li>
+                        <li><a href="app-support-allinwallet.html">AllIn Wallet</a></li>
+                        <li><a href="app-support-plaindental.html">PlainDental</a></li>
+                        <li><a href="app-support-carecircle.html">CareCircle</a></li>
+                        <li><a href="app-support-plainhealth.html">PlainHealth</a></li>
+                        <li><a href="app-support-sristi.html">Sristi</a></li>
+                        <li><a href="app-support-plainrescue.html">PlainRescue</a></li>
+                        <li><a href="app-support-plainlife.html">PlainLife</a></li>
+                        <li><a href="app-support-plainweather.html">PlainWeather</a></li>
+                        <li><a href="app-support-repairmate.html">RepairMate</a></li>
+                        <li><a href="app-support-plainlaw.html">PlainLaw</a></li>
+                        <li><a href="app-support-plainauto.html">PlainAuto</a></li>
+                        <li><a href="app-support-humansolution.html">Human Solution</a></li>
+                        <li><a href="app-support-lifeos.html">LifeOS</a></li>
+                        <li><a href="app-support-zoel.html">Zoel AI Companion</a></li>
+                        <li><a href="app-support-zoel-ai.html">Zoel AI</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="support.html">Support <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="support.html">Overview</a></li>
+                        <li><a href="support-nutrisize.html">Support Nutrisize</a></li>
+                        <li><a href="support-nutrisizepro.html">Support Nutrisize Pro</a></li>
+                        <li><a href="support-nutrisizehealth.html">Support Nutrisize Health</a></li>
+                        <li><a href="support-insurancehub.html">Support Insurance Hub</a></li>
+                        <li><a href="support-openwallet.html">Support Open Wallet</a></li>
+                        <li><a href="support-allinwallet.html">Support AllIn Wallet</a></li>
+                        <li><a href="support-humansolution.html">Support Human Solution</a></li>
+                        <li><a href="support-plaindental.html">Support PlainDental</a></li>
+                        <li><a href="support-carecircle.html">Support CareCircle</a></li>
+                        <li><a href="support-plainhealth.html">Support PlainHealth</a></li>
+                        <li><a href="support-sristi.html">Support Sristi</a></li>
+                        <li><a href="support-plainrescue.html">Support PlainRescue</a></li>
+                        <li><a href="support-plainlife.html">Support PlainLife</a></li>
+                        <li><a href="support-plainweather.html">Support PlainWeather</a></li>
+                        <li><a href="support-repairmate.html">Support RepairMate</a></li>
+                        <li><a href="support-plainlaw.html">Support PlainLaw</a></li>
+                        <li><a href="support-kindly.html">Support Kindly</a></li>
+                        <li><a href="support-plainauto.html">Support PlainAuto</a></li>
+                        <li><a href="support-medisight.html">Support MediSight</a></li>
+                        <li><a href="support-zoel-ai.html">Support Zoel AI</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero hero-sub">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <h1>App Support &mdash; <span class="gradient">PlainWeather</span></h1>
+        <p class="hero-subtitle">
+            Get help with PlainWeather &mdash; a hyperlocal, offline-capable weather-safety app.
+        </p>
+    </div>
+</div>
+
+<!-- Breadcrumb -->
+<ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li class="sep">/</li>
+    <li class="current">App Support &mdash; PlainWeather</li>
+</ul>
+
+<!-- Content -->
+<div class="content-section">
+
+    <div class="highlight-box">
+        <p>PlainWeather is a hyperlocal, offline-capable weather-safety app for iOS and Android. It gives severe-weather action guides for tornadoes, hurricanes, flash floods, wildfires, blizzards, heatwaves, lightning, and more, plus safety calculators (heat index, wind chill, a lightning flash-to-bang countdown), activity go/no-go checklists, and specialized modes for kids, elderly users, and people with chronic conditions &mdash; all usable with zero connectivity. It is 100% offline for every safety-critical feature, with no account required. PlainWeather is coming soon to the App Store and Google Play.</p>
+    </div>
+
+    <h2 class="section-title" style="font-size: 28px; margin-top: 56px; margin-bottom: 24px;">Frequently Asked Questions</h2>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">Is PlainWeather available yet?</h3>
+    <p>Not yet. PlainWeather is coming soon to the App Store and Google Play. There is no download link available at this time &mdash; check back here for availability.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">Does PlainWeather work without internet?</h3>
+    <p>Yes, for everything safety-critical. Every hazard action guide, safety calculator, and go/no-go checklist works fully offline. The one optional exception is forecast caching: when you're online, PlainWeather fetches and stores a forecast locally with a "last updated" timestamp, and keeps using that cached data once you lose signal.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">Is my data private?</h3>
+    <p>Yes. PlainWeather has no required account, no ads, and does not use analytics or tracking SDKs. Your family emergency plan, saved locations, and profile settings stay on your device. See our <a href="privacy-plainweather.html" style="color: var(--accent); text-decoration: none;">Privacy Policy</a> for details, including the limited use of location for regional forecasts.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">Is PlainWeather a replacement for official weather alerts?</h3>
+    <p>No. PlainWeather provides general safety guidance and plain-language explanations of official terms, but it always defers to your local meteorological or emergency-management authority's alerts and evacuation orders. In a life-threatening situation, call your local emergency services.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">What does PlainWeather cost?</h3>
+    <p>The entire safety-critical layer &mdash; every hazard guide, calculator, and checklist &mdash; is free for everyone, permanently, with no ads. An optional one-time "PlainWeather Pro" purchase unlocks convenience features that are never required for safety, such as unlimited saved locations, historical weather references, and an event-planning tool. There is no subscription for individual users.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">What's included in PlainWeather Pro?</h3>
+    <p>Pro is a one-time unlock covering convenience and depth features only: additional saved locations/regions beyond your home area, extra offline map packs for evacuation planning, historical worst-case references, pollen/allergy notes, an outdoor event weather-risk planner, cross-device family-plan sync, and the ability to post to community hazard pins (viewing pins is always free).</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">What is the lightning countdown timer?</h3>
+    <p>It's the built-in "30-30 rule" flash-to-bang timer: count the seconds between seeing lightning and hearing thunder, and PlainWeather tells you when conditions are unsafe and when it's safe to go back outside.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">Does PlainWeather have modes for kids or vulnerable family members?</h3>
+    <p>Yes. PlainWeather includes a simplified, visual Kids' weather-safety mode, an Elderly/heat-vulnerable mode with larger text and fewer taps, and guidance tuned for pregnancy, chronic-illness (asthma, COPD, cardiac), and pet safety. These are content-presentation modes, not medical tools, and are all free.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">What languages does PlainWeather support?</h3>
+    <p>PlainWeather follows your phone's language and falls back to English wherever a translation is still in progress, with more languages added progressively.</p>
+
+    <h3 style="margin-top: 32px; margin-bottom: 8px; color: var(--text-primary);">The app is crashing or not loading. What should I do?</h3>
+    <p>Try these steps:<br>
+    1. Force-close and reopen the app.<br>
+    2. Restart your device.<br>
+    3. Make sure you are running the latest version once PlainWeather is available on the App Store or Google Play.<br>
+    4. If the issue persists, contact us (see below) with your device model, OS version, and a description of the problem.</p>
+
+    <h2 class="section-title" style="font-size: 28px; margin-top: 56px; margin-bottom: 32px;">Availability</h2>
+
+    <div class="highlight-box">
+        <p>Coming soon to the App Store and Google Play. PlainWeather is not yet published, so there are no download links at this time.</p>
+    </div>
+
+    <h2 class="section-title" style="font-size: 28px; margin-top: 56px; margin-bottom: 32px;">Contact Us</h2>
+
+    <div class="cards-grid">
+        <a href="mailto:nutrisize.universal@gmail.com?subject=PlainWeather%20App%20Support" class="link-card">
+            <h3>Email Support</h3>
+            <p>Bug reports, feature requests, or questions about the app. We read every message and respond as quickly as possible.</p>
+            <div class="card-arrow">nutrisize.universal@gmail.com &rarr;</div>
+        </a>
+        <a href="mailto:support@equalinformation.com?subject=PlainWeather%20App%20Inquiry" class="link-card">
+            <h3>General Inquiries</h3>
+            <p>Business, partnership, or general inquiries about PlainWeather, including the Institutional/Team tier for schools, farms, and construction or event companies.</p>
+            <div class="card-arrow">support@equalinformation.com &rarr;</div>
+        </a>
+    </div>
+
+    <p class="disclaimer" style="margin-top: 32px;">
+        Disclaimer: PlainWeather provides general severe-weather safety guidance for educational purposes and is not a substitute for official alerts from your local meteorological or emergency-management authority. If you are experiencing a life-threatening emergency, contact your local emergency services immediately.
+    </p>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-inner">
+        <ul class="footer-links">
+            <li><a href="index.html#apps">Apps</a></li>
+            <li><a href="index.html#expertise">Expertise</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li class="nav-dropdown">
+                <a href="terms.html">Terms of Service <span class="dropdown-arrow">&#9662;</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="terms.html">Overview (Apps)</a></li>
+                    <li><a href="https://equalinformation.com/tools/license.html">AI Tools — License &amp; Terms</a></li>
+                    <li><a href="terms-plainlife.html">PlainLife</a></li>
+                    <li><a href="lifeos-terms.html">LifeOS</a></li>
+                </ul>
+            </li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <p class="footer-copy">
+            &copy; 2026 EqualInformation, LLC. All rights reserved.<br>
+            <span class="highlight">Maintaining and improving human life at near-zero cost.</span><br>
+            <span style="font-size: 11px; opacity: 0.5; font-style: italic;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</span>
+        </p>
+    </div>
+</footer>
+
+<script>
+function toggleMobileMenu() {
+    document.querySelector('.nav-links').classList.toggle('show');
+}
+document.querySelectorAll('.nav-dropdown').forEach(function(dd) {
+    dd.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) {
+            var menu = dd.querySelector('.dropdown-menu');
+            if (e.target.closest('.dropdown-menu')) return;
+            e.preventDefault();
+            dd.classList.toggle('open');
+        }
+    });
+});
+</script>
+
+</body>
+</html>
