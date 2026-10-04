@@ -1244,3 +1244,16 @@ img.arc-mark {
 }
 @media (max-width: 900px) { .wm-title { font-size: 52px; } .wm-out { -webkit-text-stroke: 9px #0a0b3d; } .wm-pill { font-size: 13px; } }
 @media (max-width: 520px) { .wm-title { font-size: 40px; } .wm-out { -webkit-text-stroke: 7px #0a0b3d; } .wm-pill { font-size: 11px; letter-spacing: 0.16em; padding: 6px 14px; } }
+
+/* Banner is never cropped: contain + blurred copy of the same art behind it */
+.game-tile-art { position: relative; overflow: hidden; background: #3b4fe0; }
+.game-tile-art::before {
+    content: ""; position: absolute; inset: -24px; z-index: 0;
+    background: var(--art) center / cover no-repeat; filter: blur(22px) saturate(1.15);
+}
+.game-tile-art img { position: relative; z-index: 1; }
+.game-grid > .game-tile:only-child .game-tile-art { flex: 0 0 60%; background: #3b4fe0; }
+.game-grid > .game-tile:only-child .game-tile-art img { width: 100%; height: 100%; object-fit: contain; object-position: center; }
+@media (max-width: 900px) {
+    .game-grid > .game-tile:only-child .game-tile-art img { height: auto; }
+}
