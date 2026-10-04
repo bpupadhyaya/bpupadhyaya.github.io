@@ -1332,3 +1332,23 @@ footer .footer-links a { color: #c3cdee; }
 footer .footer-links a:hover { color: #fff; }
 footer .footer-copy { color: #9aa7d0; }
 footer .footer-copy .highlight { color: #e7707d; }
+
+/* EqualInformation wordmark + logo (blue = information) */
+.nav-logo { gap: 12px; font-weight: 400; letter-spacing: 0; }
+.nav-logo-icon {
+    width: 48px; height: 48px; border-radius: 0; box-shadow: none; flex: none;
+    background: url(assets/ei-logo.svg) center / contain no-repeat;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.45));
+}
+.ei-word { display: flex; flex-direction: column; gap: 3px; line-height: 1; }
+.ei-name { font-size: 24px; letter-spacing: -0.6px; white-space: nowrap; }
+.ei-eq { font-weight: 500; color: #e6efff; }
+.ei-info {
+    font-weight: 800;
+    background: linear-gradient(180deg, #e3f0ff 0%, #86b9ff 42%, #3e83ff 100%);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+    filter: drop-shadow(0 0 8px rgba(70,130,255,0.5));
+}
+.ei-sub { font-size: 8.5px; font-weight: 700; letter-spacing: 0.34em; text-transform: uppercase; color: #7fa6e8; }
+@media (max-width: 520px) { .ei-name { font-size: 20px; } .nav-logo-icon { width: 40px; height: 40px; } }
+footer .footer-copy .highlight { color: var(--accent); }
