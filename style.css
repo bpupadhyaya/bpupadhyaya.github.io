@@ -1382,3 +1382,9 @@ footer .footer-copy .highlight { color: var(--accent); }
 .t3-green { --base: #62c283; --x: rgba(10,60,30,0.5);   --g: linear-gradient(180deg, #d8f2de 0%, #94dbab 52%, #63c184 100%); }
 .t3-amber { --base: #e0aa50; --x: rgba(95,55,0,0.5);    --g: linear-gradient(180deg, #fcebc4 0%, #f3cf86 52%, #e0ab52 100%); }
 .ei-info { filter: none; }
+
+/* Colour pass: flowery rose/rhododendron red for "Equal", hospital blue for "Information"; rich but still soft-shaded */
+.t3-red   { --base: #c41f40; --x: rgba(80,5,25,0.55);  --g: linear-gradient(180deg, #f6788e 0%, #dd2b4f 52%, #b3123a 100%); }
+.t3-blue  { --base: #1f6fd0; --x: rgba(8,40,95,0.55);  --g: linear-gradient(180deg, #9fd2ff 0%, #409cf3 52%, #1f6fd0 100%); }
+.t3-green { --base: #27a85a; --x: rgba(5,55,25,0.5);   --g: linear-gradient(180deg, #bff2cf 0%, #52d07c 52%, #28a95b 100%); }
+.t3-amber { --base: #e08e00; --x: rgba(95,50,0,0.5);   --g: linear-gradient(180deg, #ffe493 0%, #ffbb3a 52%, #e48f00 100%); }
