@@ -1291,3 +1291,44 @@ footer .footer-copy > span:last-child { display: block; margin-top: 2px; font-si
     footer .footer-copy .highlight { margin-left: 0; display: block; }
     footer .footer-copy > span:last-child { font-size: 9.5px !important; }
 }
+
+/* ─── EqualInformation header/footer theme: navy + crimson from the company logo (not the Arcforge look) ─── */
+.nav-primary {
+    position: relative;
+    background:
+        radial-gradient(520px 160px at 4% -30%, rgba(155,47,55,0.38), transparent 70%),
+        radial-gradient(700px 200px at 100% 0%, rgba(43,82,163,0.40), transparent 70%),
+        linear-gradient(100deg, #070b1d 0%, #0d1838 48%, #15296a 100%);
+    border-bottom: 1px solid rgba(120,150,230,0.18);
+}
+.nav-primary::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px;
+    background: linear-gradient(90deg, #9b2f37 0%, #c24150 12%, #2b52a3 45%, rgba(43,82,163,0) 100%);
+}
+.nav-secondary { background: rgba(6,10,28,0.94); border-bottom: 1px solid rgba(120,150,230,0.10); }
+.nav-logo { color: #fff; }
+.nav-logo-icon {
+    width: 40px; height: 40px; border-radius: 11px; font-size: 0; color: transparent;
+    background: #f2f2f2 url(assets/ei-logo.png) center / auto 78% no-repeat;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.18);
+}
+.nav-links a { color: #c3cdee; }
+.nav-links a:hover { color: #fff; }
+.nav-secondary-links > .nav-dropdown > a { color: #8f9cc9 !important; }
+
+footer {
+    background:
+        radial-gradient(520px 160px at 4% 130%, rgba(155,47,55,0.30), transparent 70%),
+        linear-gradient(100deg, #070b1d 0%, #0d1838 48%, #15296a 100%);
+    border-top: 1px solid rgba(120,150,230,0.18);
+    box-shadow: 0 -10px 40px rgba(5,10,40,0.5), inset 0 2px 0 rgba(155,47,55,0.0);
+    position: sticky;
+}
+footer::before {
+    content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 2px;
+    background: linear-gradient(90deg, rgba(43,82,163,0) 0%, #2b52a3 55%, #c24150 88%, #9b2f37 100%);
+}
+footer .footer-links a { color: #c3cdee; }
+footer .footer-links a:hover { color: #fff; }
+footer .footer-copy { color: #9aa7d0; }
+footer .footer-copy .highlight { color: #e7707d; }
