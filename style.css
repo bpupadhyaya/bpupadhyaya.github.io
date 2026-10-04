@@ -1370,3 +1370,15 @@ footer .footer-copy .highlight { color: var(--accent); }
 .t3-amber { --base: #e08a00; --x: #6a3b00; --g: linear-gradient(180deg, #fff3c2 0%, #ffc63f 46%, #e68a00 100%); }
 .ei-word { gap: 4px; }
 @media (max-width: 520px) { .ei-name { font-size: 21px; } .ei-sub { font-size: 7.5px; letter-spacing: 0.22em; } }
+
+/* Eye-comfort pass: soft depth (one fine lower edge + gentle shadow), muted colours, low-contrast gradients.
+   Hard multi-step extrusion and saturated red-next-to-blue vibrate on dark backgrounds, so they are avoided. */
+.ei-name .t3 { text-shadow: 0 1px 0 var(--x), 0 3px 6px rgba(0,0,0,0.30); }
+.ei-sub .t3 { text-shadow: 0 1px 0 var(--x), 0 2px 4px rgba(0,0,0,0.30); }
+.ei-name { letter-spacing: -0.3px; }
+.ei-sub { font-weight: 700; letter-spacing: 0.28em; }
+.t3-red   { --base: #d0586c; --x: rgba(90,20,38,0.55);  --g: linear-gradient(180deg, #f9bcc5 0%, #e6808f 55%, #d25a6d 100%); }
+.t3-blue  { --base: #4f93dc; --x: rgba(15,50,100,0.55); --g: linear-gradient(180deg, #d4e8fb 0%, #8cc0f1 52%, #5599de 100%); }
+.t3-green { --base: #62c283; --x: rgba(10,60,30,0.5);   --g: linear-gradient(180deg, #d8f2de 0%, #94dbab 52%, #63c184 100%); }
+.t3-amber { --base: #e0aa50; --x: rgba(95,55,0,0.5);    --g: linear-gradient(180deg, #fcebc4 0%, #f3cf86 52%, #e0ab52 100%); }
+.ei-info { filter: none; }
