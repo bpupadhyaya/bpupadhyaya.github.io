@@ -1073,32 +1073,66 @@ footer {
 }
 
 /* ─── Games section (Arcforge branding) ─── */
+#apps, #games, #expertise, #about, #contact { scroll-margin-top: 150px; }
 .app-card.game-card::before { background: linear-gradient(90deg, #8b5cf6, #22d3ee, #ec4899); }
+.app-card.game-featured {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, rgba(139,92,246,0.10), rgba(34,211,238,0.05) 55%, var(--bg-card));
+    border-color: rgba(139,92,246,0.30);
+}
+.app-card.game-featured::before { height: 4px; }
 .arc-badge {
     position: absolute;
-    top: 18px;
-    right: 18px;
+    top: 20px;
+    right: 20px;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    color: #c4b5fd;
-    background: rgba(139,92,246,0.12);
-    border: 1px solid rgba(139,92,246,0.35);
-    border-radius: 999px;
-    padding: 3px 10px 3px 4px;
+    gap: 10px;
+    padding: 5px 14px 5px 5px;
+    background: rgba(15,16,28,0.6);
+    border: 1px solid rgba(167,139,250,0.28);
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
 }
 .arc-mark {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    font-size: 9px;
-    letter-spacing: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
     color: #fff;
-    background: linear-gradient(135deg, #8b5cf6, #22d3ee);
+    background: linear-gradient(135deg, #8b5cf6 0%, #22d3ee 100%);
+    box-shadow: 0 2px 10px rgba(139,92,246,0.45), inset 0 1px 0 rgba(255,255,255,0.3);
+}
+.arc-word {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #e5e7f5;
+    line-height: 1;
+}
+.arc-word b {
+    font-weight: 800;
+    background: linear-gradient(90deg, #a78bfa, #22d3ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.arc-tag {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #9aa0c0;
+    padding-left: 10px;
+    border-left: 1px solid rgba(167,139,250,0.28);
+    line-height: 1;
+}
+@media (max-width: 600px) {
+    .arc-tag { display: none; }
+    .arc-badge { top: 14px; right: 14px; }
 }
