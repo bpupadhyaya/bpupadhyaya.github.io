@@ -1071,3 +1071,34 @@ footer {
 
     .content-section { padding: 40px 20px 80px; }
 }
+
+/* ─── Games section (Arcforge branding) ─── */
+.app-card.game-card::before { background: linear-gradient(90deg, #8b5cf6, #22d3ee, #ec4899); }
+.arc-badge {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #c4b5fd;
+    background: rgba(139,92,246,0.12);
+    border: 1px solid rgba(139,92,246,0.35);
+    border-radius: 999px;
+    padding: 3px 10px 3px 4px;
+}
+.arc-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 9px;
+    letter-spacing: 0;
+    color: #fff;
+    background: linear-gradient(135deg, #8b5cf6, #22d3ee);
+}
