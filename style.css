@@ -1193,3 +1193,24 @@ footer {
     display: flex; align-items: center;
     background: linear-gradient(135deg, #4a2fc0 0%, #3b5bf0 55%, #2f7bff 100%);
 }
+
+/* Real app icon instead of CSS "AF" tile */
+img.arc-mark {
+    width: 30px; height: 30px; border-radius: 24%; background: none; display: block;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.14), 0 0 14px rgba(120,100,255,0.35);
+}
+.game-grid > .game-tile:only-child .game-tile-art { flex: 0 0 60%; background: none; }
+.game-grid > .game-tile:only-child .game-tile-art img { height: 100%; object-fit: cover; object-position: center; }
+.game-grid > .game-tile:only-child .game-tile-body { padding: 26px 32px; }
+.af-actions .store-btn { padding: 13px 22px; font-size: 15px; }
+@media (max-width: 900px) {
+    .game-grid > .game-tile:only-child .game-tile-art { flex: none; }
+    .game-grid > .game-tile:only-child .game-tile-art img { height: auto; }
+}
+.game-grid > .game-tile:only-child .game-tile-art { flex: 0 0 62%; }
+.game-grid > .game-tile:only-child .game-tile-body { padding: 20px 28px; }
+.game-grid > .game-tile:only-child p { font-size: 13.5px; line-height: 1.55; }
+.game-grid > .game-tile:only-child .game-tile-head { margin-bottom: 10px; }
+.game-grid > .game-tile:only-child .game-status { margin: 10px 0 12px; }
+.game-grid > .game-tile:only-child .af-links { margin-top: 12px; }
+@media (max-width: 900px) { .game-grid > .game-tile:only-child .game-tile-art { flex: none; } }
