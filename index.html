@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@370;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Lilita+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=10">
+    <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
 
@@ -230,8 +230,8 @@
         Each application is built with care, backed by science, and designed to be genuinely useful in your daily life.
     </p>
 
-    <div class="apps-grid">
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisize.html'" style="cursor:pointer;">
+    <div class="apps-grid" data-paginate="apps">
+        <div id="app-nutrisize" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisize.html'" style="cursor:pointer;">
             <div class="app-icon green">&#137093;</div>
             <h3>Nutrisize</h3>
             <span class="tag beta">v2.0.3 Android — Live on Google Play &nbsp;|&nbsp; v1.0.2 iOS — Live on App Store</span>
@@ -252,7 +252,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisizepro.html'" style="cursor:pointer;">
+        <div id="app-nutrisizepro" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisizepro.html'" style="cursor:pointer;">
             <div class="app-icon green">&#11088;</div>
             <h3>Nutrisize Pro</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.1.0 Android — Live on Google Play &nbsp;|&nbsp; v1.0.0 iOS — Live on App Store</span>
@@ -273,7 +273,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisizehealth.html'" style="cursor:pointer;">
+        <div id="app-nutrisizehealth" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-nutrisizehealth.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#129657;</div>
             <h3>Nutrisize Health</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.2.0 Android — Live on Google Play &nbsp;|&nbsp; v1.3 iOS — Live on App Store</span>
@@ -295,7 +295,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.open('https://bpupadhyaya.github.io/insurance-site/','_blank')" style="cursor:pointer;">
+        <div id="app-insurance-site" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.open('https://bpupadhyaya.github.io/insurance-site/','_blank')" style="cursor:pointer;">
             <div class="app-icon green">&#128737;&#65039;</div>
             <h3>Insurance Hub</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">Web — Live &nbsp;|&nbsp; Android — Live on Google Play &nbsp;|&nbsp; iOS — Live on the App Store</span>
@@ -318,7 +318,7 @@
             </div>
         </div>
 
-        <div class="app-card coming">
+        <div id="app-open-wallet" class="app-card coming">
             <div class="app-icon blue">&#128179;</div>
             <h3>Open Wallet &middot; Open Chain &middot; Open Token (OTK)</h3>
             <span class="tag soon" style="background: rgba(34,197,94,0.15); color: #22c55e;">v0.5.0-alpha</span>
@@ -340,7 +340,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-allinwallet.html'" style="cursor:pointer;">
+        <div id="app-allinwallet" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-allinwallet.html'" style="cursor:pointer;">
             <div class="app-icon green">&#9851;</div>
             <h3>AllIn Wallet</h3>
             <span class="tag beta" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Production Ready</span>
@@ -362,7 +362,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plaindental.html'" style="cursor:pointer;">
+        <div id="app-plaindental" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plaindental.html'" style="cursor:pointer;">
             <div class="app-icon green">&#129463;</div>
             <h3>PlainDental</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -382,7 +382,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-carecircle.html'" style="cursor:pointer;">
+        <div id="app-carecircle" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-carecircle.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#128153;</div>
             <h3>CareCircle</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -402,7 +402,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainhealth.html'" style="cursor:pointer;">
+        <div id="app-plainhealth" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainhealth.html'" style="cursor:pointer;">
             <div class="app-icon green">&#129657;</div>
             <h3>PlainHealth</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -422,7 +422,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-repairmate.html'" style="cursor:pointer;">
+        <div id="app-repairmate" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-repairmate.html'" style="cursor:pointer;">
             <div class="app-icon green">&#128296;</div>
             <h3>RepairMate</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -442,7 +442,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainlaw.html'" style="cursor:pointer;">
+        <div id="app-plainlaw" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainlaw.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#9878;</div>
             <h3>PlainLaw</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.1 — Live on App Store &amp; Google Play</span>
@@ -462,7 +462,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-kindly.html'" style="cursor:pointer;">
+        <div id="app-kindly" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-kindly.html'" style="cursor:pointer;">
             <div class="app-icon green">&#127793;</div>
             <h3>Kindly</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -480,7 +480,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainauto.html'" style="cursor:pointer;">
+        <div id="app-plainauto" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainauto.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#128663;</div>
             <h3>PlainAuto</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -498,7 +498,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-chronotrack.html'" style="cursor:pointer;">
+        <div id="app-chronotrack" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-chronotrack.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#128200;</div>
             <h3>ChronoTrack Health</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on App Store &amp; Google Play</span>
@@ -518,7 +518,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-humansolution.html'" style="cursor:pointer;">
+        <div id="app-humansolution" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-humansolution.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#127760;</div>
             <h3>Human Solution</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 Android — Live on Google Play &nbsp;|&nbsp; iOS — In Review (App Store)</span>
@@ -536,7 +536,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-medisight.html'" style="cursor:pointer;">
+        <div id="app-medisight" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-medisight.html'" style="cursor:pointer;">
             <div class="app-icon green">&#128138;</div>
             <h3>MediSight</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v2.0 Android — Live on Google Play &nbsp;|&nbsp; iOS — resubmitting</span>
@@ -556,7 +556,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(!event.target.closest('a'))window.location='app-support-lifeos.html'" style="cursor:pointer;">
+        <div id="app-lifeos" class="app-card nutrisize" onclick="if(!event.target.closest('a'))window.location='app-support-lifeos.html'" style="cursor:pointer;">
             <div class="app-icon green">&#127775;</div>
             <h3>LifeOS</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.1.0 iOS &amp; v1.2.0 Android — Live</span>
@@ -576,7 +576,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-zoel-ai.html'" style="cursor:pointer;">
+        <div id="app-zoel-ai" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-zoel-ai.html'" style="cursor:pointer;">
             <div class="app-icon green">&#129302;</div>
             <h3>Zoel AI</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0 — Live on App Store &amp; Google Play</span>
@@ -598,7 +598,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-solo-os.html'" style="cursor:pointer;">
+        <div id="app-solo-os" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-solo-os.html'" style="cursor:pointer;">
             <div class="app-icon" style="background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #F59E0B; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(245,158,11,0.3);">&#128188;</div>
             <h3>SoloOS</h3>
             <span class="tag soon" style="background: rgba(245,158,11,0.15); color: #F59E0B;">v1.0 Beta &mdash; Coming to App Store &amp; Google Play</span>
@@ -620,7 +620,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-sristi.html'" style="cursor:pointer;">
+        <div id="app-sristi" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-sristi.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#10024;</div>
             <h3>Sristi</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on Google Play &amp; the App Store</span>
@@ -642,7 +642,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainlife.html'" style="cursor:pointer;">
+        <div id="app-plainlife" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainlife.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#129516;</div>
             <h3>PlainLife</h3>
             <span class="tag soon" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on the App Store &amp; Google Play</span>
@@ -662,7 +662,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainrescue.html'" style="cursor:pointer;">
+        <div id="app-plainrescue" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainrescue.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#9937;</div>
             <h3>PlainRescue</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 — Live on the App Store &amp; Google Play</span>
@@ -682,7 +682,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainspeak.html'" style="cursor:pointer;">
+        <div id="app-plainspeak" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainspeak.html'" style="cursor:pointer;">
             <div class="app-icon green">&#128172;</div>
             <h3>PlainSpeak</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">Live on Google Play &amp; the App Store</span>
@@ -704,7 +704,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainweather.html'" style="cursor:pointer;">
+        <div id="app-plainweather" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainweather.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#9889;</div>
             <h3>PlainWeather</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.2 — Live on the App Store &amp; Google Play</span>
@@ -726,7 +726,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainwater.html'" style="cursor:pointer;">
+        <div id="app-plainwater" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainwater.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#128167;</div>
             <h3>PlainWater</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">Live on Google Play (v1.0.4) &nbsp;|&nbsp; Live on the App Store (v1.0.5)</span>
@@ -748,7 +748,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainmap.html'" style="cursor:pointer;">
+        <div id="app-plainmap" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='support-plainmap.html'" style="cursor:pointer;">
             <div class="app-icon blue">&#128205;</div>
             <h3>PlainMap</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.0 &mdash; Live on App Store &amp; Google Play</span>
@@ -768,7 +768,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plainhygiene.html'" style="cursor:pointer;">
+        <div id="app-plainhygiene" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plainhygiene.html'" style="cursor:pointer;">
             <div class="app-icon" style="background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #22c55e; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(34,197,94,0.3);">&#129532;</div>
             <h3>PlainHygiene</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">Live on the App Store &amp; Google Play</span>
@@ -788,7 +788,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plaincrisis.html'" style="cursor:pointer;">
+        <div id="app-plaincrisis" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plaincrisis.html'" style="cursor:pointer;">
             <div class="app-icon" style="background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #EF4444; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(239,68,68,0.3);">&#127384;</div>
             <h3>PlainCrisis</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.0.2 &mdash; Live on App Store &amp; Google Play</span>
@@ -808,7 +808,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plainscam.html'" style="cursor:pointer;">
+        <div id="app-plainscam" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plainscam.html'" style="cursor:pointer;">
             <div class="app-icon" style="background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #3B82F6; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(59,130,246,0.3);">&#128737;</div>
             <h3>PlainScam</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.1.0 &mdash; Live on the App Store, Android v1.1.0 in review</span>
@@ -828,7 +828,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plainmoney.html'" style="cursor:pointer;">
+        <div id="app-plainmoney" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-plainmoney.html'" style="cursor:pointer;">
             <div class="app-icon" style="background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #22c55e; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(34,197,94,0.3);">&#128176;</div>
             <h3>PlainMoney</h3>
             <span class="tag stable" style="background: rgba(34,197,94,0.15); color: #22c55e;">v1.1.0 &mdash; Live on the App Store &amp; Google Play</span>
@@ -851,7 +851,7 @@
             </div>
         </div>
 
-        <div class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-globalmonetarysystems.html'" style="cursor:pointer;">
+        <div id="app-globalmonetarysystems" class="app-card nutrisize" onclick="if(event.target.tagName!=='A')window.location='app-support-globalmonetarysystems.html'" style="cursor:pointer;">
             <div class="app-icon" style="background: linear-gradient(135deg, #021D5E 0%, #0F5FDC 100%); color: #FFD166; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(255,209,102,0.4);">&#127760;</div>
             <h3>Global Monetary Systems</h3>
             <span class="tag soon" style="background: rgba(15,95,220,0.15); color: #0F5FDC;">v1.0.0 &mdash; iOS Waiting for Review (App Store), Android In Review (Google Play)</span>
@@ -924,8 +924,8 @@
 
     <!-- Standalone games from Arcforge: add new .game-tile cards below. Set --art on .game-tile-art to the same banner URL (fills any letterbox space; the banner itself is never cropped). -->
     <div class="af-row-label"><img class="arc-mark" src="assets/games/arcforge-icon.png" alt="" width="28" height="28"> Standalone games <span class="af-row-sub">from the Arcforge collection</span></div>
-    <div class="game-grid">
-        <article class="game-tile">
+    <div class="game-grid" data-paginate="games">
+        <article id="game-tigerandgoat" class="game-tile">
             <a class="game-tile-art" style="--art:url(assets/games/tigerandgoat-banner.jpg)" href="app-support-tigerandgoat.html" target="_blank" rel="noopener">
                 <img src="assets/games/tigerandgoat-banner.jpg" alt="Tiger and Goat: Bagh-Chal" loading="lazy" width="1024" height="500">
             </a>
@@ -950,7 +950,7 @@
                 </div>
             </div>
         </article>
-        <article class="game-tile">
+        <article id="game-goldensling" class="game-tile">
             <a class="game-tile-art" style="--art:url(assets/games/goldensling-banner.jpg)" href="app-support-goldensling.html" target="_blank" rel="noopener">
                 <img src="assets/games/goldensling-banner.jpg" alt="Golden Sling: pull, aim, release, guard the harvest" loading="lazy" width="1024" height="500">
             </a>
@@ -1159,6 +1159,7 @@ document.querySelectorAll('.nav-dropdown').forEach(function(dd) {
     });
 });
 </script>
+<script src="assets/js/paginate.js?v=1" defer></script>
 
 </body>
 </html>
