@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "tigerandgoat",
+    "title": "Tiger and Goat: Bagh-Chal",
+    "bannerAlt": "Tiger and Goat: Bagh-Chal",
+    "banner": "assets/games/tigerandgoat-banner.jpg",
+    "icon": "assets/games/tigerandgoat-icon.png",
+    "meta": "Nepal · Strategy · iOS & Android",
+    "description": "Nepal’s traditional hunt game: four tigers against twenty goats on a board of 25 points. Learn in nine short lessons, play four computer levels or a friend, solve a daily puzzle, or watch Auto Play. Fills the whole screen in portrait and landscape. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": { "status": "in-review", "url": "https://apps.apple.com/app/id6818936256" },
+      "googlePlay": { "status": "in-review", "url": "https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app" }
+    },
+    "demo": { "label": "Play the free browser demo", "href": "https://equalinformation.com/games-site/" },
+    "supportHref": "app-support-tigerandgoat.html",
+    "privacyHref": "privacy-tigerandgoat.html",
+    "date": "2026-10-03",
+    "order": 1
+  },
+  {
+    "slug": "goldensling",
+    "title": "Golden Sling",
+    "bannerAlt": "Golden Sling: pull, aim, release, guard the harvest",
+    "banner": "assets/games/goldensling-banner.jpg",
+    "icon": "assets/games/goldensling-icon.png",
+    "meta": "Slingshot skill game · iOS & Android",
+    "description": "A hand-carved slingshot, a golden field and birds raiding the crop. Pull back, aim and release to scare them off before the harvest is gone, with wind, combos and a new Daily Hunt every day. Falcons and hawks hunt over the field, there are eight looks for the field and a calm Zen mode, and the field grows to fill your screen. Rules page and Auto Play to watch and learn. Completely free, no ads, works offline.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "statusNote": "submitted October 4, 2026",
+    "stores": {
+      "appStore": { "status": "in-review", "url": "https://apps.apple.com/app/id6819127995" },
+      "googlePlay": { "status": "in-review", "url": "https://play.google.com/store/apps/details?id=com.equalinformation.goldensling.app" }
+    },
+    "demo": { "label": "Play the free browser demo", "href": "https://equalinformation.com/games-site/games/harvest-sling/play/" },
+    "supportHref": "app-support-goldensling.html",
+    "privacyHref": "privacy-goldensling.html",
+    "date": "2026-10-04",
+    "order": 2
+  }
+]

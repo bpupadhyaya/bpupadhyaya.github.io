@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Exhaustive audit: every *.html in this repo must carry the EqualInformation header + sticky footer, BYTE-IDENTICAL to index.html (anchors #x == index.html#x).
 Run before EVERY commit that touches this repo:  python3 audit-chrome.py   (exit code 1 = problems; fix them, do not ignore)."""
-import glob, re, sys
+import glob, re, subprocess, sys
 def part(tag, t):
     m = re.search(r'<%s\b.*?</%s>' % (tag, tag), t, re.S)
     return re.sub(r'href="(index\.html)?#', 'href="#', m.group(0)) if m else None
@@ -10,6 +10,7 @@ bad = []; n = 0
 for f in sorted(glob.glob('**/*.html', recursive=True)):
     s = open(f, errors='ignore').read()
     if f.startswith('google') and '<nav' not in s: continue  # Google verification file: no UI
+    if f.startswith('data/'): continue  # generated list fragments (tools/build-site-lists.mjs), not pages
     n += 1
     checks = [('new header (ei-word)', 'ei-word' in s), ('Games link', '#games' in s), ('footer-links', 'footer-links' in s),
               ('<footer', '<footer' in s), ('chrome stylesheet', 'style.css' in s or 'chrome.css' in s), ('menu script', 'toggleMobileMenu' in s)]
@@ -18,4 +19,7 @@ for f in sorted(glob.glob('**/*.html', recursive=True)):
     if miss: bad.append((f, miss))
 print(f'{n} pages checked, {len(bad)} with problems')
 for f, m in bad: print('  ', f, '->', ', '.join(m))
-sys.exit(1 if bad else 0)
+# generated home-page lists (apps + standalone games) must match data/*.json
+g = subprocess.run(['node', 'tools/build-site-lists.mjs', '--check'], capture_output=True, text=True)
+print(g.stdout.strip() or g.stderr.strip())
+sys.exit(1 if bad or g.returncode else 0)

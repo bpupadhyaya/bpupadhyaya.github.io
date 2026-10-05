@@ -1418,6 +1418,12 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
     .pager-btn { min-width: 36px; height: 38px; padding: 0 9px; font-size: 13px; }
     .pager-list { justify-content: center; gap: 4px; }
 }
+/* 30+ pages: "Prev 1 ... 14 15 16 ... 30 Next" must fit one row at 360px */
+@media (max-width: 420px) {
+    .pager-btn { min-width: 30px; height: 36px; padding: 0 5px; font-size: 12.5px; }
+    .pager-list { gap: 3px; }
+    .pager-gap { padding: 0 1px; }
+}
 
 /* ─── Site search (assets/js/paginate.js) ─── */
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -1442,3 +1448,7 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .site-search + section { padding-top: 40px; }
 @media (max-width: 768px) { .site-search { padding: 40px 20px 0; } }
 .site-search-help { color: var(--text-muted); font-size: 13px; margin-top: 8px; padding-left: 8px; }
+
+/* lazy lists (paginate.js): page being fetched */
+.is-loading { opacity: 0.45; transition: opacity 0.15s; }
+[data-paginate] > template { display: none; }

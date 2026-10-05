@@ -1,0 +1,1023 @@
+[
+  {
+    "slug": "nutrisize",
+    "cardClass": "app-card nutrisize",
+    "order": 1,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-nutrisize.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#137093;",
+    "titleHtml": "Nutrisize",
+    "tag": {
+      "class": "beta",
+      "html": "v2.0.3 Android — Live on Google Play &nbsp;|&nbsp; v1.0.2 iOS — Live on App Store"
+    },
+    "descriptionHtml": "Health intelligence for nutrition and exercise. Major v2.0 redesign: visual range bars for 30+ clinical parameters, Simply Put + Clinical context, tappable citations from WHO/CDC/AHA/NEJM, individualized nutrition plans, exercise weekly plans, and in-app purchase for premium Human Physiology. Science-backed guidance referencing WHO, ACSM, and NASEM standards. Available in 8 languages serving 75% of the world's population. Privacy-first — your data stays on your device.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/nutrisize/id6760806833"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.nutrisize.android&hl=en_US"
+      },
+      {
+        "label": "Web"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<span onclick=\"event.stopPropagation()\" style=\"cursor: default;\">Privacy (</span><a href=\"privacy-ios.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">iOS</a><span onclick=\"event.stopPropagation()\" style=\"cursor: default;\"> | </span><a href=\"privacy-android.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Android</a><span onclick=\"event.stopPropagation()\" style=\"cursor: default;\">)</span>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-nutrisize.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "nutrisizepro",
+    "cardClass": "app-card nutrisize",
+    "order": 2,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-nutrisizepro.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#11088;",
+    "titleHtml": "Nutrisize Pro",
+    "tag": {
+      "class": "stable",
+      "html": "v1.1.0 Android — Live on Google Play &nbsp;|&nbsp; v1.0.0 iOS — Live on App Store",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Comprehensive health intelligence platform. 5,000+ foods, 5,400+ exercises, 201 physiological parameters across 16 body systems. NutriGuide on-device AI chat for nutrition, exercise &amp; health questions with voice input. 10-language physiology translations. Smart provider recommendations based on your health data. MDConnect for sharing health records with doctors. Privacy-first &mdash; all data stays on your device.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/nutrisize-pro/id6762107162"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.nutrisize.pro&hl=en_US"
+      },
+      {
+        "label": "Web"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-nutrisizepro.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-nutrisizepro.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-nutrisizepro.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "nutrisizehealth",
+    "cardClass": "app-card nutrisize",
+    "order": 3,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-nutrisizehealth.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#129657;",
+    "titleHtml": "Nutrisize Health",
+    "tag": {
+      "class": "stable",
+      "html": "v1.2.0 Android — Live on Google Play &nbsp;|&nbsp; v1.3 iOS — Live on App Store",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Comprehensive health intelligence — 4,995 foods, 5,404 exercises, 200+ physiological parameters across 16 body systems. Individualized nutrition and exercise plans, 10 KPI health metrics, camera-based food recognition, 8-language physiology translations. Privacy-first &mdash; all data stays on your device.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/nutrisize-health/id6762168316"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.nutrisize.health&hl=en_US"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://nutrisize.health\" target=\"_blank\" style=\"color: #22c55e; text-decoration: none; font-weight: 600;\">nutrisize.health &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"release-notes-nutrisizehealth.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-nutrisizehealth.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-nutrisizehealth.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "insurance-site",
+    "cardClass": "app-card nutrisize",
+    "order": 4,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.open('https://bpupadhyaya.github.io/insurance-site/','_blank')\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#128737;&#65039;",
+    "titleHtml": "Insurance Hub",
+    "tag": {
+      "class": "stable",
+      "html": "Web — Live &nbsp;|&nbsp; Android — Live on Google Play &nbsp;|&nbsp; iOS — Live on the App Store",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Every insurance. One hub. The honest price. AI-native insurance intelligence for the USA — auto, home, renters, health, life, flood, pet, and more, compared with prices computed from public regulatory data: state rate filings (SERFF), CMS/Healthcare.gov, OpenFEMA, USDA RMA. Evidence, not ads &mdash; every price links to the public filing behind it. Nothing about you is stored.",
+    "platforms": [
+      {
+        "label": "Web",
+        "href": "https://bpupadhyaya.github.io/insurance-site/"
+      },
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/insurance-hub/id6797125282"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.insurancehub.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://bpupadhyaya.github.io/insurance-site/\" target=\"_blank\" style=\"color: #22c55e; text-decoration: none; font-weight: 600;\">Insurance Hub &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-insurancehub.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-insurancehub.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-insurancehub.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "open-wallet",
+    "cardClass": "app-card coming",
+    "order": 5,
+    "iconClass": "blue",
+    "iconHtml": "&#128179;",
+    "titleHtml": "Open Wallet &middot; Open Chain &middot; Open Token (OTK)",
+    "tag": {
+      "class": "soon",
+      "html": "v0.5.0-alpha",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Non-custodial crypto wallet, mobile-first blockchain, and human value token &mdash; built to implement <a href=\"https://github.com/bpupadhyaya/crypto/blob/main/docs/HUMAN_CONSTITUTION.md\" target=\"_blank\" style=\"color: #22c55e;\">The Human Constitution</a>. 370 screens covering every human need from birth to legacy. Offline-first. Persona onboarding. Global search. 10 personas. 60 API endpoints. 100% open source.",
+    "platforms": [
+      {
+        "label": "iOS"
+      },
+      {
+        "label": "Android"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://equalinformation.com/openwallet-features.html\" style=\"color: #22c55e; font-weight: 700; text-decoration: none;\">All Features &amp; Constitution Alignment &rarr;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"release-notes-openwallet.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-openwallet.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"https://github.com/bpupadhyaya/crypto\" target=\"_blank\" style=\"color: var(--accent-blue); text-decoration: none;\">Source</a>"
+    ]
+  },
+  {
+    "slug": "allinwallet",
+    "cardClass": "app-card nutrisize",
+    "order": 6,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-allinwallet.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#9851;",
+    "titleHtml": "AllIn Wallet",
+    "tag": {
+      "class": "beta",
+      "html": "v1.0.0 — Production Ready",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Non-custodial multi-chain crypto wallet with Solana Seed Vault hardware key support. 15 tokens across 8 blockchains. Cross-chain swaps via Li.Fi and THORChain. Biometric auth, WalletConnect v2, and production-grade security. Privacy-first &mdash; your keys never leave your device.",
+    "platforms": [
+      {
+        "label": "iOS"
+      },
+      {
+        "label": "Android"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-allinwallet.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-allinwallet.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-allinwallet.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"https://github.com/bpupadhyaya/allin-wallet\" target=\"_blank\" style=\"color: var(--accent-blue); text-decoration: none;\">Source</a>"
+    ]
+  },
+  {
+    "slug": "plaindental",
+    "cardClass": "app-card nutrisize",
+    "order": 7,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plaindental.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#129463;",
+    "titleHtml": "PlainDental",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Dental health education in plain language. Interactive tooth map with realistic tooth shapes, 16 dental conditions, 12 procedures, emergency guide, glossary, kids dental health, cost guide, pre-visit prep, and condition comparisons. Premium content with one-time purchase. Privacy-first &mdash; no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plaindental/id6763691908"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plaindental.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-plaindental.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plaindental.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plaindental.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "carecircle",
+    "cardClass": "app-card nutrisize",
+    "order": 8,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-carecircle.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#128153;",
+    "titleHtml": "CareCircle",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Caregiver coordination for families. Manage tasks, medications, vitals, schedules, emergency contacts, and more for elderly parents or loved ones. 35 screens with Companion Mode for care receivers. 10 reference guides. Premium features with one-time purchase. Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/carecircle-caregiving/id6763921508"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.carecircle.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-carecircle.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-carecircle.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-carecircle.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainhealth",
+    "cardClass": "app-card nutrisize",
+    "order": 9,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainhealth.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#129657;",
+    "titleHtml": "PlainHealth",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Health education in plain language. 24 lab tests, 24 medications, 22 conditions with plain-English explanations. Ask Q&A chat, health calculators, health tracker, medication interaction checker, symptom guide, emergency &amp; first aid guides, pre-visit prep for 8 doctor types. 50+ glossary terms. Premium content with one-time purchase. Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/plainhealth/id6763922520"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainhealth.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-plainhealth.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plainhealth.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainhealth.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "repairmate",
+    "cardClass": "app-card nutrisize",
+    "order": 10,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-repairmate.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#128296;",
+    "titleHtml": "RepairMate",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your DIY home repair companion. 20 step-by-step repair guides across 7 categories, emergency quick reference, cost estimator (DIY vs Pro), tool box tracker, shopping list, seasonal maintenance, skill assessment quiz. CareCircle-style gradient module cards. Pro features with one-time purchase ($3.99). Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/repairmate/id6768846887"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.repairmate.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-repairmate.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-repairmate.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-repairmate.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainlaw",
+    "cardClass": "app-card nutrisize",
+    "order": 11,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainlaw.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#9878;",
+    "titleHtml": "PlainLaw",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.1 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Global legal knowledge in plain language. Context-aware &mdash; auto-detects your country and shows relevant domestic + international + UN laws. 15 countries, 50+ SCOTUS cases, 27 constitutional amendments, Federal Rules (FRCP/FRE), 50-state surveys, international treaties, court directories, circuit splits, judicial profiles, legal calculators. Three-tier access: Free legal literacy, Premium ($4.99 one-time) for consumers, Pro (subscription) for attorneys, judges, and law students. Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plainlaw-legal-reference/id6768846777"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainlaw.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-plainlaw.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plainlaw.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainlaw.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "kindly",
+    "cardClass": "app-card nutrisize",
+    "order": 12,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-kindly.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#127793;",
+    "titleHtml": "Kindly",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "AI mental wellness companion for everyone. Dual-audience: free wellness tools for individuals (mood tracking, AI chat, journaling, breathing exercises, affirmations, coping toolkit, gratitude, daily check-in, crisis safety) and premium clinical tools for healthcare professionals (patient dashboard, clinical notes, outcome tracking with PHQ-9/GAD-7/PCL-5/AUDIT, session management, treatment plans, progress reports, institutional analytics). Three-tier subscription: Free, Pro ($4.99/mo), Clinical ($19.99/mo). Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/kindly-wellness/id6762240167"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.kindly.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-kindly.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-kindly.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainauto",
+    "cardClass": "app-card nutrisize",
+    "order": 13,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainauto.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#128663;",
+    "titleHtml": "PlainAuto",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your car, explained in plain language. Dual-audience: Car Owners get warning lights, DIY guides, maintenance schedules, cost estimates, fluid guides, seasonal prep, buying/selling tips, service history tracking, and mechanic visit prep. Mechanics/Techs get 500+ OBD-II codes, 50 torque specs, repair procedures, diagnostic decision trees, customer explanation cards, wiring color codes, labor times, parts cross-reference, bolt patterns, and fluid capacities. Three-tier one-time purchase: Owner ($4.99), Pro ($9.99), Bundle ($12.99). Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plainauto/id6768851056"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainauto.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainauto.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainauto.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "chronotrack",
+    "cardClass": "app-card nutrisize",
+    "order": 14,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-chronotrack.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#128200;",
+    "titleHtml": "ChronoTrack Health",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your chronic condition tracker with AI pattern detection. Designed for both patients (free) and healthcare professionals (paid). Log symptoms, triggers, medications; track patterns; generate doctor-ready SOAP and PDF reports. Three-tier subscription: Free (full tracking, basic patterns, calendar, medications, emergency card), Plus ($3.99/mo — trigger insights, flare timeline, journal, PDF/FHIR reports, med effectiveness), Pro ($29.99/mo — Data Hub, Connector Store, patient dashboard, SOAP notes, API Key Vault, audit log). Pluggable connector framework for user-configurable data sources (REST, FHIR R4, CSV, RSS). All clinical content cites NIH, WHO, CDC, FDA, APA, AHA. Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/chronotrack-health/id6766143088"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.chronotrack.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-chronotrack.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-chronotrack.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-chronotrack.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "humansolution",
+    "cardClass": "app-card nutrisize",
+    "order": 15,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-humansolution.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#127760;",
+    "titleHtml": "Human Solution",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 Android — Live on Google Play &nbsp;|&nbsp; iOS — In Review (App Store)",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your personal assistant super app. 9 specialized modules in one app: PlainHealth, CareCircle, ChronoTrack, Kindly, MediSight, PlainDental, PlainLaw, PlainAuto, and RepairMate. Install only what you need &mdash; each module downloads on demand. Build-time and runtime composability. On Android, modules fully install/uninstall to save space. Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.anything.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-humansolution.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-humansolution.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "medisight",
+    "cardClass": "app-card nutrisize",
+    "order": 16,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-medisight.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#128138;",
+    "titleHtml": "MediSight",
+    "tag": {
+      "class": "stable",
+      "html": "v2.0 Android — Live on Google Play &nbsp;|&nbsp; iOS — resubmitting",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Global drug reference &amp; pill identifier for patients AND clinicians. Camera-based pill ID, 128+ drug database with pharmacokinetic data, 55+ drug interactions, clinical dosing calculators (CrCl/BSA/IBW), IV compatibility checker (77 pairs), pharmacogenomic alerts (39 CPIC), antimicrobial stewardship (17 protocols), deprescribing protocols, institution formulary with EMR/FHIR. Four-tier subscription: Free, Patient Plus ($3.99/mo), Clinician Pro ($19.99/mo), Institution ($99/seat/mo). All clinical content cites FDA, IDSA, AHA/ACC, CDC, WHO, NIH. Privacy-first &mdash; 100% offline, no data collection, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "attrs": "title=\"iOS build fixed and awaiting resubmission\""
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.medisight.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-medisight.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-medisight.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-medisight.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>"
+    ]
+  },
+  {
+    "slug": "lifeos",
+    "cardClass": "app-card nutrisize",
+    "order": 17,
+    "cardAttrs": "onclick=\"if(!event.target.closest('a'))window.location='app-support-lifeos.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#127775;",
+    "titleHtml": "LifeOS",
+    "tag": {
+      "class": "stable",
+      "html": "v1.1.0 iOS &amp; v1.2.0 Android — Live",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your all-in-one life management system. Health, Finance, Mental Health, Fitness, Nutrition, Family, Travel, and Emergency modules powered by Zoe, your AI life guide. 100% offline-first &mdash; all data stays on your device, no account required, no tracking. Three-tier access: Free + Premium ($4.99) + Professional.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/lifeos-life-companion/id6772060349"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.lifeos.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-lifeos.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-lifeos.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-lifeos.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>"
+    ]
+  },
+  {
+    "slug": "zoel-ai",
+    "cardClass": "app-card nutrisize",
+    "order": 18,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-zoel-ai.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#129302;",
+    "titleHtml": "Zoel AI",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0 — Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your private AI, running entirely on your device. Voice-first, 100% offline, multilingual. Fifteen knowledge domains (Health free forever) with on-device chat, optional Bring-Your-Own-Key cloud, and optional internet enrichment. All data stays on your device — not because we promise it, but because there's nowhere else for it to go.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/zoel-ai/id6780248126"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.zoelai.app&hl=en_US"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-zoel-ai.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-zoel-ai.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-zoel-ai.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-zoel-ai.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "solo-os",
+    "cardClass": "app-card nutrisize",
+    "order": 19,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-solo-os.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "",
+    "iconAttrs": "style=\"background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #F59E0B; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(245,158,11,0.3);\"",
+    "iconHtml": "&#128188;",
+    "titleHtml": "SoloOS",
+    "tag": {
+      "class": "soon",
+      "html": "v1.0 Beta &mdash; Coming to App Store &amp; Google Play",
+      "style": "background: rgba(245,158,11,0.15); color: #F59E0B;"
+    },
+    "descriptionHtml": "Your entire business, on your phone. No account. No server. No one else sees your numbers. SoloOS is a 100% on-device business operating system for solopreneurs and freelancers &mdash; clients, invoices, time tracking, proposals, contracts, financial dashboard, cash flow forecast, and an AI Business Advisor powered by on-device LLM with RAG over your own data. Everything a one-person business needs, works in airplane mode, encrypts locally, and never touches a cloud server.",
+    "platforms": [
+      {
+        "label": "iOS — Coming Soon",
+        "attrs": "style=\"opacity: 0.6;\""
+      },
+      {
+        "label": "Android — Coming Soon",
+        "attrs": "style=\"opacity: 0.6;\""
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"release-notes-solo-os.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-solo-os.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-solo-os.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-solo-os.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "sristi",
+    "cardClass": "app-card nutrisize",
+    "order": 20,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-sristi.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#10024;",
+    "titleHtml": "Sristi",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on Google Play &amp; the App Store",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Your personal life optimizer — live by design, not by default. An AI-first daily companion that plans, executes, and evaluates the essentials of a healthy life across 13 cited domains: sleep, hydration, nutrition, movement, mind, social, focus, environment, vitals, financial, spiritual, transitions, and safety. Evidence-based guidance with tappable sources (WHO, IOM, ACSM, AASM, AHA, and more), voice-first input, and a daily plan that adapts to your real life. Premium life-optimization modules with a one-time \"Sristi Plus\" unlock. Privacy-first &mdash; 100% on-device, no account, no servers, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/sristi-ai-life-optimizer/id6785289118"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.sristi.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-sristi.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-sristi.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-sristi.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"release-notes-sristi.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Release Notes</a>"
+    ]
+  },
+  {
+    "slug": "plainlife",
+    "cardClass": "app-card nutrisize",
+    "order": 21,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainlife.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#129516;",
+    "titleHtml": "PlainLife",
+    "tag": {
+      "class": "soon",
+      "html": "v1.0.0 — Live on the App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "The human generational health loop &mdash; womb to next womb &mdash; in your pocket, offline. PlainLife guides you through the entire arc of human health as one continuous, intergenerational cycle across six chapters: Origins (embryology &amp; preconception), Birth (pregnancy, labor &amp; postpartum), Childhood, Adolescence, Fertility, and Generations. Plain-language, evidence-based guidance with cited sources and urgency triage, plus \"Ask PlainLife\" offline Q&amp;A (voice input &amp; read-aloud), tracking, birth tools (kick counter, contraction timer), reminders, glossary, and a shareable doctor-summary. Privacy-first &mdash; 100% on-device, encrypted local storage you control, no account, no servers, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plainlife-human-health-loop/id6785592713"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainlife.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainlife.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainlife.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainlife.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainrescue",
+    "cardClass": "app-card nutrisize",
+    "order": 22,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainrescue.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#9937;",
+    "titleHtml": "PlainRescue",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 — Live on the App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Calm, step-by-step first aid for the worst moments &mdash; 100% offline, because that is exactly when the signal is gone. PlainRescue walks you through dozens of life-threatening emergencies &mdash; CPR (with metronome), choking, severe bleeding, anaphylaxis, stroke, heart attack, and more &mdash; one big, voice-guided step at a time. Every step is backed by an authoritative citation you can tap and read (AHA, Red Cross, ERC, WHO, ILCOR, CDC, St John Ambulance, NHS). Available in English plus seven more languages, with an encrypted on-device Medical Card, recheck timers, optional spoken intake, and a clinician mode for trained responders. Guidance, not diagnosis &mdash; it always reinforces calling your local emergency services. Privacy-first &mdash; 100% on-device, no account, no servers, no tracking.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plainrescue-offline-first-aid/id6785400812"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainrescue.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainrescue.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainrescue.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainrescue.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainspeak",
+    "cardClass": "app-card nutrisize",
+    "order": 23,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainspeak.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#128172;",
+    "titleHtml": "PlainSpeak",
+    "tag": {
+      "class": "stable",
+      "html": "Live on Google Play &amp; the App Store",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Instant, private translation that works with zero signal &mdash; because a language barrier hits hardest exactly where connectivity and money are scarcest. PlainSpeak translates speech, text, signs, and menus entirely on-device: two-way conversation mode, live camera overlay, offline language packs, and a currency &amp; unit converter for daily travel use. Emergency, medical alert, legal-rights, and every accessibility feature are free, permanently &mdash; no exceptions. Privacy-first &mdash; 100% on-device, no account, no servers, no tracking, no ads on any tier.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plainspeak-translator/id6804144334"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainspeak.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://bpupadhyaya.github.io/plainspeak-site/\" target=\"_blank\" style=\"color: #22c55e; text-decoration: none; font-weight: 600;\">PlainSpeak Site &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plainspeak.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainspeak.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainspeak.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainweather",
+    "cardClass": "app-card nutrisize",
+    "order": 24,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainweather.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#9889;",
+    "titleHtml": "PlainWeather",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.2 — Live on the App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Hyperlocal, offline-capable weather-safety guidance for every human &mdash; especially the billions without a paid weather service or a signal exactly when it matters most. PlainWeather packs offline severe-weather action guides (tornado, hurricane, flash flood, wildfire, blizzard, heatwave, lightning, and more), a lightning flash-to-bang countdown, heat-index and wind-chill calculators, farmer/fisherman/outdoor-worker go/no-go checklists, and specialized modes for kids, elderly, and chronic-illness safety. No safety-critical feature is ever paywalled. Privacy-first &mdash; no account, no ads, no tracking, and every safety feature works with zero signal.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/app/plainweather-weather-safety/id6804146121"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainweather.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://bpupadhyaya.github.io/plainweather-site/\" target=\"_blank\" style=\"color: #22c55e; text-decoration: none; font-weight: 600;\">PlainWeather Site &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plainweather.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainweather.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainweather.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainwater",
+    "cardClass": "app-card nutrisize",
+    "order": 25,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainwater.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#128167;",
+    "titleHtml": "PlainWater",
+    "tag": {
+      "class": "stable",
+      "html": "Live on Google Play (v1.0.4) &nbsp;|&nbsp; Live on the App Store (v1.0.5)",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Water-safety expertise &mdash; normally locked behind labs, NGOs, and public-health departments &mdash; directly in your pocket, offline, because the roughly 2 billion people who need it most often have no signal and no money for a lab test. PlainWater helps you find, test, and make water safe to drink, and recognize and treat basic waterborne illness: purification methods and dosing calculators, illness triage and rehydration guidance, emergency sourcing and storage, region-specific risk reference, and disaster-specific checklists, across 8 modules and 82 features. A generous free tier covers every life-critical feature, permanently &mdash; no exceptions. Privacy-first &mdash; 100% on-device, no account, no servers, no tracking, no ads.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/plainwater-water-safety/id6804133772"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainwater.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://bpupadhyaya.github.io/plainwater-site/\" target=\"_blank\" style=\"color: #22c55e; text-decoration: none; font-weight: 600;\">PlainWater Site &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plainwater.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainwater.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainwater.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainmap",
+    "cardClass": "app-card nutrisize",
+    "order": 26,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='support-plainmap.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "blue",
+    "iconHtml": "&#128205;",
+    "titleHtml": "PlainMap",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.0 &mdash; Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "A real, working offline map of the help around you &mdash; because a crisis and a dead signal tend to arrive together. PlainMap locates hospitals, urgent care, pharmacies, emergency and domestic-violence shelters, cooling/warming centers, water points, food banks, fuel and EV charging, and police and fire stations, all from real OpenStreetMap community data with an honest verified/crowd-reported label on every entry. A downloadable offline vector map, live weather and NWS hazard alerts, hazard-specific Disaster Toolkits, and an Emergency Mode with one-tap local-emergency calling, a genuine nearest-hospital check (never a guess), and a real (not cosmetic) low-battery GPS mode. An on-device-only Medical ID, a 7-article Safety Education hub, and English/Español/简体中文 support throughout. Privacy-first &mdash; no account, no company-run backend, no tracking, no ads.",
+    "platforms": [
+      {
+        "html": "<a href=\"https://apps.apple.com/app/plainmap/id6809295737\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">iOS</a>"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainmap.app&hl=en_US"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainmap.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainmap.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainmap.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainhygiene",
+    "cardClass": "app-card nutrisize",
+    "order": 27,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-plainhygiene.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "",
+    "iconAttrs": "style=\"background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #22c55e; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(34,197,94,0.3);\"",
+    "iconHtml": "&#129532;",
+    "titleHtml": "PlainHygiene",
+    "tag": {
+      "class": "stable",
+      "html": "Live on the App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "1,088 sourced hygiene features across 18 modules &mdash; cited to WHO, CDC, and UNICEF/JMP &mdash; directly in your pocket, offline. PlainHygiene covers handwashing, menstrual and reproductive hygiene, food safety, body and personal hygiene, sanitation, life-stage hygiene (infant through elder), disease prevention, disaster/low-water hygiene, and more, plus routine-building and habit tools so the guidance actually sticks. No account, no ads, no tracking &mdash; 100% on-device, works fully offline. The only network traffic the app can generate is an opt-in, off-by-default sync of public WHO/World Bank statistics.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/plainhygiene/id6809102776"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainhygiene.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainhygiene.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainhygiene.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainhygiene.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plaincrisis",
+    "cardClass": "app-card nutrisize",
+    "order": 28,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-plaincrisis.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "",
+    "iconAttrs": "style=\"background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #EF4444; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(239,68,68,0.3);\"",
+    "iconHtml": "&#127384;",
+    "titleHtml": "PlainCrisis",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0.2 &mdash; Live on App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Private, on-device crisis support &mdash; a crisis-hotline directory, a one-tap call or text to a trusted contact, guided safety-plan builder, grounding and coping tools, and journaling, all reachable in a tap. No account, no ads, no analytics &mdash; 100% on-device, encrypted at rest, works fully offline. The crisis-critical core (immediate crisis support, the safety-plan builder, grounding tools, means-safety guidance, and the hotline directory) is free permanently, enforced in code, not just policy; an optional single monthly Pro subscription adds deeper personalization and an expanded content library. PlainCrisis is a self-help tool, not a replacement for a counselor, doctor, or emergency services.",
+    "platforms": [
+      {
+        "html": "<a href=\"https://apps.apple.com/app/plaincrisis/id6809296682\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">iOS</a>"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plaincrisis.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plaincrisis.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plaincrisis.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plaincrisis.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainscam",
+    "cardClass": "app-card nutrisize",
+    "order": 29,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-plainscam.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "",
+    "iconAttrs": "style=\"background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #3B82F6; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(59,130,246,0.3);\"",
+    "iconHtml": "&#128737;",
+    "titleHtml": "PlainScam",
+    "tag": {
+      "class": "stable",
+      "html": "v1.1.0 &mdash; Live on the App Store, Android v1.1.0 in review",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Recognize the pattern, stop the scam &mdash; over 1,100 free and Pro guides across 35 modules (phone/robocall, SMS, email/phishing, tech-support, government impersonation, delivery, romance, crypto, investment, and elder/family-targeted scams among them), each citing real government and international authorities (FTC, FBI IC3, CISA, IRS, SSA, CFPB, SEC, UNODC, INTERPOL, and more), plus real on-device tools: a live camera Scam Scanner that reads text and QR codes in real time, a Message Risk Analyzer, a Link Safety Checker, a Caller/Number Verifier, cybersecurity tools (screen-sharing detection, a remote-access-app check, a device security dashboard, and a hidden-monitoring check), an investment-return reality check, decision trees, quizzes, checklists, red-flag scorers, and a shareable card generator. PlainScam never touches your real accounts, calls, or messages &mdash; it teaches the underlying pressure-tactic pattern so it transfers to any scam you'll ever meet. No account, no ads, no tracking &mdash; 100% on-device, works fully offline, with an optional off-by-default sync for updated guide content.",
+    "platforms": [
+      {
+        "label": "iOS — v1.1.0 (build 4) live",
+        "href": "https://apps.apple.com/app/plainscam/id6809297774"
+      },
+      {
+        "label": "Android — v1.1.0 in review, v1.0.0 live",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainscam.app"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainscam.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainscam.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainscam.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "plainmoney",
+    "cardClass": "app-card nutrisize",
+    "order": 30,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-plainmoney.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "",
+    "iconAttrs": "style=\"background: linear-gradient(135deg, #0A0F1E 0%, #1A2440 100%); color: #22c55e; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(34,197,94,0.3);\"",
+    "iconHtml": "&#128176;",
+    "titleHtml": "PlainMoney",
+    "tag": {
+      "class": "stable",
+      "html": "v1.1.0 &mdash; Live on the App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Plain-language money help that runs entirely on your phone &mdash; a 50/30/20 budget tool, debt payoff and minimum-payment-trap calculators, saving goals, a paycheck decoder and federal tax estimator, a savings-growth projector built on real historical return data, and a full free Safety Net (scam patterns, coercive control, elder exploitation, benefits, and disaster recovery). No account, no bank-linking, no ads, no analytics &mdash; 100% on-device, works fully offline. The only network traffic the app can generate is an optional, off-by-default exchange-rate refresh from the European Central Bank and UN Treasury, and &mdash; only if you turn on \"Enable AI/SI/LLM\" &mdash; a one-time download of a small language model that then answers questions entirely on your phone.",
+    "platforms": [
+      {
+        "html": "<a href=\"https://equalinformation.com/plain-money-personal-finance-site/\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">Web</a>"
+      },
+      {
+        "html": "<a href=\"https://apps.apple.com/us/app/plainmoney-personal-finance/id6812015595\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">iOS</a>"
+      },
+      {
+        "html": "<a href=\"https://play.google.com/store/apps/details?id=com.equalinformation.plainmoney.app\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">Android</a>"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://equalinformation.com/plain-money-personal-finance-site/\" target=\"_blank\" rel=\"noopener\" style=\"color: #22c55e; text-decoration: none; font-weight: 600;\">PlainMoney site &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-plainmoney.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainmoney.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-plainmoney.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  },
+  {
+    "slug": "globalmonetarysystems",
+    "cardClass": "app-card nutrisize",
+    "order": 31,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-globalmonetarysystems.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "",
+    "iconAttrs": "style=\"background: linear-gradient(135deg, #021D5E 0%, #0F5FDC 100%); color: #FFD166; font-size: 28px; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; border: 1.5px solid rgba(255,209,102,0.4);\"",
+    "iconHtml": "&#127760;",
+    "titleHtml": "Global Monetary Systems",
+    "tag": {
+      "class": "soon",
+      "html": "v1.0.0 &mdash; iOS Waiting for Review (App Store), Android In Review (Google Play)",
+      "style": "background: rgba(15,95,220,0.15); color: #0F5FDC;"
+    },
+    "descriptionHtml": "How the world's money actually works &mdash; the macro companion to PlainMoney. 359 sourced pages, country cards for all 193 UN member states, live official data from the IMF, World Bank, BIS, ECB and national central banks, and an on-device AI that answers from the app's own cited pages first and says so when it goes beyond them. An independent educational reference &mdash; not a government app. Every claim traced to a named source; nothing published without one. No accounts, no backend, no bank-linking &mdash; 100% on-device, works fully offline.",
+    "platforms": [
+      {
+        "html": "<a href=\"https://equalinformation.com/global-monetary-systems-site/\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">Web</a>"
+      },
+      {
+        "label": "iOS — Waiting for Review",
+        "attrs": "style=\"opacity: 0.85;\""
+      },
+      {
+        "label": "Android — In Review",
+        "attrs": "style=\"opacity: 0.85;\""
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://equalinformation.com/global-monetary-systems-site/\" target=\"_blank\" rel=\"noopener\" style=\"color: #0F5FDC; text-decoration: none; font-weight: 600;\">Global Monetary Systems Site &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-globalmonetarysystems.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-globalmonetarysystems.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"support-globalmonetarysystems.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
+    ]
+  }
+]
