@@ -8,14 +8,14 @@
     "meta": "Nepal · Strategy · iOS & Android",
     "description": "Nepal’s traditional tiger and goat game in a complete Deluxe edition: a carved three-dimensional board, 44 puzzles in a campaign, 14 hands-on lessons, five computer levels or a friend, a daily challenge, and Auto Play to watch and learn. Fills the whole screen in portrait and landscape. No ads, works offline. Free preview, then a one-time unlock.",
     "version": "1.7.2",
-    "status": "soon",
+    "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "soon",
+        "status": "in-review",
         "url": "https://apps.apple.com/app/id6818936256"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "in-review",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app"
       }
     },
