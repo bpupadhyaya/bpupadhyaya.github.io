@@ -25,7 +25,7 @@ const htmlFile = path.join(root, 'index.html');
 const errors = [];
 const fail = (m) => errors.push(m);
 const nonEmpty = (v) => typeof v === 'string' && v.trim() !== '';
-const STATUSES = ['live', 'in-review'];
+const STATUSES = ['live', 'in-review', 'soon'];
 
 // ---------- text helpers ----------
 const esc = (t) => String(t)
@@ -52,11 +52,12 @@ const uniqWords = (s) => [...new Set(s.split(' ').filter(Boolean))].join(' ');
 
 // ---------- per-type definitions ----------
 const storeNames = { appStore: 'the App Store', googlePlay: 'Google Play' };
+const storeLabel = (st, name) => (st === 'live' ? 'Live on ' : st === 'in-review' ? 'In review on ' : 'Coming soon on ') + name;
 function gameStatusLine(g) {
   const a = g.stores.appStore.status, p = g.stores.googlePlay.status;
-  const s = a === p ? (a === 'live' ? 'Live on ' : 'In review on ') + 'the App Store and Google Play'
-    : ['appStore', 'googlePlay'].map((k) => (g.stores[k].status === 'live' ? 'Live on ' : 'In review on ') + storeNames[k]).join(' · ');
-  return `v${g.version} · ${s}${g.statusNote ? ` (${g.statusNote})` : ''}`;
+  const s = a === p ? storeLabel(a, 'the App Store and Google Play')
+    : ['appStore', 'googlePlay'].map((k) => storeLabel(g.stores[k].status, storeNames[k])).join(' · ');
+  return `${a === 'soon' && p === 'soon' ? '' : `v${g.version} · `}${s}${g.statusNote ? ` (${g.statusNote})` : ''}`;
 }
 
 const TYPES = {
