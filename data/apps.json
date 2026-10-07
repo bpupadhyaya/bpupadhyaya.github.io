@@ -992,9 +992,9 @@
     "iconHtml": "&#127760;",
     "titleHtml": "Global Monetary Systems",
     "tag": {
-      "class": "soon",
-      "html": "v1.0.0 &mdash; iOS Waiting for Review (App Store), Android In Review (Google Play)",
-      "style": "background: rgba(15,95,220,0.15); color: #0F5FDC;"
+      "class": "stable",
+      "html": "v1.0.0 &mdash; Android Live on Google Play &nbsp;|&nbsp; iOS Waiting for Review (App Store)",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
     },
     "descriptionHtml": "How the world's money actually works &mdash; the macro companion to PlainMoney. 359 sourced pages, country cards for all 193 UN member states, live official data from the IMF, World Bank, BIS, ECB and national central banks, and an on-device AI that answers from the app's own cited pages first and says so when it goes beyond them. An independent educational reference &mdash; not a government app. Every claim traced to a named source; nothing published without one. No accounts, no backend, no bank-linking &mdash; 100% on-device, works fully offline.",
     "platforms": [
@@ -1006,8 +1006,8 @@
         "attrs": "style=\"opacity: 0.85;\""
       },
       {
-        "label": "Android — In Review",
-        "attrs": "style=\"opacity: 0.85;\""
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.globalmonetarysystems.app"
       }
     ],
     "footerHtml": [
