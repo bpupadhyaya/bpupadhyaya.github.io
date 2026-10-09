@@ -69,7 +69,7 @@
   "status": "in-review",
   "stores": {
    "appStore": {
-    "status": "soon"
+    "status": "in-review"
    },
    "googlePlay": {
     "status": "in-review"
