@@ -90,6 +90,10 @@
    "english",
    "crossword",
    "oxford"
-  ]
+  ],
+  "demo": {
+   "label": "Play the free browser demo",
+   "href": "https://equalinformation.com/games-site/games/word-game/play/"
+  }
  }
 ]
