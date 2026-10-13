@@ -3,8 +3,8 @@
    Without JS every item stays visible. State lives in the URL: ?<name>=<page> (page 1 omitted), one param per section.
    Page budget: PAGE_BUDGET (20) module cards per page across the paginated sections present on the page (allocate()).
    The FIRST container (apps) takes up to half the budget (10); the remaining budget is split equally between the other lists
-   (5 + 5), never topped up from a shorter list, so a short list is simply empty on later pages. A list that has no items at all
-   gives its share to the others (one remaining list gets all 10).
+   (5 + 5); a list that fits in fewer than its share (3 standalone games) gives the unused slots to the other (7 collections per
+   page), so the total on screen is never more than 20 whichever pages are open. One remaining list gets all 10.
    Every list pages independently (?<name>=<n>); its own pager scrolls to that list. Lists marked data-paginate-group="<g>" instead
    share ONE page number (?<g>=<n>) driven by the longest list's pager (not used on the home page).
    Search: one box (inserted above the first paginated section) filters ALL items of every section live; ?q=term joins the page params.
@@ -49,10 +49,14 @@
     if (secs.length === 1) { secs[0].perPage = PAGE_BUDGET; return; }
     var first = Math.max(1, Math.min(n[0], Math.floor(PAGE_BUDGET / 2)));
     secs[0].perPage = first;
-    var rest = PAGE_BUDGET - first, others = secs.slice(1), live = others.filter(function (s, i) { return n[i + 1] > 0; });
-    if (!live.length) live = others;
-    others.forEach(function (s) { s.perPage = 1; });
-    live.forEach(function (s, i) { s.perPage = Math.max(1, i === 0 ? Math.ceil(rest / live.length) : Math.floor(rest / live.length)); });
+    var rest = PAGE_BUDGET - first, others = secs.slice(1).map(function (x, i) { return { s: x, n: n[i + 1] }; });
+    // water-fill: a list that needs less than an equal share (it fits on one page) gives its unused slots to the others
+    others.sort(function (x, y) { return x.n - y.n; });
+    others.forEach(function (o, i) {
+      var left = others.length - i, share = Math.floor(rest / left);
+      var a = i === others.length - 1 ? rest : Math.max(1, Math.min(o.n, share));
+      o.s.perPage = Math.max(1, a); rest -= a;
+    });
   }
   allocate();
   function applyFilter() {
