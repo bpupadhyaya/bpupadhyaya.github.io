@@ -1492,9 +1492,9 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .whg-art .p3 { right: 0; top: 56px; transform: rotate(7deg); }
 @media (max-width: 960px) {
     .whg-hero { grid-template-columns: 1fr; padding: 34px 22px 32px; gap: 26px; border-radius: 26px; }
-    .whg-art { order: -1; min-height: 0; aspect-ratio: 16 / 10; }
-    .whg-art img { width: 34%; }
-    .whg-art .p1 { left: 8%; top: 8%; } .whg-art .p2 { left: 33%; top: 0; width: 36%; } .whg-art .p3 { right: 8%; top: 8%; }
+    .whg-art { order: -1; min-height: 0; aspect-ratio: 5 / 4; overflow: hidden; }
+    .whg-art img { width: 29%; }
+    .whg-art .p1 { left: 14%; top: 9%; } .whg-art .p2 { left: 35.5%; top: 2%; width: 29%; } .whg-art .p3 { right: 14%; top: 9%; }
     .whg-appicon { width: 56px; height: 56px; }
 }
 @media (max-width: 520px) { .whg-instr { grid-template-columns: repeat(4, 1fr); gap: 8px; } .whg-instr img { width: 44px; height: 44px; } .whg-instr a { font-size: 10.5px; } }
