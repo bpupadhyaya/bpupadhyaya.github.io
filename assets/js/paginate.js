@@ -5,9 +5,8 @@
    The FIRST container (apps) takes up to half the budget (10); the remaining budget is split equally between the other lists
    (5 + 5), never topped up from a shorter list, so a short list is simply empty on later pages. A list that has no items at all
    gives its share to the others (one remaining list gets all 10).
-   Lists marked data-paginate-group="<g>" share ONE page number (?<g>=<n>): page N shows page N of every list in the group, and
-   one pager (on the longest list) drives them; a list that has run out of items is empty on that page and its heading is hidden.
-   Other lists page independently (?<name>=<n>).
+   Every list pages independently (?<name>=<n>); its own pager scrolls to that list. Lists marked data-paginate-group="<g>" instead
+   share ONE page number (?<g>=<n>) driven by the longest list's pager (not used on the home page).
    Search: one box (inserted above the first paginated section) filters ALL items of every section live; ?q=term joins the page params.
    Each item's search text = its visible text + img alt text + platform words (+ optional data-search), normalised once on load.
    Lazy lists: a container whose first child is <template data-paginate-lazy="index.json?v=.."> has only its first chunk as static HTML;
