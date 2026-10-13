@@ -1503,3 +1503,4 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 /* home page: the collection modules (Arcforge + one per heritage set) are a paginated list */
 .collections-grid { display: block; }
 .collections-grid > :first-child { margin-top: 0; }
+.af-row-label[hidden] { display: none; }

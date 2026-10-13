@@ -1,11 +1,13 @@
 /* Reusable pagination. Mark a list container data-paginate="<name>" (optional data-paginate-label="Apps");
    its items are the children marked data-paginate-item, or all element children if none are marked.
    Without JS every item stays visible. State lives in the URL: ?<name>=<page> (page 1 omitted), one param per section.
-   Page budget: PAGE_BUDGET (20) module cards per page across the paginated sections present on the page, allocated dynamically
-   from each list's size (allocate()). The FIRST container (apps) takes up to half the budget (10); the others split the rest
-   by water-filling: a list that needs less than its equal share gives the surplus to the others, an empty or single remaining
-   list gets everything (apps 10 + collections 5 + standalone 5 when both are large; 10 + 7 + 3 when standalone is small;
-   10 + 10 when only one remains). Each list pages independently (?apps=2&collections=1&games=1).
+   Page budget: PAGE_BUDGET (20) module cards per page across the paginated sections present on the page (allocate()).
+   The FIRST container (apps) takes up to half the budget (10); the remaining budget is split equally between the other lists
+   (5 + 5), never topped up from a shorter list, so a short list is simply empty on later pages. A list that has no items at all
+   gives its share to the others (one remaining list gets all 10).
+   Lists marked data-paginate-group="<g>" share ONE page number (?<g>=<n>): page N shows page N of every list in the group, and
+   one pager (on the longest list) drives them; a list that has run out of items is empty on that page and its heading is hidden.
+   Other lists page independently (?<name>=<n>).
    Search: one box (inserted above the first paginated section) filters ALL items of every section live; ?q=term joins the page params.
    Each item's search text = its visible text + img alt text + platform words (+ optional data-search), normalised once on load.
    Lazy lists: a container whose first child is <template data-paginate-lazy="index.json?v=.."> has only its first chunk as static HTML;
@@ -37,23 +39,21 @@
     // entry = { id, idx (search text), el (card element or null until loaded), n (position in display order) }
     var all = items.map(function (it, i) { return { id: it.id, idx: lazy ? '' : itemText(it), el: it, n: i }; });
     if (lazy) for (var k = all.length, tot = parseInt(lazy.getAttribute('data-total'), 10) || 0; k < tot; k++) all.push({ id: '', idx: '', el: null, n: k });
-    return { name: name, el: el, all: all, items: all, label: label, pages: 1, page: 1, pagers: [], status: null, note: null,
+    var prev = el.previousElementSibling;
+    return { name: name, group: el.getAttribute('data-paginate-group') || '', heading: prev && prev.classList.contains('af-row-label') ? prev : null, el: el, all: all, items: all, label: label, pages: 1, page: 1, pagers: [], status: null, note: null,
              perPage: 10, lazy: lazy ? { src: lazy.getAttribute('data-paginate-lazy'), chunk: parseInt(lazy.getAttribute('data-chunk'), 10) || 10, total: parseInt(lazy.getAttribute('data-total'), 10) || all.length, v: lazy.getAttribute('data-v') || '', loaded: false, chunks: {}, token: 0 } : null };
   });
 
-  // module cards per page for every list: first list up to half the budget, the rest water-filled (sizes = unfiltered totals)
+  // module cards per page for every list: first list up to half the budget, the others share the rest equally (sizes = unfiltered totals)
   function allocate() {
     var n = secs.map(function (s) { return s.lazy ? s.lazy.total : s.all.length; });
     if (secs.length === 1) { secs[0].perPage = PAGE_BUDGET; return; }
     var first = Math.max(1, Math.min(n[0], Math.floor(PAGE_BUDGET / 2)));
     secs[0].perPage = first;
-    var rest = PAGE_BUDGET - first;
-    var order = secs.slice(1).map(function (s, i) { return { s: s, n: n[i + 1] }; }).sort(function (a, b) { return a.n - b.n; });
-    order.forEach(function (o, i) {
-      var left = order.length - i, share = Math.floor(rest / left);
-      var a = i === order.length - 1 ? rest : Math.max(1, Math.min(o.n, share));
-      o.s.perPage = Math.max(1, a); rest -= a;
-    });
+    var rest = PAGE_BUDGET - first, others = secs.slice(1), live = others.filter(function (s, i) { return n[i + 1] > 0; });
+    if (!live.length) live = others;
+    others.forEach(function (s) { s.perPage = 1; });
+    live.forEach(function (s, i) { s.perPage = Math.max(1, i === 0 ? Math.ceil(rest / live.length) : Math.floor(rest / live.length)); });
   }
   allocate();
   function applyFilter() {
@@ -62,20 +62,28 @@
       s.items = words.length ? s.all.filter(function (it) { return words.every(function (w) { return it.idx.indexOf(w) !== -1; }); }) : s.all;
       s.pages = Math.max(1, Math.ceil(s.items.length / s.perPage));
     });
+    secs.forEach(function (s) { s.gpages = secs.reduce(function (m, x) { return x.group === s.group && x.group ? Math.max(m, x.pages) : m; }, s.pages); });
   }
-  function clamp(s, n) { n = parseInt(n, 10); return isNaN(n) ? 1 : Math.min(s.pages, Math.max(1, n)); }
+  function pname(s) { return s.group || s.name; }
+  function setPage(s, p) { secs.forEach(function (x) { if (x === s || (s.group && x.group === s.group)) x.page = p; }); }
+  function driver(s) { // the one list of a group that shows the pager: the longest (first on ties)
+    if (!s.group) return true;
+    for (var i = 0; i < secs.length; i++) if (secs[i].group === s.group && secs[i].pages === s.gpages) return secs[i] === s;
+    return true;
+  }
+  function clamp(s, n) { n = parseInt(n, 10); return isNaN(n) ? 1 : Math.min(s.gpages, Math.max(1, n)); }
   function readUrl() {
     var q = new URLSearchParams(location.search);
     query = (q.get('q') || '').slice(0, 200);
     applyFilter();
-    secs.forEach(function (s) { s.page = clamp(s, q.get(s.name)); });
+    secs.forEach(function (s) { s.page = clamp(s, q.get(pname(s))); });
     if (box) box.value = query;
   }
   function urlFor(overrides) {
     var q = new URLSearchParams(location.search);
     secs.forEach(function (s) {
-      var p = overrides && overrides[s.name] ? overrides[s.name] : s.page;
-      if (p > 1) q.set(s.name, p); else q.delete(s.name);
+      var p = overrides && overrides[pname(s)] ? overrides[pname(s)] : s.page;
+      if (p > 1) q.set(pname(s), p); else q.delete(pname(s));
     });
     if (query.trim()) q.set('q', query); else q.delete('q');
     var qs = q.toString();
@@ -92,7 +100,7 @@
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
   function link(s, p, text, cls, aria) {
     var a = el('a', 'pager-btn' + (cls ? ' ' + cls : ''), text);
-    a.href = urlFor(Object.fromEntries([[s.name, p]]));
+    a.href = urlFor(Object.fromEntries([[pname(s), p]]));
     a.setAttribute('data-page', p);
     if (aria) a.setAttribute('aria-label', aria);
     return a;
@@ -102,7 +110,7 @@
     nav.setAttribute('aria-label', s.label + ' pages');
     var cap = el('div', 'pager-caption');
     cap.setAttribute('aria-live', 'polite');
-    var from = (s.page - 1) * s.perPage + 1, to = Math.min(s.items.length, s.page * s.perPage);
+    var from = Math.min(s.items.length, (s.page - 1) * s.perPage + 1), to = Math.min(s.items.length, s.page * s.perPage);
     cap.textContent = s.label + ' ' + from + '-' + to + ' of ' + s.items.length;
     var ul = el('ul', 'pager-list');
     function li(node) { var l = el('li'); l.appendChild(node); ul.appendChild(l); }
@@ -172,15 +180,18 @@
       pageEntries.forEach(function (e) { show[e.n] = 1; });
       s.all.forEach(function (e) { var h = !show[e.n]; if (e.el.hidden !== h) e.el.hidden = h; });
     }
+    if (s.heading) s.heading.hidden = !pageEntries.length && (!!query.trim() || s.page > 1);
     renderStatus(s);
     s.pagers.forEach(function (p) { if (p.parentNode) p.parentNode.removeChild(p); });
     s.pagers = [];
-    if (s.pages < 2) return;
+    if (s.gpages < 2 || !driver(s)) return;
+    s.pages_ = s.pages; s.pages = s.gpages;
     s.pagers = [buildPager(s), buildPager(s)];
     s.pagers[0].classList.add('pager-top'); s.pagers[1].classList.add('pager-bottom');
     s.pagers[0].id = 'pager-' + s.name;
     s.el.parentNode.insertBefore(s.pagers[0], s.el);
     s.el.parentNode.insertBefore(s.pagers[1], s.el.nextSibling);
+    s.pages = s.pages_;
   }
   function renderStatus(s) {
     if (!s.status) {
@@ -218,7 +229,7 @@
   function go(s, p, whichPager) {
     p = clamp(s, p);
     if (p === s.page) return;
-    s.page = p;
+    setPage(s, p);
     history.pushState(null, '', urlFor());
     renderAll();
     scrollToSection(s);
@@ -235,7 +246,7 @@
       if (!entry) continue;
       if (s.items.indexOf(entry) === -1) { query = ''; if (box) box.value = ''; applyFilter(); }
       var p = Math.floor(s.items.indexOf(entry) / s.perPage) + 1;
-      if (p !== s.page || !query) { s.page = p; history.replaceState(null, '', urlFor() + location.hash); renderAll(); }
+      if (p !== s.page || !query) { setPage(s, p); history.replaceState(null, '', urlFor() + location.hash); renderAll(); }
       if (scroll) whenShown(s).then(function () { var t = document.getElementById(id); if (t) t.scrollIntoView({ block: 'start' }); });
       return;
     }
