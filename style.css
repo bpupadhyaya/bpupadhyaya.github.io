@@ -1499,3 +1499,7 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 }
 @media (max-width: 520px) { .whg-instr { grid-template-columns: repeat(4, 1fr); gap: 8px; } .whg-instr img { width: 44px; height: 44px; } .whg-instr a { font-size: 10.5px; } }
 .store-btn.review small { display: block; }
+
+/* home page: the collection modules (Arcforge + one per heritage set) are a paginated list */
+.collections-grid { display: block; }
+.collections-grid > :first-child { margin-top: 0; }

@@ -1,8 +1,11 @@
 /* Reusable pagination. Mark a list container data-paginate="<name>" (optional data-paginate-label="Apps");
    its items are the children marked data-paginate-item, or all element children if none are marked.
    Without JS every item stays visible. State lives in the URL: ?<name>=<page> (page 1 omitted), one param per section.
-   Page budget: PAGE_BUDGET items per page shared by the paginated sections present on the page,
-   i.e. floor(PAGE_BUDGET / number of [data-paginate] containers) per section (10+10 with two, 20 with one).
+   Page budget: PAGE_BUDGET (20) module cards per page across the paginated sections present on the page, allocated dynamically
+   from each list's size (allocate()). The FIRST container (apps) takes up to half the budget (10); the others split the rest
+   by water-filling: a list that needs less than its equal share gives the surplus to the others, an empty or single remaining
+   list gets everything (apps 10 + collections 5 + standalone 5 when both are large; 10 + 7 + 3 when standalone is small;
+   10 + 10 when only one remains). Each list pages independently (?apps=2&collections=1&games=1).
    Search: one box (inserted above the first paginated section) filters ALL items of every section live; ?q=term joins the page params.
    Each item's search text = its visible text + img alt text + platform words (+ optional data-search), normalised once on load.
    Lazy lists: a container whose first child is <template data-paginate-lazy="index.json?v=.."> has only its first chunk as static HTML;
@@ -13,7 +16,6 @@
   var PAGE_BUDGET = 20;
   var containers = Array.prototype.slice.call(document.querySelectorAll('[data-paginate]'));
   if (!containers.length) return;
-  var perPage = Math.max(1, Math.floor(PAGE_BUDGET / containers.length));
   function norm(t) { return String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
   var query = '';
   function itemText(it) {
@@ -23,6 +25,7 @@
     if (/apps\.apple\.com/.test(hrefs)) t += ' ios iphone ipad app store';
     if (/play\.google\.com/.test(hrefs)) t += ' android google play';
     if (it.classList.contains('game-tile')) t += ' game standalone';
+    if (it.classList.contains('whg-hero') || it.classList.contains('af-hero')) t += ' games collection';
     return norm(t);
   }
   var secs = containers.map(function (el) {
@@ -35,14 +38,29 @@
     var all = items.map(function (it, i) { return { id: it.id, idx: lazy ? '' : itemText(it), el: it, n: i }; });
     if (lazy) for (var k = all.length, tot = parseInt(lazy.getAttribute('data-total'), 10) || 0; k < tot; k++) all.push({ id: '', idx: '', el: null, n: k });
     return { name: name, el: el, all: all, items: all, label: label, pages: 1, page: 1, pagers: [], status: null, note: null,
-             lazy: lazy ? { src: lazy.getAttribute('data-paginate-lazy'), chunk: parseInt(lazy.getAttribute('data-chunk'), 10) || 10, total: parseInt(lazy.getAttribute('data-total'), 10) || all.length, v: lazy.getAttribute('data-v') || '', loaded: false, chunks: {}, token: 0 } : null };
+             perPage: 10, lazy: lazy ? { src: lazy.getAttribute('data-paginate-lazy'), chunk: parseInt(lazy.getAttribute('data-chunk'), 10) || 10, total: parseInt(lazy.getAttribute('data-total'), 10) || all.length, v: lazy.getAttribute('data-v') || '', loaded: false, chunks: {}, token: 0 } : null };
   });
 
+  // module cards per page for every list: first list up to half the budget, the rest water-filled (sizes = unfiltered totals)
+  function allocate() {
+    var n = secs.map(function (s) { return s.lazy ? s.lazy.total : s.all.length; });
+    if (secs.length === 1) { secs[0].perPage = PAGE_BUDGET; return; }
+    var first = Math.max(1, Math.min(n[0], Math.floor(PAGE_BUDGET / 2)));
+    secs[0].perPage = first;
+    var rest = PAGE_BUDGET - first;
+    var order = secs.slice(1).map(function (s, i) { return { s: s, n: n[i + 1] }; }).sort(function (a, b) { return a.n - b.n; });
+    order.forEach(function (o, i) {
+      var left = order.length - i, share = Math.floor(rest / left);
+      var a = i === order.length - 1 ? rest : Math.max(1, Math.min(o.n, share));
+      o.s.perPage = Math.max(1, a); rest -= a;
+    });
+  }
+  allocate();
   function applyFilter() {
     var words = norm(query).split(' ').filter(Boolean);
     secs.forEach(function (s) {
       s.items = words.length ? s.all.filter(function (it) { return words.every(function (w) { return it.idx.indexOf(w) !== -1; }); }) : s.all;
-      s.pages = Math.max(1, Math.ceil(s.items.length / perPage));
+      s.pages = Math.max(1, Math.ceil(s.items.length / s.perPage));
     });
   }
   function clamp(s, n) { n = parseInt(n, 10); return isNaN(n) ? 1 : Math.min(s.pages, Math.max(1, n)); }
@@ -84,7 +102,7 @@
     nav.setAttribute('aria-label', s.label + ' pages');
     var cap = el('div', 'pager-caption');
     cap.setAttribute('aria-live', 'polite');
-    var from = (s.page - 1) * perPage + 1, to = Math.min(s.items.length, s.page * perPage);
+    var from = (s.page - 1) * s.perPage + 1, to = Math.min(s.items.length, s.page * s.perPage);
     cap.textContent = s.label + ' ' + from + '-' + to + ' of ' + s.items.length;
     var ul = el('ul', 'pager-list');
     function li(node) { var l = el('li'); l.appendChild(node); ul.appendChild(l); }
@@ -132,7 +150,7 @@
     return Promise.all(Object.keys(need).map(function (c) { return loadChunk(s, c); }));
   }
   function render(s) {
-    var lo = (s.page - 1) * perPage, hi = s.page * perPage;
+    var lo = (s.page - 1) * s.perPage, hi = s.page * s.perPage;
     var pageEntries = s.items.slice(lo, hi);
     if (s.lazy) {
       var tok = ++s.lazy.token;
@@ -216,7 +234,7 @@
       var entry = s.all.filter(function (e) { return e.id === id; })[0];
       if (!entry) continue;
       if (s.items.indexOf(entry) === -1) { query = ''; if (box) box.value = ''; applyFilter(); }
-      var p = Math.floor(s.items.indexOf(entry) / perPage) + 1;
+      var p = Math.floor(s.items.indexOf(entry) / s.perPage) + 1;
       if (p !== s.page || !query) { s.page = p; history.replaceState(null, '', urlFor() + location.hash); renderAll(); }
       if (scroll) whenShown(s).then(function () { var t = document.getElementById(id); if (t) t.scrollIntoView({ block: 'start' }); });
       return;
