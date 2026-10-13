@@ -1480,8 +1480,8 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .store-btn.review small { font-size: 10.5px; letter-spacing: 0.06em; color: #e8c872; }
 .store-btn.review:hover { transform: none; background: rgba(0,0,0,0.35); }
 .whg-text { margin-top: 22px; max-width: 46rem; }
-.whg-instr { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); gap: 10px; margin: 22px 0 6px; padding: 0; max-width: 46rem; }
-.whg-instr a { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 6px 8px; border-radius: 16px; text-decoration: none; text-align: center;
+.whg-instr { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 8px; margin: 22px 0 6px; padding: 0; max-width: 46rem; }
+.whg-instr a { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 4px 8px; border-radius: 16px; text-decoration: none; text-align: center;
     background: rgba(255,255,255,0.06); border: 1px solid rgba(232,185,74,0.28); color: #f4f1e4; font-size: 12px; font-weight: 600; transition: transform .15s, border-color .15s, background .15s; }
 .whg-instr a:hover { transform: translateY(-3px); border-color: #e8b94a; background: rgba(232,185,74,0.14); }
 .whg-instr img { width: 56px; height: 56px; border-radius: 14px; box-shadow: 0 6px 14px rgba(0,0,0,0.45); }
