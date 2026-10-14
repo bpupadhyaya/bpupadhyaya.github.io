@@ -1504,3 +1504,11 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .collections-grid { display: block; }
 .collections-grid > :first-child { margin-top: 0; }
 .af-row-label[hidden] { display: none; }
+
+/* WHG set cards: 'inside the app' gallery row spanning the card */
+.whg-gallery { grid-column: 1 / -1; list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin: 10px 0 0; padding: 0; }
+.whg-gallery li { border-radius: 22px; overflow: hidden; border: 2px solid #e8b94a; background: #05070f; box-shadow: 0 22px 44px rgba(0,0,0,.55), 0 0 0 5px rgba(232,185,74,.10), 0 0 36px rgba(255,200,100,.12); transition: transform .2s; }
+.whg-gallery li:hover { transform: translateY(-6px) scale(1.02); }
+.whg-gallery img { display: block; width: 100%; height: auto; }
+@media (max-width: 760px) { .whg-gallery { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
+.whg-instr img { box-shadow: 0 8px 18px rgba(0,0,0,.55), 0 0 14px rgba(255,214,140,.18); }
