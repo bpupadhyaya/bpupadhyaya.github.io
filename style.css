@@ -1474,7 +1474,7 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 /* fancy 3D category title (owner-approved style, see assets/games/TITLE-STYLE-REFERENCE.md): glossy butter-yellow face + smooth amber extrusion + navy edge */
 .whg-t3d { display: block; letter-spacing: 0.008em; line-height: 1.2; color: transparent; background: #fde17d; -webkit-background-clip: text; background-clip: text;
     padding: 0 0.2em 0.25em 0; filter: drop-shadow(0.0210em 0.0290em 0 #ebc33d) drop-shadow(0.0210em 0.0290em 0 #e0b836) drop-shadow(0.0210em 0.0290em 0 #d4ac2e) drop-shadow(0.0210em 0.0290em 0 #c9a026) drop-shadow(0.0210em 0.0290em 0 #be951f) drop-shadow(0.0210em 0.0290em 0 #b28917) drop-shadow(0.0210em 0.0290em 0 #a77e10) drop-shadow(0.0210em 0.0290em 0 #9c7208) drop-shadow(0 0 0.6px #0a1a5e) drop-shadow(0.1em 0.2em 0.22em rgba(0,3,31,0.6)); }
-.whg-appicon { width: 72px; height: 72px; border-radius: 17px; border: 2px solid #e8b94a; box-shadow: 0 10px 24px rgba(0,0,0,0.55); -webkit-text-fill-color: initial; flex: none; }
+.whg-appicon { width: 72px; height: 72px; border: 0; border-radius: 0; box-shadow: none; filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5)); -webkit-text-fill-color: initial; flex: none; }
 .whg-sub { margin-top: 12px; font-size: clamp(17px, 1.9vw, 22px); font-weight: 700; color: #cdd8ff; }
 .whg-meta { margin-top: 12px; font-size: 15.5px; color: #c6d3f0; }
 .whg-actions { margin-top: 22px; }
