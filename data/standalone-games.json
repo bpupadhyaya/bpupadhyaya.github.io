@@ -116,10 +116,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.solitairedeluxe.app"
       }
     },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/solitaire-deluxe/play/"
-    },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
@@ -143,10 +139,6 @@
         "status": "in-review",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.carromdeluxe.app"
       }
-    },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/carrom-deluxe/play/"
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
@@ -172,10 +164,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.sudokudeluxe.app"
       }
     },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/sudoku-deluxe/play/"
-    },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
@@ -199,10 +187,6 @@
         "status": "in-review",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.dominoesdeluxe.app"
       }
-    },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/dominoes-deluxe/play/"
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
@@ -228,10 +212,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.godeluxe.app"
       }
     },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/go-deluxe/play/"
-    },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
@@ -256,10 +236,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.chessdeluxe.app"
       }
     },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/chess-deluxe/play/"
-    },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
@@ -283,10 +259,6 @@
         "status": "in-review",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.ludodeluxe.app"
       }
-    },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/ludo-deluxe/play/"
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
@@ -336,10 +308,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.mahjongdeluxe.app"
       }
     },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/mahjong-deluxe/play/"
-    },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
@@ -363,10 +331,6 @@
         "status": "soon",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.backgammondeluxe.app"
       }
-    },
-    "demo": {
-      "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/backgammon-deluxe/play/"
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
