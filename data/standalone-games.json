@@ -37,10 +37,10 @@
     "meta": "Slingshot skill game · iOS & Android",
     "description": "A paper-cut diorama of four seasons: 32 fields, four guardian bosses, a carved slingshot and birds raiding the crop. Pull back, aim and release to scare them off before the harvest is gone, with wind, combos and a Harvest Journal to fill. Works in portrait and landscape, with a Rules page and Auto Play to watch and learn. Free, no ads, works offline.",
     "version": "1.4.3",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6819127995"
       },
       "googlePlay": {
@@ -66,10 +66,10 @@
     "meta": "English word puzzles · iOS & Android",
     "description": "A word adventure for every age, from the alphabet read aloud to professional vocabulary. Look any word up in a built-in dictionary and thesaurus that works offline, build a bridge of opposites and cast a net for synonyms across 30 levels each, then keep going with more than seventy puzzles including analogies, your own word lists, a Word Garden that grows as you learn, graded reading, a Speech Lab and a Start Here path for beginners. Choose an age group and a learning level and the words follow. Fills the screen in portrait and landscape, with Auto Play to watch and learn. No ads, no account, works offline. Free preview, then a one-time unlock.",
     "version": "1.1.1",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6820789913"
       },
       "googlePlay": {
@@ -108,7 +108,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823536901"
       },
       "googlePlay": {
@@ -132,7 +132,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823550629"
       },
       "googlePlay": {
@@ -156,7 +156,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823550790"
       },
       "googlePlay": {
@@ -180,7 +180,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823550961"
       },
       "googlePlay": {
@@ -204,7 +204,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823563990"
       },
       "googlePlay": {
@@ -228,7 +228,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823564144"
       },
       "googlePlay": {
@@ -252,7 +252,7 @@
     "status": "in-review",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823563926"
       },
       "googlePlay": {
@@ -273,10 +273,10 @@
     "meta": "Cricket · iOS & Android",
     "description": "A premium night cricket game: a 60-situation Chase Table, batting and bowling, field setting, a daily chase, an eight-team cup, super overs, lessons and a coach, in a real-time 3D stadium with swing, spin, seam and wind.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823564303"
       },
       "googlePlay": {
@@ -297,10 +297,10 @@
     "meta": "Tile game · iOS & Android",
     "description": "A full four-player mahjong table in real-time 3D: engraved tiles, a wall that builds in front of you, dice and a dealer compass. Choose Riichi (Japanese) or Hong Kong rules, play four computer levels from Beginner to Master, and learn with a coach that grades every discard and explains shape, waits and scoring in plain words. Lessons, a daily hand, unlimited practice puzzles, a scoring calculator, a fan and yaku reference, replays and Watch and Learn. Score only, no ads, works offline.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823578598"
       },
       "googlePlay": {
@@ -321,10 +321,10 @@
     "meta": "Board · iOS & Android",
     "description": "A premium 3D backgammon table with the doubling cube, match play and the Turkish and Greek table games Tavla, Portes, Plakoto and Fevga. A strong computer opponent, a coach, lessons, puzzles and a World Tour.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823578697"
       },
       "googlePlay": {
@@ -345,10 +345,10 @@
     "meta": "Board · iOS & Android",
     "description": "A premium 3D mancala with physical seeds on a carved wooden board, Oware and Kalah rule sets, a strong computer opponent, lessons, a puzzle campaign, a daily challenge, game review and heritage chapters.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714372"
       },
       "googlePlay": {
@@ -373,10 +373,10 @@
     "meta": "Puzzle · iOS & Android",
     "description": "A premium 3D minesweeper with boards that never need a guess, a coach that explains every deduction, five grids (square, hexagon, triangle, octagon and wrap-around), a 61-puzzle Deduction Academy, a daily challenge, records, trophies and six themes.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714516"
       },
       "googlePlay": {
@@ -401,10 +401,10 @@
     "meta": "Physics sport · iOS & Android",
     "description": "Slingshot-putt round 54 holes on six themed courses in a real-time 3D world. Slopes, ramps, sand, ice, water, portals, windmills and pendulums, a coach that explains its putts, ghost replays, daily challenges, lessons and up to four players. Works offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714629"
       },
       "googlePlay": {
@@ -429,10 +429,10 @@
     "meta": "Sport · iOS & Android",
     "description": "A premium 3D darts game: a flick-to-throw control, 501, Cricket, Around the Clock and Killer, eight computer levels, seven tournaments, a daily challenge, checkout coaching and Darts School.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714351"
       },
       "googlePlay": {
@@ -457,10 +457,10 @@
     "meta": "Sports · iOS & Android",
     "description": "A premium 3D cue-sports table: snooker (full-size and a short six-red game), 8-ball and 9-ball with true rules, spin and cushions modelled by a physics engine. Six computer opponents, a three-chapter campaign, 24 solved trick shots, drills, lessons, a daily challenge, Watch and Learn, trophies and statistics.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714811"
       },
       "googlePlay": {
@@ -485,10 +485,10 @@
     "meta": "Board · iOS & Android",
     "description": "The classic game of flipping discs in real-time 3D: two-sided discs that turn over in a rolling wave, rich board materials, eight computer levels with a top level that solves the ending perfectly, lessons, verified puzzles, named openings, a daily challenge and full game review with an evaluation graph. Offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714707"
       },
       "googlePlay": {
@@ -513,10 +513,10 @@
     "meta": "Board · iOS & Android",
     "description": "A real-time 3D Xiangqi board with carved men, eight computer levels, a coach that grades your moves, 14 lessons, a 90-puzzle campaign, a daily challenge, an opening trainer and full game review. Offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714761"
       },
       "googlePlay": {
@@ -541,10 +541,10 @@
     "meta": "Board · iOS & Android",
     "description": "Real-time 3D shogi with wedge-shaped wooden pieces on a kaya board, eight computer levels, sixteen hands-on lessons, 190 checkmate puzzles with a daily challenge, a castle and opening trainer, a coach that rates your moves and a full game review. Offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714733"
       },
       "googlePlay": {
@@ -569,10 +569,10 @@
     "meta": "Board · iOS & Android",
     "description": "The complete draughts app: American Checkers, Russian, Brazilian and International Draughts played by their real rules on beautiful 3D boards, against a strong engine with eight levels. Learn with 22 interactive lessons, solve about 190 puzzles and a Daily Shot, explore openings with engine scores and review every game move by move. Offline, no ads, no account.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823714997"
       },
       "googlePlay": {
@@ -597,10 +597,10 @@
     "meta": "Board · iOS & Android",
     "description": "A premium 3D snakes and ladders table with tumbling dice, slithering snakes, charms, mystery squares, six computer personalities, a twelve-stop Journey, a daily race, foresight trials and an Almanac on the history of the game.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "soon",
     "stores": {
       "appStore": {
-        "status": "in-review",
+        "status": "soon",
         "url": "https://apps.apple.com/app/id6823715029"
       },
       "googlePlay": {
