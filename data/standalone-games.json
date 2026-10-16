@@ -335,5 +335,285 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
+  },
+  {
+    "slug": "mancaladeluxe",
+    "title": "Arcforge Mancala Deluxe",
+    "bannerAlt": "Arcforge Mancala Deluxe: Oware and Kalah on a real 3D board",
+    "banner": "assets/games/mancala-deluxe-banner.jpg",
+    "icon": "assets/games/mancala-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A premium 3D mancala with physical seeds on a carved wooden board, Oware and Kalah rule sets, a strong computer opponent, lessons, a puzzle campaign, a daily challenge, game review and heritage chapters.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714372"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.mancaladeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/mancala-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "minesweeperdeluxe",
+    "title": "Arcforge Minesweeper Deluxe",
+    "bannerAlt": "Arcforge Minesweeper Deluxe: Tactile 3D tiles. Logic that explains itself",
+    "banner": "assets/games/minesweeper-deluxe-banner.jpg",
+    "icon": "assets/games/minesweeper-deluxe-icon.png",
+    "meta": "Puzzle · iOS & Android",
+    "description": "A premium 3D minesweeper with boards that never need a guess, a coach that explains every deduction, five grids (square, hexagon, triangle, octagon and wrap-around), a 61-puzzle Deduction Academy, a daily challenge, records, trophies and six themes.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714516"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.minesweeperdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/minesweeper-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "minigolfdeluxe",
+    "title": "Arcforge Mini Golf Deluxe",
+    "bannerAlt": "Arcforge Mini Golf Deluxe: Premium 3D mini golf: 54 holes, portals, windmills and ghosts",
+    "banner": "assets/games/mini-golf-deluxe-banner.jpg",
+    "icon": "assets/games/mini-golf-deluxe-icon.png",
+    "meta": "Physics sport · iOS & Android",
+    "description": "Slingshot-putt round 54 holes on six themed courses in a real-time 3D world. Slopes, ramps, sand, ice, water, portals, windmills and pendulums, a coach that explains its putts, ghost replays, daily challenges, lessons and up to four players. Works offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714629"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.minigolfdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/mini-golf-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "dartsdeluxe",
+    "title": "Arcforge Darts Deluxe",
+    "bannerAlt": "Arcforge Darts Deluxe: Aim. Flick. Check out",
+    "banner": "assets/games/darts-deluxe-banner.jpg",
+    "icon": "assets/games/darts-deluxe-icon.png",
+    "meta": "Sport · iOS & Android",
+    "description": "A premium 3D darts game: a flick-to-throw control, 501, Cricket, Around the Clock and Killer, eight computer levels, seven tournaments, a daily challenge, checkout coaching and Darts School.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714351"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.dartsdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/darts-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "snookerdeluxe",
+    "title": "Arcforge Snooker Deluxe",
+    "bannerAlt": "Arcforge Snooker Deluxe: Snooker, 8-ball and 9-ball with real physics",
+    "banner": "assets/games/snooker-deluxe-banner.jpg",
+    "icon": "assets/games/snooker-deluxe-icon.png",
+    "meta": "Sports · iOS & Android",
+    "description": "A premium 3D cue-sports table: snooker (full-size and a short six-red game), 8-ball and 9-ball with true rules, spin and cushions modelled by a physics engine. Six computer opponents, a three-chapter campaign, 24 solved trick shots, drills, lessons, a daily challenge, Watch and Learn, trophies and statistics.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714811"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.snookerdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/snooker-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "reversideluxe",
+    "title": "Arcforge Reversi Deluxe",
+    "bannerAlt": "Arcforge Reversi Deluxe: Glossy 3D discs and a genuinely hard opponent",
+    "banner": "assets/games/reversi-deluxe-banner.jpg",
+    "icon": "assets/games/reversi-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "The classic game of flipping discs in real-time 3D: two-sided discs that turn over in a rolling wave, rich board materials, eight computer levels with a top level that solves the ending perfectly, lessons, verified puzzles, named openings, a daily challenge and full game review with an evaluation graph. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714707"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.reversideluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/reversi-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "xiangqideluxe",
+    "title": "Arcforge Xiangqi Deluxe",
+    "bannerAlt": "Arcforge Xiangqi Deluxe: Chinese chess in real-time 3D that teaches you to win",
+    "banner": "assets/games/xiangqi-deluxe-banner.jpg",
+    "icon": "assets/games/xiangqi-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A real-time 3D Xiangqi board with carved men, eight computer levels, a coach that grades your moves, 14 lessons, a 90-puzzle campaign, a daily challenge, an opening trainer and full game review. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714761"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.xiangqideluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/xiangqi-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "shogideluxe",
+    "title": "Arcforge Shogi Deluxe",
+    "bannerAlt": "Arcforge Shogi Deluxe: Japanese chess in 3D with a coach and 190 mating puzzles",
+    "banner": "assets/games/shogi-deluxe-banner.jpg",
+    "icon": "assets/games/shogi-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "Real-time 3D shogi with wedge-shaped wooden pieces on a kaya board, eight computer levels, sixteen hands-on lessons, 190 checkmate puzzles with a daily challenge, a castle and opening trainer, a coach that rates your moves and a full game review. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714733"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.shogideluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/shogi-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "draughtsdeluxe",
+    "title": "Arcforge Checkers Deluxe",
+    "bannerAlt": "Arcforge Checkers Deluxe: Four rule sets, real 3D, a strong engine",
+    "banner": "assets/games/draughts-deluxe-banner.jpg",
+    "icon": "assets/games/draughts-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "The complete draughts app: American Checkers, Russian, Brazilian and International Draughts played by their real rules on beautiful 3D boards, against a strong engine with eight levels. Learn with 22 interactive lessons, solve about 190 puzzles and a Daily Shot, explore openings with engine scores and review every game move by move. Offline, no ads, no account.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823714997"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.draughtsdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/draughts-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "snakesladdersdeluxe",
+    "title": "Arcforge Snakes Ladders Deluxe",
+    "bannerAlt": "Arcforge Snakes Ladders Deluxe: The tabletop dice race",
+    "banner": "assets/games/snakes-and-ladders-deluxe-banner.jpg",
+    "icon": "assets/games/snakes-and-ladders-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A premium 3D snakes and ladders table with tumbling dice, slithering snakes, charms, mystery squares, six computer personalities, a twelve-stop Journey, a daily race, foresight trials and an Almanac on the history of the game.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823715029"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.snakesladdersdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/snakes-and-ladders-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
   }
 ]
