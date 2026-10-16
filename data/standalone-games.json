@@ -1,99 +1,375 @@
 [
- {
-  "slug": "tigerandgoat",
-  "title": "Bagh-Chal Deluxe: Tiger and Goat",
-  "bannerAlt": "Bagh-Chal Deluxe: Tiger and Goat",
-  "banner": "assets/games/tigerandgoat-banner.jpg",
-  "icon": "assets/games/tigerandgoat-icon.png",
-  "meta": "Nepal · Strategy · iOS & Android",
-  "description": "Nepal’s traditional tiger and goat game in a complete Deluxe edition: a carved three-dimensional board, 44 puzzles in a campaign, 14 hands-on lessons, five computer levels or a friend, a daily challenge, and Auto Play to watch and learn. Fills the whole screen in portrait and landscape. No ads, works offline. Free preview, then a one-time unlock.",
-  "version": "1.7.2",
-  "status": "in-review",
-  "stores": {
-   "appStore": {
+  {
+    "slug": "tigerandgoat",
+    "title": "Bagh-Chal Deluxe: Tiger and Goat",
+    "bannerAlt": "Bagh-Chal Deluxe: Tiger and Goat",
+    "banner": "assets/games/tigerandgoat-banner.jpg",
+    "icon": "assets/games/tigerandgoat-icon.png",
+    "meta": "Nepal · Strategy · iOS & Android",
+    "description": "Nepal’s traditional tiger and goat game in a complete Deluxe edition: a carved three-dimensional board, 44 puzzles in a campaign, 14 hands-on lessons, five computer levels or a friend, a daily challenge, and Auto Play to watch and learn. Fills the whole screen in portrait and landscape. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.7.2",
     "status": "in-review",
-    "url": "https://apps.apple.com/app/id6818936256"
-   },
-   "googlePlay": {
-    "status": "live",
-    "url": "https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app"
-   }
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6818936256"
+      },
+      "googlePlay": {
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/"
+    },
+    "supportHref": "app-support-tigerandgoat.html",
+    "privacyHref": "privacy-tigerandgoat.html",
+    "date": "2026-10-03",
+    "order": 1
   },
-  "demo": {
-   "label": "Play the free browser demo",
-   "href": "https://equalinformation.com/games-site/"
-  },
-  "supportHref": "app-support-tigerandgoat.html",
-  "privacyHref": "privacy-tigerandgoat.html",
-  "date": "2026-10-03",
-  "order": 1
- },
- {
-  "slug": "goldensling",
-  "title": "Golden Sling Deluxe",
-  "bannerAlt": "Golden Sling Deluxe: pull, aim, release, guard the harvest",
-  "banner": "assets/games/goldensling-banner.jpg",
-  "icon": "assets/games/goldensling-icon.png",
-  "meta": "Slingshot skill game · iOS & Android",
-  "description": "A paper-cut diorama of four seasons: 32 fields, four guardian bosses, a carved slingshot and birds raiding the crop. Pull back, aim and release to scare them off before the harvest is gone, with wind, combos and a Harvest Journal to fill. Works in portrait and landscape, with a Rules page and Auto Play to watch and learn. Free, no ads, works offline.",
-  "version": "1.4.3",
-  "status": "in-review",
-  "stores": {
-   "appStore": {
+  {
+    "slug": "goldensling",
+    "title": "Golden Sling Deluxe",
+    "bannerAlt": "Golden Sling Deluxe: pull, aim, release, guard the harvest",
+    "banner": "assets/games/goldensling-banner.jpg",
+    "icon": "assets/games/goldensling-icon.png",
+    "meta": "Slingshot skill game · iOS & Android",
+    "description": "A paper-cut diorama of four seasons: 32 fields, four guardian bosses, a carved slingshot and birds raiding the crop. Pull back, aim and release to scare them off before the harvest is gone, with wind, combos and a Harvest Journal to fill. Works in portrait and landscape, with a Rules page and Auto Play to watch and learn. Free, no ads, works offline.",
+    "version": "1.4.3",
     "status": "in-review",
-    "url": "https://apps.apple.com/app/id6819127995"
-   },
-   "googlePlay": {
-    "status": "live",
-    "url": "https://play.google.com/store/apps/details?id=com.equalinformation.goldensling.app"
-   }
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6819127995"
+      },
+      "googlePlay": {
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.goldensling.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/harvest-sling/play/"
+    },
+    "supportHref": "app-support-goldensling.html",
+    "privacyHref": "privacy-goldensling.html",
+    "date": "2026-10-04",
+    "order": 2
   },
-  "demo": {
-   "label": "Play the free browser demo",
-   "href": "https://equalinformation.com/games-site/games/harvest-sling/play/"
-  },
-  "supportHref": "app-support-goldensling.html",
-  "privacyHref": "privacy-goldensling.html",
-  "date": "2026-10-04",
-  "order": 2
- },
- {
-  "slug": "wordgamedeluxe",
-  "title": "Word Game Deluxe",
-  "bannerAlt": "Word Game Deluxe: a bridge of opposites, a net for synonyms",
-  "banner": "assets/games/wordgamedeluxe-banner-v2.jpg",
-  "icon": "assets/games/wordgamedeluxe-icon.png",
-  "meta": "English word puzzles · iOS & Android",
-  "description": "A word adventure for every age, from the alphabet read aloud to professional vocabulary. Look any word up in a built-in dictionary and thesaurus that works offline, build a bridge of opposites and cast a net for synonyms across 30 levels each, then keep going with more than seventy puzzles including analogies, your own word lists, a Word Garden that grows as you learn, graded reading, a Speech Lab and a Start Here path for beginners. Choose an age group and a learning level and the words follow. Fills the screen in portrait and landscape, with Auto Play to watch and learn. No ads, no account, works offline. Free preview, then a one-time unlock.",
-  "version": "1.1.0",
-  "status": "in-review",
-  "stores": {
-   "appStore": {
+  {
+    "slug": "wordgamedeluxe",
+    "title": "Word Game Deluxe",
+    "bannerAlt": "Word Game Deluxe: a bridge of opposites, a net for synonyms",
+    "banner": "assets/games/wordgamedeluxe-banner-v2.jpg",
+    "icon": "assets/games/wordgamedeluxe-icon.png",
+    "meta": "English word puzzles · iOS & Android",
+    "description": "A word adventure for every age, from the alphabet read aloud to professional vocabulary. Look any word up in a built-in dictionary and thesaurus that works offline, build a bridge of opposites and cast a net for synonyms across 30 levels each, then keep going with more than seventy puzzles including analogies, your own word lists, a Word Garden that grows as you learn, graded reading, a Speech Lab and a Start Here path for beginners. Choose an age group and a learning level and the words follow. Fills the screen in portrait and landscape, with Auto Play to watch and learn. No ads, no account, works offline. Free preview, then a one-time unlock.",
+    "version": "1.1.0",
     "status": "in-review",
-    "url": "https://apps.apple.com/app/id6820789913"
-   },
-   "googlePlay": {
-    "status": "live",
-    "url": "https://play.google.com/store/apps/details?id=com.equalinformation.wordgamedeluxe.app"
-   }
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6820789913"
+      },
+      "googlePlay": {
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.wordgamedeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-12",
+    "order": 3,
+    "keywords": [
+      "word game",
+      "vocabulary",
+      "synonyms",
+      "antonyms",
+      "spelling",
+      "english",
+      "crossword",
+      "oxford"
+    ],
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/word-game/play/"
+    }
   },
-  "supportHref": "app-support-arcforge.html",
-  "privacyHref": "privacy-arcforge.html",
-  "date": "2026-10-12",
-  "order": 3,
-  "keywords": [
-   "word game",
-   "vocabulary",
-   "synonyms",
-   "antonyms",
-   "spelling",
-   "english",
-   "crossword",
-   "oxford"
-  ],
-  "demo": {
-   "label": "Play the free browser demo",
-   "href": "https://equalinformation.com/games-site/games/word-game/play/"
+  {
+    "slug": "solitairedeluxe",
+    "title": "Solitaire Deluxe",
+    "bannerAlt": "Solitaire Deluxe: The most comfortable way to play solitaire",
+    "banner": "assets/games/solitaire-deluxe-banner.jpg",
+    "icon": "assets/games/solitaire-deluxe-icon.png",
+    "meta": "Card · iOS & Android",
+    "description": "Six solitaire games in real 3D: Klondike, Spider, FreeCell, Pyramid, TriPeaks and Golf, with winnable deals, hints that explain themselves, unlimited undo, daily deals and big-print, left-handed and one-hand comfort settings.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823536901"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.solitairedeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/solitaire-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "carromdeluxe",
+    "title": "Carrom Deluxe",
+    "bannerAlt": "Carrom Deluxe: Premium 3D carrom with real physics",
+    "banner": "assets/games/carrom-deluxe-banner.jpg",
+    "icon": "assets/games/carrom-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A real-time 3D carrom board with a physics engine written from scratch: powder friction, rebounds and spin. Full international rules, five computer levels plus Adaptive, twenty lessons, a ten stage campaign, daily challenge, doubles and pass and play, replay, and boards, powders, coins and strikers to unlock. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823550629"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.carromdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/carrom-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "sudokudeluxe",
+    "title": "Sudoku Deluxe",
+    "bannerAlt": "Sudoku Deluxe: Hand-crafted Sudoku in 3D, with a coach that teaches",
+    "banner": "assets/games/sudoku-deluxe-banner.jpg",
+    "icon": "assets/games/sudoku-deluxe-icon.png",
+    "meta": "Logic puzzle · iOS & Android",
+    "description": "Seven Sudoku variants on an engraved 3D board: a library of over 1,500 puzzles, each proven to have one solution and graded by the techniques it needs. A coach explains the next logical step, a Learn path teaches every technique from Full House to forcing chains, and Watch and Learn plays whole puzzles for you.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823550790"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.sudokudeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/sudoku-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "dominoesdeluxe",
+    "title": "Dominoes Deluxe",
+    "bannerAlt": "Dominoes Deluxe: Seven classic domino games on one beautiful 3D table",
+    "banner": "assets/games/dominoes-deluxe-banner.jpg",
+    "icon": "assets/games/dominoes-deluxe-icon.png",
+    "meta": "Domino games · iOS & Android",
+    "description": "Cuban Partners, Doble Nueve, Block, Draw, All Fives, Mexican Train and Chicken Foot, each with its own rules page, against computer opponents at five levels plus Adaptive that remember every tile and read every pass. Ivory, ebony or rosewood tiles on felt, walnut or marble, hints with reasons, a live coach, ten lessons, Watch & Learn, a daily challenge and statistics. Works offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823550961"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.dominoesdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/dominoes-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "godeluxe",
+    "title": "Go Deluxe",
+    "bannerAlt": "Go Deluxe: Learn and play Go on a lit 3D board",
+    "banner": "assets/games/go-deluxe-banner.jpg",
+    "icon": "assets/games/go-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A teaching-first Go with a 3D kaya board, ten computer levels, twelve lessons, over 150 life-and-death problems, a daily problem and game review. No ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823563990"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.godeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/go-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "chessdeluxe",
+    "title": "Chess Deluxe",
+    "bannerAlt": "Chess Deluxe: Beautiful 3D chess that teaches you to win",
+    "banner": "assets/games/chess-deluxe-banner.jpg",
+    "icon": "assets/games/chess-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A real-time 3D chess board with carved pieces, ten computer levels, a coach that explains your mistakes, 36 lessons, hundreds of rated puzzles, a daily puzzle and a full game review. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823564144"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.chessdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/chess-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "ludodeluxe",
+    "title": "Ludo Deluxe",
+    "bannerAlt": "Ludo Deluxe: Calm, beautiful Ludo, Pachisi and Royal Cross",
+    "banner": "assets/games/ludo-deluxe-banner.jpg",
+    "icon": "assets/games/ludo-deluxe-icon.png",
+    "meta": "Family board game · iOS & Android",
+    "description": "Roll real dice out of a leather cup onto a lit 3D board and race glossy tokens around the cross. Three classic games in one app (Ludo, Pachisi with cowrie shells and Royal Cross with two dice), computer players with four levels and five personalities, nine lessons, Watch & Learn, a Cup, a League season, a Daily Challenge and 28 trophies. Works offline, no ads.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823563926"
+      },
+      "googlePlay": {
+        "status": "in-review",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.ludodeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/ludo-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "cricketchasedeluxe",
+    "title": "Cricket Chase Deluxe",
+    "bannerAlt": "Cricket Chase Deluxe: Floodlit chases with real ball physics",
+    "banner": "assets/games/cricket-chase-deluxe-banner.jpg",
+    "icon": "assets/games/cricket-chase-deluxe-icon.png",
+    "meta": "Cricket · iOS & Android",
+    "description": "A premium night cricket game: a 60-situation Chase Table, batting and bowling, field setting, a daily chase, an eight-team cup, super overs, lessons and a coach, in a real-time 3D stadium with swing, spin, seam and wind.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823564303"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.cricketchasedeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "mahjongdeluxe",
+    "title": "Mahjong Deluxe",
+    "bannerAlt": "Mahjong Deluxe: Riichi and Hong Kong mahjong, played like a pro",
+    "banner": "assets/games/mahjong-deluxe-banner.jpg",
+    "icon": "assets/games/mahjong-deluxe-icon.png",
+    "meta": "Tile game · iOS & Android",
+    "description": "A full four-player mahjong table in real-time 3D: engraved tiles, a wall that builds in front of you, dice and a dealer compass. Choose Riichi (Japanese) or Hong Kong rules, play four computer levels from Beginner to Master, and learn with a coach that grades every discard and explains shape, waits and scoring in plain words. Lessons, a daily hand, unlimited practice puzzles, a scoring calculator, a fan and yaku reference, replays and Watch and Learn. Score only, no ads, works offline.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823578598"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.mahjongdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/mahjong-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
+  },
+  {
+    "slug": "backgammondeluxe",
+    "title": "Backgammon Deluxe",
+    "bannerAlt": "Backgammon Deluxe: Dice, strategy and nerve",
+    "banner": "assets/games/backgammon-deluxe-banner.jpg",
+    "icon": "assets/games/backgammon-deluxe-icon.png",
+    "meta": "Board · iOS & Android",
+    "description": "A premium 3D backgammon table with the doubling cube, match play and the Turkish and Greek table games Tavla, Portes, Plakoto and Fevga. A strong computer opponent, a coach, lessons, puzzles and a World Tour.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "in-review",
+        "url": "https://apps.apple.com/app/id6823578697"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.backgammondeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/backgammon-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-16"
   }
- }
 ]
