@@ -252,7 +252,7 @@ ${entriesHtml}
 
     <p style="color: var(--text-muted); font-size: 13px; margin-top: 40px; text-align: center;">
         New releases will be documented here as they ship.<br>
-        For feedback or questions, contact <a href="mailto:bpupadhyaya@gmail.com" style="color: var(--accent); text-decoration: none;">bpupadhyaya@gmail.com</a>
+        For feedback or questions, contact <a href="mailto:support@equalinformation.com" style="color: var(--accent); text-decoration: none;">support@equalinformation.com</a>
     </p>
 
 </div>
