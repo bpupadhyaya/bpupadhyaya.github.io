@@ -959,5 +959,28 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "rugbydeluxe",
+    "title": "Uprights: Rugby Kicker",
+    "bannerAlt": "Uprights: Rugby Kicker: read the wind, set the strike, hold your nerve",
+    "banner": "assets/games/rugby-deluxe-banner.jpg",
+    "icon": "assets/games/rugby-deluxe-icon.png",
+    "meta": "Rugby kicking sim · iOS & Android",
+    "description": "A 3D rugby kicking game with a real physics model: place kicks and drop goals in wind, rain and gusts. Read the flags, aim off the posts, choose the strike on the ball and hold your nerve. A six-cup career against rival kickers, thirty challenges, a daily set, ten lessons in Kicking School, and a Watch & Learn coach that plays and explains every kick. Offline, no ads, no account.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.rugbydeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
