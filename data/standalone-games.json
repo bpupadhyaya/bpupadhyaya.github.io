@@ -666,5 +666,27 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-19"
+  },
+  {
+    "slug": "huarongdaodeluxe",
+    "title": "Huarong Gate: Lacquer Generals",
+    "bannerAlt": "Huarong Gate: a lacquered 3D sliding-block puzzle with painted generals",
+    "banner": "assets/games/huarong-gate-banner.jpg",
+    "icon": "assets/games/huarong-gate-icon.png",
+    "meta": "Puzzle · iOS & Android",
+    "description": "The classic Huarong Road escape puzzle as a lacquered rosewood tray with painted generals, drawn in real-time 3D. Twelve chapters of 240 graded puzzles with a par proved by exhaustive search, eight lessons, a daily puzzle, Endless mode, hints that explain and Auto Play that thinks aloud. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-19"
   }
 ]
