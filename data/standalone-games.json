@@ -804,5 +804,32 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "pondhockeydeluxe",
+    "title": "Shinny Pond Hockey",
+    "bannerAlt": "Shinny Pond Hockey: Real-time 3D pond hockey you flick with one thumb",
+    "banner": "assets/games/pond-hockey-deluxe-banner.jpg",
+    "icon": "assets/games/pond-hockey-deluxe-icon.png",
+    "meta": "Sports · iOS & Android",
+    "description": "Skate a frozen pond in real-time 3D: one thumb steers, a swipe shoots, and the puck banks off snow and boulders. One-on-one or two-on-two against five computer levels, a 24-stop circuit across eight ponds, 24 skill drills, a daily shot, lessons and Auto Play.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.pondhockeydeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/pond-hockey-deluxe/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
