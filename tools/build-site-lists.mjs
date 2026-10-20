@@ -126,7 +126,7 @@ const TYPES = {
       L.push(`                    <a href="${esc(g.supportHref)}" target="_blank" rel="noopener">App Support</a>`, `                </div>`, `            </div>`, `        </article>`);
       return L.join('\n');
     },
-    extraSearch: () => 'game standalone',
+    extraSearch: () => 'game standalone arcforge',
   },
 };
 

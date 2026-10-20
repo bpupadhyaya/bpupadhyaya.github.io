@@ -1448,6 +1448,8 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .site-search + section { padding-top: 40px; }
 @media (max-width: 768px) { .site-search { padding: 40px 20px 0; } }
 .site-search-help { color: var(--text-muted); font-size: 13px; margin-top: 8px; padding-left: 8px; }
+/* extra boxes sit inside the games section (above Collections and above Standalone games) */
+.site-search.site-search-inline { max-width: none; margin: 0; padding: 4px 0 22px; scroll-margin-top: 150px; }
 
 /* lazy lists (paginate.js): page being fetched */
 .is-loading { opacity: 0.45; transition: opacity 0.15s; }

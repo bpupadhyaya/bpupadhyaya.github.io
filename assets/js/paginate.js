@@ -7,7 +7,7 @@
    page), so the total on screen is never more than 20 whichever pages are open. One remaining list gets all 10.
    Every list pages independently (?<name>=<n>); its own pager scrolls to that list. Lists marked data-paginate-group="<g>" instead
    share ONE page number (?<g>=<n>) driven by the longest list's pager (not used on the home page).
-   Search: one box (inserted above the first paginated section) filters ALL items of every section live; ?q=term joins the page params.
+   Search: one box above the first paginated section, plus one above each other list (all share one query), filters ALL items of every section live; ?q=term joins the page params.
    Each item's search text = its visible text + img alt text + platform words (+ optional data-search), normalised once on load.
    Lazy lists: a container whose first child is <template data-paginate-lazy="index.json?v=.."> has only its first chunk as static HTML;
    the compact index (id + search text for EVERY item, in display order) is fetched once, search/paging/deep links work on it, and the
@@ -25,7 +25,7 @@
     var hrefs = Array.prototype.map.call(it.querySelectorAll('a[href]'), function (a) { return a.href; }).join(' ');
     if (/apps\.apple\.com/.test(hrefs)) t += ' ios iphone ipad app store';
     if (/play\.google\.com/.test(hrefs)) t += ' android google play';
-    if (it.classList.contains('game-tile')) t += ' game standalone';
+    if (it.classList.contains('game-tile')) t += ' game standalone arcforge';
     if (it.classList.contains('whg-hero') || it.classList.contains('af-hero')) t += ' games collection';
     return norm(t);
   }
@@ -80,7 +80,7 @@
     query = (q.get('q') || '').slice(0, 200);
     applyFilter();
     secs.forEach(function (s) { s.page = clamp(s, q.get(pname(s))); });
-    if (box) box.value = query;
+    syncBoxes();
   }
   function urlFor(overrides) {
     var q = new URLSearchParams(location.search);
@@ -210,16 +210,16 @@
   function renderAll() {
     secs.forEach(render);
     var q = query.trim(), none = secs.every(function (x) { return !x.items.length; });
-    if (clearBtn) clearBtn.hidden = !q;
-    if (msg) {
-      msg.textContent = q && none ? 'Nothing matches \u201c' + q + '\u201d. ' : '';
-      if (q && none) { var c = el('a', 'search-clear-link', 'Clear search'); c.href = urlFor({}); c.addEventListener('click', function (e) { e.preventDefault(); setQuery('', true); box.focus(); }); msg.appendChild(c); }
-    }
-    if (live) { var tot = secs.reduce(function (a, x) { return a + x.items.length; }, 0); live.textContent = q ? tot + (tot === 1 ? ' result' : ' results') : ''; }
+    boxes.forEach(function (b) {
+      b.clear.hidden = !q;
+      b.msg.textContent = q && none ? 'Nothing matches \u201c' + q + '\u201d. ' : '';
+      if (q && none) { var c = el('a', 'search-clear-link', 'Clear search'); c.href = urlFor({}); c.addEventListener('click', function (e) { e.preventDefault(); setQuery('', true); b.input.focus(); }); b.msg.appendChild(c); }
+      if (b.live) { var tot = secs.reduce(function (a, x) { return a + x.items.length; }, 0); b.live.textContent = q ? tot + (tot === 1 ? ' result' : ' results') : ''; }
+    });
   }
   function setQuery(v, push) {
-    if (pending.some(function (s) { return !s.lazy.loaded; })) { query = v; if (box) box.value = v; indexReady.then(function () { setQuery(v, push); }); return; }
-    query = v; if (box) box.value = v;
+    if (pending.some(function (s) { return !s.lazy.loaded; })) { query = v; syncBoxes(); indexReady.then(function () { setQuery(v, push); }); return; }
+    query = v; syncBoxes();
     applyFilter();
     secs.forEach(function (s) { s.page = 1; });
     history.replaceState(null, '', urlFor());
@@ -247,7 +247,7 @@
       var s = secs[i];
       var entry = s.all.filter(function (e) { return e.id === id; })[0];
       if (!entry) continue;
-      if (s.items.indexOf(entry) === -1) { query = ''; if (box) box.value = ''; applyFilter(); }
+      if (s.items.indexOf(entry) === -1) { query = ''; syncBoxes(); applyFilter(); }
       var p = Math.floor(s.items.indexOf(entry) / s.perPage) + 1;
       if (p !== s.page || !query) { setPage(s, p); history.replaceState(null, '', urlFor() + location.hash); renderAll(); }
       if (scroll) whenShown(s).then(function () { var t = document.getElementById(id); if (t) t.scrollIntoView({ block: 'start' }); });
@@ -256,31 +256,36 @@
   }
 
   function helpText() { return 'Searching ' + secs.map(function (x) { return 'all ' + (x.lazy ? x.lazy.total : x.all.length) + ' ' + x.label.toLowerCase(); }).join(' and ') + ' (not just this page)'; }
-  var box = null, clearBtn = null, msg = null, live = null, help = null;
-  (function buildSearch() {
-    var host = secs[0].el.closest('section') || secs[0].el.parentNode;
-    var wrap = el('div', 'site-search');
+  var boxes = [];
+  function syncBoxes() { boxes.forEach(function (b) { if (b.input.value !== query) b.input.value = query; }); }
+  // One search box before `host`; every box edits the same query. The first one (above the apps) has the help line and the live
+  // region, the others (above the games lists, so nobody scrolls back up to search) are the bare input.
+  function makeSearch(host, inline) {
+    var b = {};
+    var wrap = el('div', 'site-search' + (inline ? ' site-search-inline' : ''));
     wrap.setAttribute('role', 'search');
     var row = el('div', 'site-search-row');
-    box = el('input', 'site-search-input');
-    box.type = 'text'; box.id = 'site-search-q'; box.autocomplete = 'off'; box.spellcheck = false;
-    box.setAttribute('aria-label', 'Search all apps and games, not just this page'); box.setAttribute('inputmode', 'search'); box.setAttribute('enterkeyhint', 'search');
-    box.placeholder = 'Search all apps and games\u2026';
-    clearBtn = el('button', 'site-search-clear', '\u00d7');
-    clearBtn.type = 'button'; clearBtn.setAttribute('aria-label', 'Clear search'); clearBtn.hidden = true;
-    row.appendChild(box); row.appendChild(clearBtn);
-    help = el('p', 'site-search-help');
-    help.textContent = helpText();
-    msg = el('p', 'site-search-msg');
-    live = el('div', 'visually-hidden'); live.setAttribute('aria-live', 'polite');
-    wrap.appendChild(row); wrap.appendChild(help); wrap.appendChild(msg); wrap.appendChild(live);
+    var input = b.input = el('input', 'site-search-input');
+    input.type = 'text'; input.id = 'site-search-q' + (boxes.length ? '-' + (boxes.length + 1) : ''); input.autocomplete = 'off'; input.spellcheck = false;
+    input.setAttribute('aria-label', 'Search all apps and games, not just this page'); input.setAttribute('inputmode', 'search'); input.setAttribute('enterkeyhint', 'search');
+    input.placeholder = 'Search all apps and games\u2026';
+    var clear = b.clear = el('button', 'site-search-clear', '\u00d7');
+    clear.type = 'button'; clear.setAttribute('aria-label', 'Clear search'); clear.hidden = true;
+    row.appendChild(input); row.appendChild(clear);
+    wrap.appendChild(row);
+    if (!inline) { var help = el('p', 'site-search-help'); help.textContent = helpText(); wrap.appendChild(help); }
+    b.msg = el('p', 'site-search-msg'); wrap.appendChild(b.msg);
+    if (!inline) { b.live = el('div', 'visually-hidden'); b.live.setAttribute('aria-live', 'polite'); wrap.appendChild(b.live); }
     host.parentNode.insertBefore(wrap, host);
     var timer;
-    box.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(function () { indexReady.then(function () { if (started) setQuery(box.value, false); }); }, 16); });
-    box.addEventListener('keydown', function (e) { if (started && e.key === 'Escape' && box.value) { e.preventDefault(); clearTimeout(timer); setQuery('', false); } });
-    box.addEventListener('keydown', function (e) { if (started && e.key === 'Enter') { clearTimeout(timer); setQuery(box.value, false); } });
-    clearBtn.addEventListener('click', function () { if (!started) return; clearTimeout(timer); setQuery('', false); box.focus(); });
-  })();
+    input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(function () { indexReady.then(function () { if (started) setQuery(input.value, false); }); }, 16); });
+    input.addEventListener('keydown', function (e) { if (started && e.key === 'Escape' && input.value) { e.preventDefault(); clearTimeout(timer); setQuery('', false); } });
+    input.addEventListener('keydown', function (e) { if (started && e.key === 'Enter') { clearTimeout(timer); setQuery(input.value, false); } });
+    clear.addEventListener('click', function () { if (!started) return; clearTimeout(timer); setQuery('', false); input.focus(); });
+    boxes.push(b);
+  }
+  makeSearch(secs[0].el.closest('section') || secs[0].el.parentNode, false);
+  secs.slice(1).forEach(function (s) { makeSearch(s.heading || s.el, true); });
   var started = false, indexReady = Promise.resolve();
   function start() {
     started = true;

@@ -21,7 +21,7 @@
     },
     "demo": {
       "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/"
+      "href": "https://equalinformation.com/games-site/games/tiger-and-goat/play/"
     },
     "supportHref": "app-support-tigerandgoat.html",
     "privacyHref": "privacy-tigerandgoat.html",
@@ -118,7 +118,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-16"
+    "date": "2026-10-16",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/big-card-solitaire-large-print/play/"
+    }
   },
   {
     "slug": "carromdeluxe",
@@ -422,7 +426,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-16"
+    "date": "2026-10-16",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/sure-sweep-no-guess/play/"
+    }
   },
   {
     "slug": "minigolfdeluxe",
@@ -558,7 +566,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-16"
+    "date": "2026-10-16",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/xiangqi-river-and-palace/play/"
+    }
   },
   {
     "slug": "shogideluxe",
@@ -582,7 +594,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-16"
+    "date": "2026-10-16",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/shogi-generals-and-drops/play/"
+    }
   },
   {
     "slug": "draughtsdeluxe",
@@ -687,7 +703,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-19"
+    "date": "2026-10-19",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/huarong-dao-sliding-puzzle/play/"
+    }
   },
   {
     "slug": "kiteduelsdeluxe",
@@ -709,7 +729,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/kite-duel-sky-fight/play/"
+    }
   },
   {
     "slug": "cornholedeluxe",
@@ -733,7 +757,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-19"
+    "date": "2026-10-19",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/cornhole-bag-toss/play/"
+    }
   },
   {
     "slug": "gridirondeluxe",
@@ -755,7 +783,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/american-football-seven-on-seven/play/"
+    }
   },
   {
     "slug": "spinningtopsdeluxe",
@@ -779,7 +811,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/spinning-tops-arena/play/"
+    }
   },
   {
     "slug": "kendamadeluxe",
@@ -803,7 +839,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/kendama-ken-and-ball/play/"
+    }
   },
   {
     "slug": "pondhockeydeluxe",
@@ -826,7 +866,7 @@
     },
     "demo": {
       "label": "Play the free browser demo",
-      "href": "https://equalinformation.com/games-site/games/pond-hockey-deluxe/play/"
+      "href": "https://equalinformation.com/games-site/games/pond-hockey-slide/play/"
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
@@ -854,7 +894,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/sled-dog-race/play/"
+    }
   },
   {
     "slug": "labyrinthdeluxe",
@@ -958,7 +1002,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/volleyball-rotation-rally/play/"
+    }
   },
   {
     "slug": "rugbydeluxe",
@@ -981,7 +1029,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/rugby-conversion-kick/play/"
+    }
   },
   {
     "slug": "lawnbowlsdeluxe",
@@ -1004,7 +1056,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/lawn-bowls/play/"
+    }
   },
   {
     "slug": "bonsaideluxe",
@@ -1027,7 +1083,11 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/bonsai-prune-and-shape/play/"
+    }
   },
   {
     "slug": "kubbdeluxe",
@@ -1051,6 +1111,10 @@
     },
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
-    "date": "2026-10-20"
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/kubb-toss/play/"
+    }
   }
 ]
