@@ -982,5 +982,28 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "lawnbowlsdeluxe",
+    "title": "Rink Master: Lawn Bowls",
+    "bannerAlt": "Rink Master: Lawn Bowls: curve it, weigh it, draw to the jack",
+    "banner": "assets/games/lawn-bowls-deluxe-banner.jpg",
+    "icon": "assets/games/lawn-bowls-deluxe-icon.png",
+    "meta": "Sport · iOS & Android",
+    "description": "A premium bowling-green simulation: biased bowls with curved-path physics, line and weight control, six greens with their own pace and slope, a six-venue career against twelve bowlers, head puzzles, a daily challenge, lessons and a coach that explains every shot. Offline, no ads, no account.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.lawnbowlsdeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
