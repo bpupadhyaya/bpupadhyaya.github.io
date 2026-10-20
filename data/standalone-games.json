@@ -882,5 +882,32 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "potterydeluxe",
+    "title": "Pottery Deluxe: Wheel & Kiln",
+    "bannerAlt": "Pottery Deluxe: Wheel & Kiln: Throw, trim, glaze and fire real clay on a spinning wheel",
+    "banner": "assets/games/pottery-deluxe-banner.jpg",
+    "icon": "assets/games/pottery-deluxe-icon.png",
+    "meta": "Craft simulation · iOS & Android",
+    "description": "A calm craft simulation. The clay is a real model of rings that keep their volume, so thinning a wall makes the pot grow and widening a belly makes it sink. Take commissions from clients, follow the dotted outline, trim, glaze and fire in the kiln, and keep your best pots on a shelf. Studio School, a daily commission and an Auto Play potter who explains every move are included.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.potterydeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/pottery-wheel-throw/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
