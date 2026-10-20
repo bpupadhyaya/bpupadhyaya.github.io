@@ -688,5 +688,27 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-19"
+  },
+  {
+    "slug": "kiteduelsdeluxe",
+    "title": "Kite Duel: Festival Sky Fight",
+    "bannerAlt": "Kite Duel: two fighting kites cross their threads in a festival sky",
+    "banner": "assets/games/kite-duel-deluxe-banner.jpg",
+    "icon": "assets/games/kite-duel-deluxe-icon.png",
+    "meta": "Action · iOS & Android",
+    "description": "A fighting-kite sim in six 3D festival skies. Real wind and gusts, a kite that is a real sail, a thread with tension, sag and wear, and crossings where angle, grit and the draw decide who is cut. Thirty bouts, eight lessons, a daily duel, a hangar of kites and threads, and Auto Play where a master explains each move. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
