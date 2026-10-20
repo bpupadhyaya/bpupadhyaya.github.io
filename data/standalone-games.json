@@ -734,5 +734,27 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-19"
+  },
+  {
+    "slug": "gridirondeluxe",
+    "title": "Pocket Gridiron: QB Playbook",
+    "bannerAlt": "Pocket Gridiron: QB Playbook: a 3D quarterback game about reading the defence",
+    "banner": "assets/games/gridiron-deluxe-banner.jpg",
+    "icon": "assets/games/gridiron-deluxe-icon.png",
+    "meta": "Sports · iOS & Android",
+    "description": "A quarterback game in real-time 3D: call plays from a 21-play playbook, read a defence that adapts to you, and throw with a bullet, standard or touch pass. A season, 44 challenges, a daily drive, a film room and Watch & Learn with a coach that explains every read. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
