@@ -710,5 +710,29 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "cornholedeluxe",
+    "title": "Cornhole Circuit: 3D Bag Toss",
+    "bannerAlt": "Cornhole Circuit: 3D Bag Toss: a bag-toss tournament from backyard to arena",
+    "banner": "assets/games/cornhole-deluxe-banner.jpg",
+    "icon": "assets/games/cornhole-deluxe-icon.png",
+    "meta": "Sports · iOS & Android",
+    "description": "A bag-toss tournament in real-time 3D: swipe to pitch at a real-size slanted board, climb a five-event circuit from a backyard cup to an arena final, play quick matches, lessons and a daily board, and watch Auto Play explain its moves.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon",
+        "url": ""
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.cornholedeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-19"
   }
 ]
