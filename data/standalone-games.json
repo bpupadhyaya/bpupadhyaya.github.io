@@ -756,5 +756,29 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "spinningtopsdeluxe",
+    "title": "Top Clash: Spin Battle Arena",
+    "bannerAlt": "Top Clash: Spin Battle Arena: heritage tops battle in 3D stadiums",
+    "banner": "assets/games/spinning-tops-deluxe-banner.jpg",
+    "icon": "assets/games/spinning-tops-deluxe-icon.png",
+    "meta": "Arcade · iOS & Android",
+    "description": "A spinning-top battle arena with real spin physics: wind the cord, aim and clash six heritage tops in three 3D stadiums, win eight-player cups, learn in eight lessons, build your own top in the garage and watch Auto Play explain every move.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon",
+        "url": ""
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.spinningtopsdeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
