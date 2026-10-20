@@ -1005,5 +1005,28 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "bonsaideluxe",
+    "title": "Bonsai Atelier: Prune & Shape",
+    "bannerAlt": "Bonsai Atelier: Prune & Shape: grow, prune and wire a living 3D bonsai",
+    "banner": "assets/games/bonsai-deluxe-banner.jpg",
+    "icon": "assets/games/bonsai-deluxe-icon.png",
+    "meta": "Craft simulation · iOS & Android",
+    "description": "A calm workshop for training miniature trees. A maple, juniper or pine grows in real time in a lit 3D studio through the seasons. Cut, pinch and wire it toward one of seven classic styles, then show it to a judge who scores seven things and explains each. Twelve commissions, a free Studio, a Daily Tree, a Gallery with an exhibition room, and an Auto Play coach that explains every move. Offline, no ads, no account.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.bonsaideluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
