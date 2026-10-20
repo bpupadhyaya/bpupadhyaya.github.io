@@ -639,5 +639,32 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-16"
+  },
+  {
+    "slug": "hanoideluxe",
+    "title": "Hanoi Tower: Brass & Lacquer",
+    "bannerAlt": "Hanoi Tower: Brass & Lacquer: the tower puzzle in 3D",
+    "banner": "assets/games/hanoi-deluxe-banner.jpg",
+    "icon": "assets/games/hanoi-deluxe-icon.png",
+    "meta": "Puzzle · iOS & Android",
+    "description": "The classic tower puzzle as a brass and lacquer object in 3D: 48 towers on three to five pegs, the Rail and Ring rules, 12 lessons on the mathematics, a daily tower, free build, exact Par for every puzzle and Auto Play that explains each move. Offline, no ads, no account.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.hanoideluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/hanoi-tower-discs/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-19"
   }
 ]
