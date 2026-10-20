@@ -780,5 +780,29 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "kendamadeluxe",
+    "title": "Kendama Dojo: 3D Skill Toy",
+    "bannerAlt": "Kendama Dojo: 3D Skill Toy: A 3D kendama with real string-and-ball physics",
+    "banner": "assets/games/kendama-deluxe-banner.jpg",
+    "icon": "assets/games/kendama-deluxe-icon.png",
+    "meta": "Skill toy · iOS & Android",
+    "description": "Lift the ball with a flick, slide a cup or the spike under it, and hold the catch. Thirty tricks in six belts, lessons, a timed Flow Run, a daily trick and Auto Play that explains its moves. A lifelike hand, lacquered ken and ball, three rooms.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon",
+        "url": ""
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.cornholedeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
