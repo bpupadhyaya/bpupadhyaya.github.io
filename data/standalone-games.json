@@ -150,21 +150,21 @@
   },
   {
     "slug": "sudokudeluxe",
-    "title": "Sudoku Deluxe",
+    "title": "Arcforge Sudoku Deluxe",
     "bannerAlt": "Sudoku Deluxe: Hand-crafted Sudoku in 3D, with a coach that teaches",
     "banner": "assets/games/sudoku-deluxe-banner.jpg",
     "icon": "assets/games/sudoku-deluxe-icon.png",
     "meta": "Logic puzzle · iOS & Android",
     "description": "Seven Sudoku variants on an engraved 3D board: a library of over 1,500 puzzles, each proven to have one solution and graded by the techniques it needs. A coach explains the next logical step, a Learn path teaches every technique from Full House to forcing chains, and Watch and Learn plays whole puzzles for you.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823550790"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.sudokudeluxe.app"
       }
     },
