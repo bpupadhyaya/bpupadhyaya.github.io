@@ -1028,5 +1028,29 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "kubbdeluxe",
+    "title": "Kubb Tour: 3D Lawn Game",
+    "bannerAlt": "Kubb Tour: 3D Lawn Game: topple the blocks, take the king",
+    "banner": "assets/games/kubb-deluxe-banner.jpg",
+    "icon": "assets/games/kubb-deluxe-icon.png",
+    "meta": "Sports · iOS & Android",
+    "description": "The Swedish lawn game in real-time 3D: pull and sweep to throw tumbling batons, topple the kubbs on a real-size lawn, throw your fallen kubbs back into the field and fell the king. A tour from an apple garden to a floodlit championship lawn, eight rivals, six lessons, a daily lawn and Auto Play that explains its moves.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon",
+        "url": ""
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.kubbdeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
