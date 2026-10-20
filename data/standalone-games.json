@@ -831,5 +831,29 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "sleddogdeluxe",
+    "title": "Gangline: Sled Dog Racing",
+    "bannerAlt": "Gangline: Sled Dog Racing: lead a 3D dog team through a season of stage races",
+    "banner": "assets/games/sled-dog-deluxe-banner.jpg",
+    "icon": "assets/games/sled-dog-deluxe-icon.png",
+    "meta": "Sports · iOS & Android",
+    "description": "Lead a team of real 3D sled dogs through six stage races: set the gait, lean the sled through bends, choose a branch at forks and care for every dog at each checkpoint. Night stages under the aurora, a kennel and shop, Quick Race, a Daily Run, Musher School and Auto Play. Offline, no ads.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon",
+        "url": ""
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.sleddogdeluxe.app"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
