@@ -855,5 +855,32 @@
     "supportHref": "app-support-arcforge.html",
     "privacyHref": "privacy-arcforge.html",
     "date": "2026-10-20"
+  },
+  {
+    "slug": "labyrinthdeluxe",
+    "title": "Marble & Thread: Tilt Maze",
+    "bannerAlt": "Marble & Thread: Tilt Maze: A wooden tilt labyrinth with a real rolling marble and a red thread",
+    "banner": "assets/games/labyrinth-deluxe-banner.jpg",
+    "icon": "assets/games/labyrinth-deluxe-icon.png",
+    "meta": "Tilt maze puzzle · iOS & Android",
+    "description": "Roll a cobalt-and-gold marble through 48 lacquered-wood mazes with pits cut through the floor, ice, felt and a red thread that winds back when you retrace. Eight lessons, a daily board, free build with a seed, ghost runs of your fastest times and Auto Play that explains its plan.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "soon"
+      },
+      "googlePlay": {
+        "status": "soon",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.labyrinthdeluxe.app"
+      }
+    },
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/labyrinth-thread-maze/play/"
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
   }
 ]
