@@ -26,6 +26,7 @@ const errors = [];
 const fail = (m) => errors.push(m);
 const nonEmpty = (v) => typeof v === 'string' && v.trim() !== '';
 const STATUSES = ['live', 'in-review', 'soon'];
+const STORE_STATUSES = [...STATUSES, 'na']; // 'na' = not offered on that store (shown as nothing, never as "coming soon")
 
 // ---------- text helpers ----------
 const esc = (t) => String(t)
@@ -55,9 +56,11 @@ const storeNames = { appStore: 'the App Store', googlePlay: 'Google Play' };
 const storeLabel = (st, name) => (st === 'live' ? 'Live on ' : st === 'in-review' ? 'In review on ' : 'Coming soon on ') + name;
 function gameStatusLine(g) {
   const a = g.stores.appStore.status, p = g.stores.googlePlay.status;
-  const s = a === p ? storeLabel(a, 'the App Store and Google Play')
-    : ['appStore', 'googlePlay'].map((k) => storeLabel(g.stores[k].status, storeNames[k])).join(' · ');
-  return `${a === 'soon' && p === 'soon' ? '' : `v${g.version} · `}${s}${g.statusNote ? ` (${g.statusNote})` : ''}`;
+  const shown = ['appStore', 'googlePlay'].filter((k) => g.stores[k].status !== 'na');
+  const s = shown.length === 2 && a === p ? storeLabel(a, 'the App Store and Google Play')
+    : shown.map((k) => storeLabel(g.stores[k].status, storeNames[k])).join(' · ');
+  const allSoon = shown.every((k) => g.stores[k].status === 'soon');
+  return `${allSoon ? '' : `v${g.version} · `}${s}${g.statusNote ? ` (${g.statusNote})` : ''}`;
 }
 
 const TYPES = {
@@ -99,7 +102,7 @@ const TYPES = {
       if (!g.stores || typeof g.stores !== 'object') fail(`${w}: missing "stores" {appStore, googlePlay}`);
       else for (const s of ['appStore', 'googlePlay']) {
         const st = g.stores[s];
-        if (!st || !STATUSES.includes(st.status)) { fail(`${w}: stores.${s}.status must be one of ${STATUSES.join(', ')}`); continue; }
+        if (!st || !STORE_STATUSES.includes(st.status)) { fail(`${w}: stores.${s}.status must be one of ${STORE_STATUSES.join(', ')}`); continue; }
         if (st.status === 'live' && !/^https:\/\//.test(st.url || '')) fail(`${w}: stores.${s} is live but has no https url`);
       }
       if (g.demo && (!nonEmpty(g.demo.label) || !nonEmpty(g.demo.href))) fail(`${w}: demo needs label and href`);

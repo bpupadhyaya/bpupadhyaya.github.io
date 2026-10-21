@@ -1,0 +1,2104 @@
+[
+ {
+  "bucket": "wind-and-voice-of-the-world",
+  "short": "wind-and-voice",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.windandvoiceoftheworld",
+  "name": "Wind & Voice of the World",
+  "sub": "Nine wind instruments and voices. Eleven countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play wind instruments and vocal traditions, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "alphorn-mountain-echo",
+    "name": "Alphorn Mountain Echo",
+    "icon": "whg-alphorn-mountain-echo-icon.png",
+    "pagePath": "games/140-alphorn-mountain-echo/"
+   },
+   {
+    "slug": "alpine-yodel",
+    "name": "Alpine Yodel",
+    "icon": "whg-alpine-yodel-icon.png",
+    "pagePath": "games/509-alpine-yodel/"
+   },
+   {
+    "slug": "duduk",
+    "name": "Duduk (Armenian apricot-wood reed oboe)",
+    "icon": "whg-duduk-icon.png",
+    "pagePath": "games/159-duduk/"
+   },
+   {
+    "slug": "fujara",
+    "name": "Fujara (Shepherd's Overtone Flute)",
+    "icon": "whg-fujara-icon.png",
+    "pagePath": "games/135-fujara/"
+   },
+   {
+    "slug": "highland-bagpipe-chanter-and-drone",
+    "name": "Highland Bagpipe Chanter and Drone",
+    "icon": "whg-highland-bagpipe-chanter-and-drone-icon.png",
+    "pagePath": "games/510-highland-bagpipe-chanter-and-drone/"
+   },
+   {
+    "slug": "khene",
+    "name": "Khene (Lao bamboo mouth organ)",
+    "icon": "whg-khene-icon.png",
+    "pagePath": "games/145-khene/"
+   },
+   {
+    "slug": "lusheng",
+    "name": "Lusheng (Miao and Dong reed-pipe ensemble)",
+    "icon": "whg-lusheng-icon.png",
+    "pagePath": "games/337-lusheng/"
+   },
+   {
+    "slug": "shakuhachi",
+    "name": "Shakuhachi (end-blown bamboo flute)",
+    "icon": "whg-shakuhachi-icon.png",
+    "pagePath": "games/349-shakuhachi/"
+   },
+   {
+    "slug": "tuvan-throat-singing",
+    "name": "Tuvan Throat Singing (khoomei)",
+    "icon": "whg-tuvan-throat-singing-icon.png",
+    "pagePath": "games/508-tuvan-throat-singing/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/wind-and-voice-of-the-world/",
+  "countryCount": 11
+ },
+ {
+  "bucket": "zithers-and-harps-of-the-world",
+  "short": "zithers-and-harps",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.zithersandharpsoftheworld",
+  "name": "Zithers & Harps of the World",
+  "sub": "Nine zithers, harps and plucked board instruments. Nine countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play zithers, harps and plucked board instruments, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "guzheng",
+    "name": "Guzheng (Chinese zither)",
+    "icon": "whg-guzheng-icon.png",
+    "pagePath": "games/334-guzheng/"
+   },
+   {
+    "slug": "gayageum",
+    "name": "Gayageum (twelve-string zither)",
+    "icon": "whg-gayageum-icon.png",
+    "pagePath": "games/361-gayageum/"
+   },
+   {
+    "slug": "sasando",
+    "name": "Sasando (Rote tube zither)",
+    "icon": "whg-sasando-icon.png",
+    "pagePath": "games/317-sasando/"
+   },
+   {
+    "slug": "kankles",
+    "name": "Kanklės (Baltic Zither)",
+    "icon": "whg-kankles-icon.png",
+    "pagePath": "games/136-kankles/"
+   },
+   {
+    "slug": "kantele",
+    "name": "Kantele (Finnish plucked zither)",
+    "icon": "whg-kantele-icon.png",
+    "pagePath": "games/152-kantele/"
+   },
+   {
+    "slug": "adungu",
+    "name": "Adungu (arched harp)",
+    "icon": "whg-adungu-icon.png",
+    "pagePath": "games/186-adungu/"
+   },
+   {
+    "slug": "valiha-tube-zither",
+    "name": "Valiha tube zither",
+    "icon": "whg-valiha-tube-zither-icon.png",
+    "pagePath": "games/124-valiha-tube-zither/"
+   },
+   {
+    "slug": "saung-gauk",
+    "name": "Saung gauk (Burmese arched harp)",
+    "icon": "whg-saung-gauk-icon.png",
+    "pagePath": "games/306-saung-gauk/"
+   },
+   {
+    "slug": "mountain-dulcimer",
+    "name": "Mountain (Appalachian) dulcimer",
+    "icon": "whg-mountain-dulcimer-icon.png",
+    "pagePath": "games/435-mountain-dulcimer/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/zithers-and-harps-of-the-world/",
+  "countryCount": 9
+ },
+ {
+  "bucket": "weaving-and-lace-of-the-world",
+  "short": "weaving-and-lace",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.weavingandlaceoftheworld",
+  "name": "Weaving & Lace of the World",
+  "sub": "Nine weaving, lace and embroidery traditions. Eight countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can design woven cloth, lace and embroidery patterns, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "turkmen-gul-carpet",
+    "name": "Turkmen gul carpet (hali)",
+    "icon": "whg-turkmen-gul-carpet-icon.png",
+    "pagePath": "games/249-turkmen-gul-carpet/"
+   },
+   {
+    "slug": "lao-silk-brocade-weaving",
+    "name": "Lao silk brocade weaving (sinh)",
+    "icon": "whg-lao-silk-brocade-weaving-icon.png",
+    "pagePath": "games/311-lao-silk-brocade-weaving/"
+   },
+   {
+    "slug": "amazigh-rug-weaving",
+    "name": "Amazigh Rug Weaving",
+    "icon": "whg-amazigh-rug-weaving-icon.png",
+    "pagePath": "games/224-amazigh-rug-weaving/"
+   },
+   {
+    "slug": "sadu-bedouin-ground-loom-weaving",
+    "name": "Sadu Bedouin ground-loom weaving",
+    "icon": "whg-sadu-bedouin-ground-loom-weaving-icon.png",
+    "pagePath": "games/238-sadu-bedouin-ground-loom-weaving/"
+   },
+   {
+    "slug": "kani-shawl-weaving-by-talim-code",
+    "name": "Kani shawl weaving by talim code",
+    "icon": "whg-kani-shawl-weaving-by-talim-code-icon.png",
+    "pagePath": "games/261-kani-shawl-weaving-by-talim-code/"
+   },
+   {
+    "slug": "lefkara-lace",
+    "name": "Lefkara Lace",
+    "icon": "whg-lefkara-lace-icon.png",
+    "pagePath": "games/220-lefkara-lace/"
+   },
+   {
+    "slug": "chikankari-white-on-white-embroidery",
+    "name": "Chikankari white-on-white embroidery",
+    "icon": "whg-chikankari-white-on-white-embroidery-icon.png",
+    "pagePath": "games/266-chikankari-white-on-white-embroidery/"
+   },
+   {
+    "slug": "nakshi-kantha-embroidery",
+    "name": "Nakshi Kantha embroidery",
+    "icon": "whg-nakshi-kantha-embroidery-icon.png",
+    "pagePath": "games/294-nakshi-kantha-embroidery/"
+   },
+   {
+    "slug": "haapsalu-lace-shawl-knitting",
+    "name": "Haapsalu lace shawl knitting",
+    "icon": "whg-haapsalu-lace-shawl-knitting-icon.png",
+    "pagePath": "games/386-haapsalu-lace-shawl-knitting/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/weaving-and-lace-of-the-world/",
+  "countryCount": 8
+ },
+ {
+  "bucket": "folk-painting-of-the-world",
+  "short": "folk-painting",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.folkpaintingoftheworld",
+  "name": "Folk Painting of the World",
+  "sub": "Eight folk painting traditions. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can make traditional crafts, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "rosemaling",
+    "name": "Rosemaling (Norwegian decorative painting)",
+    "icon": "whg-rosemaling-icon.png",
+    "pagePath": "games/120-rosemaling/"
+   },
+   {
+    "slug": "madhubani-art",
+    "name": "Madhubani art",
+    "icon": "whg-madhubani-art-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "petrykivka-painting",
+    "name": "Petrykivka painting",
+    "icon": "whg-petrykivka-painting-icon.png",
+    "pagePath": "games/381-petrykivka-painting/"
+   },
+   {
+    "slug": "tingatinga-painting",
+    "name": "Tingatinga painting",
+    "icon": "whg-tingatinga-painting-icon.png",
+    "pagePath": "games/183-tingatinga-painting/"
+   },
+   {
+    "slug": "kalamkari-pen-painting",
+    "name": "Kalamkari pen painting",
+    "icon": "whg-kalamkari-pen-painting-icon.png",
+    "pagePath": "games/273-kalamkari-pen-painting/"
+   },
+   {
+    "slug": "kashmiri-papier-mache-painting",
+    "name": "Kashmiri papier-mache painting",
+    "icon": null,
+    "pagePath": "games/269-kashmiri-papier-mache-painting/"
+   },
+   {
+    "slug": "luk-chup",
+    "name": "Luk chup (painted mung-bean fruits)",
+    "icon": null,
+    "pagePath": "games/307-luk-chup/"
+   },
+   {
+    "slug": "pysanka",
+    "name": "Pysanka",
+    "icon": "whg-pysanka-icon.png",
+    "pagePath": "games/13251-pysanka/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/folk-painting-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "basketry-and-straw-of-the-world",
+  "short": "basketry-and-straw",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.basketryandstrawoftheworld",
+  "name": "Basketry & Straw of the World",
+  "sub": "Six basketry and straw-weaving traditions. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can weave baskets and straw craft, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "botswana-coil-basket-weaving",
+    "name": "Botswana coil basket weaving",
+    "icon": "whg-botswana-coil-basket-weaving-icon.png",
+    "pagePath": "games/208-botswana-coil-basket-weaving/"
+   },
+   {
+    "slug": "agaseke-basket-weaving",
+    "name": "Agaseke basket weaving",
+    "icon": "whg-agaseke-basket-weaving-icon.png",
+    "pagePath": "games/89-agaseke-basket-weaving/"
+   },
+   {
+    "slug": "kiondo-basket-weaving",
+    "name": "Kiondo basket weaving",
+    "icon": "whg-kiondo-basket-weaving-icon.png",
+    "pagePath": "games/194-kiondo-basket-weaving/"
+   },
+   {
+    "slug": "bolga-basket-weaver",
+    "name": "Bolga Basket Weaver",
+    "icon": "whg-bolga-basket-weaver-icon.png",
+    "pagePath": "games/1245-bolga-basket-weaver/"
+   },
+   {
+    "slug": "mesob-basket-weaving",
+    "name": "Mesob basket weaving",
+    "icon": "whg-mesob-basket-weaving-icon.png",
+    "pagePath": "games/1335-mesob-basket-weaving/"
+   },
+   {
+    "slug": "bijenkorfvlechten",
+    "name": "Bijenkorfvlechten",
+    "icon": "whg-bijenkorfvlechten-icon.png",
+    "pagePath": "games/19798-bijenkorfvlechten/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/basketry-and-straw-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "lutes-and-fiddles-of-the-world",
+  "short": "lutes-and-fiddles",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.lutesandfiddlesoftheworld",
+  "name": "Lutes & Fiddles of the World",
+  "sub": "Nine lutes and fiddles. Eight countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play lutes, fiddles and banjos, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "saz-baglama",
+    "name": "Saz / Bağlama (Turkish long-neck lute)",
+    "icon": "whg-saz-baglama-icon.png",
+    "pagePath": "games/243-saz-baglama/"
+   },
+   {
+    "slug": "pipa",
+    "name": "Pipa (four-string lute)",
+    "icon": "whg-pipa-icon.png",
+    "pagePath": "games/335-pipa/"
+   },
+   {
+    "slug": "veena",
+    "name": "Veena (South Indian plucked lute)",
+    "icon": "whg-veena-icon.png",
+    "pagePath": "games/282-veena/"
+   },
+   {
+    "slug": "erhu-two-string-fiddle",
+    "name": "Erhu Two-String Fiddle",
+    "icon": "whg-erhu-two-string-fiddle-icon.png",
+    "pagePath": "games/139-erhu-two-string-fiddle/"
+   },
+   {
+    "slug": "nyckelharpa",
+    "name": "Nyckelharpa (key fiddle)",
+    "icon": "whg-nyckelharpa-icon.png",
+    "pagePath": "games/408-nyckelharpa/"
+   },
+   {
+    "slug": "tar-and-mugham-modes",
+    "name": "Tar (Azerbaijani long-neck lute) and mugham modes",
+    "icon": "whg-tar-and-mugham-modes-icon.png",
+    "pagePath": "games/247-tar-and-mugham-modes/"
+   },
+   {
+    "slug": "dranyen",
+    "name": "Dranyen (Tibetan long-neck lute)",
+    "icon": "whg-dranyen-icon.png",
+    "pagePath": "games/300-dranyen/"
+   },
+   {
+    "slug": "masenqo-and-the-azmari",
+    "name": "Masenqo (one-string fiddle) and the azmari",
+    "icon": "whg-masenqo-and-the-azmari-icon.png",
+    "pagePath": "games/187-masenqo-and-the-azmari/"
+   },
+   {
+    "slug": "clawhammer-banjo",
+    "name": "Clawhammer (frailing) banjo",
+    "icon": "whg-clawhammer-banjo-icon.png",
+    "pagePath": "games/436-clawhammer-banjo/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/lutes-and-fiddles-of-the-world/",
+  "countryCount": 8
+ },
+ {
+  "bucket": "tiles-and-pottery-of-the-world",
+  "short": "tiles-and-pottery",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.tilesandpotteryoftheworld",
+  "name": "Tiles & Pottery of the World",
+  "sub": "Seven tile painting and pottery traditions. Seven countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can paint tiles and decorate pottery in traditional styles, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "delftware",
+    "name": "Delftware",
+    "icon": "whg-delftware-icon.png",
+    "pagePath": "games/5267-delftware/"
+   },
+   {
+    "slug": "jaipur-blue-pottery-painting",
+    "name": "Jaipur blue pottery painting",
+    "icon": "whg-jaipur-blue-pottery-painting-icon.png",
+    "pagePath": "games/262-jaipur-blue-pottery-painting/"
+   },
+   {
+    "slug": "marginea-black-pottery",
+    "name": "Marginea black pottery",
+    "icon": "whg-marginea-black-pottery-icon.png",
+    "pagePath": "games/5230-marginea-black-pottery/"
+   },
+   {
+    "slug": "bolesawiec-pottery",
+    "name": "Bolesławiec pottery",
+    "icon": "whg-bolesawiec-pottery-icon.png",
+    "pagePath": "games/5272-bolesawiec-pottery/"
+   },
+   {
+    "slug": "deruta-ceramics",
+    "name": "Deruta ceramics",
+    "icon": "whg-deruta-ceramics-icon.png",
+    "pagePath": "games/10441-deruta-ceramics/"
+   },
+   {
+    "slug": "iznik-tile-painting",
+    "name": "Iznik tile painting",
+    "icon": "whg-iznik-tile-painting-icon.png",
+    "pagePath": "games/244-iznik-tile-painting/"
+   },
+   {
+    "slug": "talavera-tile-painting",
+    "name": "Talavera tile painting",
+    "icon": "whg-talavera-tile-painting-icon.png",
+    "pagePath": "games/429-talavera-tile-painting/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/tiles-and-pottery-of-the-world/",
+  "countryCount": 7
+ },
+ {
+  "bucket": "hand-drums-of-the-world",
+  "short": "hand-drums",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.handdrumsoftheworld",
+  "name": "Hand Drums of the World",
+  "sub": "Six hand drums and drum rhythms. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play hand drums and learn their rhythms, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "madal-drum",
+    "name": "Madal drum",
+    "icon": "whg-madal-drum-icon.png",
+    "pagePath": "games/147-madal-drum/"
+   },
+   {
+    "slug": "dhol-drum-rhythm",
+    "name": "Dhol drum rhythm",
+    "icon": "whg-dhol-drum-rhythm-icon.png",
+    "pagePath": "games/263-dhol-drum-rhythm/"
+   },
+   {
+    "slug": "mridangam-and-konnakol-rhythm-game",
+    "name": "Mridangam and konnakol rhythm game",
+    "icon": "whg-mridangam-and-konnakol-rhythm-game-icon.png",
+    "pagePath": "games/277-mridangam-and-konnakol-rhythm-game/"
+   },
+   {
+    "slug": "rabana-drum-game",
+    "name": "Rabana (Rabān) drum game",
+    "icon": "whg-rabana-drum-game-icon.png",
+    "pagePath": "games/289-rabana-drum-game/"
+   },
+   {
+    "slug": "shekere-gourd-rattle",
+    "name": "Shekere gourd rattle",
+    "icon": "whg-shekere-gourd-rattle-icon.png",
+    "pagePath": "games/125-shekere-gourd-rattle/"
+   },
+   {
+    "slug": "tombak-goblet-drum-rhythms",
+    "name": "Tombak (zarb) goblet drum rhythms",
+    "icon": "whg-tombak-goblet-drum-rhythms-icon.png",
+    "pagePath": "games/233-tombak-goblet-drum-rhythms/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/hand-drums-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "woodcraft-and-metal-of-the-world",
+  "short": "woodcraft-and-metal",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.woodcraftandmetaloftheworld",
+  "name": "Woodcraft & Metal of the World",
+  "sub": "Thirteen woodcraft, lacquer and metalwork traditions. Twelve countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can forge, inlay, polish, carve and lacquer wood and metal in traditional crafts, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "bidriware-silver-inlay",
+    "name": "Bidriware silver inlay",
+    "icon": "whg-bidriware-silver-inlay-icon.png",
+    "pagePath": "games/274-bidriware-silver-inlay/"
+   },
+   {
+    "slug": "blacksmiths-forge",
+    "name": "Blacksmith's Forge",
+    "icon": "whg-blacksmiths-forge-icon.png",
+    "pagePath": "games/506-blacksmiths-forge/"
+   },
+   {
+    "slug": "aranmula-metal-mirror",
+    "name": "Aranmula metal mirror",
+    "icon": "whg-aranmula-metal-mirror-icon.png",
+    "pagePath": "games/285-aranmula-metal-mirror/"
+   },
+   {
+    "slug": "najeon-chilgi",
+    "name": "Najeon chilgi (mother-of-pearl lacquer inlay)",
+    "icon": "whg-najeon-chilgi-icon.png",
+    "pagePath": "games/367-najeon-chilgi/"
+   },
+   {
+    "slug": "channapatna-lacquer-toys",
+    "name": "Channapatna lacquer toys (lathe-turned wooden toys)",
+    "icon": "whg-channapatna-lacquer-toys-icon.png",
+    "pagePath": "games/272-channapatna-lacquer-toys/"
+   },
+   {
+    "slug": "maldivian-lacquer-work",
+    "name": "Maldivian lacquer work (liyelaa jehun)",
+    "icon": "whg-maldivian-lacquer-work-icon.png",
+    "pagePath": "games/1328-maldivian-lacquer-work/"
+   },
+   {
+    "slug": "welsh-love-spoon-carving",
+    "name": "Welsh Love Spoon Carving",
+    "icon": "whg-welsh-love-spoon-carving-icon.png",
+    "pagePath": "games/414-welsh-love-spoon-carving/"
+   },
+   {
+    "slug": "ghanaian-stool-carving",
+    "name": "Ghanaian stool carving",
+    "icon": "whg-ghanaian-stool-carving-icon.png",
+    "pagePath": "games/7269-ghanaian-stool-carving/"
+   },
+   {
+    "slug": "szekelykapu",
+    "name": "Székelykapu",
+    "icon": "whg-szekelykapu-icon.png",
+    "pagePath": "games/11025-szekelykapu/"
+   },
+   {
+    "slug": "chip-carving",
+    "name": "Chip carving",
+    "icon": "whg-chip-carving-icon.png",
+    "pagePath": "games/1991-chip-carving/"
+   },
+   {
+    "slug": "decoy-carving",
+    "name": "Decoy carving",
+    "icon": "whg-decoy-carving-icon.png",
+    "pagePath": "games/6360-decoy-carving/"
+   },
+   {
+    "slug": "wajima-nuri",
+    "name": "Wajima-nuri",
+    "icon": "whg-wajima-nuri-icon.png",
+    "pagePath": "games/11615-wajima-nuri/"
+   },
+   {
+    "slug": "tsugaru-nuri-lacquerware",
+    "name": "Tsugaru-nuri lacquerware",
+    "icon": "whg-tsugaru-nuri-lacquerware-icon.png",
+    "pagePath": "games/14554-tsugaru-nuri-lacquerware/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/woodcraft-and-metal-of-the-world/",
+  "countryCount": 12
+ },
+ {
+  "bucket": "asian-and-island-percussion",
+  "short": "asian-and-island-percussion",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.asianandislandpercussion",
+  "name": "Asian & Island Percussion",
+  "sub": "Eleven drums and percussion of Asia and the Pacific. Nine countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can strike hourglass, bronze, barrel and log drums, bamboo tubes and a bottle-cap pole from Korea, Japan, Indonesia, Vietnam, the Philippines, India, Papua New Guinea, Fiji and Australia, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "janggu",
+    "name": "Janggu (hourglass drum)",
+    "icon": null,
+    "pagePath": "games/5397-janggu/"
+   },
+   {
+    "slug": "kakko",
+    "name": "Kakko",
+    "icon": null,
+    "pagePath": "games/2789-kakko/"
+   },
+   {
+    "slug": "kendang",
+    "name": "Kendang",
+    "icon": null,
+    "pagePath": "games/10163-kendang/"
+   },
+   {
+    "slug": "dong-son-drum",
+    "name": "Dong Son drum",
+    "icon": null,
+    "pagePath": "games/10330-dong-son-drum/"
+   },
+   {
+    "slug": "dabakan",
+    "name": "Dabakan",
+    "icon": null,
+    "pagePath": "games/2118-dabakan/"
+   },
+   {
+    "slug": "tavil",
+    "name": "Tavil",
+    "icon": null,
+    "pagePath": "games/5714-tavil/"
+   },
+   {
+    "slug": "garamut",
+    "name": "Garamut",
+    "icon": null,
+    "pagePath": "games/2449-garamut/"
+   },
+   {
+    "slug": "lali",
+    "name": "Lali",
+    "icon": null,
+    "pagePath": "games/2986-lali/"
+   },
+   {
+    "slug": "kundu-drum",
+    "name": "Kundu drum",
+    "icon": null,
+    "pagePath": "games/6417-kundu-drum/"
+   },
+   {
+    "slug": "lagerphone",
+    "name": "Lagerphone",
+    "icon": null,
+    "pagePath": "games/10152-lagerphone/"
+   },
+   {
+    "slug": "fijian-bamboo-drum-ensemble",
+    "name": "Fijian bamboo drum ensemble (derua)",
+    "icon": null,
+    "pagePath": "games/6380-fijian-bamboo-drum-ensemble/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/asian-and-island-percussion/",
+  "countryCount": 9
+ },
+ {
+  "bucket": "folk-dance-of-the-world",
+  "short": "folk-dance",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.folkdanceoftheworld",
+  "name": "Folk Dance of the World",
+  "sub": "Twelve folk dance rhythms. Fourteen countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can tap the beat of each dance and watch the dancer answer with stamps, footwork, claps and shoulder moves, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "hopak",
+    "name": "Hopak (Ukrainian folk dance)",
+    "icon": "whg-hopak-icon.png",
+    "pagePath": "games/382-hopak/"
+   },
+   {
+    "slug": "highland-sword-dance",
+    "name": "Highland Sword Dance",
+    "icon": "whg-highland-sword-dance-icon.png",
+    "pagePath": "games/417-highland-sword-dance/"
+   },
+   {
+    "slug": "kathak-tatkar-footwork-rhythm",
+    "name": "Kathak tatkar footwork rhythm",
+    "icon": "whg-kathak-tatkar-footwork-rhythm-icon.png",
+    "pagePath": "games/267-kathak-tatkar-footwork-rhythm/"
+   },
+   {
+    "slug": "eskista",
+    "name": "Eskista (Ethiopian shoulder dance)",
+    "icon": "whg-eskista-icon.png",
+    "pagePath": "games/188-eskista/"
+   },
+   {
+    "slug": "attan-circle-dance",
+    "name": "Attan circle dance (Pashtun round dance)",
+    "icon": null,
+    "pagePath": "games/234-attan-circle-dance/"
+   },
+   {
+    "slug": "flamenco-palmas",
+    "name": "Flamenco palmas (rhythmic clapping)",
+    "icon": null,
+    "pagePath": "games/154-flamenco-palmas/"
+   },
+   {
+    "slug": "tinikling",
+    "name": "Tinikling (bamboo pole hop)",
+    "icon": "whg-tinikling-icon.png",
+    "pagePath": "games/141-tinikling/"
+   },
+   {
+    "slug": "buchaechum",
+    "name": "Buchaechum (fan dance)",
+    "icon": "whg-buchaechum-icon.png",
+    "pagePath": "games/5396-buchaechum/"
+   },
+   {
+    "slug": "frevo-umbrella-dance",
+    "name": "Frevo Umbrella Dance",
+    "icon": "whg-frevo-umbrella-dance-icon.png",
+    "pagePath": "games/1411-frevo-umbrella-dance/"
+   },
+   {
+    "slug": "kalamatianos",
+    "name": "Kalamatianos",
+    "icon": "whg-kalamatianos-icon.png",
+    "pagePath": "games/5066-kalamatianos/"
+   },
+   {
+    "slug": "gumboot-dance-rhythm",
+    "name": "Gumboot dance rhythm",
+    "icon": "whg-gumboot-dance-rhythm-icon.png",
+    "pagePath": "games/123-gumboot-dance-rhythm/"
+   },
+   {
+    "slug": "kamba-musya-bell-dance",
+    "name": "Kamba musya bell dance",
+    "icon": "whg-kamba-musya-bell-dance-icon.png",
+    "pagePath": "games/17976-kamba-musya-bell-dance/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/folk-dance-of-the-world/",
+  "countryCount": 14
+ },
+ {
+  "bucket": "folk-strings-of-the-world",
+  "short": "folk-strings",
+  "status": "in-review",
+  "package": "com.equalinformation.whg.folkstringsoftheworld",
+  "name": "Folk Strings of the World",
+  "sub": "Six games. Eleven countries. One atlas of play.",
+  "text": "Each instrument is drawn in detail and played by touch. Pluck and strum the twelve-string tiple and the big bass guitarron, draw the bow across the one-string gusle, the long string of the tromba marina, the horsehair strings of the jouhikko and the bells of the ravanahatha bow. Notes arrive along each string; touch them in time and hear the real voice of the instrument. A short note on every page tells where the tradition comes from and how it is played. Learn at your own pace: watch a demonstration first, read the rules and the how-to-play page, and enlarge the text if you like. Works in portrait and landscape. Try every instrument free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription, no account and no internet connection needed.",
+  "games": [
+   {
+    "slug": "colombian-tiple",
+    "name": "Colombian tiple",
+    "icon": "whg-colombian-tiple-icon.png",
+    "pagePath": "games/2034-colombian-tiple/"
+   },
+   {
+    "slug": "guitarron-mexicano",
+    "name": "Guitarron mexicano",
+    "icon": "whg-guitarron-mexicano-icon.png",
+    "pagePath": "games/10261-guitarron-mexicano/"
+   },
+   {
+    "slug": "gusle-bow-and-verse",
+    "name": "Gusle Bow and Verse",
+    "icon": "whg-gusle-bow-and-verse-icon.png",
+    "pagePath": "games/1294-gusle-bow-and-verse/"
+   },
+   {
+    "slug": "tromba-marina",
+    "name": "Tromba marina",
+    "icon": "whg-tromba-marina-icon.png",
+    "pagePath": "games/4201-tromba-marina/"
+   },
+   {
+    "slug": "jouhikko",
+    "name": "Jouhikko",
+    "icon": "whg-jouhikko-icon.png",
+    "pagePath": "games/2760-jouhikko/"
+   },
+   {
+    "slug": "ravanahatha",
+    "name": "Ravanahatha",
+    "icon": "whg-ravanahatha-icon.png",
+    "pagePath": "games/3607-ravanahatha/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/folk-strings-of-the-world/",
+  "countryCount": 11
+ },
+ {
+  "bucket": "asian-lutes-of-the-world",
+  "short": "asian-lutes",
+  "status": "soon",
+  "package": "com.equalinformation.whg.asianlutesoftheworld",
+  "name": "Asian Lutes of the World",
+  "sub": "Seven lutes of Asia. Five countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play the lutes of Japan, Vietnam, Laos and Southeast Asia, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "biwa",
+    "name": "Biwa",
+    "icon": "whg-biwa-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "shamisen",
+    "name": "Shamisen",
+    "icon": "whg-shamisen-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "sanshin",
+    "name": "Sanshin",
+    "icon": "whg-sanshin-icon.png",
+    "pagePath": "games/5365-sanshin/"
+   },
+   {
+    "slug": "an-nguyet",
+    "name": "Đàn nguyệt",
+    "icon": "whg-an-nguyet-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "hasapi",
+    "name": "Hasapi",
+    "icon": "whg-hasapi-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "phin",
+    "name": "Phin",
+    "icon": "whg-phin-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "gambus",
+    "name": "Gambus (Malay lute of Brunei)",
+    "icon": "whg-gambus-icon.png",
+    "pagePath": "games/7078-gambus/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/asian-lutes-of-the-world/",
+  "countryCount": 5
+ },
+ {
+  "bucket": "bells-and-log-drums",
+  "short": "bells-and-log-drums",
+  "status": "soon",
+  "package": "com.equalinformation.whg.bellsandlogdrums",
+  "name": "Bells & Log Drums",
+  "sub": "Six log drums and bells of West Africa. Three countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can strike log slit drums, forged iron bells, brass cup bells and double bells to the beat of each tradition, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "ekwe",
+    "name": "Ekwe",
+    "icon": "whg-ekwe-icon.png",
+    "pagePath": "games/2253-ekwe/"
+   },
+   {
+    "slug": "ikoro",
+    "name": "Ikoro",
+    "icon": "whg-ikoro-icon.png",
+    "pagePath": "games/7189-ikoro/"
+   },
+   {
+    "slug": "obrom-slit-drum",
+    "name": "Obrom slit drum",
+    "icon": "whg-obrom-slit-drum-icon.png",
+    "pagePath": "games/7192-obrom-slit-drum/"
+   },
+   {
+    "slug": "cigogo-iron-bell",
+    "name": "Cigogo iron bell",
+    "icon": "whg-cigogo-iron-bell-icon.png",
+    "pagePath": "games/21362-cigogo-iron-bell/"
+   },
+   {
+    "slug": "adomba-hand-bell",
+    "name": "Adomba hand bell",
+    "icon": "whg-adomba-hand-bell-icon.png",
+    "pagePath": "games/21419-adomba-hand-bell/"
+   },
+   {
+    "slug": "gankogui",
+    "name": "Gankogui",
+    "icon": "whg-gankogui-icon.png",
+    "pagePath": "games/7071-gankogui/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/bells-and-log-drums/",
+  "countryCount": 3
+ },
+ {
+  "bucket": "clay-and-kiln-of-the-world",
+  "short": "clay-and-kiln",
+  "status": "soon",
+  "package": "com.equalinformation.whg.clayandkilnoftheworld",
+  "name": "Clay & Kiln of the World",
+  "sub": "Eight pottery and ceramic traditions of the Americas. Five countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can throw clay on the wheel, shape, decorate and fire traditional pottery, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "barro-negro-pottery",
+    "name": "Barro negro pottery",
+    "icon": "whg-barro-negro-pottery-icon.png",
+    "pagePath": "games/10508-barro-negro-pottery/"
+   },
+   {
+    "slug": "green-glazed-pottery-of-atzompa",
+    "name": "Green glazed pottery of Atzompa",
+    "icon": "whg-green-glazed-pottery-of-atzompa-icon.png",
+    "pagePath": "games/10510-green-glazed-pottery-of-atzompa/"
+   },
+   {
+    "slug": "la-chamba-pottery",
+    "name": "La Chamba pottery",
+    "icon": "whg-la-chamba-pottery-icon.png",
+    "pagePath": "games/6218-la-chamba-pottery/"
+   },
+   {
+    "slug": "pomaire-pottery",
+    "name": "Pomaire pottery",
+    "icon": "whg-pomaire-pottery-icon.png",
+    "pagePath": "games/6270-pomaire-pottery/"
+   },
+   {
+    "slug": "chulucanas-pottery",
+    "name": "Chulucanas pottery",
+    "icon": "whg-chulucanas-pottery-icon.png",
+    "pagePath": "games/6245-chulucanas-pottery/"
+   },
+   {
+    "slug": "mata-ortiz-pottery",
+    "name": "Mata Ortiz pottery",
+    "icon": "whg-mata-ortiz-pottery-icon.png",
+    "pagePath": "games/10511-mata-ortiz-pottery/"
+   },
+   {
+    "slug": "pottery-of-metepec",
+    "name": "Pottery of Metepec",
+    "icon": "whg-pottery-of-metepec-icon.png",
+    "pagePath": "games/10512-pottery-of-metepec/"
+   },
+   {
+    "slug": "ceramica-saramenha",
+    "name": "Cerâmica saramenha",
+    "icon": "whg-ceramica-saramenha-icon.png",
+    "pagePath": "games/11180-ceramica-saramenha/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/clay-and-kiln-of-the-world/",
+  "countryCount": 5
+ },
+ {
+  "bucket": "conga-daf-and-udu-drums",
+  "short": "conga-daf-and-udu-drums",
+  "status": "soon",
+  "package": "com.equalinformation.whg.congadafandududrums",
+  "name": "Conga, Daf & Udu Drums",
+  "sub": "Ten drums and drum rhythms. Nine countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play congas, frame drums, clay pots and kettle drums to real rhythms, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "conga",
+    "name": "Conga",
+    "icon": "whg-conga-icon.png",
+    "pagePath": "games/2046-conga/"
+   },
+   {
+    "slug": "daf",
+    "name": "Daf",
+    "icon": "whg-daf-icon.png",
+    "pagePath": "games/2120-daf/"
+   },
+   {
+    "slug": "udu",
+    "name": "Udu",
+    "icon": "whg-udu-icon.png",
+    "pagePath": "games/7187-udu/"
+   },
+   {
+    "slug": "bongo-drum",
+    "name": "Bongo drum",
+    "icon": "whg-bongo-drum-icon.png",
+    "pagePath": "games/1814-bongo-drum/"
+   },
+   {
+    "slug": "timbales",
+    "name": "Timbales",
+    "icon": "whg-timbales-icon.png",
+    "pagePath": "games/4126-timbales/"
+   },
+   {
+    "slug": "surdo",
+    "name": "Surdo",
+    "icon": "whg-surdo-icon.png",
+    "pagePath": "games/3987-surdo/"
+   },
+   {
+    "slug": "riq",
+    "name": "Riq",
+    "icon": "whg-riq-icon.png",
+    "pagePath": "games/6045-riq/"
+   },
+   {
+    "slug": "ghatam",
+    "name": "Ghatam",
+    "icon": "whg-ghatam-icon.png",
+    "pagePath": "games/5712-ghatam/"
+   },
+   {
+    "slug": "darbuka-iqaat-rhythm-drum",
+    "name": "Darbuka Iqa'at Rhythm Drum",
+    "icon": "whg-darbuka-iqaat-rhythm-drum-icon.png",
+    "pagePath": "games/213-darbuka-iqaat-rhythm-drum/"
+   },
+   {
+    "slug": "naqareh",
+    "name": "Naqareh",
+    "icon": "whg-naqareh-icon.png",
+    "pagePath": "games/3233-naqareh/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/conga-daf-and-udu-drums/",
+  "countryCount": 9
+ },
+ {
+  "bucket": "folk-dolls-of-the-world",
+  "short": "folk-dolls",
+  "status": "soon",
+  "package": "com.equalinformation.whg.folkdollsoftheworld",
+  "name": "Folk Dolls of the World",
+  "sub": "Six folk doll and tumbler toy traditions. Three countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can turn and paint kokeshi, daruma, kimekomi, nutcracker and tumbler dolls from Japan, Germany and Russia, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "naruko-and-togatta-kokeshi",
+    "name": "Naruko and Togatta kokeshi",
+    "icon": "whg-naruko-and-togatta-kokeshi-icon.png",
+    "pagePath": "games/19537-naruko-and-togatta-kokeshi/"
+   },
+   {
+    "slug": "tsuchiyu-kokeshi",
+    "name": "Tsuchiyu kokeshi",
+    "icon": "whg-tsuchiyu-kokeshi-icon.png",
+    "pagePath": "games/19542-tsuchiyu-kokeshi/"
+   },
+   {
+    "slug": "takasaki-daruma",
+    "name": "Takasaki daruma",
+    "icon": "whg-takasaki-daruma-icon.png",
+    "pagePath": "games/15602-takasaki-daruma/"
+   },
+   {
+    "slug": "nutcracker-doll",
+    "name": "Nutcracker doll",
+    "icon": "whg-nutcracker-doll-icon.png",
+    "pagePath": "games/3283-nutcracker-doll/"
+   },
+   {
+    "slug": "vanka-vstanka",
+    "name": "Vanka-vstanka (tumbler doll)",
+    "icon": "whg-vanka-vstanka-icon.png",
+    "pagePath": "games/9264-vanka-vstanka/"
+   },
+   {
+    "slug": "edo-kimekomi-doll",
+    "name": "Edo kimekomi doll",
+    "icon": "whg-edo-kimekomi-doll-icon.png",
+    "pagePath": "games/11625-edo-kimekomi-doll/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/folk-dolls-of-the-world/",
+  "countryCount": 3
+ },
+ {
+  "bucket": "gongs-and-chimes-of-the-world",
+  "short": "gongs-and-chimes",
+  "status": "soon",
+  "package": "com.equalinformation.whg.gongsandchimesoftheworld",
+  "name": "Gongs & Chimes of the World",
+  "sub": "Eight games. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can strike hanging gongs, gong circles, chime bells and stone chimes to real rhythms and melodies, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "gong-ageng",
+    "name": "Gong ageng",
+    "icon": null,
+    "pagePath": "games/2500-gong-ageng/"
+   },
+   {
+    "slug": "bonang",
+    "name": "Bonang",
+    "icon": null,
+    "pagePath": "games/15166-bonang/"
+   },
+   {
+    "slug": "kyi-waing",
+    "name": "Kyi waing (Burmese gong circle)",
+    "icon": null,
+    "pagePath": "games/5490-kyi-waing/"
+   },
+   {
+    "slug": "bianzhong",
+    "name": "Bianzhong (bronze chime bells)",
+    "icon": null,
+    "pagePath": "games/336-bianzhong/"
+   },
+   {
+    "slug": "pyeongyeong",
+    "name": "Pyeongyeong (stone chimes)",
+    "icon": null,
+    "pagePath": "games/11700-pyeongyeong/"
+   },
+   {
+    "slug": "yunluo",
+    "name": "Yunluo",
+    "icon": null,
+    "pagePath": "games/4446-yunluo/"
+   },
+   {
+    "slug": "skrabalai",
+    "name": "Skrabalai (Lithuanian wooden cowbells)",
+    "icon": null,
+    "pagePath": "games/388-skrabalai/"
+   },
+   {
+    "slug": "bell-chime",
+    "name": "Bell chime",
+    "icon": null,
+    "pagePath": "games/6539-bell-chime/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/gongs-and-chimes-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "handmade-paper-of-the-world",
+  "short": "handmade-paper",
+  "status": "soon",
+  "package": "com.equalinformation.whg.handmadepaperoftheworld",
+  "name": "Handmade Paper of the World",
+  "sub": "Six handmade paper and papermaking traditions. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can dip the mould, form and couch sheets, press, brush and pound them, and marble paper, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "ebru-paper-marbling",
+    "name": "Ebru paper marbling",
+    "icon": null,
+    "pagePath": "games/20-ebru-paper-marbling/"
+   },
+   {
+    "slug": "washi-papermaking",
+    "name": "Washi Papermaking (nagashi-zuki)",
+    "icon": null,
+    "pagePath": "games/497-washi-papermaking/"
+   },
+   {
+    "slug": "hanji-paper-making",
+    "name": "Hanji paper making (Hanjijang)",
+    "icon": null,
+    "pagePath": "games/14592-hanji-paper-making/"
+   },
+   {
+    "slug": "lokta-paper-making",
+    "name": "Lokta paper-making",
+    "icon": null,
+    "pagePath": "games/292-lokta-paper-making/"
+   },
+   {
+    "slug": "papierscheppen",
+    "name": "Papierscheppen",
+    "icon": null,
+    "pagePath": "games/19945-papierscheppen/"
+   },
+   {
+    "slug": "antaimoro-flower-paper",
+    "name": "Antaimoro flower paper",
+    "icon": null,
+    "pagePath": "games/1229-antaimoro-flower-paper/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/handmade-paper-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "horns-and-flutes-of-the-world",
+  "short": "horns-and-flutes",
+  "status": "soon",
+  "package": "com.equalinformation.whg.hornsandflutesoftheworld",
+  "name": "Horns & Flutes of the World",
+  "sub": "Nine horns, trumpets, whistles and flutes. Eight countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can blow natural horns, trumpets, whistles and flutes, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "kombu",
+    "name": "Kombu",
+    "icon": "whg-kombu-icon.png",
+    "pagePath": "games/2918-kombu/"
+   },
+   {
+    "slug": "lepapata-kudu-horn",
+    "name": "Lepapata kudu horn",
+    "icon": "whg-lepapata-kudu-horn-icon.png",
+    "pagePath": "games/6903-lepapata-kudu-horn/"
+   },
+   {
+    "slug": "siwa-horn",
+    "name": "Siwa horn",
+    "icon": "whg-siwa-horn-icon.png",
+    "pagePath": "games/7212-siwa-horn/"
+   },
+   {
+    "slug": "antelope-horn-side-blown-trumpet",
+    "name": "Antelope-horn side-blown trumpet (Kajji)",
+    "icon": "whg-antelope-horn-side-blown-trumpet-icon.png",
+    "pagePath": "games/17228-antelope-horn-side-blown-trumpet/"
+   },
+   {
+    "slug": "kamba-funnel-trumpet",
+    "name": "Kamba funnel trumpet (so)",
+    "icon": "whg-kamba-funnel-trumpet-icon.png",
+    "pagePath": "games/17972-kamba-funnel-trumpet/"
+   },
+   {
+    "slug": "timbalamhala-antelope-horn-orchestra",
+    "name": "Timbalamhala antelope-horn orchestra",
+    "icon": "whg-timbalamhala-antelope-horn-orchestra-icon.png",
+    "pagePath": "games/17552-timbalamhala-antelope-horn-orchestra/"
+   },
+   {
+    "slug": "tin-whistle",
+    "name": "Tin whistle",
+    "icon": "whg-tin-whistle-icon.png",
+    "pagePath": "games/4129-tin-whistle/"
+   },
+   {
+    "slug": "dvoyanka",
+    "name": "Dvoyanka",
+    "icon": "whg-dvoyanka-icon.png",
+    "pagePath": "games/2230-dvoyanka/"
+   },
+   {
+    "slug": "ocarina",
+    "name": "Ocarina (vessel flute)",
+    "icon": "whg-ocarina-icon.png",
+    "pagePath": "games/6501-ocarina/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/horns-and-flutes-of-the-world/",
+  "countryCount": 8
+ },
+ {
+  "bucket": "island-weaving-of-the-world",
+  "short": "island-weaving",
+  "status": "soon",
+  "package": "com.equalinformation.whg.islandweavingoftheworld",
+  "name": "Island Weaving of the World",
+  "sub": "Seven Pacific weaving and bark-cloth crafts. Five countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can plait pandanus mats, print bark cloth, stitch quilts and loop bags, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "lauhala-weaving",
+    "name": "Lauhala weaving",
+    "icon": "whg-lauhala-weaving-icon.png",
+    "pagePath": "games/6371-lauhala-weaving/"
+   },
+   {
+    "slug": "jaki-ed-mat-weaving",
+    "name": "Jaki-ed mat weaving",
+    "icon": "whg-jaki-ed-mat-weaving-icon.png",
+    "pagePath": "games/6443-jaki-ed-mat-weaving/"
+   },
+   {
+    "slug": "masi-bark-cloth-stencil-printing",
+    "name": "Masi bark-cloth stencil printing",
+    "icon": "whg-masi-bark-cloth-stencil-printing-icon.png",
+    "pagePath": "games/1279-masi-bark-cloth-stencil-printing/"
+   },
+   {
+    "slug": "siapo",
+    "name": "Siapo (Samoan bark cloth)",
+    "icon": "whg-siapo-icon.png",
+    "pagePath": "games/7151-siapo/"
+   },
+   {
+    "slug": "tivaevae-quilting",
+    "name": "Tivaevae quilting",
+    "icon": "whg-tivaevae-quilting-icon.png",
+    "pagePath": "games/6401-tivaevae-quilting/"
+   },
+   {
+    "slug": "bilum-looped-string-bag",
+    "name": "Bilum looped string bag",
+    "icon": "whg-bilum-looped-string-bag-icon.png",
+    "pagePath": "games/1242-bilum-looped-string-bag/"
+   },
+   {
+    "slug": "magimagi",
+    "name": "Magimagi",
+    "icon": "whg-magimagi-icon.png",
+    "pagePath": "games/10380-magimagi/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/island-weaving-of-the-world/",
+  "countryCount": 5
+ },
+ {
+  "bucket": "jewels-and-glass-of-the-world",
+  "short": "jewels-and-glass",
+  "status": "soon",
+  "package": "com.equalinformation.whg.jewelsandglassoftheworld",
+  "name": "Jewels & Glass of the World",
+  "sub": "Six jewellery, beadwork and glass traditions. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can twist silver filigree, fire enamel, thread beads and blow glass, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "tarakasi-silver-filigree",
+    "name": "Tarakasi silver filigree",
+    "icon": null,
+    "pagePath": "games/279-tarakasi-silver-filigree/"
+   },
+   {
+    "slug": "chengdu-silver-filigree",
+    "name": "Chengdu silver filigree",
+    "icon": null,
+    "pagePath": "games/16387-chengdu-silver-filigree/"
+   },
+   {
+    "slug": "minakari",
+    "name": "Minakari",
+    "icon": null,
+    "pagePath": "games/6007-minakari/"
+   },
+   {
+    "slug": "maasai-beadwork",
+    "name": "Maasai beadwork",
+    "icon": null,
+    "pagePath": "games/7320-maasai-beadwork/"
+   },
+   {
+    "slug": "glassblowing",
+    "name": "Glassblowing (Venetian style)",
+    "icon": null,
+    "pagePath": "games/121-glassblowing/"
+   },
+   {
+    "slug": "hebron-glassblowing",
+    "name": "Hebron Glassblowing",
+    "icon": null,
+    "pagePath": "games/6034-hebron-glassblowing/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/jewels-and-glass-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "looms-and-bands-of-the-world",
+  "short": "looms-and-bands",
+  "status": "soon",
+  "package": "com.equalinformation.whg.loomsandbandsoftheworld",
+  "name": "Looms & Bands of the World",
+  "sub": "Fourteen games. Eighteen countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can set up the warp, pick up patterns, weave bands, cloth, rugs and tapestry on the loom, and plait cords, straw and rawhide braids, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "warp-weighted-loom",
+    "name": "Warp-weighted loom",
+    "icon": "whg-warp-weighted-loom-icon.png",
+    "pagePath": "games/6600-warp-weighted-loom/"
+   },
+   {
+    "slug": "tablet-weaving",
+    "name": "Tablet weaving",
+    "icon": "whg-tablet-weaving-icon.png",
+    "pagePath": "games/4013-tablet-weaving/"
+   },
+   {
+    "slug": "inkle-weaving",
+    "name": "Inkle weaving",
+    "icon": "whg-inkle-weaving-icon.png",
+    "pagePath": "games/6603-inkle-weaving/"
+   },
+   {
+    "slug": "backstrap-loom-weaving",
+    "name": "Backstrap loom weaving",
+    "icon": "whg-backstrap-loom-weaving-icon.png",
+    "pagePath": "games/6599-backstrap-loom-weaving/"
+   },
+   {
+    "slug": "pit-loom",
+    "name": "Pit loom",
+    "icon": "whg-pit-loom-icon.png",
+    "pagePath": "games/6601-pit-loom/"
+   },
+   {
+    "slug": "drawloom",
+    "name": "Drawloom",
+    "icon": "whg-drawloom-icon.png",
+    "pagePath": "games/6602-drawloom/"
+   },
+   {
+    "slug": "peg-loom",
+    "name": "Peg loom",
+    "icon": "whg-peg-loom-icon.png",
+    "pagePath": "games/3434-peg-loom/"
+   },
+   {
+    "slug": "aubusson-tapestry",
+    "name": "Aubusson tapestry",
+    "icon": "whg-aubusson-tapestry-icon.png",
+    "pagePath": "games/10370-aubusson-tapestry/"
+   },
+   {
+    "slug": "masaya-hammock-weaving",
+    "name": "Masaya Hammock Weaving",
+    "icon": "whg-masaya-hammock-weaving-icon.png",
+    "pagePath": "games/1473-masaya-hammock-weaving/"
+   },
+   {
+    "slug": "shan-seed-treadle-loom",
+    "name": "Shan seed-treadle loom",
+    "icon": "whg-shan-seed-treadle-loom-icon.png",
+    "pagePath": "games/18903-shan-seed-treadle-loom/"
+   },
+   {
+    "slug": "gaytandzhiystvo",
+    "name": "Gaytandzhiystvo",
+    "icon": null,
+    "pagePath": "games/11073-gaytandzhiystvo/"
+   },
+   {
+    "slug": "rawhide-braiding",
+    "name": "Rawhide braiding (trenzado criollo)",
+    "icon": null,
+    "pagePath": "games/6262-rawhide-braiding/"
+   },
+   {
+    "slug": "laizhou-straw-braid",
+    "name": "Laizhou straw braid",
+    "icon": null,
+    "pagePath": "games/16294-laizhou-straw-braid/"
+   },
+   {
+    "slug": "kumihimo-braid-disk",
+    "name": "Kumihimo Braid Disk",
+    "icon": null,
+    "pagePath": "games/107-kumihimo-braid-disk/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/looms-and-bands-of-the-world/",
+  "countryCount": 18
+ },
+ {
+  "bucket": "lyres-of-the-world",
+  "short": "lyres",
+  "status": "soon",
+  "package": "com.equalinformation.whg.lyresoftheworld",
+  "name": "Lyres of the World",
+  "sub": "Six lyres of Africa and the Mediterranean. Four countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play the lyres of Egypt, Kenya, Nubia and the Mediterranean, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "simsimiyya",
+    "name": "Simsimiyya",
+    "icon": "whg-simsimiyya-icon.png",
+    "pagePath": "games/6047-simsimiyya/"
+   },
+   {
+    "slug": "kissar",
+    "name": "Kissar",
+    "icon": "whg-kissar-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "nyatiti-luo-lyre",
+    "name": "Nyatiti Luo lyre",
+    "icon": "whg-nyatiti-luo-lyre-icon.png",
+    "pagePath": "games/1349-nyatiti-luo-lyre/"
+   },
+   {
+    "slug": "litungu",
+    "name": "Litungu",
+    "icon": "whg-litungu-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "obokano",
+    "name": "Obokano",
+    "icon": "whg-obokano-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "lyre",
+    "name": "Lyre",
+    "icon": "whg-lyre-icon.png",
+    "pagePath": null
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/lyres-of-the-world/",
+  "countryCount": 4
+ },
+ {
+  "bucket": "mallet-music-of-the-world",
+  "short": "mallet-music",
+  "status": "soon",
+  "package": "com.equalinformation.whg.malletmusicoftheworld",
+  "name": "Mallet Music of the World",
+  "sub": "Four mallet instruments. Four countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play xylophones and metallophones with mallets, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "gender",
+    "name": "Gender (Javanese metallophone)",
+    "icon": "whg-gender-icon.png",
+    "pagePath": "games/18923-gender/"
+   },
+   {
+    "slug": "ranat",
+    "name": "Ranat",
+    "icon": "whg-ranat-icon.png",
+    "pagePath": "games/10312-ranat/"
+   },
+   {
+    "slug": "marimba",
+    "name": "Marimba",
+    "icon": "whg-marimba-icon.png",
+    "pagePath": "games/52-marimba/"
+   },
+   {
+    "slug": "silimba",
+    "name": "Silimba (Lozi xylophone)",
+    "icon": "whg-silimba-icon.png",
+    "pagePath": "games/7920-silimba/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/mallet-music-of-the-world/",
+  "countryCount": 4
+ },
+ {
+  "bucket": "mats-and-wicker-of-the-world",
+  "short": "mats-and-wicker",
+  "status": "soon",
+  "package": "com.equalinformation.whg.matsandwickeroftheworld",
+  "name": "Mats & Wicker of the World",
+  "sub": "Eight mat and wicker weaving traditions. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can plait mats and weave wicker, splint, hoop and cane baskets, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "dumbara-mats",
+    "name": "Dumbara Mats",
+    "icon": "whg-dumbara-mats-icon.png",
+    "pagePath": "games/5702-dumbara-mats/"
+   },
+   {
+    "slug": "shital-pati-cool-mat-weaving",
+    "name": "Shital pati cool mat weaving",
+    "icon": "whg-shital-pati-cool-mat-weaving-icon.png",
+    "pagePath": "games/1371-shital-pati-cool-mat-weaving/"
+   },
+   {
+    "slug": "reed-mat-weaving-of-sri-lanka",
+    "name": "Reed Mat Weaving of Sri Lanka",
+    "icon": "whg-reed-mat-weaving-of-sri-lanka-icon.png",
+    "pagePath": "games/5704-reed-mat-weaving-of-sri-lanka/"
+   },
+   {
+    "slug": "nantucket-lightship-basket",
+    "name": "Nantucket lightship basket",
+    "icon": "whg-nantucket-lightship-basket-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "vannerie-sur-arceaux",
+    "name": "Vannerie sur arceaux (hooped basketry of Brittany)",
+    "icon": "whg-vannerie-sur-arceaux-icon.png",
+    "pagePath": "games/13768-vannerie-sur-arceaux/"
+   },
+   {
+    "slug": "pack-basket",
+    "name": "Pack basket",
+    "icon": "whg-pack-basket-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "maonan-flower-bamboo-hat",
+    "name": "Maonan flower bamboo hat",
+    "icon": "whg-maonan-flower-bamboo-hat-icon.png",
+    "pagePath": "games/16277-maonan-flower-bamboo-hat/"
+   },
+   {
+    "slug": "thaikkal-rattan-craft",
+    "name": "Thaikkal Rattan Craft",
+    "icon": "whg-thaikkal-rattan-craft-icon.png",
+    "pagePath": "games/15490-thaikkal-rattan-craft/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/mats-and-wicker-of-the-world/",
+  "countryCount": 6
+ },
+ {
+  "bucket": "needlework-of-the-world",
+  "short": "needlework",
+  "status": "soon",
+  "package": "com.equalinformation.whg.needleworkoftheworld",
+  "name": "Needlework of the World",
+  "sub": "Six games. One country. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can count threads, stitch mirror and metal-wire work, sew appliqué and match each traditional pattern on the frame, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "kasuti",
+    "name": "Kasuti",
+    "icon": "whg-kasuti-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "kutch-embroidery",
+    "name": "Kutch Embroidery",
+    "icon": "whg-kutch-embroidery-icon.png",
+    "pagePath": "games/5761-kutch-embroidery/"
+   },
+   {
+    "slug": "zardozi",
+    "name": "Zardozi",
+    "icon": "whg-zardozi-icon.png",
+    "pagePath": "games/5791-zardozi/"
+   },
+   {
+    "slug": "chamba-rumal-embroidery",
+    "name": "Chamba rumal embroidery",
+    "icon": "whg-chamba-rumal-embroidery-icon.png",
+    "pagePath": "games/1252-chamba-rumal-embroidery/"
+   },
+   {
+    "slug": "lambani-embroidery",
+    "name": "Lambani Embroidery",
+    "icon": "whg-lambani-embroidery-icon.png",
+    "pagePath": "games/5802-lambani-embroidery/"
+   },
+   {
+    "slug": "pipili-applique-work",
+    "name": "Pipili appliqué work",
+    "icon": "whg-pipili-applique-work-icon.png",
+    "pagePath": null
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/needlework-of-the-world/",
+  "countryCount": 1
+ },
+ {
+  "bucket": "odd-instruments-of-the-world",
+  "short": "odd-instruments",
+  "status": "soon",
+  "package": "com.equalinformation.whg.oddinstrumentsoftheworld",
+  "name": "Odd Instruments of the World",
+  "sub": "Seven games. Five countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can bow a saw, rub the rims of glasses, pluck a washtub bass, thump an ugly stick and tilt a rainstick, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "washtub-bass",
+    "name": "Washtub bass",
+    "icon": "whg-washtub-bass-icon.png",
+    "pagePath": "games/6351-washtub-bass/"
+   },
+   {
+    "slug": "musical-saw",
+    "name": "Musical saw",
+    "icon": "whg-musical-saw-icon.png",
+    "pagePath": "games/6353-musical-saw/"
+   },
+   {
+    "slug": "musical-glasses",
+    "name": "Musical glasses (glass harp)",
+    "icon": "whg-musical-glasses-icon.png",
+    "pagePath": "games/6534-musical-glasses/"
+   },
+   {
+    "slug": "glass-harmonica",
+    "name": "Glass harmonica",
+    "icon": "whg-glass-harmonica-icon.png",
+    "pagePath": "games/10143-glass-harmonica/"
+   },
+   {
+    "slug": "namalwa-friction-drum",
+    "name": "Namalwa friction drum",
+    "icon": "whg-namalwa-friction-drum-icon.png",
+    "pagePath": "games/7919-namalwa-friction-drum/"
+   },
+   {
+    "slug": "ugly-stick",
+    "name": "Ugly stick",
+    "icon": "whg-ugly-stick-icon.png",
+    "pagePath": "games/6320-ugly-stick/"
+   },
+   {
+    "slug": "rainstick",
+    "name": "Rainstick",
+    "icon": "whg-rainstick-icon.png",
+    "pagePath": "games/6535-rainstick/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/odd-instruments-of-the-world/",
+  "countryCount": 5
+ },
+ {
+  "bucket": "painted-surfaces-of-the-world",
+  "short": "painted-surfaces",
+  "status": "soon",
+  "package": "com.equalinformation.whg.paintedsurfacesoftheworld",
+  "name": "Painted Surfaces of the World",
+  "sub": "Six painted barn, tray, house, bus and window traditions. Five countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can paint hex signs, lacquer trays, house fronts, bus panels and window screens in traditional styles, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "hex-sign",
+    "name": "Hex sign",
+    "icon": "whg-hex-sign-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "zhostovo-painting",
+    "name": "Zhostovo painting",
+    "icon": "whg-zhostovo-painting-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "cicmany-house-ornament-painting",
+    "name": "Čičmany House Ornament Painting",
+    "icon": "whg-cicmany-house-ornament-painting-icon.png",
+    "pagePath": "games/1256-cicmany-house-ornament-painting/"
+   },
+   {
+    "slug": "tap-tap-bus-painting",
+    "name": "Tap-Tap Bus Painting",
+    "icon": "whg-tap-tap-bus-painting-icon.png",
+    "pagePath": "games/1461-tap-tap-bus-painting/"
+   },
+   {
+    "slug": "screen-painting",
+    "name": "Screen painting",
+    "icon": "whg-screen-painting-icon.png",
+    "pagePath": null
+   },
+   {
+    "slug": "malarstwo-zalipia",
+    "name": "Malarstwo Zalipia",
+    "icon": "whg-malarstwo-zalipia-icon.png",
+    "pagePath": "games/19992-malarstwo-zalipia/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/painted-surfaces-of-the-world/",
+  "countryCount": 5
+ },
+ {
+  "bucket": "rattles-and-thumb-pianos",
+  "short": "rattles-and-thumb-pianos",
+  "status": "soon",
+  "package": "com.equalinformation.whg.rattlesandthumbpianos",
+  "name": "Rattles & Thumb Pianos",
+  "sub": "Eleven rattles, scrapers and thumb pianos. Eight countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can shake rattles, scrape notched gourds and tubes, and pluck thumb pianos, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "maracas",
+    "name": "Maracas",
+    "icon": "whg-maracas-icon.png",
+    "pagePath": "games/6170-maracas/"
+   },
+   {
+    "slug": "guiro",
+    "name": "Güiro",
+    "icon": "whg-guiro-icon.png",
+    "pagePath": "games/6171-guiro/"
+   },
+   {
+    "slug": "guira",
+    "name": "Güira",
+    "icon": "whg-guira-icon.png",
+    "pagePath": "games/10191-guira/"
+   },
+   {
+    "slug": "guacharaca",
+    "name": "Guacharaca",
+    "icon": "whg-guacharaca-icon.png",
+    "pagePath": "games/6217-guacharaca/"
+   },
+   {
+    "slug": "nyo-basket-rattle",
+    "name": "Nyo basket rattle",
+    "icon": "whg-nyo-basket-rattle-icon.png",
+    "pagePath": "games/21379-nyo-basket-rattle/"
+   },
+   {
+    "slug": "kakradaa-cog-rattle",
+    "name": "Kakradaa cog rattle",
+    "icon": "whg-kakradaa-cog-rattle-icon.png",
+    "pagePath": "games/21420-kakradaa-cog-rattle/"
+   },
+   {
+    "slug": "opa-tubular-gourd",
+    "name": "Opa tubular gourd",
+    "icon": "whg-opa-tubular-gourd-icon.png",
+    "pagePath": "games/21376-opa-tubular-gourd/"
+   },
+   {
+    "slug": "ekpili-seed-shell-rattle",
+    "name": "Ekpili seed-shell rattle",
+    "icon": "whg-ekpili-seed-shell-rattle-icon.png",
+    "pagePath": "games/21377-ekpili-seed-shell-rattle/"
+   },
+   {
+    "slug": "yomyom-brass-pellet-rattle",
+    "name": "Yomyom brass pellet rattle",
+    "icon": "whg-yomyom-brass-pellet-rattle-icon.png",
+    "pagePath": "games/21378-yomyom-brass-pellet-rattle/"
+   },
+   {
+    "slug": "kankobele",
+    "name": "Kankobele (Ila thumb piano, Ila)",
+    "icon": "whg-kankobele-icon.png",
+    "pagePath": "games/18085-kankobele/"
+   },
+   {
+    "slug": "matepe",
+    "name": "Matepe",
+    "icon": "whg-matepe-icon.png",
+    "pagePath": "games/3120-matepe/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/rattles-and-thumb-pianos/",
+  "countryCount": 8
+ },
+ {
+  "bucket": "reeds-and-pipes-of-the-world",
+  "short": "reeds-and-pipes",
+  "status": "soon",
+  "package": "com.equalinformation.whg.reedsandpipesoftheworld",
+  "name": "Reeds & Pipes of the World",
+  "sub": "Nine shawms and bagpipes. Seven countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can play shawms and bagpipes and learn their melodies, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "shehnai",
+    "name": "Shehnai",
+    "icon": "whg-shehnai-icon.png",
+    "pagePath": "games/5708-shehnai/"
+   },
+   {
+    "slug": "nadaswaram",
+    "name": "Nadaswaram",
+    "icon": "whg-nadaswaram-icon.png",
+    "pagePath": "games/3221-nadaswaram/"
+   },
+   {
+    "slug": "zurna",
+    "name": "Zurna",
+    "icon": "whg-zurna-icon.png",
+    "pagePath": "games/5975-zurna/"
+   },
+   {
+    "slug": "suona",
+    "name": "Suona",
+    "icon": "whg-suona-icon.png",
+    "pagePath": "games/3977-suona/"
+   },
+   {
+    "slug": "zampogna",
+    "name": "Zampogna",
+    "icon": "whg-zampogna-icon.png",
+    "pagePath": "games/10240-zampogna/"
+   },
+   {
+    "slug": "uilleann-pipes",
+    "name": "Uilleann pipes",
+    "icon": "whg-uilleann-pipes-icon.png",
+    "pagePath": "games/4258-uilleann-pipes/"
+   },
+   {
+    "slug": "galician-gaita",
+    "name": "Galician gaita",
+    "icon": "whg-galician-gaita-icon.png",
+    "pagePath": "games/2436-galician-gaita/"
+   },
+   {
+    "slug": "gaida",
+    "name": "Gaida",
+    "icon": "whg-gaida-icon.png",
+    "pagePath": "games/2423-gaida/"
+   },
+   {
+    "slug": "tulum",
+    "name": "Tulum",
+    "icon": "whg-tulum-icon.png",
+    "pagePath": "games/4230-tulum/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/reeds-and-pipes-of-the-world/",
+  "countryCount": 7
+ },
+ {
+  "bucket": "sails-and-canoes-of-the-world",
+  "short": "sails-and-canoes",
+  "status": "soon",
+  "package": "com.equalinformation.whg.sailsandcanoesoftheworld",
+  "name": "Sails & Canoes of the World",
+  "sub": "Seven sailing and paddling craft of the world. Seven countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can trim the sail, paddle in time and race traditional boats, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "jangada-sailing",
+    "name": "Jangada Sailing (Ceara fishing raft)",
+    "icon": "whg-jangada-sailing-icon.png",
+    "pagePath": "games/1413-jangada-sailing/"
+   },
+   {
+    "slug": "family-island-regatta",
+    "name": "Family Island Regatta",
+    "icon": "whg-family-island-regatta-icon.png",
+    "pagePath": "games/8179-family-island-regatta/"
+   },
+   {
+    "slug": "nile-felucca-sailing",
+    "name": "Nile Felucca Sailing",
+    "icon": "whg-nile-felucca-sailing-icon.png",
+    "pagePath": "games/216-nile-felucca-sailing/"
+   },
+   {
+    "slug": "hawaiian-outrigger-canoe-racing",
+    "name": "Hawaiian outrigger canoe racing",
+    "icon": "whg-hawaiian-outrigger-canoe-racing-icon.png",
+    "pagePath": "games/6388-hawaiian-outrigger-canoe-racing/"
+   },
+   {
+    "slug": "ice-canoe-race",
+    "name": "Ice Canoe Race (Course en canot a glace)",
+    "icon": "whg-ice-canoe-race-icon.png",
+    "pagePath": "games/1412-ice-canoe-race/"
+   },
+   {
+    "slug": "mokoro-polling",
+    "name": "Mokoro polling (Okavango dugout race)",
+    "icon": "whg-mokoro-polling-icon.png",
+    "pagePath": "games/1338-mokoro-polling/"
+   },
+   {
+    "slug": "ngalawa-outrigger-sailing",
+    "name": "Ngalawa outrigger sailing (Comoros)",
+    "icon": "whg-ngalawa-outrigger-sailing-icon.png",
+    "pagePath": "games/1259-ngalawa-outrigger-sailing/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/sails-and-canoes-of-the-world/",
+  "countryCount": 7
+ },
+ {
+  "bucket": "saris-and-shawls-of-the-world",
+  "short": "saris-and-shawls",
+  "status": "soon",
+  "package": "com.equalinformation.whg.sarisandshawlsoftheworld",
+  "name": "Saris & Shawls of the World",
+  "sub": "Eight games. One country. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can set the loom, throw the shuttle and weave borders and motifs into saris and shawls, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "maheshwari-saree",
+    "name": "Maheshwari saree",
+    "icon": "whg-maheshwari-saree-icon.png",
+    "pagePath": "games/10354-maheshwari-saree/"
+   },
+   {
+    "slug": "kullu-shawl-weaving",
+    "name": "Kullu shawl weaving",
+    "icon": "whg-kullu-shawl-weaving-icon.png",
+    "pagePath": "games/19700-kullu-shawl-weaving/"
+   },
+   {
+    "slug": "kanchipuram-silk-sari",
+    "name": "Kanchipuram Silk Sari",
+    "icon": "whg-kanchipuram-silk-sari-icon.png",
+    "pagePath": "games/5756-kanchipuram-silk-sari/"
+   },
+   {
+    "slug": "paithani",
+    "name": "Paithani",
+    "icon": "whg-paithani-icon.png",
+    "pagePath": "games/5759-paithani/"
+   },
+   {
+    "slug": "chanderi-sari",
+    "name": "Chanderi sari",
+    "icon": "whg-chanderi-sari-icon.png",
+    "pagePath": "games/1950-chanderi-sari/"
+   },
+   {
+    "slug": "baluchari-sari",
+    "name": "Baluchari Sari",
+    "icon": "whg-baluchari-sari-icon.png",
+    "pagePath": "games/5764-baluchari-sari/"
+   },
+   {
+    "slug": "mekhela-sador-weaving",
+    "name": "Mekhela sador weaving",
+    "icon": "whg-mekhela-sador-weaving-icon.png",
+    "pagePath": "games/21161-mekhela-sador-weaving/"
+   },
+   {
+    "slug": "banarasi-brocade",
+    "name": "Banarasi Brocade",
+    "icon": "whg-banarasi-brocade-icon.png",
+    "pagePath": "games/5758-banarasi-brocade/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/saris-and-shawls-of-the-world/",
+  "countryCount": 1
+ },
+ {
+  "bucket": "stitch-and-thread-of-the-world",
+  "short": "stitch-and-thread",
+  "status": "soon",
+  "package": "com.equalinformation.whg.stitchandthreadoftheworld",
+  "name": "Stitch & Thread of the World",
+  "sub": "Seven European embroidery and thread-work traditions. Six countries. One atlas of play.",
+  "text": "Each one has a short note on where it comes from and how it is played in the real world. You can count threads, choose silks, wools and cottons and stitch each traditional pattern onto the cloth, from long wool flames to quill, lace and white-on-white work, learn by watching a demonstration, and read the rules at any time. Try every game free for 90 seconds. One optional in-app purchase unlocks all of them for good. No ads, no subscription.",
+  "games": [
+   {
+    "slug": "bargello",
+    "name": "Bargello",
+    "icon": "whg-bargello-icon.png",
+    "pagePath": "games/1706-bargello/"
+   },
+   {
+    "slug": "matyo-embroidery",
+    "name": "Matyó embroidery",
+    "icon": "whg-matyo-embroidery-icon.png",
+    "pagePath": "games/5222-matyo-embroidery/"
+   },
+   {
+    "slug": "filet-lace",
+    "name": "Filet lace",
+    "icon": "whg-filet-lace-icon.png",
+    "pagePath": "games/2318-filet-lace/"
+   },
+   {
+    "slug": "federkielstickerei",
+    "name": "Federkielstickerei",
+    "icon": "whg-federkielstickerei-icon.png",
+    "pagePath": "games/14211-federkielstickerei/"
+   },
+   {
+    "slug": "assisi-embroidery",
+    "name": "Assisi embroidery",
+    "icon": "whg-assisi-embroidery-icon.png",
+    "pagePath": "games/1623-assisi-embroidery/"
+   },
+   {
+    "slug": "blackwork",
+    "name": "Blackwork",
+    "icon": "whg-blackwork-icon.png",
+    "pagePath": "games/10529-blackwork/"
+   },
+   {
+    "slug": "broderie-anglaise",
+    "name": "Broderie anglaise",
+    "icon": "whg-broderie-anglaise-icon.png",
+    "pagePath": "games/1847-broderie-anglaise/"
+   }
+  ],
+  "version": "1.0.0",
+  "appsPath": "apps/stitch-and-thread-of-the-world/",
+  "countryCount": 6
+ }
+]

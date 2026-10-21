@@ -1019,5 +1019,35 @@
       "&nbsp;&middot;&nbsp;",
       "<a href=\"support-globalmonetarysystems.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
     ]
+  },
+  {
+    "slug": "earthatlas",
+    "cardClass": "app-card nutrisize",
+    "order": 32,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-earth-atlas.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#127757;",
+    "titleHtml": "Earth Atlas: Picture Games",
+    "tag": {
+      "class": "beta",
+      "html": "v1.0.0 Android &mdash; In review on Google Play"
+    },
+    "descriptionHtml": "Geography games on real maps. See a country on its map and flag, a river&rsquo;s path or a mountain&rsquo;s country, then tap the city, animal, river, mountain, climate or neighbour that belongs to it. Eleven games: Capital Cities is free to play and each of the other ten is a one-time purchase, with no subscription. Every play draws fresh countries and animals from the whole world, or you can pick a continent. Optional quizzes and flashcards, text size up to 300%, five colour themes. Works offline.",
+    "platforms": [
+      {
+        "html": "<a href=\"https://equalinformation.com/earth-site/\" target=\"_blank\" rel=\"noopener\" class=\"platform-badge\" style=\"text-decoration: none; color: inherit;\">Web</a>"
+      },
+      {
+        "label": "Android &mdash; In review",
+        "attrs": "style=\"opacity: 0.85;\""
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"https://equalinformation.com/earth-site/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--accent-blue); text-decoration: none; font-weight: 600;\">The Earth Site &#8599;</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"privacy-earth-atlas.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-earth-atlas.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>"
+    ]
   }
 ]

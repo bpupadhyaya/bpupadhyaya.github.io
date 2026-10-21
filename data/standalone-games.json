@@ -298,14 +298,13 @@
     "bannerAlt": "Cricket Chase Deluxe: Floodlit chases with real ball physics",
     "banner": "assets/games/cricket-chase-deluxe-banner.jpg",
     "icon": "assets/games/cricket-chase-deluxe-icon.png",
-    "meta": "Cricket · iOS & Android",
+    "meta": "Cricket · Android",
     "description": "A premium night cricket game: a 60-situation Chase Table, batting and bowling, field setting, a daily chase, an eight-team cup, super overs, lessons and a coach, in a real-time 3D stadium with swing, spin, seam and wind.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823564303"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -326,14 +325,13 @@
     "bannerAlt": "Mahjong Deluxe: Riichi and Hong Kong mahjong, played like a pro",
     "banner": "assets/games/mahjong-deluxe-banner.jpg",
     "icon": "assets/games/mahjong-deluxe-icon.png",
-    "meta": "Tile game · iOS & Android",
+    "meta": "Tile game · Android",
     "description": "A full four-player mahjong table in real-time 3D: engraved tiles, a wall that builds in front of you, dice and a dealer compass. Choose Riichi (Japanese) or Hong Kong rules, play four computer levels from Beginner to Master, and learn with a coach that grades every discard and explains shape, waits and scoring in plain words. Lessons, a daily hand, unlimited practice puzzles, a scoring calculator, a fan and yaku reference, replays and Watch and Learn. Score only, no ads, works offline.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823578598"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -354,14 +352,13 @@
     "bannerAlt": "Backgammon Deluxe: Dice, strategy and nerve",
     "banner": "assets/games/backgammon-deluxe-banner.jpg",
     "icon": "assets/games/backgammon-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "A premium 3D backgammon table with the doubling cube, match play and the Turkish and Greek table games Tavla, Portes, Plakoto and Fevga. A strong computer opponent, a coach, lessons, puzzles and a World Tour.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823578697"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -382,14 +379,13 @@
     "bannerAlt": "Arcforge Mancala Deluxe: Oware and Kalah on a real 3D board",
     "banner": "assets/games/mancala-deluxe-banner.jpg",
     "icon": "assets/games/mancala-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "A premium 3D mancala with physical seeds on a carved wooden board, Oware and Kalah rule sets, a strong computer opponent, lessons, a puzzle campaign, a daily challenge, game review and heritage chapters.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714372"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -410,14 +406,13 @@
     "bannerAlt": "Arcforge Minesweeper Deluxe: Tactile 3D tiles. Logic that explains itself",
     "banner": "assets/games/minesweeper-deluxe-banner.jpg",
     "icon": "assets/games/minesweeper-deluxe-icon.png",
-    "meta": "Puzzle · iOS & Android",
+    "meta": "Puzzle · Android",
     "description": "A premium 3D minesweeper with boards that never need a guess, a coach that explains every deduction, five grids (square, hexagon, triangle, octagon and wrap-around), a 61-puzzle Deduction Academy, a daily challenge, records, trophies and six themes.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714516"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -494,14 +489,13 @@
     "bannerAlt": "Arcforge Snooker Deluxe: Snooker, 8-ball and 9-ball with real physics",
     "banner": "assets/games/snooker-deluxe-banner.jpg",
     "icon": "assets/games/snooker-deluxe-icon.png",
-    "meta": "Sports · iOS & Android",
+    "meta": "Sports · Android",
     "description": "A premium 3D cue-sports table: snooker (full-size and a short six-red game), 8-ball and 9-ball with true rules, spin and cushions modelled by a physics engine. Six computer opponents, a three-chapter campaign, 24 solved trick shots, drills, lessons, a daily challenge, Watch and Learn, trophies and statistics.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714811"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -522,14 +516,13 @@
     "bannerAlt": "Arcforge Reversi Deluxe: Glossy 3D discs and a genuinely hard opponent",
     "banner": "assets/games/reversi-deluxe-banner.jpg",
     "icon": "assets/games/reversi-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "The classic game of flipping discs in real-time 3D: two-sided discs that turn over in a rolling wave, rich board materials, eight computer levels with a top level that solves the ending perfectly, lessons, verified puzzles, named openings, a daily challenge and full game review with an evaluation graph. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714707"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -550,14 +543,13 @@
     "bannerAlt": "Arcforge Xiangqi Deluxe: Chinese chess in real-time 3D that teaches you to win",
     "banner": "assets/games/xiangqi-deluxe-banner.jpg",
     "icon": "assets/games/xiangqi-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "A real-time 3D Xiangqi board with carved men, eight computer levels, a coach that grades your moves, 14 lessons, a 90-puzzle campaign, a daily challenge, an opening trainer and full game review. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714761"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -578,14 +570,13 @@
     "bannerAlt": "Arcforge Shogi Deluxe: Japanese chess in 3D with a coach and 190 mating puzzles",
     "banner": "assets/games/shogi-deluxe-banner.jpg",
     "icon": "assets/games/shogi-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "Real-time 3D shogi with wedge-shaped wooden pieces on a kaya board, eight computer levels, sixteen hands-on lessons, 190 checkmate puzzles with a daily challenge, a castle and opening trainer, a coach that rates your moves and a full game review. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714733"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -606,14 +597,13 @@
     "bannerAlt": "Arcforge Checkers Deluxe: Four rule sets, real 3D, a strong engine",
     "banner": "assets/games/draughts-deluxe-banner.jpg",
     "icon": "assets/games/draughts-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "The complete draughts app: American Checkers, Russian, Brazilian and International Draughts played by their real rules on beautiful 3D boards, against a strong engine with eight levels. Learn with 22 interactive lessons, solve about 190 puzzles and a Daily Shot, explore openings with engine scores and review every game move by move. Offline, no ads, no account.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823714997"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -634,14 +624,13 @@
     "bannerAlt": "Arcforge Snakes Ladders Deluxe: The tabletop dice race",
     "banner": "assets/games/snakes-and-ladders-deluxe-banner.jpg",
     "icon": "assets/games/snakes-and-ladders-deluxe-icon.png",
-    "meta": "Board · iOS & Android",
+    "meta": "Board · Android",
     "description": "A premium 3D snakes and ladders table with tumbling dice, slithering snakes, charms, mystery squares, six computer personalities, a twelve-stop Journey, a daily race, foresight trials and an Almanac on the history of the game.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": "https://apps.apple.com/app/id6823715029"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -662,13 +651,13 @@
     "bannerAlt": "Hanoi Tower: Brass & Lacquer: the tower puzzle in 3D",
     "banner": "assets/games/hanoi-deluxe-banner.jpg",
     "icon": "assets/games/hanoi-deluxe-icon.png",
-    "meta": "Puzzle · iOS & Android",
+    "meta": "Puzzle · Android",
     "description": "The classic tower puzzle as a brass and lacquer object in 3D: 48 towers on three to five pegs, the Rail and Ring rules, 12 lessons on the mathematics, a daily tower, free build, exact Par for every puzzle and Auto Play that explains each move. Offline, no ads, no account.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -689,13 +678,13 @@
     "bannerAlt": "Huarong Gate: a lacquered 3D sliding-block puzzle with painted generals",
     "banner": "assets/games/huarong-gate-banner.jpg",
     "icon": "assets/games/huarong-gate-icon.png",
-    "meta": "Puzzle · iOS & Android",
+    "meta": "Puzzle · Android",
     "description": "The classic Huarong Road escape puzzle as a lacquered rosewood tray with painted generals, drawn in real-time 3D. Twelve chapters of 240 graded puzzles with a par proved by exhaustive search, eight lessons, a daily puzzle, Endless mode, hints that explain and Auto Play that thinks aloud. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon"
@@ -715,13 +704,13 @@
     "bannerAlt": "Kite Duel: two fighting kites cross their threads in a festival sky",
     "banner": "assets/games/kite-duel-deluxe-banner.jpg",
     "icon": "assets/games/kite-duel-deluxe-icon.png",
-    "meta": "Action · iOS & Android",
+    "meta": "Action · Android",
     "description": "A fighting-kite sim in six 3D festival skies. Real wind and gusts, a kite that is a real sail, a thread with tension, sag and wear, and crossings where angle, grit and the draw decide who is cut. Thirty bouts, eight lessons, a daily duel, a hangar of kites and threads, and Auto Play where a master explains each move. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon"
@@ -741,14 +730,13 @@
     "bannerAlt": "Cornhole Circuit: 3D Bag Toss: a bag-toss tournament from backyard to arena",
     "banner": "assets/games/cornhole-deluxe-banner.jpg",
     "icon": "assets/games/cornhole-deluxe-icon.png",
-    "meta": "Sports · iOS & Android",
+    "meta": "Sports · Android",
     "description": "A bag-toss tournament in real-time 3D: swipe to pitch at a real-size slanted board, climb a five-event circuit from a backyard cup to an arena final, play quick matches, lessons and a daily board, and watch Auto Play explain its moves.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": ""
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -769,13 +757,13 @@
     "bannerAlt": "Pocket Gridiron: QB Playbook: a 3D quarterback game about reading the defence",
     "banner": "assets/games/gridiron-deluxe-banner.jpg",
     "icon": "assets/games/gridiron-deluxe-icon.png",
-    "meta": "Sports · iOS & Android",
+    "meta": "Sports · Android",
     "description": "A quarterback game in real-time 3D: call plays from a 21-play playbook, read a defence that adapts to you, and throw with a bullet, standard or touch pass. A season, 44 challenges, a daily drive, a film room and Watch & Learn with a coach that explains every read. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon"
@@ -795,14 +783,13 @@
     "bannerAlt": "Top Clash: Spin Battle Arena: heritage tops battle in 3D stadiums",
     "banner": "assets/games/spinning-tops-deluxe-banner.jpg",
     "icon": "assets/games/spinning-tops-deluxe-icon.png",
-    "meta": "Arcade · iOS & Android",
+    "meta": "Arcade · Android",
     "description": "A spinning-top battle arena with real spin physics: wind the cord, aim and clash six heritage tops in three 3D stadiums, win eight-player cups, learn in eight lessons, build your own top in the garage and watch Auto Play explain every move.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": ""
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -823,14 +810,13 @@
     "bannerAlt": "Kendama Dojo: 3D Skill Toy: A 3D kendama with real string-and-ball physics",
     "banner": "assets/games/kendama-deluxe-banner.jpg",
     "icon": "assets/games/kendama-deluxe-icon.png",
-    "meta": "Skill toy · iOS & Android",
+    "meta": "Skill toy · Android",
     "description": "Lift the ball with a flick, slide a cup or the spike under it, and hold the catch. Thirty tricks in six belts, lessons, a timed Flow Run, a daily trick and Auto Play that explains its moves. A lifelike hand, lacquered ken and ball, three rooms.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": ""
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -851,13 +837,13 @@
     "bannerAlt": "Shinny Pond Hockey: Real-time 3D pond hockey you flick with one thumb",
     "banner": "assets/games/pond-hockey-deluxe-banner.jpg",
     "icon": "assets/games/pond-hockey-deluxe-icon.png",
-    "meta": "Sports · iOS & Android",
+    "meta": "Sports · Android",
     "description": "Skate a frozen pond in real-time 3D: one thumb steers, a swipe shoots, and the puck banks off snow and boulders. One-on-one or two-on-two against five computer levels, a 24-stop circuit across eight ponds, 24 skill drills, a daily shot, lessons and Auto Play.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -878,14 +864,13 @@
     "bannerAlt": "Gangline: Sled Dog Racing: lead a 3D dog team through a season of stage races",
     "banner": "assets/games/sled-dog-deluxe-banner.jpg",
     "icon": "assets/games/sled-dog-deluxe-icon.png",
-    "meta": "Sports · iOS & Android",
+    "meta": "Sports · Android",
     "description": "Lead a team of real 3D sled dogs through six stage races: set the gait, lean the sled through bends, choose a branch at forks and care for every dog at each checkpoint. Night stages under the aurora, a kennel and shop, Quick Race, a Daily Run, Musher School and Auto Play. Offline, no ads.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": ""
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -906,13 +891,13 @@
     "bannerAlt": "Marble & Thread: Tilt Maze: A wooden tilt labyrinth with a real rolling marble and a red thread",
     "banner": "assets/games/labyrinth-deluxe-banner.jpg",
     "icon": "assets/games/labyrinth-deluxe-icon.png",
-    "meta": "Tilt maze puzzle · iOS & Android",
+    "meta": "Tilt maze puzzle · Android",
     "description": "Roll a cobalt-and-gold marble through 48 lacquered-wood mazes with pits cut through the floor, ice, felt and a red thread that winds back when you retrace. Eight lessons, a daily board, free build with a seed, ghost runs of your fastest times and Auto Play that explains its plan.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -933,13 +918,13 @@
     "bannerAlt": "Pottery Deluxe: Wheel & Kiln: Throw, trim, glaze and fire real clay on a spinning wheel",
     "banner": "assets/games/pottery-deluxe-banner.jpg",
     "icon": "assets/games/pottery-deluxe-icon.png",
-    "meta": "Craft simulation · iOS & Android",
+    "meta": "Craft simulation · Android",
     "description": "A calm craft simulation. The clay is a real model of rings that keep their volume, so thinning a wall makes the pot grow and widening a belly makes it sink. Take commissions from clients, follow the dotted outline, trim, glaze and fire in the kiln, and keep your best pots on a shelf. Studio School, a daily commission and an Auto Play potter who explains every move are included.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -960,13 +945,13 @@
     "bannerAlt": "Origami Crease: Paper Studio: fold real paper in 3D",
     "banner": "assets/games/origami-deluxe-banner.jpg",
     "icon": "assets/games/origami-deluxe-icon.png",
-    "meta": "Craft · iOS & Android",
+    "meta": "Craft · Android",
     "description": "A paper folding studio with a real fold engine: six guided models up to reverse folds, a Studio that folds anything, twelve crease-pattern puzzles with a daily pattern, nine lessons, Auto Play that explains each fold, eight papers and four desks. Offline, no ads, no account.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -987,13 +972,13 @@
     "bannerAlt": "Sand & Net: Beach Volleyball: Swipe to serve, set and spike",
     "banner": "assets/games/volleyball-deluxe-banner.jpg",
     "icon": "assets/games/volleyball-deluxe-icon.png",
-    "meta": "Sport · iOS & Android",
+    "meta": "Sport · Android",
     "description": "Premium real-time 3D beach volleyball: aim serves and spikes with a swipe, time digs and blocks, climb a five-stop circuit, learn in the academy, play the daily challenge, Auto Play or two players on one screen.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -1014,13 +999,13 @@
     "bannerAlt": "Uprights: Rugby Kicker: read the wind, set the strike, hold your nerve",
     "banner": "assets/games/rugby-deluxe-banner.jpg",
     "icon": "assets/games/rugby-deluxe-icon.png",
-    "meta": "Rugby kicking sim · iOS & Android",
+    "meta": "Rugby kicking sim · Android",
     "description": "A 3D rugby kicking game with a real physics model: place kicks and drop goals in wind, rain and gusts. Read the flags, aim off the posts, choose the strike on the ball and hold your nerve. A six-cup career against rival kickers, thirty challenges, a daily set, ten lessons in Kicking School, and a Watch & Learn coach that plays and explains every kick. Offline, no ads, no account.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -1041,13 +1026,13 @@
     "bannerAlt": "Rink Master: Lawn Bowls: curve it, weigh it, draw to the jack",
     "banner": "assets/games/lawn-bowls-deluxe-banner.jpg",
     "icon": "assets/games/lawn-bowls-deluxe-icon.png",
-    "meta": "Sport · iOS & Android",
+    "meta": "Sport · Android",
     "description": "A premium bowling-green simulation: biased bowls with curved-path physics, line and weight control, six greens with their own pace and slope, a six-venue career against twelve bowlers, head puzzles, a daily challenge, lessons and a coach that explains every shot. Offline, no ads, no account.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -1068,13 +1053,13 @@
     "bannerAlt": "Bonsai Atelier: Prune & Shape: grow, prune and wire a living 3D bonsai",
     "banner": "assets/games/bonsai-deluxe-banner.jpg",
     "icon": "assets/games/bonsai-deluxe-icon.png",
-    "meta": "Craft simulation · iOS & Android",
+    "meta": "Craft simulation · Android",
     "description": "A calm workshop for training miniature trees. A maple, juniper or pine grows in real time in a lit 3D studio through the seasons. Cut, pinch and wire it toward one of seven classic styles, then show it to a judge who scores seven things and explains each. Twelve commissions, a free Studio, a Daily Tree, a Gallery with an exhibition room, and an Auto Play coach that explains every move. Offline, no ads, no account.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon"
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -1095,14 +1080,13 @@
     "bannerAlt": "Kubb Tour: 3D Lawn Game: topple the blocks, take the king",
     "banner": "assets/games/kubb-deluxe-banner.jpg",
     "icon": "assets/games/kubb-deluxe-icon.png",
-    "meta": "Sports · iOS & Android",
+    "meta": "Sports · Android",
     "description": "The Swedish lawn game in real-time 3D: pull and sweep to throw tumbling batons, topple the kubbs on a real-size lawn, throw your fallen kubbs back into the field and fell the king. A tour from an apple garden to a floodlit championship lawn, eight rivals, six lessons, a daily lawn and Auto Play that explains its moves.",
     "version": "1.0.0",
     "status": "soon",
     "stores": {
       "appStore": {
-        "status": "soon",
-        "url": ""
+        "status": "na"
       },
       "googlePlay": {
         "status": "soon",
@@ -1115,6 +1099,740 @@
     "demo": {
       "label": "Play the free browser demo",
       "href": "https://equalinformation.com/games-site/games/kubb-toss/play/"
+    }
+  },
+  {
+    "slug": "badmintondeluxe",
+    "title": "Shuttle Strike: 3D Badminton",
+    "bannerAlt": "Shuttle Strike: 3D Badminton",
+    "banner": "assets/games/badminton-deluxe-banner.jpg",
+    "icon": "assets/games/badminton-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Shuttle Strike is badminton you play with one finger. Your racket floats over a glowing ring on a lit court; the ring runs for the shuttle, and you decide every stroke with a swipe. Swipe long and smooth for a high clear, flick short for a drop, swipe fast overhead for a smash, tap to block. Aim by angling your swipe: a glowing arc shows where the shuttle will land before you let go. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/badminton-rally/play/"
+    }
+  },
+  {
+    "slug": "baseballdeluxe",
+    "title": "Longball Nights",
+    "bannerAlt": "Longball Nights",
+    "banner": "assets/games/baseball-deluxe-banner.jpg",
+    "icon": "assets/games/baseball-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Longball Nights is a real-time 3D batting game for your phone and tablet. A pitching machine on the mound, a bat in your hands, six ballparks under the lights, and a ball that flies the way real balls fly. There are no people in this game by design. The machine throws, you swing, and the stands are a glittering field of phone lights and floodlights. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/baseball-home-run-derby/play/"
+    }
+  },
+  {
+    "slug": "basketballdeluxe",
+    "title": "Swish Circuit: Hoop Shots",
+    "bannerAlt": "Swish Circuit: Hoop Shots",
+    "banner": "assets/games/basketball-deluxe-banner.jpg",
+    "icon": "assets/games/basketball-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "You are standing on a painted line with a ball in your hands and a hoop that does not care how you feel. Press, drag up, let go. The ball leaves your fingers with real spin, climbs, turns over and either whispers through the net or clangs off the iron. Swish Circuit is all of that and nothing else: a basketball shooting game built around one gesture and a ball that behaves. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "in-review"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/basketball-three-on-three/play/"
+    }
+  },
+  {
+    "slug": "bowlingdeluxe",
+    "title": "Pinfall League: 3D Bowling",
+    "bannerAlt": "Pinfall League: 3D Bowling",
+    "banner": "assets/games/bowling-deluxe-banner.jpg",
+    "icon": "assets/games/bowling-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Roll it the way the lane wants it rolled. Pinfall League is a bowling game built on a physics engine: the ball skids on oil, bites on dry wood and hooks into the pocket, and the pins lean, topple, slide and knock each other over. Ten-pin with true scoring: strikes, spares and the tenth frame, up to a perfect 300. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "in-review",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "in-review"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-20"
+  },
+  {
+    "slug": "crokinoledeluxe",
+    "title": "Maple Ring Crokinole",
+    "bannerAlt": "Maple Ring Crokinole",
+    "banner": "assets/games/crokinole-deluxe-banner.jpg",
+    "icon": "assets/games/crokinole-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Pull back, let go, and listen to the clack. Maple Ring is crokinole for the phone in your hand: a round maple board, eight brass pegs, and a small dark hole in the middle that is worth twenty. You flick wooden discs across the lacquer, knock your rival's discs into the ditch, and try to leave your own sitting pretty on the rings. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/crokinole-disc-flick/play/"
+    }
+  },
+  {
+    "slug": "crossworddeluxe",
+    "title": "Quillgrid Crosswords",
+    "bannerAlt": "Quillgrid Crosswords",
+    "banner": "assets/games/crossword-deluxe-banner.jpg",
+    "icon": "assets/games/crossword-deluxe-icon.png",
+    "meta": "Word · Android",
+    "description": "Quillgrid sets a fresh crossword every time you ask, and lays it out on a lit walnut desk where every letter is an ivory tile with some weight to it. TODAY - A daily puzzle that is the same for everyone, bigger as the week goes on, with a streak and a calendar of the last two weeks. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/crossword-grid-clues/play/"
+    }
+  },
+  {
+    "slug": "curlingdeluxe",
+    "title": "Pebble & Broom Curling",
+    "bannerAlt": "Pebble & Broom Curling",
+    "banner": "assets/games/curling-deluxe-banner.jpg",
+    "icon": "assets/games/curling-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Walk onto the ice. Pebble & Broom is a curling game built around the two things that make the sport: the line and weight you choose, and the sweeping that rescues it. Stones slide on pebbled ice, slow down, and curl more as they die. Brushing warms the pebble: a swept stone runs further and straighter. Every stone carries its own tiny quirk, so no two throws match. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/curling-stone-and-sweep/play/"
+    }
+  },
+  {
+    "slug": "footballdeluxe",
+    "title": "Top Bins: Free Kick Deluxe",
+    "bannerAlt": "Top Bins: Free Kick Deluxe",
+    "banner": "assets/games/football-deluxe-banner.jpg",
+    "icon": "assets/games/football-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Top Bins is a real-time 3D free kick and penalty game for your phone and tablet. Put a finger on the screen, swipe up, and bend the ball over the wall, past the keeper and into the top corner. Gravity, air drag and spin are simulated. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18"
+  },
+  {
+    "slug": "fourinarowdeluxe",
+    "title": "Rackline: Four in a Row",
+    "bannerAlt": "Rackline: Four in a Row",
+    "banner": "assets/games/four-in-a-row-deluxe-banner.jpg",
+    "icon": "assets/games/four-in-a-row-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Rackline is the classic game of dropping stones into a standing rack to line up four, made with real care: a real-time 3D rack, a computer opponent you can trust, and a full set of ways to learn. Eight computer levels from Sprout to Grandmaster, plus an Adaptive opponent that follows your rating. The strongest levels search deeply and then solve the ending perfectly. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18"
+  },
+  {
+    "slug": "halmadeluxe",
+    "title": "Starleap: Chinese Checkers",
+    "bannerAlt": "Starleap: Chinese Checkers",
+    "banner": "assets/games/halma-deluxe-banner.jpg",
+    "icon": "assets/games/halma-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Starleap is a table of glass marbles under a night sky, and one simple idea: jump. Step to the next hole, or hop over any marble beside you into the gap behind it, then hop again, and again, in the same turn. Line your marbles up with a hole between each and you have a ladder that carries a marble clear across the board. Your rivals can climb it too. Build it, use it, or break theirs. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/halma-hop-and-leap/play/"
+    }
+  },
+  {
+    "slug": "heartsdeluxe",
+    "title": "Hearts Royale: Card Table",
+    "bannerAlt": "Hearts Royale: Card Table",
+    "banner": "assets/games/hearts-deluxe-banner.jpg",
+    "icon": "assets/games/hearts-deluxe-icon.png",
+    "meta": "Card · Android",
+    "description": "Hearts Royale is the classic game of avoiding hearts and the Queen of Spades, dealt on a lit 3D card table with opponents that really think. Four players, 52 cards, one goal: take as few points as you can. Pass three cards, follow suit, duck the dangerous tricks, dump the Queen of Spades on someone else, and keep an eye out for a rival shooting the moon. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18"
+  },
+  {
+    "slug": "jigsawdeluxe",
+    "title": "Jigsaw Atelier",
+    "bannerAlt": "Jigsaw Atelier",
+    "banner": "assets/games/jigsaw-deluxe-banner.jpg",
+    "icon": "assets/games/jigsaw-deluxe-icon.png",
+    "meta": "Puzzle · Android",
+    "description": "Jigsaw Atelier is a jigsaw studio for people who love a calm, beautiful puzzle. Real 3D pieces lie on a lit wooden table, every picture is painted fresh for you, and nothing ever interrupts the quiet: no ads, no accounts, no tracking, and it works fully offline. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18"
+  },
+  {
+    "slug": "junglechessdeluxe",
+    "title": "Rat & Elephant: Jungle Chess",
+    "bannerAlt": "Rat & Elephant: Jungle Chess",
+    "banner": "assets/games/jungle-chess-deluxe-banner.jpg",
+    "icon": "assets/games/jungle-chess-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Rat & Elephant is Jungle (Dou Shou Qi), the animal-rank board game where the smallest creature can topple the largest, made with care for your phone or tablet. Eight carved animals a side, two rivers, rune traps and a den to reach: simple to learn, deep to master. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/jungle-animal-chess/play/"
+    }
+  },
+  {
+    "slug": "ninemensmorrisdeluxe",
+    "title": "Millstone Morris",
+    "bannerAlt": "Millstone Morris",
+    "banner": "assets/games/nine-mens-morris-deluxe-banner.jpg",
+    "icon": "assets/games/nine-mens-morris-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Millstone Morris is the family of mill games on a board you want to touch: Three, Six, Nine and Twelve Men's Morris, played with carved men shaped like small millstones on walnut, slate, oak or marble, with brass inlay and warm light. Play any of the four games against six computer opponents, from a Novice that overlooks threats to a Grandmaster that is hard to trick. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/mill-nine-mens-morris/play/"
+    }
+  },
+  {
+    "slug": "nonogramdeluxe",
+    "title": "Gridlight: Picture Logic",
+    "bannerAlt": "Gridlight: Picture Logic",
+    "banner": "assets/games/nonogram-deluxe-banner.jpg",
+    "icon": "assets/games/nonogram-deluxe-icon.png",
+    "meta": "Puzzle · Android",
+    "description": "Gridlight turns number clues into pictures. Read the numbers beside each row and column, decide which cells belong, and fill them in. Finish, and the flat grid does something no paper puzzle can: the picture lifts out of its tray as a relief of lit glass, and you can turn it with a finger. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/nonogram-picture-grid/play/"
+    }
+  },
+  {
+    "slug": "okeydeluxe",
+    "title": "Okey Lounge: 3D Tile Rummy",
+    "bannerAlt": "Okey Lounge: 3D Tile Rummy",
+    "banner": "assets/games/okey-deluxe-banner.jpg",
+    "icon": "assets/games/okey-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Okey is the tile game of Turkish homes and tea houses: four players, 106 tiles, and one wild tile that changes every deal. Okey Lounge sets the table in real 3D and teaches you to play it well. Three computer players sit around a cloth with a hand-drawn medallion. Tiles are lit, bevelled and tumble when they are dealt. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/okey-tile-rummy-offline/play/"
+    }
+  },
+  {
+    "slug": "pegsolitairedeluxe",
+    "title": "Peg Solitaire Salon",
+    "bannerAlt": "Peg Solitaire Salon",
+    "banner": "assets/games/peg-solitaire-deluxe-banner.jpg",
+    "icon": "assets/games/peg-solitaire-deluxe-icon.png",
+    "meta": "Puzzle · Android",
+    "description": "Peg Solitaire Salon is the old jumping puzzle set on a table you want to touch. A warm lamp, a carved plate lined with brass, turned pegs of wood, polished brass or blown glass that leap over their neighbours with real weight, and a brass-and-felt tray that catches every peg you capture. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/peg-solitaire-board/play/"
+    }
+  },
+  {
+    "slug": "scopadeluxe",
+    "title": "Scopa Salotto Deluxe",
+    "bannerAlt": "Scopa Salotto Deluxe",
+    "banner": "assets/games/scopa-deluxe-banner.jpg",
+    "icon": "assets/games/scopa-deluxe-icon.png",
+    "meta": "Card · Android",
+    "description": "Scopa Salotto Deluxe brings the Italian card game of sweeping the table to your phone with care: real-time 3D cards on a lamp-lit table, a computer opponent that really counts cards, and everything you need to learn and improve. Two, three or four players, with partnerships in the four-player game. - Scopone Scientifico, the classic partnership game with the whole pack dealt out. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/scopa-delle-regioni/play/"
+    }
+  },
+  {
+    "slug": "sheepdogdeluxe",
+    "title": "Shepherd's Whistle",
+    "bannerAlt": "Shepherd's Whistle",
+    "banner": "assets/games/sheepdog-deluxe-banner.jpg",
+    "icon": "assets/games/sheepdog-deluxe-icon.png",
+    "meta": "Simulation · Android",
+    "description": "Shepherd's Whistle puts you in the paws of a border collie on five hill farms, from spring pasture to snowbound fells. Drag a thumb to steer, creep, trot or gallop, and use four tools: a shoving bark, a steadying whistle, the hard stare called eye, and lie down to rest. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/sheepdog-trial-herd/play/"
+    }
+  },
+  {
+    "slug": "shuttheboxdeluxe",
+    "title": "Clatterbox: Shut the Box",
+    "bannerAlt": "Clatterbox: Shut the Box",
+    "banner": "assets/games/shut-the-box-deluxe-banner.jpg",
+    "icon": "assets/games/shut-the-box-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Clatterbox is a shut-the-box game made with care: a walnut case of hinged ivory tiles, a felt tray, and a pair of dice that really tumble. Roll, shut the tiles that add up to your total, and keep going until nothing fits. Fewer points left open is better, and shutting the whole box is the prize. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/shut-the-box-tiles/play/"
+    }
+  },
+  {
+    "slug": "skijumpdeluxe",
+    "title": "Aurora Ski Jump",
+    "bannerAlt": "Aurora Ski Jump",
+    "banner": "assets/games/ski-jump-deluxe-banner.jpg",
+    "icon": "assets/games/ski-jump-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Aurora Ski Jump is a ski jumping game built on a real flight model. Gravity, snow friction, lift, drag, wind and gusts decide every metre, and one finger flies the whole jump. Hold to crouch down the ice track. Flick upward on the beat at the edge. In the air, drag up for a steeper angle and sideways to keep the skis level. Tap in the last half second for the telemark. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/ski-jump-fjord/play/"
+    }
+  },
+  {
+    "slug": "soapboxdeluxe",
+    "title": "Soapbox Rally: Downhill Racing",
+    "bannerAlt": "Soapbox Rally: Downhill Racing",
+    "banner": "assets/games/soapbox-deluxe-banner.jpg",
+    "icon": "assets/games/soapbox-deluxe-icon.png",
+    "meta": "Racing · Android",
+    "description": "Soapbox Rally is a premium downhill racing game with no engine at all. Your speed comes from the hill, and every bend, surface and setup choice decides how fast you finish. Drive with one thumb. Slide left and right to steer, slide down to brake, hold still on the straights and the kart tucks in for speed. A fast, honest physics model gives each kart real weight, tyre grip and slide. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/billycart-derby/play/"
+    }
+  },
+  {
+    "slug": "surfdeluxe",
+    "title": "Offshore: Surf Contest Tour",
+    "bannerAlt": "Offshore: Surf Contest Tour",
+    "banner": "assets/games/surf-deluxe-banner.jpg",
+    "icon": "assets/games/surf-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Offshore is a surf contest tour in a live 3D ocean. Ride twelve of the world's most famous waves, face three rivals in every heat, and let five judges decide who goes through. Drag your thumb to carve the face. Draw S-turns to pump for speed, snap off the lip, cut back to the foam, launch airs and spin them, and slot into the tube when a bowl stands the wave up. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/wave-riding/play/"
+    }
+  },
+  {
+    "slug": "tabletennisdeluxe",
+    "title": "Spin Circuit Table Tennis",
+    "bannerAlt": "Spin Circuit Table Tennis",
+    "banner": "assets/games/table-tennis-deluxe-banner.jpg",
+    "icon": "assets/games/table-tennis-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Spin Circuit is table tennis built around one gesture: the swipe. Let the ball bounce, swipe up the screen, and your paddle meets it. How fast you swipe picks the stroke, which way you lean aims it, and a bow in your swipe puts sidespin on the ball. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/table-tennis-rally/play/"
+    }
+  },
+  {
+    "slug": "tafldeluxe",
+    "title": "Hnefatafl: The King's Hall",
+    "bannerAlt": "Hnefatafl: The King's Hall",
+    "banner": "assets/games/tafl-deluxe-banner.jpg",
+    "icon": "assets/games/tafl-deluxe-icon.png",
+    "meta": "Board · Android",
+    "description": "Pull up a bench in the king's hall. Hnefatafl is the old Norse game of the hunted king: a small band of defenders and their king against twice as many attackers, played on a carved board by candlelight. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/kings-table-tafl/play/"
+    }
+  },
+  {
+    "slug": "tangramdeluxe",
+    "title": "Tangram Atelier: Wood & Glass",
+    "bannerAlt": "Tangram Atelier: Wood & Glass",
+    "banner": "assets/games/tangram-deluxe-banner.jpg",
+    "icon": "assets/games/tangram-deluxe-icon.png",
+    "meta": "Puzzle · Android",
+    "description": "Tangram Atelier is a quiet workshop for dissection puzzles. A walnut table, a cream cutting board with a figure cut into it, and a set of pieces you can really feel: pale maple, dark ebony, jewel glass, soft felt or glossy lacquer. Fill the dark figure so nothing overlaps and nothing is left over. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/tangram-seven-pieces/play/"
+    }
+  },
+  {
+    "slug": "tennisdeluxe",
+    "title": "Topspin Tennis Deluxe 3D",
+    "bannerAlt": "Topspin Tennis Deluxe 3D",
+    "banner": "assets/games/tennis-deluxe-banner.jpg",
+    "icon": "assets/games/tennis-deluxe-icon.png",
+    "meta": "Sports · Android",
+    "description": "Real-time 3D tennis for your phone or tablet, built around one idea: the ball does what a ball really does. Every shot is simulated. Air drag slows it, spin bends it, topspin dips and kicks, slice stays low and skids, and the bounce depends on the court under it. Play hard court, slow red clay, fast grass or indoor carpet and feel four different games. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-arcforge.html",
+    "privacyHref": "privacy-arcforge.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/tennis-court-rally/play/"
+    }
+  },
+  {
+    "slug": "bullsandcowsdeluxe",
+    "title": "Brasslock: Crack the Code",
+    "bannerAlt": "Brasslock: Crack the Code",
+    "banner": "assets/games/bulls-and-cows-code-deluxe-banner.jpg",
+    "icon": "assets/games/bulls-and-cows-code-deluxe-icon.png",
+    "meta": "Puzzle · Android",
+    "description": "Brasslock is the classic code-breaking game, also known as Bulls and Cows, built as a heavy brass cryptex on a leather desk. Turn the dials to set your guess, press Try, and read the answer in studs: gold for a right symbol in the right place, silver for a right symbol in the wrong place. Crack the sealed code before the ledger runs out. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-bullsandcowsdeluxe.html",
+    "privacyHref": "privacy-bullsandcowsdeluxe.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/bulls-and-cows-code/play/"
+    }
+  },
+  {
+    "slug": "sorobandeluxe",
+    "title": "Soroban Dojo: Abacus Mind",
+    "bannerAlt": "Soroban Dojo: Abacus Mind",
+    "banner": "assets/games/abacus-soroban-deluxe-banner.jpg",
+    "icon": "assets/games/abacus-soroban-deluxe-icon.png",
+    "meta": "Educational · Android",
+    "description": "Soroban Dojo is a training hall for the Japanese soroban and the Chinese suanpan. A real-time 3D abacus of lacquered beads on a rosewood frame sits in front of you; drag a bead to the beam to count it, away to release it, and hear it click. No ads, works offline. Free preview, then a one-time unlock.",
+    "version": "1.0.0",
+    "status": "soon",
+    "stores": {
+      "appStore": {
+        "status": "na"
+      },
+      "googlePlay": {
+        "status": "soon"
+      }
+    },
+    "supportHref": "app-support-sorobandeluxe.html",
+    "privacyHref": "privacy-sorobandeluxe.html",
+    "date": "2026-10-18",
+    "demo": {
+      "label": "Play the free browser demo",
+      "href": "https://equalinformation.com/games-site/games/abacus-soroban-beads/play/"
     }
   }
 ]
