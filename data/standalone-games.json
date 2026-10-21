@@ -105,14 +105,14 @@
     "meta": "Card · iOS & Android",
     "description": "Six solitaire games in real 3D: Klondike, Spider, FreeCell, Pyramid, TriPeaks and Golf, with winnable deals, hints that explain themselves, unlimited undo, daily deals and big-print, left-handed and one-hand comfort settings.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823536901"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.solitairedeluxe.app"
       }
     },
@@ -133,14 +133,14 @@
     "meta": "Board · iOS & Android",
     "description": "A real-time 3D carrom board with a physics engine written from scratch: powder friction, rebounds and spin. Full international rules, five computer levels plus Adaptive, twenty lessons, a ten stage campaign, daily challenge, doubles and pass and play, replay, and boards, powders, coins and strikers to unlock. Offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823550629"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.carromdeluxe.app"
       }
     },
@@ -189,14 +189,14 @@
     "meta": "Domino games · iOS & Android",
     "description": "Cuban Partners, Doble Nueve, Block, Draw, All Fives, Mexican Train and Chicken Foot, each with its own rules page, against computer opponents at five levels plus Adaptive that remember every tile and read every pass. Ivory, ebony or rosewood tiles on felt, walnut or marble, hints with reasons, a live coach, ten lessons, Watch & Learn, a daily challenge and statistics. Works offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823550961"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.dominoesdeluxe.app"
       }
     },
@@ -217,14 +217,14 @@
     "meta": "Board · iOS & Android",
     "description": "A teaching-first Go with a 3D kaya board, ten computer levels, twelve lessons, over 150 life-and-death problems, a daily problem and game review. No ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823563990"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.godeluxe.app"
       }
     },
@@ -245,14 +245,14 @@
     "meta": "Board · iOS & Android",
     "description": "A real-time 3D chess board with carved pieces, ten computer levels, a coach that explains your mistakes, 36 lessons, hundreds of rated puzzles, a daily puzzle and a full game review. Offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823564144"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.chessdeluxe.app"
       }
     },
@@ -273,14 +273,14 @@
     "meta": "Family board game · iOS & Android",
     "description": "Roll real dice out of a leather cup onto a lit 3D board and race glossy tokens around the cross. Three classic games in one app (Ludo, Pachisi with cowrie shells and Royal Cross with two dice), computer players with four levels and five personalities, nine lessons, Watch & Learn, a Cup, a League season, a Daily Challenge and 28 trophies. Works offline, no ads.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "soon",
         "url": "https://apps.apple.com/app/id6823563926"
       },
       "googlePlay": {
-        "status": "in-review",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.ludodeluxe.app"
       }
     },
