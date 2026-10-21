@@ -222,7 +222,7 @@
     "slug": "madhubani-art",
     "name": "Madhubani art",
     "icon": "whg-madhubani-art-icon.png",
-    "pagePath": null
+    "pagePath": "games/3074-madhubani-art/"
    },
    {
     "slug": "petrykivka-painting",
@@ -810,13 +810,13 @@
     "slug": "biwa",
     "name": "Biwa",
     "icon": "whg-biwa-icon.png",
-    "pagePath": null
+    "pagePath": "games/1787-biwa/"
    },
    {
     "slug": "shamisen",
     "name": "Shamisen",
     "icon": "whg-shamisen-icon.png",
-    "pagePath": null
+    "pagePath": "games/3786-shamisen/"
    },
    {
     "slug": "sanshin",
@@ -828,19 +828,19 @@
     "slug": "an-nguyet",
     "name": "Đàn nguyệt",
     "icon": "whg-an-nguyet-icon.png",
-    "pagePath": null
+    "pagePath": "games/1567-an-nguyet/"
    },
    {
     "slug": "hasapi",
     "name": "Hasapi",
     "icon": "whg-hasapi-icon.png",
-    "pagePath": null
+    "pagePath": "games/2603-hasapi/"
    },
    {
     "slug": "phin",
     "name": "Phin",
     "icon": "whg-phin-icon.png",
-    "pagePath": null
+    "pagePath": "games/3454-phin/"
    },
    {
     "slug": "gambus",
@@ -1492,7 +1492,7 @@
     "slug": "kissar",
     "name": "Kissar",
     "icon": "whg-kissar-icon.png",
-    "pagePath": null
+    "pagePath": "games/2889-kissar/"
    },
    {
     "slug": "nyatiti-luo-lyre",
@@ -1504,19 +1504,19 @@
     "slug": "litungu",
     "name": "Litungu",
     "icon": "whg-litungu-icon.png",
-    "pagePath": null
+    "pagePath": "games/3039-litungu/"
    },
    {
     "slug": "obokano",
     "name": "Obokano",
     "icon": "whg-obokano-icon.png",
-    "pagePath": null
+    "pagePath": "games/3292-obokano/"
    },
    {
     "slug": "lyre",
     "name": "Lyre",
     "icon": "whg-lyre-icon.png",
-    "pagePath": null
+    "pagePath": "games/3064-lyre/"
    }
   ],
   "version": "1.0.0",
@@ -1592,7 +1592,7 @@
     "slug": "nantucket-lightship-basket",
     "name": "Nantucket lightship basket",
     "icon": "whg-nantucket-lightship-basket-icon.png",
-    "pagePath": null
+    "pagePath": "games/3230-nantucket-lightship-basket/"
    },
    {
     "slug": "vannerie-sur-arceaux",
@@ -1604,7 +1604,7 @@
     "slug": "pack-basket",
     "name": "Pack basket",
     "icon": "whg-pack-basket-icon.png",
-    "pagePath": null
+    "pagePath": "games/3355-pack-basket/"
    },
    {
     "slug": "maonan-flower-bamboo-hat",
@@ -1636,7 +1636,7 @@
     "slug": "kasuti",
     "name": "Kasuti",
     "icon": "whg-kasuti-icon.png",
-    "pagePath": null
+    "pagePath": "games/2823-kasuti/"
    },
    {
     "slug": "kutch-embroidery",
@@ -1666,7 +1666,7 @@
     "slug": "pipili-applique-work",
     "name": "Pipili appliqué work",
     "icon": "whg-pipili-applique-work-icon.png",
-    "pagePath": null
+    "pagePath": "games/3483-pipili-applique-work/"
    }
   ],
   "version": "1.0.0",
@@ -1742,13 +1742,13 @@
     "slug": "hex-sign",
     "name": "Hex sign",
     "icon": "whg-hex-sign-icon.png",
-    "pagePath": null
+    "pagePath": "games/2619-hex-sign/"
    },
    {
     "slug": "zhostovo-painting",
     "name": "Zhostovo painting",
     "icon": "whg-zhostovo-painting-icon.png",
-    "pagePath": null
+    "pagePath": "games/4460-zhostovo-painting/"
    },
    {
     "slug": "cicmany-house-ornament-painting",
@@ -1766,7 +1766,7 @@
     "slug": "screen-painting",
     "name": "Screen painting",
     "icon": "whg-screen-painting-icon.png",
-    "pagePath": null
+    "pagePath": "games/3759-screen-painting/"
    },
    {
     "slug": "malarstwo-zalipia",
