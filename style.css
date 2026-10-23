@@ -1515,6 +1515,52 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 @media (max-width: 520px) { .whg-instr { grid-template-columns: repeat(4, 1fr); gap: 8px; } .whg-instr img { width: 44px; height: 44px; } .whg-instr a { font-size: 10.5px; } }
 .store-btn.review small { display: block; }
 
+
+/* ─── The Games Room module: its own warm lamp-lit look (walnut, brass, ivory), not the heritage-games blue ─── */
+.tgr-hero { margin-top: 40px; border-radius: 28px; position: relative; overflow: hidden; padding: 52px 56px 48px;
+    display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 40px; align-items: center;
+    background: radial-gradient(640px 380px at 86% -6%, rgba(240,184,92,0.26), transparent 62%),
+        radial-gradient(520px 420px at 4% 112%, rgba(120,70,30,0.30), transparent 64%),
+        linear-gradient(160deg, #1d140b 0%, #130d07 55%, #0b0805 100%);
+    border: 1px solid rgba(214,174,92,0.42); box-shadow: 0 34px 90px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,226,160,0.14); color: #eadfc6; }
+.tgr-hero::before { content: ""; position: absolute; inset: 10px; border-radius: 20px; border: 1px solid rgba(214,174,92,0.16); pointer-events: none; }
+.tgr-brand { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
+.tgr-brand img { width: 56px; height: 56px; border-radius: 50%; box-shadow: 0 0 0 2px #d9a846, 0 8px 18px rgba(0,0,0,0.6); }
+/* premium 3D lettering to match the G emblem: polished gold face (bright top, deep amber base, thin highlight) over a stepped bronze extrusion and a soft ground shadow */
+.tgr-brand b, .tgr-brand i, .tgr-title { display: block; color: transparent; -webkit-background-clip: text; background-clip: text; width: fit-content; padding: 0 0.12em 0.2em 0; }
+.tgr-brand b { font: 800 17px/1.15 Georgia, "Iowan Old Style", serif; letter-spacing: 0.24em;
+    background-image: linear-gradient(180deg, #fff0b8 0%, #f1c660 38%, #d79a34 62%, #a56a1c 100%); filter: drop-shadow(0.0097em 0.0138em 0 rgb(150,99,33)) drop-shadow(0.0193em 0.0276em 0 rgb(132,86,28)) drop-shadow(0.0290em 0.0414em 0 rgb(115,73,23)) drop-shadow(0.0386em 0.0552em 0 rgb(97,60,18)) drop-shadow(0.0483em 0.0690em 0 rgb(80,48,14)) drop-shadow(0 0.1em 0.06em rgba(0,0,0,0.5)); }
+.tgr-brand i { margin-top: 4px; font: 700 11.5px/1.3 Georgia, serif; letter-spacing: 0.38em; text-transform: uppercase; font-style: normal;
+    background-image: linear-gradient(180deg, #f6dd98 0%, #d9a548 55%, #a8721f 100%); filter: drop-shadow(0.0097em 0.0138em 0 rgb(150,99,33)) drop-shadow(0.0193em 0.0276em 0 rgb(132,86,28)) drop-shadow(0.0290em 0.0414em 0 rgb(115,73,23)) drop-shadow(0.0386em 0.0552em 0 rgb(97,60,18)) drop-shadow(0.0483em 0.0690em 0 rgb(80,48,14)) drop-shadow(0 0.1em 0.06em rgba(0,0,0,0.5)); }
+.tgr-title { margin: 0; display: flex; align-items: center; gap: 16px; width: auto; padding: 0; color: inherit; background: none; filter: none; font: 800 clamp(34px, 4.6vw, 58px)/1.1 Georgia, "Iowan Old Style", "Palatino Linotype", serif; letter-spacing: 0.01em; }
+.tgr-title .tgr-appicon { width: 72px; height: 72px; flex: none; filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5)); }
+.tgr-title .tgr-t3d { display: block; color: transparent; -webkit-background-clip: text; background-clip: text; padding: 0 0.12em 0.22em 0;
+    background-image: linear-gradient(180deg, #fff2c0 0%, #f3c867 30%, #d99a30 58%, #a96a1b 100%); filter: drop-shadow(0.0051em 0.0085em 0 rgb(173,116,39)) drop-shadow(0.0102em 0.0170em 0 rgb(157,104,34)) drop-shadow(0.0153em 0.0255em 0 rgb(141,92,30)) drop-shadow(0.0204em 0.0340em 0 rgb(124,80,25)) drop-shadow(0.0255em 0.0425em 0 rgb(108,68,20)) drop-shadow(0.0306em 0.0510em 0 rgb(92,56,16)) drop-shadow(0 0.07em 0.06em rgba(0,0,0,0.55)); }
+.tgr-sub { margin: 14px 0 0; font: italic 400 clamp(18px, 2vw, 24px)/1.35 Georgia, serif; color: #f1e3c0; }
+.tgr-meta { margin: 12px 0 0; font-size: 15px; color: #bda98a; }
+.tgr-actions { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; align-items: stretch; }
+.tgr-soon { display: flex; flex-direction: column; justify-content: center; padding: 9px 20px; border-radius: 999px; border: 1px dashed rgba(214,174,92,0.6); background: rgba(0,0,0,0.3); font-weight: 700; line-height: 1.15; color: #f1e3c0; }
+.tgr-soon small { font-size: 10.5px; letter-spacing: 0.06em; color: #d6ae5c; font-weight: 600; }
+.tgr-btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 999px; font-weight: 800; text-decoration: none; color: #1c1209;
+    background: linear-gradient(180deg, #f3d98f, #d6a84a); box-shadow: 0 8px 20px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.4); transition: transform .15s, box-shadow .15s; }
+.tgr-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.4); }
+.tgr-text { margin: 22px 0 0; max-width: 44rem; font-size: 16.5px; line-height: 1.65; color: #d8ccb2; }
+.tgr-links { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.tgr-links a { color: #e6c77a; text-decoration: none; font-weight: 600; font-size: 14.5px; border-bottom: 1px solid rgba(230,199,122,0.3); }
+.tgr-links a:hover { color: #fbe9b4; border-bottom-color: #fbe9b4; }
+.tgr-art { position: relative; min-height: 460px; }
+.tgr-art img { position: absolute; width: 46%; height: auto; border-radius: 26px; border: 5px solid #160f08; outline: 1px solid rgba(214,174,92,0.55); box-shadow: 0 26px 50px rgba(0,0,0,0.65); }
+.tgr-art .a1 { left: 0; top: 46px; transform: rotate(-6deg); }
+.tgr-art .a2 { left: 26%; top: 0; z-index: 2; transform: none; width: 48%; }
+.tgr-art .a3 { right: 0; top: 56px; transform: rotate(6deg); }
+@media (max-width: 960px) {
+    .tgr-hero { grid-template-columns: 1fr; padding: 34px 22px 32px; gap: 24px; border-radius: 24px; }
+    .tgr-art { order: -1; min-height: 0; aspect-ratio: 5 / 4; overflow: hidden; }
+    .tgr-art img { width: 30%; }
+    .tgr-art .a1 { left: 12%; top: 10%; } .tgr-art .a2 { left: 35%; top: 2%; width: 30%; } .tgr-art .a3 { right: 12%; top: 10%; }
+}
+@media (prefers-reduced-motion: reduce) { .tgr-btn { transition: none; } .tgr-btn:hover { transform: none; } }
+
 /* home page: the collection modules (Arcforge + one per heritage set) are a paginated list */
 .collections-grid { display: block; }
 .collections-grid > :first-child { margin-top: 0; }
