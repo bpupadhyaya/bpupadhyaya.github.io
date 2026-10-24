@@ -46,7 +46,7 @@ pages were changed and which were intentionally skipped. Ask only about directio
 ## 6. EqualInformation main-site brand (owner-approved 2026-10-04) — equalinformation.com header/footer
 - Theme: navy gradient with crimson glow + thin crimson→blue hairline (colours taken from the original company logo).
   Arcforge violet/teal must NOT be used on the main site (that look is only for Arcforge surfaces).
-- Logo: `os/bpupadhyaya.github.io/assets/ei-logo.svg` — flat lotus (pink petals, gold centre, green leaves; dahlia was tried first; replaced the 3D leaves 2026-10-24, old version in git history) (was: three realistic folded 3D leaves (fall scarlet red ×2 + hydrangea
+- Logo: `os/bpupadhyaya.github.io/assets/ei-logo.svg` — flat blossom (pink petals, gold stamens, green leaves; dahlia and lotus were tried first; replaced the 3D leaves 2026-10-24, old version in git history) (was: three realistic folded 3D leaves (fall scarlet red ×2 + hydrangea
   blue) on an embossed ivory tile. Applied through CSS `.nav-logo-icon` (one file, all pages).
 - Wordmark: "Equal" rose/rhododendron red + "Information" hospital blue, tagline "GLOBAL INFORMATION HUB" with GLOBAL green,
   INFORMATION blue, HUB gold. Markup is `.ei-word > .t3` spans duplicated in every page's nav (script-replace like the menu
