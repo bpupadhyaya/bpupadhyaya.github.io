@@ -530,7 +530,7 @@ footer .footer-copy { color: #9aa7d0; }
 footer .footer-copy .highlight { color: #e7707d; }
 .nav-logo { gap: 12px; font-weight: 400; letter-spacing: 0; }
 .nav-logo-icon {
-    width: 48px; height: 48px; border-radius: 0; box-shadow: none; flex: none;
+    width: 73px; height: 48px; border-radius: 0; box-shadow: none; flex: none; /* photo logo is 448x296 (1.51:1) */
     background: url(assets/ei-logo.svg) center / contain no-repeat;
     filter: drop-shadow(0 4px 10px rgba(0,0,0,0.45));
 }
