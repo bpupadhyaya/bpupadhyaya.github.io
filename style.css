@@ -1616,3 +1616,44 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .whg-instr .whg-item { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 4px 8px; border-radius: 16px; text-align: center; background: rgba(255,255,255,0.06); border: 1px solid rgba(232,185,74,0.28); color: #f4f1e4; font-size: 12px; font-weight: 600; }
 .whg-noicon { display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(160deg, #4a3a2a, #2a2018); color: #e8c872; font: 700 24px/1 Georgia, 'Times New Roman', serif; box-shadow: 0 8px 18px rgba(0,0,0,.55), 0 0 14px rgba(255,214,140,.18); }
 @media (max-width: 520px) { .whg-noicon { width: 44px; height: 44px; font-size: 19px; } }
+
+/* ─── Breezy module: Breezy's own honey / cream / amber look (breezy-site palette), light and sunny, not the dark games cards ─── */
+.brz-hero { margin-top: 40px; border-radius: 28px; position: relative; overflow: hidden; padding: 48px 52px 44px;
+    display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 36px; align-items: center;
+    background: radial-gradient(560px 360px at 90% -8%, rgba(255,201,51,0.55), transparent 62%),
+        radial-gradient(480px 380px at 0% 112%, rgba(143,216,255,0.40), transparent 64%),
+        linear-gradient(160deg, #fff7dc 0%, #ffedb8 100%);
+    border: 2px solid #ffc933; box-shadow: 0 30px 70px rgba(110,60,0,0.30), inset 0 0 0 4px rgba(255,255,255,0.65); color: #4a2500;
+    font-family: "Baloo 2", ui-rounded, "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif; }
+.brz-brand { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.brz-dot { width: 18px; height: 18px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffe27a, #ff9f1a); box-shadow: 0 2px 0 rgba(120,55,0,0.35); }
+.brz-brand b { font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: 0.02em; color: #4a2500; }
+.brz-brand b, .brz-brand i, .brz-title, .brz-sub, .brz-meta, .brz-soon, .brz-btn, .brz-games a, .brz-links a { font-family: inherit; }
+.brz-brand i { font-weight: 700; font-size: 13px; line-height: 1.2; font-style: normal; color: #7d5326; letter-spacing: 0.04em; }
+.brz-title { margin: 0; font-weight: 800; font-size: clamp(34px, 4.6vw, 56px); line-height: 1.04; color: #4a2500; }
+.brz-sub { margin: 14px 0 0; font-size: clamp(17px, 1.8vw, 21px); line-height: 1.4; color: #7d5326; max-width: 36rem; }
+.brz-meta { margin: 10px 0 0; font-size: 15px; color: #7d5326; opacity: 0.95; }
+.brz-actions { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 12px; align-items: stretch; }
+.brz-soon { display: flex; flex-direction: column; justify-content: center; padding: 9px 20px; border-radius: 16px; background: #4a2500; color: #fff7dc; font-weight: 700; line-height: 1.15; }
+.brz-soon small { font-size: 11px; font-weight: 600; opacity: 0.75; }
+.brz-btn { display: inline-flex; align-items: center; padding: 13px 26px 11px; border-radius: 20px; font-weight: 800; font-size: 19px; text-decoration: none; color: #fff;
+    text-shadow: 0 2px 0 rgba(120,55,0,0.65); background: linear-gradient(#ffc933, #ff9f1a); box-shadow: 0 5px 0 rgba(150,80,0,0.55), 0 12px 22px rgba(110,60,0,0.25); transition: transform .15s; }
+.brz-btn:hover { transform: translateY(-2px); }
+.brz-games { list-style: none; margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 14px 16px; }
+.brz-games a { display: flex; flex-direction: column; align-items: center; gap: 6px; text-decoration: none; color: #4a2500; font-weight: 700; font-size: 14px; }
+.brz-games img { width: 56px; height: 56px; border-radius: 14px; box-shadow: 0 6px 12px rgba(110,60,0,0.30); background: #fff; transition: transform .15s; }
+.brz-games a:hover img { transform: translateY(-3px) scale(1.05); }
+.brz-links { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.brz-links a { color: #8a4b00; text-decoration: none; font-weight: 700; font-size: 15px; border-bottom: 2px solid rgba(255,159,26,0.5); }
+.brz-links a:hover { color: #4a2500; border-bottom-color: #4a2500; }
+.brz-art { position: relative; min-height: 470px; }
+.brz-art img { position: absolute; width: 46%; height: auto; border-radius: 26px; border: 5px solid #fff; box-shadow: 0 22px 44px rgba(110,60,0,0.40); }
+.brz-art .a1 { left: 0; top: 46px; transform: rotate(-6deg); }
+.brz-art .a2 { left: 26%; top: 0; z-index: 2; width: 48%; }
+.brz-art .a3 { right: 0; top: 56px; transform: rotate(6deg); }
+@media (max-width: 860px) {
+    .brz-hero { grid-template-columns: 1fr; padding: 30px 20px 28px; gap: 22px; border-radius: 24px; }
+    .brz-art { order: -1; min-height: 0; aspect-ratio: 5 / 4; overflow: hidden; }
+    .brz-art img { width: 30%; }
+    .brz-art .a1 { left: 12%; top: 10%; } .brz-art .a2 { left: 35%; top: 2%; width: 30%; } .brz-art .a3 { right: 12%; top: 10%; }
+}
