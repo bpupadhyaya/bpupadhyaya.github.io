@@ -158,6 +158,19 @@ nav {
     border-color: rgba(212,160,23,0.45) !important;
     color: #e0b030 !important;
 }
+
+/* Breezy Games: sky-coral from the Breezy site palette */
+.nav-pill-breezy {
+    background: rgba(255,138,102,0.10) !important;
+    border-color: rgba(255,138,102,0.30) !important;
+    color: #ff8a66 !important;
+}
+.nav-pill-breezy:hover {
+    background: rgba(255,138,102,0.18) !important;
+    border-color: rgba(255,138,102,0.52) !important;
+    color: #ffa085 !important;
+}
+
 .nutrisize-grad {
     background: linear-gradient(90deg, #22c55e 0%, #4ade80 30%, #a3e635 55%, #eab308 75%, #f97316 100%);
     -webkit-background-clip: text;
