@@ -1657,3 +1657,15 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
     .brz-art img { width: 30%; }
     .brz-art .a1 { left: 12%; top: 10%; } .brz-art .a2 { left: 35%; top: 2%; width: 30%; } .brz-art .a3 { right: 12%; top: 10%; }
 }
+
+/* Sunroom Games: glass-teal text on a light tint, like the other pills (Sunroom site teal) */
+.nav-pill-sunroom {
+    background: rgba(95,209,196,0.10) !important;
+    border-color: rgba(95,209,196,0.32) !important;
+    color: #6fd8cc !important;
+}
+.nav-pill-sunroom:hover {
+    background: rgba(95,209,196,0.20) !important;
+    border-color: rgba(95,209,196,0.55) !important;
+    color: #9be8de !important;
+}

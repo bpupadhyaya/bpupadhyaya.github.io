@@ -158,8 +158,6 @@ nav {
     border-color: rgba(212,160,23,0.45) !important;
     color: #e0b030 !important;
 }
-
-/* Breezy Games: honey yellow text on a light tint, like the other pills (Breezy site #ffc933) */
 .nav-pill-breezy {
     background: rgba(255,201,51,0.10) !important;
     border-color: rgba(255,201,51,0.30) !important;
@@ -170,8 +168,6 @@ nav {
     border-color: rgba(255,201,51,0.52) !important;
     color: #ffd75e !important;
 }
-
-/* Arcforge Games: violet/periwinkle from the Arcforge brand (arcforge-brand-style.md) */
 .nav-pill-arcforge {
     background: rgba(139,92,246,0.12) !important;
     border-color: rgba(139,92,246,0.34) !important;
@@ -182,8 +178,6 @@ nav {
     border-color: rgba(167,139,250,0.60) !important;
     color: #c4b5fd !important;
 }
-
-/* World Heritage Games: cream-gold text on a navy tint, like the other pills (its banner: gold on navy) */
 .nav-pill-whg {
     background: rgba(40,60,150,0.22) !important;
     border-color: rgba(238,195,90,0.34) !important;
@@ -194,9 +188,6 @@ nav {
     border-color: rgba(238,195,90,0.60) !important;
     color: #ffefb8 !important;
 }
-
-
-
 .nutrisize-grad {
     background: linear-gradient(90deg, #22c55e 0%, #4ade80 30%, #a3e635 55%, #eab308 75%, #f97316 100%);
     -webkit-background-clip: text;
@@ -582,3 +573,13 @@ footer .footer-copy .highlight { color: var(--accent); }
 .t3-green { --base: #27a85a; --x: rgba(5,55,25,0.5);   --g: linear-gradient(180deg, #bff2cf 0%, #52d07c 52%, #28a95b 100%); }
 .t3-amber { --base: #e08e00; --x: rgba(95,50,0,0.5);   --g: linear-gradient(180deg, #ffe493 0%, #ffbb3a 52%, #e48f00 100%); }
 nav.pager { position: static; z-index: auto; backdrop-filter: none; -webkit-backdrop-filter: none; transition: none; }
+.nav-pill-sunroom {
+    background: rgba(95,209,196,0.10) !important;
+    border-color: rgba(95,209,196,0.32) !important;
+    color: #6fd8cc !important;
+}
+.nav-pill-sunroom:hover {
+    background: rgba(95,209,196,0.20) !important;
+    border-color: rgba(95,209,196,0.55) !important;
+    color: #9be8de !important;
+}
