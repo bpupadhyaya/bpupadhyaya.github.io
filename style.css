@@ -199,6 +199,19 @@ nav {
     color: #ffa085 !important;
 }
 
+/* Arcforge Games: violet/periwinkle from the Arcforge brand (arcforge-brand-style.md) */
+.nav-pill-arcforge {
+    background: rgba(139,92,246,0.12) !important;
+    border-color: rgba(139,92,246,0.34) !important;
+    color: #a78bfa !important;
+}
+.nav-pill-arcforge:hover {
+    background: rgba(139,92,246,0.22) !important;
+    border-color: rgba(167,139,250,0.60) !important;
+    color: #c4b5fd !important;
+}
+
+
 
 /* App-header wordmark gradient: green -> yellow-green -> orange */
 .nutrisize-grad {
