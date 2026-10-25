@@ -187,16 +187,16 @@ nav {
     color: #e0b030 !important;
 }
 
-/* Breezy Games: honey yellow with dark brown text, as on the Breezy site (#ffc933 badge, #3b2314 ink) */
+/* Breezy Games: honey yellow text on a light tint, like the other pills (Breezy site #ffc933) */
 .nav-pill-breezy {
-    background: linear-gradient(180deg, #ffd45a 0%, #f6b93b 100%) !important;
-    border-color: #ffe08a !important;
-    color: #3b2314 !important;
+    background: rgba(255,201,51,0.10) !important;
+    border-color: rgba(255,201,51,0.30) !important;
+    color: #ffc933 !important;
 }
 .nav-pill-breezy:hover {
-    background: linear-gradient(180deg, #ffe07a 0%, #ffc933 100%) !important;
-    border-color: #fff0b8 !important;
-    color: #2a170c !important;
+    background: rgba(255,201,51,0.18) !important;
+    border-color: rgba(255,201,51,0.52) !important;
+    color: #ffd75e !important;
 }
 
 /* Arcforge Games: violet/periwinkle from the Arcforge brand (arcforge-brand-style.md) */
@@ -211,16 +211,16 @@ nav {
     color: #c4b5fd !important;
 }
 
-/* World Heritage Games: gold on deep navy, as in its banner (WHG gold theme: --paper #0b1226, --head #fbe9a6, --accent #e0b64a) */
+/* World Heritage Games: cream-gold text on a navy tint, like the other pills (its banner: gold on navy) */
 .nav-pill-whg {
-    background: linear-gradient(180deg, #14224f 0%, #0b1226 100%) !important;
-    border-color: rgba(238,195,90,0.55) !important;
+    background: rgba(40,60,150,0.22) !important;
+    border-color: rgba(238,195,90,0.34) !important;
     color: #fbe9a6 !important;
 }
 .nav-pill-whg:hover {
-    background: linear-gradient(180deg, #1b2d66 0%, #0f1a3c 100%) !important;
-    border-color: rgba(238,195,90,0.85) !important;
-    color: #ffe9a8 !important;
+    background: rgba(40,60,150,0.36) !important;
+    border-color: rgba(238,195,90,0.60) !important;
+    color: #ffefb8 !important;
 }
 
 
