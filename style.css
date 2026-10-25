@@ -211,6 +211,19 @@ nav {
     color: #c4b5fd !important;
 }
 
+/* World Heritage Games: river-valleys teal from the WHG era palette (--e-river-valleys #2f7f86), lifted for dark bg */
+.nav-pill-whg {
+    background: rgba(47,127,134,0.16) !important;
+    border-color: rgba(63,181,189,0.34) !important;
+    color: #3fb5bd !important;
+}
+.nav-pill-whg:hover {
+    background: rgba(47,127,134,0.28) !important;
+    border-color: rgba(63,181,189,0.60) !important;
+    color: #6fd3da !important;
+}
+
+
 
 
 /* App-header wordmark gradient: green -> yellow-green -> orange */
