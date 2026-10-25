@@ -574,12 +574,12 @@ footer .footer-copy .highlight { color: var(--accent); }
 .t3-amber { --base: #e08e00; --x: rgba(95,50,0,0.5);   --g: linear-gradient(180deg, #ffe493 0%, #ffbb3a 52%, #e48f00 100%); }
 nav.pager { position: static; z-index: auto; backdrop-filter: none; -webkit-backdrop-filter: none; transition: none; }
 .nav-pill-sunroom {
-    background: rgba(95,209,196,0.10) !important;
-    border-color: rgba(95,209,196,0.32) !important;
-    color: #6fd8cc !important;
+    background: rgba(255,138,92,0.10) !important;
+    border-color: rgba(255,138,92,0.34) !important;
+    color: #ff8a5c !important;
 }
 .nav-pill-sunroom:hover {
-    background: rgba(95,209,196,0.20) !important;
-    border-color: rgba(95,209,196,0.55) !important;
-    color: #9be8de !important;
+    background: rgba(255,138,92,0.20) !important;
+    border-color: rgba(255,138,92,0.58) !important;
+    color: #ffa883 !important;
 }
