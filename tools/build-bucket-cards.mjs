@@ -8,7 +8,7 @@
 //                                                      store the result in data/whg-buckets.links.json, then regenerate.
 // A link is only emitted when its URL is known to return 200 (so cards never point at a 404). Until a bucket's own page
 // is live on the WHG site, its buttons point at the live apps index; run --refresh-links after that site is published.
-// Statuses: "in-review" or "soon" (Google Play only; the buckets are not on the App Store). No dependencies (Node 18+).
+// Statuses: "live" (needs package), "in-review" or "soon" (Google Play only; the buckets are not on the App Store). No dependencies (Node 18+).
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -41,7 +41,8 @@ if (refresh) {
 const live = (u) => links[u] === true;
 const hubIndex = BASE + 'apps/';
 
-const statusWord = (s) => (s === 'in-review' ? 'In review on' : 'Coming soon on');
+const statusWord = (s) => (s === 'live' ? 'Live on' : s === 'in-review' ? 'In review on' : 'Coming soon on');
+const PLAY = 'https://play.google.com/store/apps/details?id=';
 function card(b) {
   const detail = BASE + b.appsPath;
   const detailLive = live(detail);
@@ -67,7 +68,7 @@ function card(b) {
             <div class="whg-sub">${esc(b.sub)}</div>
             <div class="whg-meta">Free 90-second preview of every game &middot; Works offline &middot; Android</div>
             <div class="af-actions whg-actions">
-                <span class="store-btn review" aria-label="Google Play: ${b.status === 'in-review' ? 'in review' : 'coming soon'}"><small>${statusWord(b.status)}</small>Google Play</span>
+                ${b.status === 'live' ? `<a class="store-btn primary" href="${PLAY}${esc(b.package)}" target="_blank" rel="noopener">Get it on Google Play &#8599;</a>` : `<span class="store-btn review" aria-label="Google Play: ${b.status === 'in-review' ? 'in review' : 'coming soon'}"><small>${statusWord(b.status)}</small>Google Play</span>`}
                 ${play}
             </div>
             <p class="whg-text">${esc(b.text)}</p>
