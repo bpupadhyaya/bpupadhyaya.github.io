@@ -65,7 +65,7 @@ function card(b) {
             <div class="whg-brand"><img src="assets/games/whg-emblem.png" alt="" width="52" height="52"><span><b>WORLD HERITAGE GAMES</b><i>An atlas of play</i></span></div>
             <h3 class="whg-title"><img class="whg-appicon" src="assets/games/whg-${esc(b.short)}-icon.png" alt="" width="72" height="72"><span class="whg-t3d">${esc(b.name)}</span></h3>
             <div class="whg-sub">${esc(b.sub)}</div>
-            <div class="whg-meta">Free 90-second preview of every game &middot; No ads &middot; Works offline &middot; Android</div>
+            <div class="whg-meta">Free 90-second preview of every game &middot; Works offline &middot; Android</div>
             <div class="af-actions whg-actions">
                 <span class="store-btn review" aria-label="Google Play: ${b.status === 'in-review' ? 'in review' : 'coming soon'}"><small>${statusWord(b.status)}</small>Google Play</span>
                 ${play}
