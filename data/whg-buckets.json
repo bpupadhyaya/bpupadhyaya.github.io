@@ -442,7 +442,7 @@
  {
   "bucket": "hand-drums-of-the-world",
   "short": "hand-drums",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.handdrumsoftheworld",
   "name": "Hand Drums of the World",
   "sub": "Six hand drums and drum rhythms. Six countries. One atlas of play.",
@@ -584,7 +584,7 @@
  {
   "bucket": "asian-and-island-percussion",
   "short": "asian-and-island-percussion",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.asianandislandpercussion",
   "name": "Asian & Island Percussion",
   "sub": "Eleven drums and percussion of Asia and the Pacific. Nine countries. One atlas of play.",
