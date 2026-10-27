@@ -1162,13 +1162,14 @@
     "meta": "Sports · Android",
     "description": "You are standing on a painted line with a ball in your hands and a hoop that does not care how you feel. Press, drag up, let go. The ball leaves your fingers with real spin, climbs, turns over and either whispers through the net or clangs off the iron. Swish Circuit is all of that and nothing else: a basketball shooting game built around one gesture and a ball that behaves. Works offline. Free preview, then a one-time unlock.",
     "version": "1.0.0",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "in-review"
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.basketballdeluxe.app"
       }
     },
     "supportHref": "app-support-arcforge.html",

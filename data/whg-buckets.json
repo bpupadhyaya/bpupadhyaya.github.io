@@ -2,7 +2,7 @@
  {
   "bucket": "wind-and-voice-of-the-world",
   "short": "wind-and-voice",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.windandvoiceoftheworld",
   "name": "Wind & Voice of the World",
   "sub": "Nine wind instruments and voices. Eleven countries. One atlas of play.",
@@ -386,7 +386,7 @@
  {
   "bucket": "tiles-and-pottery-of-the-world",
   "short": "tiles-and-pottery",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.tilesandpotteryoftheworld",
   "name": "Tiles & Pottery of the World",
   "sub": "Seven tile painting and pottery traditions. Seven countries. One atlas of play.",
@@ -492,7 +492,7 @@
  {
   "bucket": "woodcraft-and-metal-of-the-world",
   "short": "woodcraft-and-metal",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.woodcraftandmetaloftheworld",
   "name": "Woodcraft & Metal of the World",
   "sub": "Thirteen woodcraft, lacquer and metalwork traditions. Twelve countries. One atlas of play.",

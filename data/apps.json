@@ -1053,5 +1053,30 @@
       "&nbsp;&middot;&nbsp;",
       "<a href=\"app-support-earth-atlas.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>"
     ]
+  },
+  {
+    "slug": "snug",
+    "cardClass": "app-card nutrisize",
+    "order": 33,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='app-support-snug.html'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#129513;",
+    "titleHtml": "Snug: Shape Fit Puzzle",
+    "tag": {
+      "class": "beta",
+      "html": "Android &mdash; Live on Google Play"
+    },
+    "descriptionHtml": "A relaxed shape-fit puzzle. Drag shapes from the tray onto the board, fill a whole row or column and it pops, and keep going until nothing fits. Daily goals and a streak to keep you coming back. Free to play.",
+    "platforms": [
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.snugpuzzle"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-snug.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-snug.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>"
+    ]
   }
 ]
