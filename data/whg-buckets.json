@@ -70,7 +70,7 @@
  {
   "bucket": "zithers-and-harps-of-the-world",
   "short": "zithers-and-harps",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.zithersandharpsoftheworld",
   "name": "Zithers & Harps of the World",
   "sub": "Nine zithers, harps and plucked board instruments. Nine countries. One atlas of play.",
@@ -138,7 +138,7 @@
  {
   "bucket": "weaving-and-lace-of-the-world",
   "short": "weaving-and-lace",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.weavingandlaceoftheworld",
   "name": "Weaving & Lace of the World",
   "sub": "Nine weaving, lace and embroidery traditions. Eight countries. One atlas of play.",
@@ -268,7 +268,7 @@
  {
   "bucket": "basketry-and-straw-of-the-world",
   "short": "basketry-and-straw",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.basketryandstrawoftheworld",
   "name": "Basketry & Straw of the World",
   "sub": "Six basketry and straw-weaving traditions. Six countries. One atlas of play.",
@@ -318,7 +318,7 @@
  {
   "bucket": "lutes-and-fiddles-of-the-world",
   "short": "lutes-and-fiddles",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.lutesandfiddlesoftheworld",
   "name": "Lutes & Fiddles of the World",
   "sub": "Nine lutes and fiddles. Eight countries. One atlas of play.",
@@ -664,7 +664,7 @@
  {
   "bucket": "folk-dance-of-the-world",
   "short": "folk-dance",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.folkdanceoftheworld",
   "name": "Folk Dance of the World",
   "sub": "Twelve folk dance rhythms. Fourteen countries. One atlas of play.",
@@ -750,7 +750,7 @@
  {
   "bucket": "folk-strings-of-the-world",
   "short": "folk-strings",
-  "status": "in-review",
+  "status": "live",
   "package": "com.equalinformation.whg.folkstringsoftheworld",
   "name": "Folk Strings of the World",
   "sub": "Six games. Eleven countries. One atlas of play.",

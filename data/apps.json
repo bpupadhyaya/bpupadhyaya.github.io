@@ -1030,7 +1030,7 @@
     "titleHtml": "Earth Atlas: Picture Games",
     "tag": {
       "class": "beta",
-      "html": "iPhone, iPad &amp; Android &mdash; In review on the App Store and Google Play"
+      "html": "iPhone, iPad &amp; Android &mdash; Live on Google Play, in review on the App Store"
     },
     "descriptionHtml": "Geography games on real maps. See a country on its map and flag, a river&rsquo;s path or a mountain&rsquo;s country, then tap the city, animal, river, mountain, climate or neighbour that belongs to it. Eleven games: Capital Cities is free to play and each of the other ten is a one-time purchase, with no subscription, and has a free 90-second preview in the browser demo and in version 1.0.1. Every play draws fresh countries and animals from the whole world, or you can pick a continent. Optional quizzes and flashcards, text size up to 300%, five colour themes. Works offline.",
     "platforms": [
@@ -1042,8 +1042,8 @@
         "attrs": "style=\"opacity: 0.85;\""
       },
       {
-        "label": "Android &mdash; In review",
-        "attrs": "style=\"opacity: 0.85;\""
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.earthatlas"
       }
     ],
     "footerHtml": [
