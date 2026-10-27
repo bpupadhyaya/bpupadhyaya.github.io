@@ -583,3 +583,13 @@ nav.pager { position: static; z-index: auto; backdrop-filter: none; -webkit-back
     border-color: rgba(255,138,92,0.58) !important;
     color: #ffa883 !important;
 }
+.nav-pill-smileworks {
+    background: rgba(244,114,182,0.12) !important;
+    border-color: rgba(244,114,182,0.40) !important;
+    color: #f9a8d4 !important;
+}
+.nav-pill-smileworks:hover {
+    background: rgba(244,114,182,0.24) !important;
+    border-color: rgba(244,114,182,0.68) !important;
+    color: #fbcfe8 !important;
+}
