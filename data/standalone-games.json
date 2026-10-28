@@ -1264,13 +1264,14 @@
     "meta": "Sports · Android",
     "description": "Walk onto the ice. Pebble & Broom is a curling game built around the two things that make the sport: the line and weight you choose, and the sweeping that rescues it. Stones slide on pebbled ice, slow down, and curl more as they die. Brushing warms the pebble: a swept stone runs further and straighter. Every stone carries its own tiny quirk, so no two throws match. Works offline. Free preview, then a one-time unlock.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon"
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.curlingdeluxe.app"
       }
     },
     "supportHref": "app-support-arcforge.html",
