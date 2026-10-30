@@ -8,11 +8,11 @@
     "meta": "Nepal · Strategy · iOS & Android",
     "description": "Nepal’s traditional tiger and goat game in a complete Deluxe edition: a carved three-dimensional board, 44 puzzles in a campaign, 14 hands-on lessons, five computer levels or a friend, a daily challenge, and Auto Play to watch and learn. Fills the whole screen in portrait and landscape. Works offline. Free preview, then a one-time unlock.",
     "version": "1.7.2",
-    "status": "in-review",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "in-review",
-        "url": "https://apps.apple.com/app/id6818936256"
+        "status": "live",
+        "url": "https://apps.apple.com/app/bagh-chal-tiger-goat/id6818936256"
       },
       "googlePlay": {
         "status": "live",
@@ -1844,8 +1844,8 @@
     "bannerAlt": "Earth Atlas: Picture Games",
     "banner": "assets/games/earthatlas-banner.jpg",
     "icon": "assets/games/earthatlas-icon.png",
-    "meta": "Geography \u00b7 iOS & Android",
-    "description": "Geography games on real maps. See a country on its map and flag, a river\u2019s path or a mountain\u2019s country, then tap the city, animal, river, mountain, climate or neighbour that belongs to it. Eleven games: Capital Cities is free to play and each of the other ten is a one-time purchase, with no subscription, and has a free 90-second preview in the browser demo. Works offline.",
+    "meta": "Geography · iOS & Android",
+    "description": "Geography games on real maps. See a country on its map and flag, a river’s path or a mountain’s country, then tap the city, animal, river, mountain, climate or neighbour that belongs to it. Eleven games: Capital Cities is free to play and each of the other ten is a one-time purchase, with no subscription, and has a free 90-second preview in the browser demo. Works offline.",
     "version": "1.0.1",
     "status": "live",
     "stores": {
@@ -1871,7 +1871,7 @@
     "bannerAlt": "Snug: Shape Fit Puzzle",
     "banner": "assets/games/snugpuzzle-banner.jpg",
     "icon": "assets/games/snugpuzzle-icon.png",
-    "meta": "Puzzle \u00b7 Android",
+    "meta": "Puzzle · Android",
     "description": "A relaxed shape-fit puzzle. Drag shapes from the tray onto the board, fill a whole row or column and it pops, and keep going until nothing fits. Daily goals and a streak to keep you coming back. Free to play.",
     "version": "1.0.0",
     "status": "live",
