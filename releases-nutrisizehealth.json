@@ -1,9 +1,43 @@
 [
   {
+    "version": "1.6.1",
+    "date": "November 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Smarter, calmer reminders: hydration reminders spread across an adjustable hydration window, with one master switch for Smart Notifications. Now live on the App Store (iOS 1.6.1).",
+    "included": [
+      "Smart Notifications now has one master switch that controls all of the app's smart notifications",
+      "Hydration window defaults to 8 AM to 8 PM and can be adjusted",
+      "Hydration reminders are spread across your window",
+      "Reminders keep arriving even if you do not open the app",
+      "The app asks for notification permission when you turn Smart Notifications on"
+    ],
+    "platforms": [
+      "iOS"
+    ]
+  },
+  {
+    "version": "1.5.1",
+    "date": "November 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Smarter, calmer reminders: hydration reminders spread across an adjustable hydration window, with one master switch for Smart Notifications. Now live on Google Play (Android 1.5.1).",
+    "included": [
+      "Smart Notifications now has one master switch that controls all of the app's smart notifications",
+      "Hydration window defaults to 8 AM to 8 PM and can be adjusted",
+      "Hydration reminders are spread across your window",
+      "Reminders keep arriving even if you do not open the app",
+      "The app asks for notification permission when you turn Smart Notifications on"
+    ],
+    "platforms": [
+      "Android"
+    ]
+  },
+  {
     "version": "1.6",
     "date": "October 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Free sections now show ads, with a one-time Remove Ads purchase, plus a clearer Apple Health connection flow and faster screens. Now live on the App Store (iOS 1.6).",
     "included": [
       "Free sections now show ads: rewarded video for extra items, banners, and occasional full-screen ads",
@@ -13,13 +47,15 @@
       "Faster screens: Exercise browser, Coaching, and Ask the Coach load without blocking the interface",
       "Fixed header taps on iPad"
     ],
-    "platforms": ["iOS"]
+    "platforms": [
+      "iOS"
+    ]
   },
   {
     "version": "1.5.0",
     "date": "October 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Free sections now show ads, with a one-time Remove Ads purchase, plus Health Connect permission fixes, better tablet and rotation support, and Android 16 support. Now live on Google Play (Android 1.5.0).",
     "included": [
       "Free sections now show ads: rewarded video for extra items, banners, and occasional full-screen ads",
@@ -29,7 +65,9 @@
       "Faster screens and better tablet and rotation support",
       "Updated for Android 16 (edge-to-edge display and system bar fixes)"
     ],
-    "platforms": ["Android"]
+    "platforms": [
+      "Android"
+    ]
   },
   {
     "version": "1.3.0",
@@ -46,7 +84,9 @@
       "Matching games in Coaching now paginate so boards never require scrolling",
       "Performance and stability fixes across Coach"
     ],
-    "platforms": ["Android"]
+    "platforms": [
+      "Android"
+    ]
   },
   {
     "version": "1.2.0",
@@ -63,7 +103,10 @@
       "Renamed 'Individualized' to 'Personalized' across Nutrition and Exercise",
       "Performance improvements and bug fixes"
     ],
-    "platforms": ["iOS", "Android"]
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
   },
   {
     "version": "1.2",
@@ -76,7 +119,9 @@
       "Tappable citation links (WHO, ACSM, NIH, FDA, AHA, USDA) open in an in-app browser",
       "My Health dashboard card title aligned with the other dashboard cards"
     ],
-    "platforms": ["iOS"]
+    "platforms": [
+      "iOS"
+    ]
   },
   {
     "version": "1.1.0",
@@ -93,7 +138,10 @@
       "Hydration KPI scoring with 7-day trend and goal tracking",
       "Sleep schedule configuration for notification timing"
     ],
-    "platforms": ["iOS", "Android"]
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
   },
   {
     "version": "1.1.0-ios",
@@ -117,7 +165,9 @@
       "Hydration rules in AdaptivePlanEngine — low consistency and low intake generate plan adjustments",
       "Today's log timeline with entry deletion and beverage color coding"
     ],
-    "platforms": ["iOS"]
+    "platforms": [
+      "iOS"
+    ]
   },
   {
     "version": "1.0.1",
@@ -139,7 +189,7 @@
     "date": "April 2026",
     "tag": "stable",
     "current": false,
-    "summary": "First production release of Nutrisize Health \u2014 comprehensive health intelligence with personalized nutrition, exercise, and physiology tracking.",
+    "summary": "First production release of Nutrisize Health — comprehensive health intelligence with personalized nutrition, exercise, and physiology tracking.",
     "included": [
       "4,995 world foods in SQLite database with nutrition data from USDA, WHO, and regional authorities",
       "5,404 exercises across 6 categories: Strength, Cardio, Flexibility, Rehabilitation, Military, Balance",
@@ -162,7 +212,7 @@
       "Nutrition and Exercise Knowledge Base",
       "Daily nutritional requirements by demographic",
       "Data Management with JSON export and backup",
-      "Privacy-first, local-first architecture \u2014 all data stored on device",
+      "Privacy-first, local-first architecture — all data stored on device",
       "Dark theme UI across all platforms"
     ],
     "platforms": [
