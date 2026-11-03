@@ -406,13 +406,14 @@
     "bannerAlt": "Arcforge Minesweeper Deluxe: Tactile 3D tiles. Logic that explains itself",
     "banner": "assets/games/minesweeper-deluxe-banner.jpg",
     "icon": "assets/games/minesweeper-deluxe-icon.png",
-    "meta": "Puzzle · Android",
+    "meta": "Puzzle · iOS & Android",
     "description": "A premium 3D minesweeper with boards that never need a guess, a coach that explains every deduction, five grids (square, hexagon, triangle, octagon and wrap-around), a 61-puzzle Deduction Academy, a daily challenge, records, trophies and six themes.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "na"
+        "status": "live",
+        "url": "https://apps.apple.com/app/minesweeper-deluxe-3d-logic/id6823714516"
       },
       "googlePlay": {
         "status": "soon",
@@ -543,13 +544,14 @@
     "bannerAlt": "Arcforge Xiangqi Deluxe: Chinese chess in real-time 3D that teaches you to win",
     "banner": "assets/games/xiangqi-deluxe-banner.jpg",
     "icon": "assets/games/xiangqi-deluxe-icon.png",
-    "meta": "Board · Android",
+    "meta": "Board · iOS & Android",
     "description": "A real-time 3D Xiangqi board with carved men, eight computer levels, a coach that grades your moves, 14 lessons, a 90-puzzle campaign, a daily challenge, an opening trainer and full game review. Works offline.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "na"
+        "status": "live",
+        "url": "https://apps.apple.com/app/riverline-xiangqi/id6823714761"
       },
       "googlePlay": {
         "status": "soon",
@@ -570,13 +572,14 @@
     "bannerAlt": "Arcforge Shogi Deluxe: Japanese chess in 3D with a coach and 190 mating puzzles",
     "banner": "assets/games/shogi-deluxe-banner.jpg",
     "icon": "assets/games/shogi-deluxe-icon.png",
-    "meta": "Board · Android",
+    "meta": "Board · iOS & Android",
     "description": "Real-time 3D shogi with wedge-shaped wooden pieces on a kaya board, eight computer levels, sixteen hands-on lessons, 190 checkmate puzzles with a daily challenge, a castle and opening trainer, a coach that rates your moves and a full game review. Works offline.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "na"
+        "status": "live",
+        "url": "https://apps.apple.com/app/shogi-deluxe/id6823714733"
       },
       "googlePlay": {
         "status": "soon",
@@ -624,13 +627,14 @@
     "bannerAlt": "Arcforge Snakes Ladders Deluxe: The tabletop dice race",
     "banner": "assets/games/snakes-and-ladders-deluxe-banner.jpg",
     "icon": "assets/games/snakes-and-ladders-deluxe-icon.png",
-    "meta": "Board · Android",
+    "meta": "Board · iOS & Android",
     "description": "A premium 3D snakes and ladders table with tumbling dice, slithering snakes, charms, mystery squares, six computer personalities, a twelve-stop Journey, a daily race, foresight trials and an Almanac on the history of the game.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
-        "status": "na"
+        "status": "live",
+        "url": "https://apps.apple.com/app/serpent-and-ladder-dice-race/id6823715029"
       },
       "googlePlay": {
         "status": "soon",
