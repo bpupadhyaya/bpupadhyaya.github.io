@@ -1,0 +1,31 @@
+[
+  {
+    "version": "5.5.0",
+    "date": "November 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Android update, now live on Google Play. iOS update coming soon.",
+    "included": [
+      "Earn ad-free play each month by watching optional short videos; progress resets monthly",
+      "Optional per-game monthly subscription, Go ad-free every month (auto-renews monthly, price shown in the app, cancel any time in your store account settings)",
+      "One-time purchases from before stay ad-free for good"
+    ],
+    "platforms": [
+      "Android"
+    ]
+  },
+  {
+    "version": "5.3.0",
+    "date": "October 2026",
+    "tag": "stable",
+    "current": false,
+    "summary": "Over 250 world heritage games, free to play with short ads. Live on the App Store and Google Play.",
+    "included": [
+      "Remove ads in any game with an optional one-time purchase"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
+  }
+]
