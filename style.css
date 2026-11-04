@@ -1750,3 +1750,9 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
     .smw-actions .smw-btn { flex: 1 1 100%; justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) { .smw-hero *, .smw-hero { animation: none !important; transition: none !important; } }
+
+/* ─── Footer social icons (Facebook, LinkedIn, YouTube) ─── */
+.footer-social { display: flex; gap: 20px; justify-content: center; align-items: center; margin: 4px 0 8px; }
+.footer-social a { color: var(--text-secondary); display: inline-flex; transition: color .15s, transform .15s; }
+.footer-social a:hover { color: var(--text-primary); transform: translateY(-1px); }
+.footer-social svg { width: 20px; height: 20px; fill: currentColor; display: block; }
