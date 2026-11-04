@@ -628,8 +628,8 @@
     "banner": "assets/games/snakes-and-ladders-deluxe-banner.jpg",
     "icon": "assets/games/snakes-and-ladders-deluxe-icon.png",
     "meta": "Board · iOS & Android",
-    "description": "A premium 3D snakes and ladders table with tumbling dice, slithering snakes, charms, mystery squares, six computer personalities, a twelve-stop Journey, a daily race, foresight trials and an Almanac on the history of the game.",
-    "version": "1.0.0",
+    "description": "A premium 3D snakes and ladders table with tumbling dice, slithering snakes, charms, mystery squares, six computer personalities, a twelve-stop Journey, a daily race, foresight trials and an Almanac on the history of the game. Free to play with ads; a one-time purchase removes them.",
+    "version": "1.0.1",
     "status": "live",
     "stores": {
       "appStore": {
