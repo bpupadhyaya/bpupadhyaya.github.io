@@ -1,9 +1,24 @@
 [
   {
+    "version": "1.0.3",
+    "date": "November 2026",
+    "tag": "stable",
+    "current": true,
+    "summary": "Maintenance update. The App Store listing now links to our developer website (equalinformation.com), and the app build was refreshed. No changes to repair guides or Pro modules.",
+    "included": [
+      "App Store listing now shows the equalinformation.com developer website",
+      "Build number and version refresh; all repair guides and Pro modules unchanged"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
+  },
+  {
     "version": "1.0.0",
     "date": "May 2026",
     "tag": "stable",
-    "current": true,
+    "current": false,
     "summary": "Initial release of RepairMate — your DIY home repair companion. Approved and live on the App Store. Step-by-step repair guides, emergency reference, diagnostic trees, building codes, wiring reference, and more. Works fully offline.",
     "included": [
       "8 free modules: Repair Guides, Search, Emergency Quick Reference, Bookmarks, Quick Tips, Repair Glossary, Browse by Room, Categories",
@@ -24,6 +39,9 @@
       "100% offline — all data stored locally, no accounts, no tracking",
       "Full cross-platform feature parity between iOS and Android"
     ],
-    "platforms": ["iOS", "Android"]
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
   }
 ]
