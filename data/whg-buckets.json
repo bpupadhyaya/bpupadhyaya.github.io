@@ -1154,7 +1154,7 @@
  {
   "bucket": "handmade-paper-of-the-world",
   "short": "handmade-paper",
-  "status": "soon",
+  "status": "live",
   "package": "com.equalinformation.whg.handmadepaperoftheworld",
   "name": "Handmade Paper of the World",
   "sub": "Six handmade paper and papermaking traditions. Six countries. One atlas of play.",
@@ -1328,7 +1328,7 @@
  {
   "bucket": "jewels-and-glass-of-the-world",
   "short": "jewels-and-glass",
-  "status": "soon",
+  "status": "live",
   "package": "com.equalinformation.whg.jewelsandglassoftheworld",
   "name": "Jewels & Glass of the World",
   "sub": "Six jewellery, beadwork and glass traditions. Six countries. One atlas of play.",
