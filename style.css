@@ -1679,6 +1679,16 @@ a.pager-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
     border-color: rgba(244,114,182,0.68) !important;
     color: #fbcfe8 !important;
 }
+.nav-pill-appstore {
+    background: rgba(99,102,241,0.14) !important;
+    border-color: rgba(129,140,248,0.50) !important;
+    color: #a5b4fc !important;
+}
+.nav-pill-appstore:hover {
+    background: rgba(99,102,241,0.28) !important;
+    border-color: rgba(165,180,252,0.80) !important;
+    color: #c7d2fe !important;
+}
 
 /* smileworks flagship module (candy violet, 3D phone fan, floating tiles) */
 .smw-hero { --v1: #4b36c9; --v2: #7a5cf0; --v3: #c86dd7; margin-top: 40px; border-radius: 32px; position: relative; overflow: hidden; isolation: isolate; padding: 54px 56px 50px; color: #fff;

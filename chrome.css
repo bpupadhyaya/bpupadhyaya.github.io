@@ -593,6 +593,16 @@ nav.pager { position: static; z-index: auto; backdrop-filter: none; -webkit-back
     border-color: rgba(244,114,182,0.68) !important;
     color: #fbcfe8 !important;
 }
+.nav-pill-appstore {
+    background: rgba(99,102,241,0.14) !important;
+    border-color: rgba(129,140,248,0.50) !important;
+    color: #a5b4fc !important;
+}
+.nav-pill-appstore:hover {
+    background: rgba(99,102,241,0.28) !important;
+    border-color: rgba(165,180,252,0.80) !important;
+    color: #c7d2fe !important;
+}
 @keyframes smw-bob { 50% { translate: 0 -18px; } }
 @keyframes smw-ping { 0% { box-shadow: 0 0 0 0 rgba(92,255,154,0.75); } 100% { box-shadow: 0 0 0 11px rgba(92,255,154,0); } }
 @keyframes smw-pulse { 50% { transform: scale(1.04); } }
