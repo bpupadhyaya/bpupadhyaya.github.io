@@ -301,13 +301,13 @@
     "meta": "Cricket · Android",
     "description": "A premium night cricket game: a 60-situation Chase Table, batting and bowling, field setting, a daily chase, an eight-team cup, super overs, lessons and a coach, in a real-time 3D stadium with swing, spin, seam and wind.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.cricketchasedeluxe.app"
       }
     },
@@ -328,13 +328,13 @@
     "meta": "Tile game · Android",
     "description": "A full four-player mahjong table in real-time 3D: engraved tiles, a wall that builds in front of you, dice and a dealer compass. Choose Riichi (Japanese) or Hong Kong rules, play four computer levels from Beginner to Master, and learn with a coach that grades every discard and explains shape, waits and scoring in plain words. Lessons, a daily hand, unlimited practice puzzles, a scoring calculator, a fan and yaku reference, replays and Watch and Learn. Score only, works offline.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.mahjongdeluxe.app"
       }
     },
@@ -355,13 +355,13 @@
     "meta": "Board · Android",
     "description": "A premium 3D backgammon table with the doubling cube, match play and the Turkish and Greek table games Tavla, Portes, Plakoto and Fevga. A strong computer opponent, a coach, lessons, puzzles and a World Tour.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.backgammondeluxe.app"
       }
     },
@@ -637,7 +637,7 @@
         "url": "https://apps.apple.com/app/serpent-and-ladder-dice-race/id6823715029"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.snakesladdersdeluxe.app"
       }
     },
@@ -1319,13 +1319,14 @@
     "meta": "Board · Android",
     "description": "Rackline is the classic game of dropping stones into a standing rack to line up four, made with real care: a real-time 3D rack, a computer opponent you can trust, and a full set of ways to learn. Eight computer levels from Sprout to Grandmaster, plus an Adaptive opponent that follows your rating. The strongest levels search deeply and then solve the ending perfectly. Works offline. Free to play with ads; a one-time purchase removes them.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon"
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.fourinarowdeluxe.app"
       }
     },
     "supportHref": "app-support-arcforge.html",
