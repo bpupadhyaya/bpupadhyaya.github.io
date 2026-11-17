@@ -1878,13 +1878,14 @@
     "bannerAlt": "Snug: Shape Fit Puzzle",
     "banner": "assets/games/snugpuzzle-banner.jpg",
     "icon": "assets/games/snugpuzzle-icon.png",
-    "meta": "Puzzle · Android",
+    "meta": "Puzzle · iOS & Android",
     "description": "A relaxed shape-fit puzzle. Drag shapes from the tray onto the board, fill a whole row or column and it pops, and keep going until nothing fits. Daily goals and a streak to keep you coming back. Free to play.",
     "version": "1.0.0",
     "status": "live",
     "stores": {
       "appStore": {
-        "status": "na"
+        "status": "live",
+        "url": "https://apps.apple.com/us/app/snug-shape-fit-puzzle/id6827766002"
       },
       "googlePlay": {
         "status": "live",
