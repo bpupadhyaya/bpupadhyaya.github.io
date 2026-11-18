@@ -1019,5 +1019,41 @@
       "&nbsp;&middot;&nbsp;",
       "<a href=\"support-globalmonetarysystems.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Support</a>"
     ]
+  },
+  {
+    "slug": "plainshelter",
+    "cardClass": "app-card nutrisize",
+    "order": 32,
+    "cardAttrs": "onclick=\"if(event.target.tagName!=='A')window.location='https://equalinformation.com/plain-shelter-site/'\" style=\"cursor:pointer;\"",
+    "iconClass": "green",
+    "iconHtml": "&#9978;",
+    "titleHtml": "PlainShelter: Build a Shelter",
+    "tag": {
+      "class": "stable",
+      "html": "v1.0 — Live on the App Store &amp; Google Play",
+      "style": "background: rgba(34,197,94,0.15); color: #22c55e;"
+    },
+    "descriptionHtml": "Build a shelter from what is around you. Pick where you are (forest, snow, desert, marsh or coast) and tick what you have: PlainShelter ranks the shelters you can actually build, then walks you through one in numbered steps with a diagram and a citation on every step. Eleven free survival shelters, knots and lashings, 298 guides to how people build around the world, and an upgrade ladder (Pro) from survival to a place that lasts. Works fully offline, no account. General information from public-domain and open sources, not professional or emergency advice.",
+    "platforms": [
+      {
+        "label": "iOS",
+        "href": "https://apps.apple.com/us/app/plainshelter-build-a-shelter/id6830061079"
+      },
+      {
+        "label": "Android",
+        "href": "https://play.google.com/store/apps/details?id=com.equalinformation.plainshelter.app"
+      },
+      {
+        "label": "Website",
+        "href": "https://equalinformation.com/plain-shelter-site/"
+      }
+    ],
+    "footerHtml": [
+      "<a href=\"privacy-plainshelter.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"terms-plainshelter.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">Terms</a>",
+      "&nbsp;&middot;&nbsp;",
+      "<a href=\"app-support-plainshelter.html\" style=\"color: var(--accent-blue); text-decoration: none;\" target=\"_blank\" rel=\"noopener\">App Support</a>"
+    ]
   }
 ]
