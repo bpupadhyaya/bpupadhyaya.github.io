@@ -382,13 +382,13 @@
     "meta": "Board · Android",
     "description": "A premium 3D mancala with physical seeds on a carved wooden board, Oware and Kalah rule sets, a strong computer opponent, lessons, a puzzle campaign, a daily challenge, game review and heritage chapters.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.mancaladeluxe.app"
       }
     },
@@ -493,13 +493,13 @@
     "meta": "Sports · Android",
     "description": "A premium 3D cue-sports table: snooker (full-size and a short six-red game), 8-ball and 9-ball with true rules, spin and cushions modelled by a physics engine. Six computer opponents, a three-chapter campaign, 24 solved trick shots, drills, lessons, a daily challenge, Watch and Learn, trophies and statistics.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon",
+        "status": "live",
         "url": "https://play.google.com/store/apps/details?id=com.equalinformation.snookerdeluxe.app"
       }
     },
@@ -1368,13 +1368,14 @@
     "meta": "Card · Android",
     "description": "Hearts Royale is the classic game of avoiding hearts and the Queen of Spades, dealt on a lit 3D card table with opponents that really think. Four players, 52 cards, one goal: take as few points as you can. Pass three cards, follow suit, duck the dangerous tricks, dump the Queen of Spades on someone else, and keep an eye out for a rival shooting the moon. Works offline. Free to play with ads; a one-time purchase removes them.",
     "version": "1.0.0",
-    "status": "soon",
+    "status": "live",
     "stores": {
       "appStore": {
         "status": "na"
       },
       "googlePlay": {
-        "status": "soon"
+        "status": "live",
+        "url": "https://play.google.com/store/apps/details?id=com.equalinformation.heartsdeluxe.app"
       }
     },
     "supportHref": "app-support-arcforge.html",
